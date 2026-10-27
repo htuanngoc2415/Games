@@ -24,11 +24,11 @@ package net.play5d.game.bvn.state
    public class GameState extends Sprite implements Istage
    {
       
-      private var _gameLayer:Sprite = new Sprite();
+      private var _gameLayer:Sprite;
       
-      private var _playerLayer:Sprite = new Sprite();
+      private var _playerLayer:Sprite;
       
-      private var _gameSprites:Vector.<IGameSprite> = new Vector.<IGameSprite>();
+      private var _gameSprites:Vector.<IGameSprite>;
       
       private var _map:MapMain;
       
@@ -41,6 +41,9 @@ package net.play5d.game.bvn.state
       public function GameState()
       {
          super();
+         _gameLayer = new Sprite();
+         _playerLayer = new Sprite();
+         _gameSprites = new Vector.<IGameSprite>();
          _gameLayer.mouseChildren = _gameLayer.mouseEnabled = false;
       }
       
@@ -244,6 +247,84 @@ package net.play5d.game.bvn.state
          cameraResume();
       }
       
+      // Đặt vị trí xuất hiện cho 4 đấu sĩ của trận nhiều người; trả về danh sách hiển thị cho camera.
+      private function placeFightersMulti(param1:Boolean) : Array
+      {
+         var focus:Array = [];
+         var rd:* = GameCtrl.I.gameRunData;
+         var fr:Array = GameMode.layout == 1 ? [0,0.2,0.8,1] : [0,1 / 3,2 / 3,1];
+         var p1:Point = _map.p1pos;
+         var p2:Point = _map.p2pos;
+         for(var slot:int = 1; slot <= 4; slot++)
+         {
+            var f:FighterMain = rd.getGroup(slot).currentFighter;
+            if(!f)
+            {
+               continue;
+            }
+            GameLogic.resetFighterHP(f);
+            f.x = p1.x + (p2.x - p1.x) * fr[slot - 1];
+            f.y = p1.y + (p2.y - p1.y) * fr[slot - 1];
+            f.direct = slot <= 2 ? 1 : -1;
+            if(param1)
+            {
+               f.idle();
+            }
+            f.updatePosition();
+            focus.push(f.getDisplay());
+         }
+         return focus;
+      }
+
+      public function initFightMulti(param1:MapMain) : void
+      {
+         _map = param1;
+         _map.gameState = this;
+         if(_map.bgLayer)
+         {
+            addChild(_map.bgLayer);
+         }
+         addChild(_gameLayer);
+         if(_map.mapLayer)
+         {
+            _gameLayer.addChild(_map.mapLayer);
+         }
+         _gameLayer.addChild(_playerLayer);
+         if(_map.frontFixLayer)
+         {
+            _gameLayer.addChild(_map.frontFixLayer);
+         }
+         if(_map.frontLayer)
+         {
+            _gameLayer.addChild(_map.frontLayer);
+         }
+         _cameraFocus = placeFightersMulti(false);
+         if(!_map.mapLayer)
+         {
+            throw new Error("map is error! :: mapLayer is null!");
+         }
+         initCamera();
+         camera.focus(_cameraFocus);
+         var rd:* = GameCtrl.I.gameRunData;
+         gameUI.initFight(rd.p1FighterGroup,rd.p3FighterGroup);
+         addChild(gameUI.getUIDisplay());
+      }
+
+      public function resetFightMulti() : void
+      {
+         var rd:* = GameCtrl.I.gameRunData;
+         _cameraFocus = placeFightersMulti(true);
+         gameUI.initFight(rd.p1FighterGroup,rd.p3FighterGroup);
+         cameraResume();
+      }
+
+      // Đổi danh sách mục tiêu của camera mà không đổi mức thu phóng.
+      public function setCameraFocus(param1:Array) : void
+      {
+         _cameraFocus = param1;
+         camera.focus(param1);
+      }
+
       public function cameraFocusOne(param1:DisplayObject) : void
       {
          camera.focus([param1]);

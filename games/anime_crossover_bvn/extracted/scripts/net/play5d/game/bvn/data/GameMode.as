@@ -11,6 +11,32 @@ package net.play5d.game.bvn.data
 
       public static const NET_SELECT:int = 23;
 
+      // Bố cục trận: 0 = 1 vs 1 (như cũ), 1 = 2 vs 2 (đội 1 = ô 1,2; đội 2 = ô 3,4), 2 = tự do 4 người (mỗi ô một đội).
+      public static var layout:int = 0;
+
+      // Bit i bật = ô i+1 do máy (AI) điều khiển; chỉ dùng để thử trận 4 người khi chưa có đủ người.
+      public static var aiSlots:int = 0;
+
+      public static function isMulti() : Boolean
+      {
+         return layout > 0;
+      }
+
+      // Số hiệp cần thắng: 2 vs 2 giữ thắng 2 hiệp, tự do chỉ 1 hiệp.
+      public static function roundsToWin() : int
+      {
+         return layout == 2 ? 1 : 2;
+      }
+
+      public static function teamOfSlot(param1:int) : int
+      {
+         if(layout == 1)
+         {
+            return param1 <= 2 ? 1 : 2;
+         }
+         return param1;
+      }
+
       // NetSession.I hoặc null nếu bản build không có phần chơi mạng.
       public static function get net() : *
       {
@@ -74,6 +100,22 @@ package net.play5d.game.bvn.data
       
       public static function getTeams() : Array
       {
+         if(layout == 2)
+         {
+            return [{
+               "id":1,
+               "name":"P1"
+            },{
+               "id":2,
+               "name":"P2"
+            },{
+               "id":3,
+               "name":"P3"
+            },{
+               "id":4,
+               "name":"P4"
+            }];
+         }
          return [{
             "id":1,
             "name":"P1"

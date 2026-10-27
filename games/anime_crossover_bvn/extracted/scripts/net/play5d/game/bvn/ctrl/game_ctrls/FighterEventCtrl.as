@@ -42,7 +42,11 @@ package net.play5d.game.bvn.ctrl.game_ctrls
             return;
          }
          _loc4_.fzqi = 0;
-         var _loc3_:GameRunFighterGroup = _loc4_.team.id == 1 ? GameCtrl.I.gameRunData.p1FighterGroup : GameCtrl.I.gameRunData.p2FighterGroup;
+         var _loc3_:GameRunFighterGroup = GameCtrl.I.gameRunData.getGroup(GameCtrl.I.gameRunData.getSlotOf(_loc4_));
+         if(!_loc3_)
+         {
+            _loc3_ = _loc4_.team.id == 1 ? GameCtrl.I.gameRunData.p1FighterGroup : GameCtrl.I.gameRunData.p2FighterGroup;
+         }
          var _loc2_:Assister = _loc3_.currentAssister;
          _loc2_.setOwner(_loc4_);
          _loc2_.direct = _loc4_.direct;
@@ -93,6 +97,12 @@ package net.play5d.game.bvn.ctrl.game_ctrls
                _loc4_ = 1;
                break;
             case 1:
+               _loc4_ = 2;
+               break;
+            case 2:
+               _loc4_ = 1;
+               break;
+            case 3:
                _loc4_ = 2;
          }
          var _loc3_:int = GameLogic.addHits(param1.id,_loc5_,_loc4_);

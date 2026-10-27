@@ -228,6 +228,8 @@ package net.play5d.game.bvn.ctrl.game_ctrls
          }
          gameRunData.p1FighterGroup.destory();
          gameRunData.p2FighterGroup.destory();
+         gameRunData.p3FighterGroup.destory();
+         gameRunData.p4FighterGroup.destory();
          gameRunData.clear();
          GameLoader.dispose();
          _gameRunning = false;
@@ -323,6 +325,11 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       private function buildGame() : void
       {
          var _loc4_:ColorTransform = null;
+         if(GameMode.isMulti())
+         {
+            buildGameMulti();
+            return;
+         }
          gameRunData.p1FighterGroup.currentFighter = GameRunFactory.createFighterByData(gameRunData.p1FighterGroup.fighter1,"1");
          gameRunData.p1FighterGroup.currentAssister = GameRunFactory.createAssisterByData(gameRunData.p1FighterGroup.assister,"1");
          gameRunData.p2FighterGroup.currentFighter = GameRunFactory.createFighterByData(gameRunData.p2FighterGroup.fighter1,"2");
@@ -424,6 +431,15 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       private function doBuildNextRound(param1:Boolean) : void
       {
          var _loc2_:int = 0;
+         if(GameMode.isMulti())
+         {
+            gameState.resetFightMulti();
+            _startCtrl = new GameStartCtrl(gameState);
+            _startCtrl.startNextRound();
+            gameRunData.isDrawGame = false;
+            GameEvent.dispatchEvent("ROUND_START");
+            return;
+         }
          gameState.resetFight(gameRunData.p1FighterGroup,gameRunData.p2FighterGroup);
          _startCtrl = new GameStartCtrl(gameState);
          if(param1)
@@ -578,6 +594,12 @@ package net.play5d.game.bvn.ctrl.game_ctrls
                break;
             case 1:
                gameRunData.p2Wins++;
+               break;
+            case 2:
+               gameRunData.p3Wins++;
+               break;
+            case 3:
+               gameRunData.p4Wins++;
          }
          _endCtrl = new GameEndCtrl();
          _endCtrl.initlize(param1,param2);
@@ -694,6 +716,12 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       {
          trace("time over!!!");
          actionEnable = false;
+         if(GameMode.isMulti())
+         {
+            gameRunData.isTimerOver = true;
+            timeoverMulti();
+            return;
+         }
          var _loc1_:FighterMain = gameRunData.p1FighterGroup.currentFighter;
          var _loc2_:FighterMain = gameRunData.p2FighterGroup.currentFighter;
          gameRunData.isTimerOver = true;
@@ -731,6 +759,17 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       {
          trace("GameMode.currentMode",GameMode.currentMode);
          gameRunData.nextRound();
+         if(GameMode.isMulti())
+         {
+            if(gameRunData.maxWins() < GameMode.roundsToWin())
+            {
+               buildNextRound(false);
+               gameRunData.lastWinner = null;
+               return;
+            }
+            fightFinish();
+            return;
+         }
          if(GameMode.isTeamMode())
          {
             if(startNextTeamFight())
@@ -850,6 +889,11 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       public function onFighterDie(param1:FighterMain) : void
       {
          var _loc2_:FighterMain = null;
+         if(GameMode.isMulti())
+         {
+            GameCtrl.I.onFighterDieMulti(param1);
+            return;
+         }
          var _loc3_:TeamVO = GameCtrl.I.getEnemyTeam(param1);
          if(_loc3_)
          {
@@ -865,6 +909,211 @@ package net.play5d.game.bvn.ctrl.game_ctrls
          GameCtrl.I.gameEnd(_loc2_,param1);
       }
       
+      // ------------------------------------------------------------ trận nhiều người (2 vs 2, tự do 4 người)
+
+      private function buildGameMulti() : void
+      {
+         var slot:int;
+         var g:GameRunFighterGroup;
+         var f:FighterMain;
+         var seen:Object = {};
+         var dup:int;
+         var tint:ColorTransform;
+         var fighters:Array = [];
+         for(slot = 1; slot <= 4; slot++)
+         {
+            g = gameRunData.getGroup(slot);
+            g.currentFighter = GameRunFactory.createFighterByData(g.fighter1,String(slot));
+            g.currentAssister = GameRunFactory.createAssisterByData(g.assister,String(slot));
+            f = g.currentFighter;
+            dup = seen[f.data.id] == undefined ? 0 : int(seen[f.data.id]);
+            seen[f.data.id] = dup + 1;
+            if(dup > 0)
+            {
+               tint = new ColorTransform();
+               if(dup == 1)
+               {
+                  tint.greenOffset = -85;
+               }
+               else if(dup == 2)
+               {
+                  tint.blueOffset = -85;
+               }
+               else
+               {
+                  tint.redOffset = -85;
+               }
+               f.colorTransform = tint;
+            }
+            else
+            {
+               f.colorTransform = null;
+            }
+            fighters.push(f);
+         }
+         var map:MapMain = GameRunFactory.createMapByData(gameRunData.map);
+         if(!map)
+         {
+            throw new Error("Không dựng được bản đồ");
+         }
+         for(slot = 1; slot <= 4; slot++)
+         {
+            addFighterMulti(fighters[slot - 1],slot);
+         }
+         map.initlize();
+         gameState.initFightMulti(map);
+         GameLogic.initGameLogic(map,gameState.camera);
+         initMainLogic();
+         initStart();
+         _startCtrl.startMulti();
+         GameInterface.instance.afterBuildGame();
+      }
+
+      private function addFighterMulti(param1:FighterMain, param2:int) : void
+      {
+         var ctrl:IFighterActionCtrl;
+         if(((GameMode.aiSlots >> (param2 - 1)) & 1) == 1)
+         {
+            ctrl = new FighterAICtrl();
+            (ctrl as FighterAICtrl).AILevel = MessionModel.I.AI_LEVEL;
+            (ctrl as FighterAICtrl).fighter = param1;
+         }
+         else
+         {
+            ctrl = new FighterKeyCtrl();
+            (ctrl as FighterKeyCtrl).inputType = "P" + param2;
+            (ctrl as FighterKeyCtrl).classicMode = GameData.I.config.keyInputMode == 1;
+         }
+         param1.initlize();
+         param1.setActionCtrl(ctrl);
+         addGameSprite(GameMode.teamOfSlot(param2),param1);
+         FighterEventDispatcher.dispatchEvent(param1,"BIRTH");
+      }
+
+      // Đội còn người sống (không tính người vừa gục).
+      private function teamAliveFighter(param1:TeamVO, param2:FighterMain) : FighterMain
+      {
+         var s:IGameSprite;
+         var f:FighterMain;
+         var best:FighterMain = null;
+         for each(s in param1.children)
+         {
+            f = s as FighterMain;
+            if(f && f != param2 && f.isAlive)
+            {
+               if(!best || f.hp > best.hp)
+               {
+                  best = f;
+               }
+            }
+         }
+         return best;
+      }
+
+      public function onFighterDieMulti(param1:FighterMain) : void
+      {
+         var t:TeamVO;
+         var alive:FighterMain;
+         var winner:FighterMain = null;
+         var aliveTeams:int = 0;
+         var focus:Array = [];
+         var slot:int;
+         var f:FighterMain;
+         for each(t in _teamMap.teams)
+         {
+            alive = teamAliveFighter(t,param1);
+            if(alive)
+            {
+               aliveTeams++;
+               winner = alive;
+            }
+         }
+         for(slot = 1; slot <= 4; slot++)
+         {
+            f = gameRunData.getGroup(slot).currentFighter;
+            if(f && f != param1 && f.isAlive)
+            {
+               focus.push(f.getDisplay());
+            }
+         }
+         if(aliveTeams > 1)
+         {
+            if(focus.length > 0)
+            {
+               gameState.setCameraFocus(focus);
+            }
+            return;
+         }
+         if(aliveTeams == 1)
+         {
+            gameEnd(winner,param1);
+            return;
+         }
+         drawGame();
+      }
+
+      // Hết giờ: đội còn nhiều máu nhất (tổng máu của các thành viên) thắng; bằng nhau thì hoà.
+      private function timeoverMulti() : void
+      {
+         var t:TeamVO;
+         var s:IGameSprite;
+         var f:FighterMain;
+         var sum:Number;
+         var bestTeam:TeamVO = null;
+         var bestHp:Number = -1;
+         var tie:Boolean = false;
+         var winner:FighterMain = null;
+         var loser:FighterMain = null;
+         for each(t in _teamMap.teams)
+         {
+            sum = 0;
+            for each(s in t.children)
+            {
+               f = s as FighterMain;
+               if(f && f.isAlive && f.hp > 0)
+               {
+                  sum += f.hp;
+               }
+            }
+            if(sum > bestHp)
+            {
+               bestHp = sum;
+               bestTeam = t;
+               tie = false;
+            }
+            else if(sum == bestHp)
+            {
+               tie = true;
+            }
+         }
+         if(tie || !bestTeam)
+         {
+            drawGame();
+            return;
+         }
+         winner = teamAliveFighter(bestTeam,null);
+         for each(t in _teamMap.teams)
+         {
+            if(t != bestTeam && !loser)
+            {
+               for each(s in t.children)
+               {
+                  if(s is FighterMain)
+                  {
+                     loser = s as FighterMain;
+                     break;
+                  }
+               }
+            }
+         }
+         if(!winner || !loser)
+         {
+            drawGame();
+            return;
+         }
+         gameEnd(winner,loser);
+      }
+
       public function initMosouGame() : void
       {
          _mosouCtrl = new MosouCtrl();

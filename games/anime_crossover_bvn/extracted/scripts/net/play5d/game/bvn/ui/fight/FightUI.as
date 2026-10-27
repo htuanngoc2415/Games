@@ -73,6 +73,15 @@ package net.play5d.game.bvn.ui.fight
       private static const LAMP_RADIUS:Number = 15;
 
       private var _cooldownLamps:Array = [];
+
+      // Trận nhiều người: màu từng ô, thanh máu nhỏ cho ô 2 và 4 (ô 1 và 3 dùng thanh nhúng sẵn), nhãn trên đầu cả bốn.
+      private static const SLOT_COLORS:Array = [0x4FA3FF,0xFF5A5A,0x5FE08A,0xFFD84F];
+
+      private var _multiBuilt:Boolean;
+
+      private var _multiBars:Array = [];
+
+      private var _multiMarkers:Array = [];
       
       public function FightUI()
       {
@@ -105,6 +114,133 @@ package net.play5d.game.bvn.ui.fight
          _qibar1.setFighter(param1.currentFighter,param1.currentAssister);
          _qibar2.setFighter(param2.currentFighter,param2.currentAssister);
          updateScore(null);
+         if(GameMode.isMulti())
+         {
+            buildMultiHud();
+         }
+      }
+
+      private function buildMultiHud() : void
+      {
+         var slot:int;
+         var slots:Array = [2,4];
+         var i:int;
+         var root:Sprite;
+         var back:Shape;
+         var hp:Shape;
+         var qi:Shape;
+         var label:Text;
+         var tag:Sprite;
+         var tagText:Text;
+         if(_multiBuilt)
+         {
+            return;
+         }
+         _multiBuilt = true;
+         for(i = 0; i < 2; i++)
+         {
+            slot = slots[i];
+            root = new Sprite();
+            root.mouseEnabled = root.mouseChildren = false;
+            root.x = slot == 2 ? 20 : 580;
+            root.y = 112;
+            back = new Shape();
+            back.graphics.beginFill(0x000000,0.65);
+            back.graphics.drawRect(-2,-2,204,26);
+            back.graphics.endFill();
+            root.addChild(back);
+            hp = new Shape();
+            root.addChild(hp);
+            qi = new Shape();
+            qi.y = 13;
+            root.addChild(qi);
+            label = new Text(SLOT_COLORS[slot - 1],13);
+            label.text = "P" + slot;
+            label.y = 24;
+            root.addChild(label);
+            ui.addChild(root);
+            _multiBars.push([slot,root,hp,qi,label,-1,""]);
+         }
+         for(slot = 1; slot <= 4; slot++)
+         {
+            tag = new Sprite();
+            tag.mouseEnabled = tag.mouseChildren = false;
+            tag.graphics.beginFill(SLOT_COLORS[slot - 1]);
+            tag.graphics.moveTo(-7,-8);
+            tag.graphics.lineTo(7,-8);
+            tag.graphics.lineTo(0,3);
+            tag.graphics.endFill();
+            tagText = new Text(SLOT_COLORS[slot - 1],15);
+            tagText.text = "P" + slot;
+            tagText.filters = [new GlowFilter(0x000000,1,3,3,6)];
+            tagText.x = -tagText.width / 2;
+            tagText.y = -28;
+            tag.addChild(tagText);
+            tag.visible = false;
+            ui.addChild(tag);
+            _multiMarkers.push([slot,tag]);
+         }
+      }
+
+      private function renderMultiHud() : void
+      {
+         var item:Array;
+         var f:FighterMain;
+         var hpRatio:Number;
+         var qiRatio:Number;
+         var key:int;
+         var g:*;
+         for each(item in _multiBars)
+         {
+            f = GameCtrl.I.gameRunData.getGroup(item[0]).currentFighter;
+            item[1].visible = f != null;
+            if(!f)
+            {
+               continue;
+            }
+            if(item[6] == "")
+            {
+               item[6] = "P" + item[0] + " " + (f.data ? String(f.data.id).replace("ftop_","") : "");
+               item[4].text = item[6];
+            }
+            hpRatio = f.hpMax > 0 ? Math.max(0,Math.min(1,f.hp / f.hpMax)) : 0;
+            qiRatio = f.qiMax > 0 ? Math.max(0,Math.min(1,f.qi / f.qiMax)) : 0;
+            key = int(Math.round(hpRatio * 200)) * 1000 + int(Math.round(qiRatio * 200));
+            if(key == item[5])
+            {
+               continue;
+            }
+            item[5] = key;
+            g = item[2].graphics;
+            g.clear();
+            g.beginFill(SLOT_COLORS[item[0] - 1]);
+            g.drawRect(0,0,200 * hpRatio,10);
+            g.endFill();
+            g = item[3].graphics;
+            g.clear();
+            g.beginFill(0xFFFFFF,0.85);
+            g.drawRect(0,0,200 * qiRatio,5);
+            g.endFill();
+         }
+      }
+
+      private function renderMultiMarkers() : void
+      {
+         var item:Array;
+         var f:FighterMain;
+         var p:Point;
+         for each(item in _multiMarkers)
+         {
+            f = GameCtrl.I.gameRunData.getGroup(item[0]).currentFighter;
+            item[1].visible = f != null && f.isAlive;
+            if(!item[1].visible)
+            {
+               continue;
+            }
+            p = getPlayerPos(f);
+            item[1].x = p.x;
+            item[1].y = p.y;
+         }
       }
       
       public function setVolume(param1:Number) : void
@@ -198,6 +334,10 @@ package net.play5d.game.bvn.ui.fight
          _qibar1.render();
          _qibar2.render();
          renderCooldownLamps();
+         if(GameMode.isMulti())
+         {
+            renderMultiHud();
+         }
          var _loc1_:Number = GameCtrl.I.gameState.camera.getZoom();
          renderPlayerPosUI(_loc1_);
          if(_renderEnd)
@@ -259,7 +399,7 @@ package net.play5d.game.bvn.ui.fight
             fighter = null;
             try
             {
-               fighter = (item[1] == 1 ? GameCtrl.I.gameRunData.p1FighterGroup : GameCtrl.I.gameRunData.p2FighterGroup).currentFighter;
+               fighter = (item[1] == 1 ? GameCtrl.I.gameRunData.p1FighterGroup : (GameMode.isMulti() ? GameCtrl.I.gameRunData.p3FighterGroup : GameCtrl.I.gameRunData.p2FighterGroup)).currentFighter;
             }
             catch(e:Error)
             {
@@ -598,7 +738,7 @@ package net.play5d.game.bvn.ui.fight
                {
                   GameCtrl.I.gameState.cameraFocusOne(_loc2_.getDisplay());
                   showWinner(_loc2_);
-                  if(GameMode.isSingleMode())
+                  if(GameMode.isSingleMode() && GameMode.layout != 2)
                   {
                      showWins(_loc2_,GameCtrl.I.gameRunData.getWins(_loc2_));
                   }
@@ -688,7 +828,7 @@ package net.play5d.game.bvn.ui.fight
          if(GameConfig.SHOW_UI_STATUS == 1)
          {
             ui.startKOmc.$winnerScale = 0.8;
-            switch(teamid - 1)
+            switch((teamid - 1) % 2)
             {
                case 0:
                   ui.startKOmc.$winnerX = 30;
@@ -699,7 +839,7 @@ package net.play5d.game.bvn.ui.fight
          }
          else
          {
-            switch(teamid - 1)
+            switch((teamid - 1) % 2)
             {
                case 0:
                   ui.startKOmc.$winnerX = 30;
@@ -719,6 +859,11 @@ package net.play5d.game.bvn.ui.fight
       private function renderPlayerPosUI(param1:Number) : void
       {
          var _loc4_:Point = null;
+         if(GameMode.isMulti())
+         {
+            renderMultiMarkers();
+            return;
+         }
          if(param1 > 1.8)
          {
             _p1PosUI.visible = _p2PosUI.visible = false;

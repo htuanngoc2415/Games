@@ -10,6 +10,8 @@ package net.play5d.game.bvn
    import net.play5d.game.bvn.data.EffectModel;
    import net.play5d.game.bvn.data.GameData;
    import net.play5d.game.bvn.data.GameMode;
+   import net.play5d.game.bvn.data.MapModel;
+   import net.play5d.game.bvn.data.SelectVO;
    import net.play5d.game.bvn.events.GameEvent;
    import net.play5d.game.bvn.input.GameInputer;
    import net.play5d.game.bvn.interfaces.GameInterface;
@@ -210,6 +212,40 @@ package net.play5d.game.bvn
          {
             GameMode.net.onFightStart();
          }
+      }
+
+      // Chỉ để kiểm thử trận nhiều người khi chưa có màn chọn/mạng: bố cục 1 = 2 vs 2, 2 = tự do; ô nào bật bit trong aiMask thì AI điều khiển.
+      public function startMultiTest(param1:int, param2:int, param3:Array, param4:Array, param5:String = "") : void
+      {
+         GameMode.layout = param1;
+         GameMode.aiSlots = param2;
+         GameMode.currentMode = 21;
+         var sel:Array = [];
+         for(var i:int = 0; i < 4; i++)
+         {
+            var sv:SelectVO = new SelectVO();
+            sv.fighter1 = param3[i];
+            sv.fuzhu = param4[i];
+            sel.push(sv);
+         }
+         GameData.I.p1Select = sel[0];
+         GameData.I.p2Select = sel[1];
+         GameData.I.p3Select = sel[2];
+         GameData.I.p4Select = sel[3];
+         var mapId:String = param5;
+         if(mapId == "")
+         {
+            var maps:Array = MapModel.I.getAllMaps();
+            for(var k:int = 0; k < maps.length && mapId == ""; k++)
+            {
+               if(maps[k].id != "random")
+               {
+                  mapId = maps[k].id;
+               }
+            }
+         }
+         GameData.I.selectMap = mapId;
+         loadGame();
       }
 
       // Màn Chơi LAN (lớp LanLobbyState nằm trong khối mã mạng, tạo bằng tên).

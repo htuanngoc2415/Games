@@ -87,6 +87,23 @@ package net.play5d.game.bvn.ctrl.game_ctrls
          preRenderStart();
       }
       
+      // Trận nhiều người: không có màn giới thiệu từng người, vào thẳng chữ "FIGHT".
+      public function startMulti() : void
+      {
+         _isStartMosou = true;
+         _mousouFinish = false;
+         SoundCtrl.I.smartPlayGameBGM(GameCtrl.I.gameRunData.p3FighterGroup.currentFighter.data.id);
+         _state.cameraResume();
+         _state.camera.updateNow();
+         StateCtrl.I.transOut(function():void
+         {
+            _state.gameUI.getUI().showStart(function():void
+            {
+               _mousouFinish = true;
+            });
+         },true);
+      }
+
       public function startMosou() : void
       {
          _isStartMosou = true;

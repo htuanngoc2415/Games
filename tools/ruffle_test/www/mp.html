@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}</style>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={autoplay:"on",unmuteOverlay:"hidden",splashScreen:false,logLevel:"info",preferredRenderer:"wgpu-webgl",letterbox:"on",allowScriptAccess:false,maxExecutionDuration:30};</script>
+<script src="ruffle/ruffle.js"></script></head><body><div id="c"></div>
+<script>
+// Thử trận nhiều người: mp.html?swf=test.swf&mp=1|2&ai=<bitmask>&f=id1,id2,id3,id4&z=as1,as2,as3,as4[&map=id]
+window.addEventListener("load",()=>{const q=new URLSearchParams(location.search);const r=window.RufflePlayer.newest();const p=r.createPlayer();p.style.width="800px";p.style.height="600px";p.id="player";document.getElementById("c").appendChild(p);
+const params={};for(const k of ["mp","ai","f","z","map"]){if(q.get(k)!==null)params[k]=q.get(k);}
+p.load({url:q.get("swf")||"test.swf",parameters:params}).then(()=>{window.__loaded=true}).catch(e=>{console.log("LOADERR "+e)});});
+</script></body></html>

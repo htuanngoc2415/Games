@@ -14,6 +14,7 @@ package net.play5d.game.bvn.state
    import net.play5d.game.bvn.data.GameData;
    import net.play5d.game.bvn.data.GameRunFighterGroup;
    import net.play5d.game.bvn.data.MapModel;
+   import net.play5d.game.bvn.data.GameMode;
    import net.play5d.game.bvn.data.SelectVO;
    import net.play5d.game.bvn.debug.Debugger;
    import net.play5d.game.bvn.events.GameEvent;
@@ -105,6 +106,11 @@ package net.play5d.game.bvn.state
          var _loc6_:SelectVO = GameData.I.p2Select;
          _loc2_.push(_loc6_.fighter1,_loc6_.fighter2,_loc6_.fighter3);
          _loc4_.push(_loc5_.fuzhu,_loc6_.fuzhu);
+         if(GameMode.isMulti())
+         {
+            _loc2_.push(GameData.I.p3Select.fighter1,GameData.I.p4Select.fighter1);
+            _loc4_.push(GameData.I.p3Select.fuzhu,GameData.I.p4Select.fuzhu);
+         }
          _loc1_ = _loc2_.concat([GameData.I.selectMap]);
          GameStageLoadCtrl.I.init(onLoadProcess,onLoadError);
          setTimeout(GameStageLoadCtrl.I.loadGame,1000,_loc3_,_loc2_,_loc4_,_loc1_,onLoadFinish);
@@ -189,6 +195,15 @@ package net.play5d.game.bvn.state
          _loc4_.fighter2 = FighterModel.I.getFighter(param2[1],true);
          _loc4_.fighter3 = FighterModel.I.getFighter(param2[2],true);
          _loc4_.assister = AssisterModel.I.getAssister(GameData.I.p2Select.fuzhu,true);
+         if(GameMode.isMulti())
+         {
+            var g3:GameRunFighterGroup = GameCtrl.I.gameRunData.p3FighterGroup;
+            var g4:GameRunFighterGroup = GameCtrl.I.gameRunData.p4FighterGroup;
+            g3.fighter1 = FighterModel.I.getFighter(GameData.I.p3Select.fighter1,true);
+            g3.assister = AssisterModel.I.getAssister(GameData.I.p3Select.fuzhu,true);
+            g4.fighter1 = FighterModel.I.getFighter(GameData.I.p4Select.fighter1,true);
+            g4.assister = AssisterModel.I.getAssister(GameData.I.p4Select.fuzhu,true);
+         }
          GameCtrl.I.gameRunData.map = MapModel.I.getMap(GameData.I.selectMap);
          GameEvent.dispatchEvent("FIGHT_LOADING_FINISH");
          StateCtrl.I.transIn(MainGame.I.goGame,false);

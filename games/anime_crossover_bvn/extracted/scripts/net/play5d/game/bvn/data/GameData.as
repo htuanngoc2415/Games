@@ -38,6 +38,10 @@ package net.play5d.game.bvn.data
       public var p1Select:SelectVO;
       
       public var p2Select:SelectVO;
+
+      public var p3Select:SelectVO;
+
+      public var p4Select:SelectVO;
       
       public var selectMap:String;
       

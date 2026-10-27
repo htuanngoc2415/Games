@@ -50,11 +50,11 @@ package net.play5d.game.bvn.data
       private function refreshTeams() : void
       {
          teams = new Vector.<TeamVO>();
-         for each(var _loc1_:TeamVO in _teamObj)
+         for(var id:int = 1; id <= 8; id++)
          {
-            if(_loc1_)
+            if(_teamObj[id])
             {
-               teams.push(_loc1_);
+               teams.push(_teamObj[id]);
             }
          }
       }

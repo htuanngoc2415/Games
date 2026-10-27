@@ -47,6 +47,11 @@ patched_classes=(
   net/play5d/game/bvn/ctrl/game_ctrls/GameCtrl.as
   net/play5d/game/bvn/fighter/ctrler/ai/FighterAILogicBase.as
   net/play5d/game/bvn/ui/fight/FightUI.as
+  net/play5d/game/bvn/data/TeamMap.as
+  net/play5d/game/bvn/data/GameRunDataVO.as
+  net/play5d/game/bvn/state/GameState.as
+  net/play5d/game/bvn/ctrl/game_ctrls/GameStartCtrl.as
+  net/play5d/game/bvn/ctrl/game_ctrls/FighterEventCtrl.as
 
   net/play5d/game/bvn/data/FighterModel.as
   net/play5d/game/bvn/ctrl/GameLogic.as

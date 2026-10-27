@@ -4,6 +4,8 @@ package net.play5d.game.bvn.state
    import flash.display.Shape;
    import flash.display.Sprite;
    import flash.events.MouseEvent;
+   import flash.utils.setTimeout;
+   import net.play5d.game.bvn.MainGame;
    import net.play5d.game.bvn.ctrl.AssetManager;
    import net.play5d.game.bvn.ctrl.GameRender;
    import net.play5d.game.bvn.ctrl.SoundCtrl;
@@ -41,6 +43,19 @@ package net.play5d.game.bvn.state
       }
       public function afterBuild():void
       {
+         try
+         {
+            var mp:Object = MainGame.I.stage.loaderInfo.parameters;
+            if(mp["mp"])
+            {
+               setTimeout(MainGame.I.startMultiTest,2000,int(mp["mp"]),int(mp["ai"]),String(mp["f"]).split(","),String(mp["z"]).split(","),mp["map"] ? String(mp["map"]) : "");
+               return;
+            }
+         }
+         catch(e:Error)
+         {
+            
+         }
          var heading:Text = new Text(0x70D7FF,22);
          heading.text = "ANIME CROSSOVER";
          heading.x = 505;
