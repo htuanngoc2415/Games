@@ -58,6 +58,10 @@ package net.play5d.game.bvn.ui.fight
       private var _pauseDialog:PauseDialog;
       
       private var _flyTimer:Number = 0;
+
+      private var _koDelay:int = 0;
+
+      private var _koCallback:Function;
       
       private var _p1PosUI:*;
       
@@ -175,6 +179,21 @@ package net.play5d.game.bvn.ui.fight
       
       public function render() : void
       {
+         // Các độ trễ trong cảnh KO đếm bằng khung hình (không dùng đồng hồ thật) để hai máy chơi LAN luôn như nhau.
+         if(_koDelay > 0)
+         {
+            _koDelay = _koDelay - 1;
+            if(_koDelay <= 0 && _koCallback != null)
+            {
+               var cb:Function = _koCallback;
+               _koCallback = null;
+               cb();
+            }
+         }
+         if(_isSlowDown)
+         {
+            _flyTimer = _flyTimer + 1;
+         }
          _fightbar.render();
          _qibar1.render();
          _qibar2.render();
@@ -503,7 +522,8 @@ package net.play5d.game.bvn.ui.fight
          EffectCtrl.I.bgBlurEnabled = false;
          EffectCtrl.I.shake(5,0,1.5);
          SoundCtrl.I.playSwcSound(snd_over_hit);
-         setTimeout(playKO2,500);
+         _koCallback = playKO2;
+         _koDelay = int(0.5 * GameConfig.FPS_GAME);
       }
       
       private function koBack(param1:Event) : void
@@ -600,14 +620,14 @@ package net.play5d.game.bvn.ui.fight
                if(!_isSlowDown)
                {
                   _isSlowDown = true;
-                  _flyTimer = getTimer();
+                  _flyTimer = 0;
                }
             }
             if(_loc1_.actionState == 30)
             {
                if(_isSlowDown)
                {
-                  if(getTimer() - _flyTimer < 2000)
+                  if(_flyTimer < 2 * GameConfig.FPS_GAME)
                   {
                      _showWinnerDelay = 2 * GameConfig.FPS_GAME;
                   }

@@ -1,5 +1,6 @@
 package net.play5d.game.bvn.interfaces
 {
+   import net.play5d.game.bvn.MainGame;
    import net.play5d.game.bvn.events.GameEvent;
    import flash.utils.ByteArray;
    
@@ -48,6 +49,13 @@ package net.play5d.game.bvn.interfaces
                "txt":"MUSOU ACRADE",
                "cn":"Phiêu lưu"
             }]
+         },{
+            "txt":"LAN",
+            "cn":"Chơi LAN",
+            "func":function():void
+            {
+               MainGame.I.goLanLobby();
+            }
          },{
             "txt":"COOLDOWN",
             "cn":"Cài đặt",

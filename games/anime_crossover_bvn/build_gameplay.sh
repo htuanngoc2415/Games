@@ -41,6 +41,11 @@ patched_classes=(
   net/play5d/game/bvn/ui/UIUtils.as
   net/play5d/game/bvn/ui/mosou/CoinUI.as
   net/play5d/game/bvn/state/MenuState.as
+  net/play5d/game/bvn/data/GameMode.as
+  net/play5d/game/bvn/ctrl/GameRender.as
+  net/play5d/game/bvn/MainGame.as
+  net/play5d/game/bvn/ctrl/game_ctrls/GameCtrl.as
+  net/play5d/game/bvn/fighter/ctrler/ai/FighterAILogicBase.as
   net/play5d/game/bvn/ui/fight/FightUI.as
 
   net/play5d/game/bvn/data/FighterModel.as
@@ -93,4 +98,18 @@ javac -cp "$ffdec_jar" -d "$workspace_dir/tools/ftop_port/build" "$workspace_dir
 java -Djava.awt.headless=true -Duser.home="$ffdec_home" -cp "$ffdec_jar:$workspace_dir/tools/ftop_port/build" EmbedVietnameseFont \
   "$output_swf" "$project_dir/build/with_vietnamese_font.swf" "$project_dir/assets/fonts/DejaVuSans.ttf"
 cp "$project_dir/build/with_vietnamese_font.swf" "$output_swf"
+
+# Các class AS3 mới (chơi LAN). importScript không thêm được class mới nên dùng công cụ riêng;
+# thứ tự biên dịch: class nền tảng trước, màn lobby sau cùng.
+net_dir="$project_dir/extracted/scripts/net/play5d/game/bvn/net"
+javac -cp "$ffdec_jar" -d "$workspace_dir/tools/ftop_port/build" "$workspace_dir/tools/ftop_port/AddAs3Classes.java"
+java -Xmx4g -Djava.awt.headless=true -Duser.home="$ffdec_home" -cp "$ffdec_jar:$workspace_dir/tools/ftop_port/build" AddAs3Classes \
+  "$output_swf" "$project_dir/build/with_net.swf" CrossoverNet \
+  "$net_dir/GameRand.as" "$net_dir/NetInput.as" "$net_dir/NetClient.as" "$net_dir/NetSession.as" "$net_dir/LanLobbyState.as"
+cp "$project_dir/build/with_net.swf" "$output_swf"
+# Trình biên dịch AS3 của JPEXS đôi khi sinh hàm sai; kiểm tra độ sâu ngăn xếp từng hàm, hỏng thì dừng build.
+javac -cp "$ffdec_jar" -d "$workspace_dir/tools/ftop_port/build" "$workspace_dir/tools/ftop_port/StackCheck.java"
+stack_report="$(java -Xmx4g -Djava.awt.headless=true -cp "$ffdec_jar:$workspace_dir/tools/ftop_port/build" StackCheck "$output_swf" CrossoverNet)"
+echo "$stack_report" | tail -1
+if ! echo "$stack_report" | grep -q "bad=0"; then echo "$stack_report" >&2; echo "LỖI: có hàm mạng biên dịch sai" >&2; exit 1; fi
 sha256sum "$output_swf"

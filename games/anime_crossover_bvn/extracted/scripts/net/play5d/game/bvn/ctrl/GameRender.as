@@ -3,6 +3,7 @@ package net.play5d.game.bvn.ctrl
    import flash.display.Stage;
    import flash.events.Event;
    import flash.utils.Dictionary;
+   import net.play5d.game.bvn.data.GameMode;
    
    public class GameRender
    {
@@ -61,6 +62,16 @@ package net.play5d.game.bvn.ctrl
          {
             return;
          }
+         var net:* = GameMode.net;
+         var gated:Boolean = false;
+         if(net && net.gating)
+         {
+            if(!net.beginFrame())
+            {
+               return;
+            }
+            gated = true;
+         }
          var _loc4_:int = 0;
          for each(_loc2_ in _fucs)
          {
@@ -75,6 +86,10 @@ package net.play5d.game.bvn.ctrl
                _loc2_[_loc4_]();
                _loc4_++;
             }
+         }
+         if(gated && net.gating)
+         {
+            net.endFrame();
          }
       }
    }

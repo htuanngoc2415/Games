@@ -14,6 +14,17 @@ PHÍM (người chơi 1)
   Menu chính có mục "Hồi chiêu" để chỉnh thời gian hồi chiêu và sát thương từng nhân vật.
   Phím F11 hoặc Alt+Enter của Ruffle: toàn màn hình.
 
+CHƠI QUA MẠNG LAN (2 người, 2 máy cùng Wi-Fi hoặc cùng mạng dây)
+  Cả hai máy đều cần chạy bằng AnimeCrossover (không phải mở thẳng file game).
+  Máy chủ phòng : Menu chính -> Chơi LAN -> Tạo phòng. Màn hình hiện "Địa chỉ của bạn: 192.168.x.x".
+  Máy còn lại   : Menu chính -> Chơi LAN -> Tham gia phòng, nhập địa chỉ trên rồi Kết nối.
+  Khi người kia vào, chủ phòng bấm "Bắt đầu chọn nhân vật". Mỗi người tự chọn nhân vật và trợ chiến của mình,
+  chủ phòng chọn thêm bản đồ. Chủ phòng là P1, người vào là P2; cả hai dùng bộ phím P1 (W A S D, J K L U I O).
+  Esc giữa trận: thoát khỏi phòng. Trận xong thì quay về phòng, chủ phòng bấm J để chơi tiếp.
+  Cổng dùng: TCP 47801. Lần đầu làm chủ phòng, Windows có thể hỏi về tường lửa: chọn "Cho phép" cho mạng riêng.
+  Cả hai máy nên dùng cùng một bản game (nếu khác bản, game sẽ báo và không cho chơi chung).
+  Nếu hiện "Mất đồng bộ": hai máy ra kết quả khác nhau, bấm Esc để thoát rồi tạo phòng lại.
+
 DỮ LIỆU LƯU
   Nằm trong thư mục "saves" cạnh game. Mang cả thư mục sang máy khác thì cài đặt vẫn giữ nguyên.
 

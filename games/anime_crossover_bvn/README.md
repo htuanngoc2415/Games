@@ -73,3 +73,27 @@ Giá trị lưu bằng SharedObject `crossover_cooldowns` (phạm vi "/") và đ
 riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc định (XML). Code: `state/MenuState.as`,
 `data/GameData.as` (getSkillCooldownFrames / setCooldownOverride). Ô hồi chiêu trong trận (`ui/fight/FightUI.as`)
 đọc cùng nguồn.
+
+## Chơi LAN 1 vs 1
+
+Menu chính -> **Chơi LAN**. Thiết kế và kết quả khảo sát: `analysis/multiplayer_research_vi.md`.
+
+- Ruffle không tạo được máy chủ TCP, nên launcher (`tools/package_game/launcher.c` + `relay.c`) chạy kèm một bộ
+  chuyển tiếp: cổng cục bộ 127.0.0.1:47800 luôn mở; cổng LAN 0.0.0.0:47801 chỉ mở khi bấm "Tạo phòng".
+  Cả chủ phòng lẫn người vào đều là client của relay.
+- Trận chạy **lockstep**: mỗi khung hình chỉ tính khi đã có phím của cả hai bên (trễ đầu vào 4 khung, khoảng 67 ms),
+  nên chỉ gửi phím bấm, không gửi trạng thái. Mỗi 60 khung hai máy trao đổi mã băm trạng thái; khác nhau thì báo
+  "Mất đồng bộ". Hạt giống ngẫu nhiên, cấu hình hồi chiêu/sát thương/tốc độ và máu của chủ phòng được gửi cho người vào.
+- Mã: `extracted/scripts/net/play5d/game/bvn/net/` (`NetSession`, `NetClient`, `NetInput`, `GameRand`, `LanLobbyState`).
+  Các class cũ gọi sang phần mạng gián tiếp qua `GameMode.net`; cổng vào vòng lặp là `GameRender` (chặn khung hình).
+- Phải giữ logic chiến đấu **xác định**: không dùng `getTimer`/`setTimeout`/tween/`Math.random` trong luồng mô phỏng
+  (dùng `GameMode.random()`). Hai chỗ đã sửa: cảnh KO trong `FightUI` (đếm khung thay vì đồng hồ thật) và
+  `FighterAILogicBase`. Thêm đòn/hiệu ứng ảnh hưởng vị trí hay máu mà dùng đồng hồ thật sẽ gây lệch.
+- Kiểm thử không cần hai máy: `tools/ruffle_test/lan_test.py` (relay + cầu nối WebSocket + hai Chromium ngầm).
+
+### Lưu ý khi viết AS3 mới (trình biên dịch JPEXS)
+- `importScript` chỉ thay class đã có; class mới thêm bằng `tools/ftop_port/AddAs3Classes.java` (xem `build_gameplay.sh`).
+- Không khởi tạo thuộc tính bằng `new` ở cấp class (`private var _x:Foo = new Foo()`): mã sinh ra thiếu lệnh nạp class.
+  Khởi tạo trong hàm tạo. `build_gameplay.sh` chạy `StackCheck` để chặn lỗi kiểu này.
+- `new Vector.<T>([a])` tạo vector rỗng; dùng `push`.
+- Class có sẵn không được tham chiếu class mới lúc biên dịch (class mới thêm sau): dùng `getDefinitionByName` (xem `GameMode.net`).

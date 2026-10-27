@@ -35,8 +35,8 @@ chmod +x "$out/engine/ruffle"
 
 "$workspace_dir/tools/ruffle_test/make_test_swf.sh" "$project_dir/working/anime_crossover_bvn.swf" "$out/game/game.swf"
 
-"${zig[@]}" -O2 -s -target x86_64-windows-gnu -Wl,--subsystem,windows "$tool_dir/launcher.c" -o "$out/AnimeCrossover.exe"
-"${zig[@]}" -O2 -s -target x86_64-linux-gnu.2.17 "$tool_dir/launcher.c" -o "$out/AnimeCrossover"
+"${zig[@]}" -O2 -s -target x86_64-windows-gnu -Wl,--subsystem,windows "$tool_dir/launcher.c" "$tool_dir/relay.c" -lws2_32 -o "$out/AnimeCrossover.exe"
+"${zig[@]}" -O2 -s -target x86_64-linux-gnu.2.17 "$tool_dir/launcher.c" "$tool_dir/relay.c" -o "$out/AnimeCrossover"
 chmod +x "$out/AnimeCrossover"
 cp "$tool_dir/HUONG_DAN.txt" "$out/HUONG_DAN.txt"
 

@@ -2,6 +2,7 @@ package net.play5d.game.bvn.fighter.ctrler.ai
 {
    import flash.geom.Point;
    import flash.geom.Rectangle;
+   import net.play5d.game.bvn.data.GameMode;
    import net.play5d.game.bvn.fighter.FighterAction;
    import net.play5d.game.bvn.fighter.FighterMain;
    import net.play5d.game.bvn.fighter.models.HitVO;
@@ -113,7 +114,7 @@ package net.play5d.game.bvn.fighter.ctrler.ai
       
       protected function getAIResult(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number, param6:Number) : Boolean
       {
-         var _loc7_:Number = Math.random() * 10;
+         var _loc7_:Number = GameMode.random() * 10;
          switch(AILevel)
          {
             case 0:

@@ -145,6 +145,10 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       
       private function renderPause() : void
       {
+         if(GameMode.net && GameMode.net.gating)
+         {
+            return;
+         }
          if(_startCtrl || _endCtrl)
          {
             if(GameInputer.back(1) || GameInputer.select("MENU",1))
@@ -446,6 +450,11 @@ package net.play5d.game.bvn.ctrl.game_ctrls
       public function fightFinish() : void
       {
          fightFinished = true;
+         if(GameMode.net && GameMode.net.inMatch)
+         {
+            GameMode.net.onMatchFinished();
+            return;
+         }
          if(GameMode.isAcrade())
          {
             if(gameRunData.lastWinnerTeam.id == 1)

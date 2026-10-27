@@ -1081,6 +1081,19 @@ package net.play5d.game.bvn.state
                   fadOutList(initMap);
                   _curStep = 5;
                }
+               else if(GameMode.currentMode == GameMode.NET_SELECT)
+               {
+                  // Chơi LAN: chủ phòng chọn thêm bản đồ, người vào chọn xong là gửi lựa chọn đi.
+                  if(GameMode.net.isHost)
+                  {
+                     fadOutList(initMap);
+                     _curStep = 5;
+                  }
+                  else
+                  {
+                     selectFinish();
+                  }
+               }
                else
                {
                   if(GameMode.isAcrade())
@@ -1170,6 +1183,11 @@ package net.play5d.game.bvn.state
       
       private function selectFinish() : void
       {
+         if(GameMode.currentMode == GameMode.NET_SELECT)
+         {
+            GameMode.net.onLocalSelectFinished();
+            return;
+         }
          GameEvent.dispatchEvent("SELECT_FIGHTER_FINISH");
          if(!AUTO_FINISH)
          {

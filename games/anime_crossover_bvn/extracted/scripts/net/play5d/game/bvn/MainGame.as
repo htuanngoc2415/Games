@@ -1,6 +1,7 @@
 package net.play5d.game.bvn
 {
    import flash.display.Sprite;
+   import flash.utils.getDefinitionByName;
    import flash.display.Stage;
    import flash.geom.Rectangle;
    import net.play5d.game.bvn.ctrl.AssetManager;
@@ -205,6 +206,19 @@ package net.play5d.game.bvn
          setFPS(GameConfig.FPS_GAME);
          setQuality(GameConfig.QUALITY_GAME);
          GameEvent.dispatchEvent("ENTER_STAGE",GameState);
+         if(GameMode.net)
+         {
+            GameMode.net.onFightStart();
+         }
+      }
+
+      // Màn Chơi LAN (lớp LanLobbyState nằm trong khối mã mạng, tạo bằng tên).
+      public function goLanLobby() : void
+      {
+         var cls:Class = getDefinitionByName("net.play5d.game.bvn.net.LanLobbyState") as Class;
+         stageCtrl.goStage(new cls());
+         setFPS(30);
+         setQuality(GameConfig.QUALITY_UI);
       }
       
       public function goMosouGame() : void
