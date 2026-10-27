@@ -1,0 +1,101 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting images...
+Exported image 1/4 DefineBitsLossless2 (chid: 54)
+Exported image 2/4 DefineBitsLossless2 (chid: 37)
+Exported image 3/4 DefineBitsLossless2 (chid: 52)
+Exported image 4/4 DefineBitsLossless2 (chid: 9)
+Exporting shapes...
+Exported shape 1/4 DefineShape (chid: 43)
+Exported shape 2/4 DefineShape (chid: 33)
+Exported shape 3/4 DefineShape (chid: 16)
+Exported shape 4/4 DefineShape (chid: 31)
+Exporting morphshapes...
+Exporting movies...
+Exporting fonts...
+Exporting DefineFont4s...
+Exporting sounds...
+Exported sound 1/1 DefineSound (chid: 48)
+Exporting binaryData...
+Exporting symbolClass...
+Exporting texts...
+Exporting frames...
+Exported frame 1/1 
+Exporting sprite...
+Exported frame 1/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 2/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 3/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 4/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 5/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 6/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 7/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 8/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 9/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 10/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 11/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 12/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 13/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 14/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 15/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 16/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 17/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 18/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 19/20 DefineSprite (chid: 34, cls: main_mc)
+Exported frame 20/20 DefineSprite (chid: 34, cls: main_mc)
+Exporting buttons...
+Exported frame 1/4 DefineButton2 (chid: 57)
+Exported frame 2/4 DefineButton2 (chid: 57)
+Exported frame 3/4 DefineButton2 (chid: 57)
+Exported frame 4/4 DefineButton2 (chid: 57)
+Exported frame 1/4 DefineButton2 (chid: 59)
+Exported frame 2/4 DefineButton2 (chid: 59)
+Exported frame 3/4 DefineButton2 (chid: 59)
+Exported frame 4/4 DefineButton2 (chid: 59)
+Exported frame 1/4 DefineButton2 (chid: 47)
+Exported frame 2/4 DefineButton2 (chid: 47)
+Exported frame 3/4 DefineButton2 (chid: 47)
+Exported frame 4/4 DefineButton2 (chid: 47)
+Exported frame 1/4 DefineButton2 (chid: 45)
+Exported frame 2/4 DefineButton2 (chid: 45)
+Exported frame 3/4 DefineButton2 (chid: 45)
+Exported frame 4/4 DefineButton2 (chid: 45)
+Exported frame 1/4 DefineButton2 (chid: 36)
+Exported frame 2/4 DefineButton2 (chid: 36)
+Exported frame 3/4 DefineButton2 (chid: 36)
+Exported frame 4/4 DefineButton2 (chid: 36)
+Exported frame 1/4 DefineButton2 (chid: 13)
+Exported frame 2/4 DefineButton2 (chid: 13)
+Exported frame 3/4 DefineButton2 (chid: 13)
+Exported frame 4/4 DefineButton2 (chid: 13)
+Exported frame 1/4 DefineButton2 (chid: 50)
+Exported frame 2/4 DefineButton2 (chid: 50)
+Exported frame 3/4 DefineButton2 (chid: 50)
+Exported frame 4/4 DefineButton2 (chid: 50)
+Exported frame 1/4 DefineButton2 (chid: 40)
+Exported frame 2/4 DefineButton2 (chid: 40)
+Exported frame 3/4 DefineButton2 (chid: 40)
+Exported frame 4/4 DefineButton2 (chid: 40)
+Exported frame 1/4 DefineButton2 (chid: 3)
+Exported frame 2/4 DefineButton2 (chid: 3)
+Exported frame 3/4 DefineButton2 (chid: 3)
+Exported frame 4/4 DefineButton2 (chid: 3)
+Exported frame 1/4 DefineButton2 (chid: 29)
+Exported frame 2/4 DefineButton2 (chid: 29)
+Exported frame 3/4 DefineButton2 (chid: 29)
+Exported frame 4/4 DefineButton2 (chid: 29)
+Exported frame 1/4 DefineButton2 (chid: 10)
+Exported frame 2/4 DefineButton2 (chid: 10)
+Exported frame 3/4 DefineButton2 (chid: 10)
+Exported frame 4/4 DefineButton2 (chid: 10)
+Exported frame 1/4 DefineButton2 (chid: 4)
+Exported frame 2/4 DefineButton2 (chid: 4)
+Exported frame 3/4 DefineButton2 (chid: 4)
+Exported frame 4/4 DefineButton2 (chid: 4)
+Exported frame 1/4 DefineButton2 (chid: 5)
+Exported frame 2/4 DefineButton2 (chid: 5)
+Exported frame 3/4 DefineButton2 (chid: 5)
+Exported frame 4/4 DefineButton2 (chid: 5)
+Exporting scripts...
+Exported script 1/1 main_mc, 00:00.120
+Export finished. Total export time: 00:01.132
+OK

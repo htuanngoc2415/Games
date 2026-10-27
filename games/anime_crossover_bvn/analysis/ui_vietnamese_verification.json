@@ -1,0 +1,29 @@
+{
+  "game_sha256": "3ec2b94692ec694e608db273951cbf371ce7236e7f1f85e89a7b1f0bad7b64f0",
+  "ruffle_sha256": "eb7a3bef5aaad3568b5ee406b2aefc79ecd50b24784b842af959682433c6980b",
+  "runtime_error_count": 0,
+  "screenshots": [
+    "build/menu_preview/loading.png",
+    "build/menu_preview/menu.png",
+    "build/menu_preview/submenu.png",
+    "build/menu_preview/settings.png",
+    "build/menu_preview/keys.png",
+    "build/menu_preview/instructions.png",
+    "build/menu_preview/selection.png"
+  ],
+  "checked_flow": "Menu -> team submenu -> settings -> key settings -> cancel -> apply -> arcade instructions -> fighter selection",
+  "menu": [
+    "Đấu đội",
+    "Đấu đơn",
+    "Phiêu lưu",
+    "Cài đặt"
+  ],
+  "removed_menu_entries": [
+    "MORE GAMES",
+    "CREDITS",
+    "RANK",
+    "TRAINING"
+  ],
+  "font_glyph_count": 412,
+  "scope": "UI integration and visual review; no new combat acceptance."
+}

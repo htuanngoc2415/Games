@@ -1,0 +1,10 @@
+{
+  "fighter_swf_entries": 102,
+  "fighter_swf_hash_mismatches": [],
+  "original_roster_configs_unchanged": {
+    "assets/config/fighter.xml": true,
+    "assets/config/assist.xml": true,
+    "assets/config/select.xml": true
+  },
+  "cooldown_config_present": true
+}

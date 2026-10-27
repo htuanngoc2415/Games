@@ -1,0 +1,18 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting binaryData...
+Exported binarydata 1/13 DefineBinaryData (chid: 7, cls: assets_zip$96b1c6c2edd687666ddf39a329ddd6411749259997)
+Exported binarydata 2/13 DefineBinaryData (chid: 8, cls: bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray)
+Exported binarydata 3/13 DefineBinaryData (chid: 9, cls: common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray)
+Exported binarydata 4/13 DefineBinaryData (chid: 10, cls: dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray)
+Exported binarydata 5/13 DefineBinaryData (chid: 11, cls: extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray)
+Exported binarydata 6/13 DefineBinaryData (chid: 12, cls: fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray)
+Exported binarydata 7/13 DefineBinaryData (chid: 13, cls: gameover_swf_ByteArray)
+Exported binarydata 8/13 DefineBinaryData (chid: 14, cls: howtoplay_swf_ByteArray)
+Exported binarydata 9/13 DefineBinaryData (chid: 15, cls: loading_swf_ByteArray)
+Exported binarydata 10/13 DefineBinaryData (chid: 16, cls: mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray)
+Exported binarydata 11/13 DefineBinaryData (chid: 17, cls: select_swf_ByteArray)
+Exported binarydata 12/13 DefineBinaryData (chid: 18, cls: setting_swf_ByteArray)
+Exported binarydata 13/13 DefineBinaryData (chid: 22, cls: title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray)
+Export finished. Total export time: 00:00.942
+OK

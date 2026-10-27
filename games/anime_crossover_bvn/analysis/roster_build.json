@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ftop_ace",
+    "compiled": true,
+    "report": "build/port/ftop_ace/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_buggy",
+    "compiled": true,
+    "report": "build/port/ftop_buggy/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_crocodile",
+    "compiled": true,
+    "report": "build/port/ftop_crocodile/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_doflamingo",
+    "compiled": true,
+    "report": "build/port/ftop_doflamingo/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_ersa",
+    "compiled": true,
+    "report": "build/port/ftop_ersa/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_gajeel",
+    "compiled": true,
+    "report": "build/port/ftop_gajeel/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_gray",
+    "compiled": true,
+    "report": "build/port/ftop_gray/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_hancock",
+    "compiled": true,
+    "report": "build/port/ftop_hancock/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_jinbei",
+    "compiled": true,
+    "report": "build/port/ftop_jinbei/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_juvia",
+    "compiled": true,
+    "report": "build/port/ftop_juvia/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_lasasi",
+    "compiled": true,
+    "report": "build/port/ftop_lasasi/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_law",
+    "compiled": true,
+    "report": "build/port/ftop_law/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_lucy",
+    "compiled": true,
+    "report": "build/port/ftop_lucy/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_luffy",
+    "compiled": true,
+    "report": "build/port/ftop_luffy/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_luffy2",
+    "compiled": true,
+    "report": "build/port/ftop_luffy2/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_makarov",
+    "compiled": true,
+    "report": "build/port/ftop_makarov/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_mirajane",
+    "compiled": true,
+    "report": "build/port/ftop_mirajane/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_nami",
+    "compiled": true,
+    "report": "build/port/ftop_nami/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_robin2",
+    "compiled": true,
+    "report": "build/port/ftop_robin2/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_sanji",
+    "compiled": true,
+    "report": "build/port/ftop_sanji/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_sanji2",
+    "compiled": true,
+    "report": "build/port/ftop_sanji2/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_wendy",
+    "compiled": true,
+    "report": "build/port/ftop_wendy/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_zoro",
+    "compiled": true,
+    "report": "build/port/ftop_zoro/as3/report.txt",
+    "runtime_verified": false
+  },
+  {
+    "id": "ftop_zoro2",
+    "compiled": true,
+    "report": "build/port/ftop_zoro2/as3/report.txt",
+    "runtime_verified": false
+  }
+]

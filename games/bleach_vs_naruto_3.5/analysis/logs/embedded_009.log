@@ -1,0 +1,102 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting images...
+Exported image 1/14 DefineBitsLossless2 (chid: 1)
+Exported image 2/14 DefineBits (chid: 4)
+Exported image 3/14 DefineBitsJPEG3 (chid: 6)
+Exported image 4/14 DefineBitsJPEG3 (chid: 10)
+Exported image 5/14 DefineBitsJPEG3 (chid: 12)
+Exported image 6/14 DefineBitsLossless2 (chid: 14)
+Exported image 7/14 DefineBitsJPEG3 (chid: 16)
+Exported image 8/14 DefineBitsJPEG3 (chid: 19)
+Exported image 9/14 DefineBitsJPEG3 (chid: 22)
+Exported image 10/14 DefineBitsJPEG3 (chid: 25)
+Exported image 11/14 DefineBitsJPEG3 (chid: 28)
+Exported image 12/14 DefineBitsJPEG3 (chid: 31)
+Exported image 13/14 DefineBitsLossless2 (chid: 34)
+Exported image 14/14 DefineBitsLossless2 (chid: 39)
+Exporting shapes...
+Exported shape 1/14 DefineShape (chid: 2)
+Exported shape 2/14 DefineShape (chid: 5)
+Exported shape 3/14 DefineShape (chid: 7)
+Exported shape 4/14 DefineShape (chid: 11)
+Exported shape 5/14 DefineShape (chid: 13)
+Exported shape 6/14 DefineShape (chid: 15)
+Exported shape 7/14 DefineShape (chid: 17)
+Exported shape 8/14 DefineShape (chid: 20)
+Exported shape 9/14 DefineShape (chid: 23)
+Exported shape 10/14 DefineShape (chid: 26)
+Exported shape 11/14 DefineShape (chid: 29)
+Exported shape 12/14 DefineShape (chid: 32)
+Exported shape 13/14 DefineShape (chid: 35)
+Exported shape 14/14 DefineShape (chid: 40)
+Exporting morphshapes...
+Exporting movies...
+Exporting fonts...
+Exported font 1/1 DefineFont3 (chid: 42, fn: "黑体")
+Exporting DefineFont4s...
+Exporting sounds...
+Exporting binaryData...
+Exporting symbolClass...
+Exporting texts...
+Exported text 1/1 DefineEditText (chid: 43)
+Exporting frames...
+Exported frame 1/1 
+Exporting sprite...
+Exported frame 1/1 DefineSprite (chid: 3, cls: txt_arrow_mc)
+Exported frame 1/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 2/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 3/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 4/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 5/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 6/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 7/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 8/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 9/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 10/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 11/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 12/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 13/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 14/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 15/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 16/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 17/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 18/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 19/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 20/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 21/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 22/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 23/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 24/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 25/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 26/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 27/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 28/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 29/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 30/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 31/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 32/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 33/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 34/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 35/35 DefineSprite (chid: 8, cls: setting_fla.元件1_13)
+Exported frame 1/1 DefineSprite (chid: 9, cls: stg_set_ui)
+Exported frame 1/1 DefineSprite (chid: 18)
+Exported frame 1/1 DefineSprite (chid: 21)
+Exported frame 1/1 DefineSprite (chid: 24)
+Exported frame 1/1 DefineSprite (chid: 27)
+Exported frame 1/1 DefineSprite (chid: 30)
+Exported frame 1/1 DefineSprite (chid: 33)
+Exported frame 1/1 DefineSprite (chid: 36)
+Exported frame 1/1 DefineSprite (chid: 37)
+Exported frame 1/1 DefineSprite (chid: 38, cls: keyset_mc)
+Exported frame 1/1 DefineSprite (chid: 41)
+Exported frame 1/1 DefineSprite (chid: 44, cls: key_set_dialog_mc)
+Exporting buttons...
+Exporting scripts...
+Exported script 5/5 txt_arrow_mc, 00:00.049
+Exported script 2/5 keyset_mc, 00:00.049
+Exported script 4/5 stg_set_ui, 00:00.049
+Exported script 1/5 key_set_dialog_mc, 00:00.049
+Exported script 3/5 setting_fla.元件1_13, 00:00.055
+Export finished. Total export time: 00:04.061
+OK

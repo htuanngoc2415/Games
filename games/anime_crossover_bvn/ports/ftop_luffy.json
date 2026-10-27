@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_luffy",
+  "displayName": "Luffy",
+  "source": "assets/fighter/ftop/luffy.swf",
+  "output": "assets/fighter/ported/ftop_luffy.swf",
+  "actionSprite": 675,
+  "package": "ftop_luffy_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1124,
+      "击飞_弹": 1132,
+      "击飞_倒": 1138,
+      "击飞_起": 1156,
+      "防御恢复": 1094
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 535,
+      "depth": 28,
+      "sprite": 241,
+      "name": "zh1_535_28atm",
+      "params": {
+        "x": 30.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 12
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "200": {
+      "8": "stop();"
+    },
+    "240": {
+      "8": "stop();"
+    },
+    "387": {
+      "18": "stop();"
+    }
+  },
+  "register": {
+    "name": "路飞",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_luffy",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我是要成为海贼王的男人！ ",
+      "总有一天，我会聚集一群不输给这些人的伙伴，并找到世界第一的财宝，我要当上海贼王！！！！ ",
+      "海贼王，我当定了！"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 1
+    }
+  },
+  "bishaFaces": {
+    "路飞1": "assets/face/ported/ftop_luffy_bs1.png",
+    "路飞2": "assets/face/ported/ftop_luffy_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

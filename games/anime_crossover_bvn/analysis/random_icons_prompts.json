@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen",
+  "references": [
+    "assets/face/bvn/random_bleach.png",
+    "assets/face/bvn/random_naruto.png"
+  ],
+  "prompts": [
+    "Generate one square raster game UI random-character selection icon for FAIRY TAIL. The attached tiny Bleach random icon is a STYLE REFERENCE only. Closely match its retro Flash fighting-game look: centered black anonymous head-and-shoulders silhouette, luminous pale cyan outline, prominent red question mark on face, cloudy muted blue-gray background, bottom caption exactly \"FAIRY TAIL\" in bold italic red-orange uppercase with thin white outline. Icon must stay readable when resized to 50 by 48 pixels, so very simple broad shapes and large question mark, caption spanning bottom, no decorative frame, no other text, no actual character portrait. Fill square canvas. Save a raster PNG.",
+    "Generate one square raster game UI random-character selection icon for ONE PIECE. The attached tiny Naruto random icon is a STYLE REFERENCE only. Closely match its retro Flash fighting-game look: centered black anonymous head-and-shoulders silhouette, luminous orange-gold outline, prominent pale question mark on face, cloudy muted blue-gray background, bottom caption exactly \"ONE PIECE\" in bold italic orange-red uppercase with thin white outline. Icon must stay readable when resized to 50 by 48 pixels, so very simple broad shapes and large question mark, caption spanning bottom, no decorative frame, no other text, no actual character portrait. Fill square canvas. Save a raster PNG."
+  ],
+  "masters": [
+    "assets/face/random_sources/random_fairy_tail.png",
+    "assets/face/random_sources/random_one_piece.png"
+  ],
+  "runtime": [
+    "assets/face/ported/random_fairy_tail.png",
+    "assets/face/ported/random_one_piece.png"
+  ],
+  "runtime_size": [
+    50,
+    48
+  ]
+}

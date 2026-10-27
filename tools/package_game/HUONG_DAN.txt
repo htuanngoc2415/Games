@@ -1,0 +1,24 @@
+ANIME CROSSOVER (Bleach - Naruto - Fairy Tail - One Piece)
+
+CHAY GAME
+  Windows: bấm đúp AnimeCrossover.exe
+  Linux  : bấm đúp AnimeCrossover, hoặc mở terminal trong thư mục này và gõ ./AnimeCrossover
+           (nếu báo không có quyền chạy: chmod +x AnimeCrossover engine/ruffle)
+
+Lần đầu game tải khoảng 1-2 phút ở màn "Đang tải tài nguyên (4/4)", cứ chờ.
+Cần card đồ hoạ hỗ trợ Vulkan, DirectX 12 hoặc OpenGL (máy từ khoảng 2015 trở lên đều có).
+
+PHÍM (người chơi 1)
+  W A S D di chuyển   J đánh   K nhảy   L lướt   U kỹ năng   I tuyệt chiêu   O trợ chiến
+  Người chơi 2: phím mũi tên và các phím số ở bàn phím số (1-6).
+  Menu chính có mục "Hồi chiêu" để chỉnh thời gian hồi chiêu và sát thương từng nhân vật.
+  Phím F11 hoặc Alt+Enter của Ruffle: toàn màn hình.
+
+DỮ LIỆU LƯU
+  Nằm trong thư mục "saves" cạnh game. Mang cả thư mục sang máy khác thì cài đặt vẫn giữ nguyên.
+
+NẾU GAME KHÔNG MỞ
+  Xem file loi.txt (nếu có) trong thư mục này.
+  Windows: nếu hiện cảnh báo SmartScreen, chọn "Thông tin thêm" rồi "Vẫn chạy".
+
+Engine: Ruffle (MIT/Apache-2.0), giấy phép trong engine/RUFFLE-LICENSE.md.

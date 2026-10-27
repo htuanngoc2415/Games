@@ -1,0 +1,203 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_gray",
+  "displayName": "Gray",
+  "source": "assets/fighter/ftop/gray.swf",
+  "output": "assets/fighter/ported/ftop_gray.swf",
+  "actionSprite": 382,
+  "package": "ftop_gray_fla",
+  "sounds": {
+    "hurt": [
+      1,
+      3
+    ],
+    "hurtFly": [
+      1,
+      3
+    ],
+    "die": [
+      2
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1138,
+      "击飞_弹": 1146,
+      "击飞_倒": 1152,
+      "击飞_起": 1170,
+      "防御恢复": 1108
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 481,
+      "depth": 28,
+      "sprite": 192,
+      "name": "zh1_481_28atm",
+      "params": {
+        "x": 20.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 16
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 2
+      }
+    },
+    {
+      "frame": 517,
+      "depth": 28,
+      "sprite": 192,
+      "name": "zh1_517_28atm",
+      "params": {
+        "x": 25.0,
+        "y": -3.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 16
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 2
+      }
+    },
+    {
+      "frame": 517,
+      "depth": 31,
+      "sprite": 192,
+      "name": "zh12_517_31atm",
+      "params": {
+        "x": 25.0,
+        "y": 3.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 16
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 2
+      }
+    },
+    {
+      "frame": 568,
+      "depth": 28,
+      "sprite": 213,
+      "name": "zh11_568_28atm",
+      "params": {
+        "x": 30.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 6,
+        "remove": 24
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 6
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "235": {
+      "22": "stop();"
+    }
+  },
+  "register": {
+    "name": "格雷",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_gray",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "这就是我所选择的道路，是我必须去做的事。",
+      "只要有同伴，公会就会存在。",
+      "抱歉了，不管是女人还是小孩，凡是伤害我伙伴的人，我都不会原谅的!"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 2
+    }
+  },
+  "bishaFaces": {
+    "格雷1": "assets/face/ported/ftop_gray_bs1.png",
+    "格雷2": "assets/face/ported/ftop_gray_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

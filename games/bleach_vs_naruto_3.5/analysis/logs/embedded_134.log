@@ -1,0 +1,56 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting images...
+Exported image 1/3 DefineBits (chid: 1)
+Exported image 2/3 DefineBitsLossless2 (chid: 4)
+Exported image 3/3 DefineBitsLossless2 (chid: 10)
+Exporting shapes...
+Exported shape 1/8 DefineShape (chid: 2)
+Exported shape 2/8 DefineShape (chid: 5)
+Exported shape 3/8 DefineShape (chid: 11)
+Exported shape 4/8 DefineShape (chid: 16)
+Exported shape 5/8 DefineShape (chid: 18)
+Exported shape 6/8 DefineShape4 (chid: 25)
+Exported shape 7/8 DefineShape4 (chid: 30)
+Exported shape 8/8 DefineShape4 (chid: 35)
+Exporting morphshapes...
+Exporting movies...
+Exporting fonts...
+Exported font 1/3 DefineFont3 (chid: 6, fn: "Arial")
+Exported font 2/3 DefineFont3 (chid: 26, fn: "ＭＳ Ｐゴシック")
+Exported font 3/3 DefineFont3 (chid: 27, fn: "宋体")
+Exporting DefineFont4s...
+Exporting sounds...
+Exporting binaryData...
+Exporting symbolClass...
+Exporting texts...
+Exported text 1/9 DefineText (chid: 7)
+Exported text 2/9 DefineText (chid: 17)
+Exported text 3/9 DefineText (chid: 19)
+Exported text 4/9 DefineText (chid: 21)
+Exported text 5/9 DefineText (chid: 22)
+Exported text 6/9 DefineText (chid: 28)
+Exported text 7/9 DefineText (chid: 31)
+Exported text 8/9 DefineText (chid: 33)
+Exported text 9/9 DefineText (chid: 36)
+Exporting frames...
+Exported frame 1/1 
+Exporting sprite...
+Exported frame 1/1 DefineSprite (chid: 3)
+Exported frame 1/1 DefineSprite (chid: 8)
+Exported frame 1/1 DefineSprite (chid: 9)
+Exported frame 1/1 DefineSprite (chid: 12)
+Exported frame 1/1 DefineSprite (chid: 13)
+Exported frame 1/1 DefineSprite (chid: 14)
+Exported frame 1/1 DefineSprite (chid: 15)
+Exported frame 1/1 DefineSprite (chid: 20)
+Exported frame 1/1 DefineSprite (chid: 23)
+Exported frame 1/1 DefineSprite (chid: 24)
+Exported frame 1/1 DefineSprite (chid: 29)
+Exported frame 1/1 DefineSprite (chid: 32)
+Exported frame 1/1 DefineSprite (chid: 34)
+Exported frame 1/1 DefineSprite (chid: 37)
+Exporting buttons...
+Exporting scripts...
+Export finished. Total export time: 00:01.373
+OK

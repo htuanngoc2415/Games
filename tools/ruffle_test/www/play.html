@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Anime Crossover BVN</title>
+<style>
+html,body{margin:0;height:100%;background:#000}#player{width:100vw;height:100vh}
+#warn{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);color:#fff;font:18px/1.6 sans-serif;padding:8vh 10vw;box-sizing:border-box;z-index:10}
+#warn b{color:#ffcf4a}
+</style>
+<script>
+// Ruffle in "Used renderer: ..." ra console. Game cần BitmapData.draw: renderer "webgl" cũ và "canvas"
+// không có, game sẽ kẹt ở "Đang tải tài nguyên (4/4)". Bắt dòng log đó để báo cho người chơi.
+(function(){
+  const log=console.log;
+  console.log=function(){
+    try{
+      const text=Array.prototype.join.call(arguments," ");
+      const m=/Used renderer: ([\w-]+)/.exec(text);
+      if(m && (m[1]==="webgl" || m[1]==="canvas")){
+        document.getElementById("renderer").textContent=m[1];
+        document.getElementById("warn").style.display="block";
+      }
+    }catch(e){}
+    return log.apply(console,arguments);
+  };
+})();
+window.RufflePlayer=window.RufflePlayer||{};
+window.RufflePlayer.config={autoplay:"on",unmuteOverlay:"hidden",splashScreen:false,letterbox:"on",logLevel:"error",preferredRenderer:"wgpu-webgl"};
+</script>
+<script src="ruffle/ruffle.js"></script></head><body>
+<div id="warn">
+<p><b>Trình duyệt không cấp được GPU cho game</b> (Ruffle đang dùng renderer <b id="renderer"></b>), nên game sẽ dừng ở bước tải 4/4.</p>
+<p>Cách khắc phục:</p>
+<ol>
+<li>Tắt hẳn trình duyệt (tất cả cửa sổ) rồi mở lại.</li>
+<li>Bật tăng tốc phần cứng: Cài đặt → Hệ thống → <i>Sử dụng tính năng tăng tốc phần cứng khi khả dụng</i>.</li>
+<li>Mở <code>chrome://gpu</code>: mục WebGL2 phải là "Hardware accelerated".</li>
+<li>Hoặc dùng trình duyệt khác (Firefox).</li>
+</ol>
+</div>
+<script>
+window.addEventListener("load",()=>{const p=window.RufflePlayer.newest().createPlayer();p.id="player";document.body.appendChild(p);p.load({url:"test.swf?v="+Date.now()});p.focus();});
+</script></body></html>

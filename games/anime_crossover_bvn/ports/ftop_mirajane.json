@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "speed": 9.0,
+    "jumpPower": 17.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_mirajane",
+  "displayName": "Mirajane",
+  "source": "assets/fighter/ftop/mirajane.swf",
+  "output": "assets/fighter/ported/ftop_mirajane.swf",
+  "actionSprite": 526,
+  "package": "ftop_mirajane_fla",
+  "sounds": {
+    "hurt": [
+      1,
+      2
+    ],
+    "hurtFly": [
+      1,
+      2
+    ],
+    "die": [
+      3
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1206,
+      "击飞_弹": 1214,
+      "击飞_倒": 1220,
+      "击飞_起": 1238,
+      "防御恢复": 1176
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "451": {
+      "19": "stop();"
+    }
+  },
+  "register": {
+    "name": "米拉杰",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_mirajane",
+    "bgm": {
+      "file": "assets/music/ftop/ersa.mp3",
+      "url": "bgm/ftop/ersa.mp3",
+      "rate": 70
+    },
+    "says": [
+      "这样的战斗…太空虚了。",
+      "我不认为依赖一个人有什么不对，在你的身边有许许多多的人，人与人之间总是紧密相连。",
+      "我…现在的我，虽然没有战斗的力量，不过…我一定要保护同伴！"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 7
+    }
+  },
+  "bishaFaces": {
+    "米拉杰1": "assets/face/ported/ftop_mirajane_bs1.png",
+    "米拉杰2": "assets/face/ported/ftop_mirajane_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

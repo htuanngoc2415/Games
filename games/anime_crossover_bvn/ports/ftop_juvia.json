@@ -1,0 +1,162 @@
+{
+  "stats": {
+    "speed": 7.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_juvia",
+  "displayName": "Juvia",
+  "source": "assets/fighter/ftop/juvia.swf",
+  "output": "assets/fighter/ported/ftop_juvia.swf",
+  "actionSprite": 452,
+  "package": "ftop_juvia_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 935,
+      "击飞_弹": 943,
+      "击飞_倒": 949,
+      "击飞_起": 967,
+      "防御恢复": 905
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 169,
+      "depth": 28,
+      "sprite": 99,
+      "name": "tz_169_28atm",
+      "params": {
+        "x": 15.0,
+        "y": 20.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 24
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    },
+    {
+      "frame": 490,
+      "depth": 28,
+      "sprite": 255,
+      "name": "zh1_490_28atm",
+      "params": {
+        "x": 25.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 24
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "203": {
+      "46": "stop();",
+      "18": "this.name = \"zh2atm\";",
+      "42": "this.name = \"abcd\";"
+    }
+  },
+  "register": {
+    "name": "朱比亚",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_juvia",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "如果让我伤害别人的话，让我伤害同伴的话，就让朱比亚作铺路石好了！",
+      "朱比亚非常喜欢妖精尾巴。大家都为同伴着想，非常快乐，十分温暖。。",
+      "既然有爱就必须要活下去。！",
+      "格雷大人!~~~~~ 等等我!~~~~"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 9
+    }
+  },
+  "bishaFaces": {
+    "朱比亚1": "assets/face/ported/ftop_juvia_bs1.png",
+    "朱比亚2": "assets/face/ported/ftop_juvia_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

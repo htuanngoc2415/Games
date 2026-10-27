@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "speed": 10.0,
+    "jumpPower": 18.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_luffy2",
+  "displayName": "Luffy-2Y",
+  "source": "assets/fighter/ftop/luffy2.swf",
+  "output": "assets/fighter/ported/ftop_luffy2.swf",
+  "actionSprite": 997,
+  "package": "ftop_luffy2_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1232,
+      "击飞_弹": 1240,
+      "击飞_倒": 1246,
+      "击飞_起": 1264,
+      "防御恢复": 1202
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "926": {
+      "14": "stop();"
+    }
+  },
+  "register": {
+    "name": "路飞2",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_luffy2",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "做喜欢的事才是最重要的! ",
+      "不战胜你的话就保护不了任何人。 ",
+      "我一定会成为海贼王！",
+      "敢对我的伙伴出手，就要做好心理准备。"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 2
+    }
+  },
+  "bishaFaces": {
+    "路飞21": "assets/face/ported/ftop_luffy2_bs1.png",
+    "路飞22": "assets/face/ported/ftop_luffy2_bs2.png",
+    "路飞23": "assets/face/ported/ftop_luffy2_bs3.png"
+  },
+  "nestedScriptWarnings": []
+}

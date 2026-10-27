@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_gajeel",
+  "displayName": "Gajeel",
+  "source": "assets/fighter/ftop/gajeel.swf",
+  "output": "assets/fighter/ported/ftop_gajeel.swf",
+  "actionSprite": 559,
+  "package": "ftop_gajeel_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1095,
+      "击飞_弹": 1103,
+      "击飞_倒": 1109,
+      "击飞_起": 1127,
+      "防御恢复": 1065
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "139": {
+      "11": "stop();"
+    },
+    "171": {
+      "13": "stop();"
+    },
+    "295": {
+      "14": "stop();"
+    },
+    "501": {
+      "50": "stop();"
+    }
+  },
+  "register": {
+    "name": "葛吉尔",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_gajeel",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "哼！本大爷是最强的！",
+      "开什么玩笑？",
+      "怎么能输给你呢？我绝对不能输啊！我是妖精的尾巴的魔导士啊！"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 5
+    }
+  },
+  "bishaFaces": {
+    "干吉尔1": "assets/face/ported/ftop_gajeel_bs1.png",
+    "干吉尔2": "assets/face/ported/ftop_gajeel_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

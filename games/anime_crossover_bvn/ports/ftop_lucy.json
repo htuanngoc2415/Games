@@ -1,0 +1,139 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_lucy",
+  "displayName": "Lucy",
+  "source": "assets/fighter/ftop/lucy.swf",
+  "output": "assets/fighter/ported/ftop_lucy.swf",
+  "actionSprite": 363,
+  "package": "ftop_lucy_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 980,
+      "击飞_弹": 988,
+      "击飞_倒": 994,
+      "击飞_起": 1012,
+      "防御恢复": 950
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 454,
+      "depth": 30,
+      "sprite": 170,
+      "name": "zh1_454_30atm",
+      "params": {
+        "x": 20.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 24
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 2
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "254": {
+      "29": "stop();"
+    }
+  },
+  "register": {
+    "name": "露西",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_lucy",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我最喜欢妖精尾巴了！",
+      "妖精尾巴绝对不会饶过你们的！",
+      "我啊…觉得如果不是跟大家在一起的话，我一定无法生存下去。",
+      "星灵不是盾牌！一起作战才是我的风格！"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 3
+    }
+  },
+  "bishaFaces": {
+    "露西1": "assets/face/ported/ftop_lucy_bs1.png",
+    "露西2": "assets/face/ported/ftop_lucy_bs2.png",
+    "露西3": "assets/face/ported/ftop_lucy_bs3.png"
+  },
+  "nestedScriptWarnings": []
+}

@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "speed": 9.0,
+    "jumpPower": 18.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_robin2",
+  "displayName": "Nico Robin",
+  "source": "assets/fighter/ftop/robin2.swf",
+  "output": "assets/fighter/ported/ftop_robin2.swf",
+  "actionSprite": 1138,
+  "package": "ftop_robin2_fla",
+  "sounds": {
+    "hurt": [],
+    "hurtFly": [],
+    "die": []
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1310,
+      "击飞_弹": 1318,
+      "击飞_倒": 1324,
+      "击飞_起": 1342,
+      "防御恢复": 1280
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "3": {
+      "1": "stop();"
+    },
+    "172": {
+      "21": "this.name = \"tzatm\";",
+      "18": "this.name = \"abcd\";",
+      "16": "this.name = \"tz1atm\";",
+      "12": "this.name = \"abcd\";",
+      "1": "stop();",
+      "29": "stop();",
+      "10": "this.name = \"tz1atm\";",
+      "23": "this.name = \"abcd\";"
+    },
+    "231": {
+      "34": "this.name = \"abcd\";",
+      "56": "stop();",
+      "32": "this.name = \"tzatm\";",
+      "13": "this.name = \"abcd\";",
+      "25": "this.name = \"abcd\";",
+      "23": "this.name = \"tz1atm\";",
+      "11": "this.name = \"tz1atm\";"
+    },
+    "403": {
+      "54": "stop();"
+    },
+    "631": {
+      "59": "parent._flowerHit = 2; if(parent && parent.parent && parent.parent.$mc_ctrler) parent.parent.$mc_ctrler.gotoAndPlay(\"招22\");",
+      "6": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "5": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "7": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "3": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "18": "this.name = \"zh21atm\";",
+      "2": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "4": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "9": "this.name = \"zh2atm\";",
+      "8": "var fc:* = parent && parent.parent ? parent.parent.$fighter_ctrler : null; if(fc && fc.target) { if(fc.self.x < fc.target.x)\n{\n   this.x = fc.target.x - fc.self.x;\n}\nif(fc.self.x > fc.target.x)\n{\n   this.x = fc.self.x - fc.target.x;\n}\n }",
+      "1": "stop();",
+      "20": "this.name = \"zzz\";",
+      "45": "this.name = \"zh22atm\";",
+      "47": "this.name = \"zzz\";",
+      "11": "this.name = \"zzz\";"
+    },
+    "718": {
+      "81": "this.name = \"abcd\";",
+      "69": "this.name = \"abcd\";",
+      "44": "stop();",
+      "60": "this.name = \"abcd\";",
+      "66": "this.name = \"zh21atm\";",
+      "78": "this.name = \"zh22atm\";",
+      "57": "this.name = \"zh2atm\";"
+    },
+    "979": {
+      "118": "stop();",
+      "85": "this.name = \"sbs1atm\";",
+      "61": "this.name = \"sbs2atm\";",
+      "27": "this.name = \"sbs2atm\";",
+      "87": "this.name = \"abcd\";",
+      "96": "this.name = \"abcd\";",
+      "44": "this.name = \"zzz\";",
+      "75": "this.name = \"abcd\";",
+      "8": "this.name = \"sbs1atm\";",
+      "42": "this.name = \"sbs1atm\";",
+      "63": "this.name = \"zzz\";",
+      "94": "this.name = \"sbs3atm\";",
+      "73": "this.name = \"sbs1atm\";",
+      "29": "this.name = \"zzz\";",
+      "10": "this.name = \"zzz\";"
+    }
+  },
+  "register": {
+    "name": "罗宾2",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_robin2",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "看世界要看到真实的世界，千万不要向自己撒谎。你对自己都撒谎，那么你不可能改变。为什么很多人要夸大事实因为他们害怕失败。",
+      "任何谈论都是没有用的，只有去做才有用。",
+      "改变感觉的方式，改变做事情的方式就可以改变世界。"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 7
+    }
+  },
+  "bishaFaces": {
+    "罗宾21": "assets/face/ported/ftop_robin2_bs1.png",
+    "罗宾22": "assets/face/ported/ftop_robin2_bs2.png"
+  },
+  "nestedScriptWarnings": [],
+  "extraRenames": [
+    {
+      "sprite": 1138,
+      "frame": 183,
+      "depth": 28,
+      "name": "hit_check"
+    },
+    {
+      "sprite": 1138,
+      "frame": 641,
+      "depth": 30,
+      "name": "hit_check"
+    }
+  ]
+}

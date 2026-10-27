@@ -1,0 +1,29 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting frames...
+Oct 01, 2026 12:39:34 PM com.jpexs.decompiler.flash.gui.Main$42 uncaughtException
+SEVERE: Uncaught exception in thread: main
+java.awt.AWTError: Can't connect to X11 window server using ':1' as the value of the DISPLAY variable.
+	at java.desktop/sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at java.desktop/sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:105)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at java.desktop/sun.awt.X11GraphicsEnvironment.initStatic(X11GraphicsEnvironment.java:64)
+	at java.desktop/sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:59)
+	at java.desktop/sun.awt.PlatformGraphicsInfo.createGE(PlatformGraphicsInfo.java:37)
+	at java.desktop/java.awt.GraphicsEnvironment$LocalGE.createGE(GraphicsEnvironment.java:91)
+	at java.desktop/java.awt.GraphicsEnvironment$LocalGE.<clinit>(GraphicsEnvironment.java:82)
+	at java.desktop/java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:104)
+	at java.desktop/java.awt.image.BufferedImage.createGraphics(BufferedImage.java:1182)
+	at java.desktop/java.awt.image.BufferedImage.getGraphics(BufferedImage.java:1171)
+	at com.jpexs.decompiler.flash.SWF.frameToImageGet(SWF.java:5082)
+	at com.jpexs.decompiler.flash.exporters.FrameExporter$MyFrameIterator.next(FrameExporter.java:271)
+	at com.jpexs.decompiler.flash.exporters.FrameExporter.lambda$exportFrames$10(FrameExporter.java:690)
+	at com.jpexs.decompiler.flash.RetryTask.run(RetryTask.java:60)
+	at com.jpexs.decompiler.flash.exporters.FrameExporter.exportFrames(FrameExporter.java:695)
+	at com.jpexs.decompiler.flash.exporters.FrameExporter.exportFrames(FrameExporter.java:305)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseExport(CommandLineArgumentParser.java:2409)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArgumentsInternal(CommandLineArgumentParser.java:690)
+	at com.jpexs.decompiler.flash.console.CommandLineArgumentParser.parseArguments(CommandLineArgumentParser.java:476)
+	at com.jpexs.decompiler.flash.gui.Main.main(Main.java:3633)
+	at com.jpexs.decompiler.flash.cli.CommandlineInterface.main(CommandlineInterface.java:32)
+

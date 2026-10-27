@@ -1,0 +1,69 @@
+Suspicious top-level packages (heuristic, no renaming):
+extracted/scripts/ǵ: 1 files; examples: ǵ/Ǵ.as
+extracted/scripts/Ƿ: 2 files; examples: Ƿ/Ȃ.as, Ƿ/Ƕ.as
+extracted/scripts/ǹ: 3 files; examples: ǹ/Ǹ.as, ǹ/ǽ.as, ǹ/ȇ.as
+extracted/scripts/ǻ: 14 files; examples: ǻ/Ǽ.as, ǻ/Ȁ.as, ǻ/Ȇ.as
+extracted/scripts/ǿ: 3 files; examples: ǿ/ȋ_2.as, ǿ/Ǿ.as, ǿ/Ȋ.as
+extracted/scripts/ȉ: 1 files; examples: ȉ/Ȉ.as
+extracted/scripts/ȍ: 8 files; examples: ȍ/Ȣ.as, ȍ/ȭ.as, ȍ/ȣ_2.as
+extracted/scripts/ȏ: 5 files; examples: ȏ/Ȏ.as, ȏ/ȑ_2.as, ȏ/Ȑ.as
+extracted/scripts/ȓ: 2 files; examples: ȓ/Ȓ.as, ȓ/ń.as
+extracted/scripts/ȕ: 7 files; examples: ȕ/Ȭ.as, ȕ/Ȕ.as, ȕ/Ȗ.as
+extracted/scripts/ȗ: 1 files; examples: ȗ/ȁ.as
+extracted/scripts/Ș: 5 files; examples: Ș/ȵ.as, Ș/ȩ.as, Ș/ȗ.as
+extracted/scripts/Ț: 7 files; examples: Ț/Ȫ.as, Ț/Ɋ.as, Ț/ț.as
+extracted/scripts/ȯ: 7 files; examples: ȯ/Ȼ.as, ȯ/ȿ.as, ȯ/ȷ.as
+extracted/scripts/ȱ: 4 files; examples: ȱ/Ⱦ.as, ȱ/Ȱ.as, ȱ/Ʉ.as
+extracted/scripts/ȳ: 2 files; examples: ȳ/ȼ.as, ȳ/Ȳ.as
+extracted/scripts/ȹ: 2 files; examples: ȹ/ȸ.as, ȹ/Ɇ.as
+extracted/scripts/ɉ: 4 files; examples: ɉ/ɍ_2.as, ɉ/Ɉ.as, ɉ/Ɍ.as
+extracted/scripts/ɓ: 1 files; examples: ɓ/ɒ.as
+extracted/scripts/ɕ: 7 files; examples: ɕ/ɗ.as, ɕ/ɘ.as, ɕ/ə.as
+extracted/scripts/ɝ: 4 files; examples: ɝ/ɹ.as, ɝ/ɷ.as, ɝ/ɸ.as
+extracted/scripts/ɟ: 3 files; examples: ɟ/ɯ.as, ɟ/ɞ.as, ɟ/ɰ.as
+extracted/scripts/ɡ: 1 files; examples: ɡ/ɠ.as
+extracted/scripts/ɲ: 2 files; examples: ɲ/ɱ.as, ɲ/ʁ.as
+extracted/scripts/ɴ: 1 files; examples: ɴ/ɳ.as
+extracted/scripts/ɼ: 1 files; examples: ɼ/ɻ.as
+extracted/scripts/ʃ: 2 files; examples: ʃ/ʂ.as, ʃ/ʄ.as
+
+Unicode packages may be obfuscated support/game code; role is unconfirmed.
+
+Generated/embedded-resource name candidates: 35
+script_137.as
+script_135.as
+script_141.as
+script_142.as
+extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray.as
+title_swf$74605885447fbc5f6ed12d2225e294521338255319.as
+bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray.as
+assets_zip$96b1c6c2edd687666ddf39a329ddd6411749259997.as
+mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray.as
+common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray.as
+script_139.as
+howtoplay_swf_ByteArray.as
+script_217.as
+mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934.as
+script_212.as
+dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray.as
+script_143.as
+submitscore_png$34a575fd2188aa6f0b9ad72de052aeab413328729.as
+select_swf_ByteArray.as
+fight_swf$35d8c66ec0faf4684035117d0561540b2035494943.as
+script_138.as
+common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831.as
+title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray.as
+extend_swf$2844a9d49b11fb83247532d914244b64873071735.as
+weixin_png$f79d12f232c5f4513b82b29da6031aa2394178161.as
+dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074.as
+fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray.as
+script_140.as
+bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877.as
+loading_swf_ByteArray.as
+setting_swf_ByteArray.as
+android_png$d54db29fea3bf96d45040376661a5af01072118982.as
+script_136.as
+script_213.as
+gameover_swf_ByteArray.as
+
+ByteArray and hashed names appear to represent embedded assets. Single-character Unicode packages suggest obfuscation; no deep gameplay analysis performed.

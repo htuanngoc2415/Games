@@ -1,0 +1,153 @@
+{
+  "stats": {
+    "speed": 10.0,
+    "jumpPower": 17.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_zoro2",
+  "displayName": "Zoro-2Y",
+  "source": "assets/fighter/ftop/zoro2.swf",
+  "output": "assets/fighter/ported/ftop_zoro2.swf",
+  "actionSprite": 834,
+  "package": "ftop_zoro2_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 46,
+      "跳": 48,
+      "跳中": 56,
+      "落地": 122,
+      "击飞_落": 1362,
+      "击飞_弹": 1370,
+      "击飞_倒": 1376,
+      "击飞_起": 1394,
+      "防御恢复": 1332
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 555,
+      "depth": 30,
+      "sprite": 359,
+      "name": "zh1_555_30atm",
+      "params": {
+        "x": 22.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 19
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "101": {
+      "8": "stop();"
+    },
+    "437": {
+      "26": "stop();"
+    },
+    "507": {
+      "8": "stop();"
+    },
+    "522": {
+      "8": "stop();"
+    },
+    "537": {
+      "15": "stop();"
+    },
+    "758": {
+      "27": "stop();"
+    }
+  },
+  "register": {
+    "name": "佐罗2",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_zoro2",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我要成为世界第一的剑客，就算是恶名昭彰我也要扬名全世界。  ",
+      "三刀流和拿三把刀，是不一样的。",
+      "吾乃生于乱世中，自当斩破尘埃。"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 4
+    }
+  },
+  "bishaFaces": {
+    "佐罗21": "assets/face/ported/ftop_zoro2_bs1.png",
+    "佐罗22": "assets/face/ported/ftop_zoro2_bs2.png",
+    "佐罗23": "assets/face/ported/ftop_zoro2_bs3.png"
+  },
+  "nestedScriptWarnings": []
+}

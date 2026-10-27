@@ -1,0 +1,400 @@
+DefineButton2_1399/BUTTONCONDACTION on(release).as
+DefineButton2_1772/BUTTONCONDACTION on(release).as
+DefineButton2_1900/BUTTONCONDACTION on(keyPress Enter).as
+DefineButton2_1900/BUTTONCONDACTION on(release).as
+DefineButton2_1946/BUTTONCONDACTION on(keyPress Enter).as
+DefineButton2_1946/BUTTONCONDACTION on(keyPress Space).as
+DefineButton2_1946/BUTTONCONDACTION on(release).as
+DefineButton2_1954/BUTTONCONDACTION on(release).as
+DefineButton2_1957/BUTTONCONDACTION on(release).as
+DefineButton2_1981/BUTTONCONDACTION on(release).as
+DefineButton2_1991/BUTTONCONDACTION on(release).as
+DefineButton2_570/BUTTONCONDACTION on(release).as
+DefineButton2_647/BUTTONCONDACTION on(release).as
+DefineButton2_650/BUTTONCONDACTION on(release).as
+DefineButton2_725/BUTTONCONDACTION on(release).as
+DefineButton2_725/BUTTONCONDACTION on(rollOver).as
+DefineButton2_740/BUTTONCONDACTION on(release).as
+DefineButton2_741/BUTTONCONDACTION on(release).as
+DefineButton2_742/BUTTONCONDACTION on(release).as
+DefineButton2_743/BUTTONCONDACTION on(release).as
+DefineButton2_744/BUTTONCONDACTION on(release).as
+DefineButton2_745/BUTTONCONDACTION on(release).as
+DefineButton2_746/BUTTONCONDACTION on(release).as
+DefineButton2_747/BUTTONCONDACTION on(release).as
+DefineButton2_748/BUTTONCONDACTION on(release).as
+DefineButton2_749/BUTTONCONDACTION on(release).as
+DefineButton2_785/BUTTONCONDACTION on(release).as
+DefineButton2_786/BUTTONCONDACTION on(release).as
+DefineButton2_787/BUTTONCONDACTION on(release).as
+DefineButton2_788/BUTTONCONDACTION on(release).as
+DefineButton2_789/BUTTONCONDACTION on(release).as
+DefineButton2_790/BUTTONCONDACTION on(release).as
+DefineButton2_791/BUTTONCONDACTION on(release).as
+DefineButton2_792/BUTTONCONDACTION on(release).as
+DefineButton2_793/BUTTONCONDACTION on(release).as
+DefineButton2_794/BUTTONCONDACTION on(release).as
+DefineSprite_107_XG_leidian/frame_10/DoAction.as
+DefineSprite_107_XG_leidian/frame_11/DoAction.as
+DefineSprite_107_XG_leidian/frame_12/DoAction.as
+DefineSprite_107_XG_leidian/frame_13/DoAction.as
+DefineSprite_107_XG_leidian/frame_15/DoAction.as
+DefineSprite_107_XG_leidian/frame_16/DoAction.as
+DefineSprite_107_XG_leidian/frame_2/DoAction.as
+DefineSprite_107_XG_leidian/frame_2/DoAction_2.as
+DefineSprite_107_XG_leidian/frame_23/DoAction.as
+DefineSprite_107_XG_leidian/frame_3/DoAction.as
+DefineSprite_107_XG_leidian/frame_4/DoAction.as
+DefineSprite_107_XG_leidian/frame_5/DoAction.as
+DefineSprite_107_XG_leidian/frame_6/DoAction.as
+DefineSprite_107_XG_leidian/frame_7/DoAction.as
+DefineSprite_107_XG_leidian/frame_8/DoAction.as
+DefineSprite_107_XG_leidian/frame_9/DoAction.as
+DefineSprite_1091/frame_18/DoAction.as
+DefineSprite_1110/frame_17/DoAction.as
+DefineSprite_1229/frame_105/DoAction.as
+DefineSprite_1230/frame_1/DoAction.as
+DefineSprite_1230/frame_1250/DoAction.as
+DefineSprite_1230/frame_1260/DoAction.as
+DefineSprite_1230/frame_15/PlaceObject2_854_38/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_1230/frame_5/DoAction.as
+DefineSprite_1306/frame_1/DoAction.as
+DefineSprite_1307/frame_1/DoAction.as
+DefineSprite_1307/frame_2/DoAction.as
+DefineSprite_1307/frame_5/DoAction.as
+DefineSprite_1386/frame_1/DoAction.as
+DefineSprite_1391/frame_1/DoAction.as
+DefineSprite_1394/frame_1/DoAction.as
+DefineSprite_1395/frame_1/DoAction.as
+DefineSprite_140/frame_32/DoAction.as
+DefineSprite_1423/frame_1/DoAction.as
+DefineSprite_1427/frame_1/DoAction.as
+DefineSprite_1428/frame_1/DoAction.as
+DefineSprite_1429/frame_10/DoAction.as
+DefineSprite_1429/frame_10/PlaceObject2_1314_11/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1429/frame_15/DoAction.as
+DefineSprite_1429/frame_20/PlaceObject2_1314_11/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1429/frame_27/DoAction.as
+DefineSprite_1429/frame_3/DoAction.as
+DefineSprite_1429/frame_35/DoAction.as
+DefineSprite_142_XG_fire/frame_10/DoAction.as
+DefineSprite_142_XG_fire/frame_11/DoAction.as
+DefineSprite_142_XG_fire/frame_12/DoAction.as
+DefineSprite_142_XG_fire/frame_13/DoAction.as
+DefineSprite_142_XG_fire/frame_15/DoAction.as
+DefineSprite_142_XG_fire/frame_16/DoAction.as
+DefineSprite_142_XG_fire/frame_2/DoAction.as
+DefineSprite_142_XG_fire/frame_2/DoAction_2.as
+DefineSprite_142_XG_fire/frame_3/DoAction.as
+DefineSprite_142_XG_fire/frame_37/DoAction.as
+DefineSprite_142_XG_fire/frame_4/DoAction.as
+DefineSprite_142_XG_fire/frame_5/DoAction.as
+DefineSprite_142_XG_fire/frame_6/DoAction.as
+DefineSprite_142_XG_fire/frame_7/DoAction.as
+DefineSprite_142_XG_fire/frame_8/DoAction.as
+DefineSprite_142_XG_fire/frame_9/DoAction.as
+DefineSprite_1467/frame_1/DoAction.as
+DefineSprite_1570/frame_1/DoAction.as
+DefineSprite_1573/frame_1/DoAction.as
+DefineSprite_1573/frame_6/DoAction.as
+DefineSprite_1573/frame_61/DoAction.as
+DefineSprite_1579/frame_1/DoAction.as
+DefineSprite_1642/frame_1/DoAction.as
+DefineSprite_1698/frame_1/DoAction.as
+DefineSprite_1705/frame_11/DoAction.as
+DefineSprite_1706/frame_1/DoAction.as
+DefineSprite_1713/frame_1/DoAction.as
+DefineSprite_1726/frame_1/DoAction.as
+DefineSprite_1727/frame_1/DoAction.as
+DefineSprite_173/frame_16/DoAction.as
+DefineSprite_1738/frame_1/DoAction.as
+DefineSprite_175_XG_rush/frame_17/DoAction.as
+DefineSprite_1761/frame_1/DoAction.as
+DefineSprite_1764/frame_1/DoAction.as
+DefineSprite_1764/frame_31/DoAction.as
+DefineSprite_1767/frame_1/DoAction.as
+DefineSprite_1768/frame_1/DoAction.as
+DefineSprite_1769/frame_1/DoAction.as
+DefineSprite_1769/frame_1/PlaceObject2_1727_1/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1769/frame_1/PlaceObject2_1727_8/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1773/frame_1/DoAction.as
+DefineSprite_1773/frame_7/DoAction.as
+DefineSprite_1785/frame_1/DoAction.as
+DefineSprite_1786/frame_1/DoAction.as
+DefineSprite_1791/frame_1/DoAction.as
+DefineSprite_1791/frame_10/DoAction.as
+DefineSprite_1791/frame_11/DoAction.as
+DefineSprite_1801/frame_1/DoAction.as
+DefineSprite_1801/frame_15/DoAction.as
+DefineSprite_1802/frame_20/PlaceObject2_1801_1/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_1802/frame_40/DoAction.as
+DefineSprite_1802/frame_49/DoAction.as
+DefineSprite_1802/frame_50/DoAction.as
+DefineSprite_1806/frame_1/DoAction.as
+DefineSprite_1806/frame_199/DoAction.as
+DefineSprite_1806/frame_2/DoAction.as
+DefineSprite_1806/frame_240/DoAction.as
+DefineSprite_1806/frame_344/DoAction.as
+DefineSprite_1806/frame_350/DoAction.as
+DefineSprite_1806/frame_40/DoAction.as
+DefineSprite_1806/frame_54/DoAction.as
+DefineSprite_1806/frame_62/PlaceObject2_1802_1/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1806/frame_67/DoAction.as
+DefineSprite_1816/frame_1/DoAction.as
+DefineSprite_1816/frame_224/DoAction.as
+DefineSprite_1816/frame_267/DoAction.as
+DefineSprite_1816/frame_31/DoAction.as
+DefineSprite_1816/frame_373/DoAction.as
+DefineSprite_1816/frame_385/DoAction.as
+DefineSprite_1816/frame_391/DoAction.as
+DefineSprite_1816/frame_79/DoAction.as
+DefineSprite_1816/frame_90/PlaceObject2_1802_1/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1816/frame_95/DoAction.as
+DefineSprite_1826/frame_5/DoAction.as
+DefineSprite_1830/frame_5/DoAction.as
+DefineSprite_1834/frame_5/DoAction.as
+DefineSprite_1835/frame_1/DoAction.as
+DefineSprite_1836/frame_1/DoAction.as
+DefineSprite_1842/frame_1/DoAction.as
+DefineSprite_1842/frame_127/DoAction.as
+DefineSprite_1842/frame_2/DoAction.as
+DefineSprite_1845/frame_1/DoAction.as
+DefineSprite_1845/frame_10/DoAction.as
+DefineSprite_1845/frame_21/DoAction.as
+DefineSprite_1845/frame_29/DoAction.as
+DefineSprite_1845/frame_38/DoAction.as
+DefineSprite_1845/frame_42/DoAction.as
+DefineSprite_186/frame_11/DoAction.as
+DefineSprite_1872/frame_1/DoAction.as
+DefineSprite_1872/frame_10/DoAction.as
+DefineSprite_1872/frame_5/DoAction.as
+DefineSprite_1879/frame_1/DoAction.as
+DefineSprite_1879/frame_11/DoAction.as
+DefineSprite_1879/frame_11/PlaceObject2_1874_4/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1879/frame_2/DoAction.as
+DefineSprite_1879/frame_240/DoAction.as
+DefineSprite_1879/frame_242/DoAction.as
+DefineSprite_1879/frame_252/DoAction.as
+DefineSprite_1879/frame_27/PlaceObject2_854_25/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_1879/frame_5/DoAction.as
+DefineSprite_1879/frame_91/DoAction.as
+DefineSprite_1881/frame_1/DoAction.as
+DefineSprite_188_XG_ice/frame_10/DoAction.as
+DefineSprite_188_XG_ice/frame_11/DoAction.as
+DefineSprite_188_XG_ice/frame_12/DoAction.as
+DefineSprite_188_XG_ice/frame_13/DoAction.as
+DefineSprite_188_XG_ice/frame_15/DoAction.as
+DefineSprite_188_XG_ice/frame_16/DoAction.as
+DefineSprite_188_XG_ice/frame_2/DoAction.as
+DefineSprite_188_XG_ice/frame_2/DoAction_2.as
+DefineSprite_188_XG_ice/frame_23/DoAction.as
+DefineSprite_188_XG_ice/frame_3/DoAction.as
+DefineSprite_188_XG_ice/frame_4/DoAction.as
+DefineSprite_188_XG_ice/frame_5/DoAction.as
+DefineSprite_188_XG_ice/frame_6/DoAction.as
+DefineSprite_188_XG_ice/frame_7/DoAction.as
+DefineSprite_188_XG_ice/frame_8/DoAction.as
+DefineSprite_188_XG_ice/frame_9/DoAction.as
+DefineSprite_19/frame_9/DoAction.as
+DefineSprite_1901/frame_1/DoAction.as
+DefineSprite_1901/frame_10/DoAction.as
+DefineSprite_1950/frame_1/DoAction.as
+DefineSprite_1951/frame_11/PlaceObject2_1875_7/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1951/frame_22/DoAction.as
+DefineSprite_1951/frame_22/PlaceObject2_854_15/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_1951/frame_3/DoAction.as
+DefineSprite_1965/frame_1/DoAction.as
+DefineSprite_1965/frame_30/DoAction.as
+DefineSprite_1965/frame_5/DoAction.as
+DefineSprite_1970/frame_150/DoAction.as
+DefineSprite_1992/frame_1/DoAction.as
+DefineSprite_1993/frame_1736/PlaceObject2_1875_9/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_1993/frame_1785/DoAction.as
+DefineSprite_1993/frame_3/DoAction.as
+DefineSprite_201/frame_10/DoAction.as
+DefineSprite_21_XG_jump/frame_10/DoAction.as
+DefineSprite_235_XG_kanx/frame_1/DoAction.as
+DefineSprite_235_XG_kanx/frame_10/DoAction.as
+DefineSprite_235_XG_kanx/frame_11/DoAction.as
+DefineSprite_235_XG_kanx/frame_12/DoAction.as
+DefineSprite_235_XG_kanx/frame_13/DoAction.as
+DefineSprite_235_XG_kanx/frame_15/DoAction.as
+DefineSprite_235_XG_kanx/frame_2/DoAction.as
+DefineSprite_235_XG_kanx/frame_2/DoAction_2.as
+DefineSprite_235_XG_kanx/frame_24/DoAction.as
+DefineSprite_235_XG_kanx/frame_3/DoAction.as
+DefineSprite_235_XG_kanx/frame_4/DoAction.as
+DefineSprite_235_XG_kanx/frame_5/DoAction.as
+DefineSprite_235_XG_kanx/frame_6/DoAction.as
+DefineSprite_235_XG_kanx/frame_7/DoAction.as
+DefineSprite_235_XG_kanx/frame_8/DoAction.as
+DefineSprite_235_XG_kanx/frame_9/DoAction.as
+DefineSprite_250/frame_8/DoAction.as
+DefineSprite_276_XG_kan/frame_1/DoAction.as
+DefineSprite_276_XG_kan/frame_19/DoAction.as
+DefineSprite_276_XG_kan/frame_2/DoAction.as
+DefineSprite_291/frame_15/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_15/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_2/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_3/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_4/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_5/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_6/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_7/DoAction.as
+DefineSprite_293_XG_hitfloor/frame_8/DoAction.as
+DefineSprite_316/frame_23/DoAction.as
+DefineSprite_318_XG_fyqx/frame_18/DoAction.as
+DefineSprite_318_XG_fyqx/frame_2/DoAction.as
+DefineSprite_318_XG_fyqx/frame_2/DoAction_2.as
+DefineSprite_318_XG_fyqx/frame_3/DoAction.as
+DefineSprite_318_XG_fyqx/frame_4/DoAction.as
+DefineSprite_318_XG_fyqx/frame_5/DoAction.as
+DefineSprite_318_XG_fyqx/frame_6/DoAction.as
+DefineSprite_318_XG_fyqx/frame_7/DoAction.as
+DefineSprite_318_XG_fyqx/frame_8/DoAction.as
+DefineSprite_318_XG_fyqx/frame_8/DoAction_2.as
+DefineSprite_319/frame_12/DoAction.as
+DefineSprite_320_XG_fyq/frame_1/DoAction.as
+DefineSprite_320_XG_fyq/frame_11/DoAction.as
+DefineSprite_320_XG_fyq/frame_2/DoAction.as
+DefineSprite_334_XG_fykanx/frame_15/DoAction.as
+DefineSprite_334_XG_fykanx/frame_2/DoAction.as
+DefineSprite_334_XG_fykanx/frame_2/DoAction_2.as
+DefineSprite_334_XG_fykanx/frame_3/DoAction.as
+DefineSprite_334_XG_fykanx/frame_4/DoAction.as
+DefineSprite_334_XG_fykanx/frame_5/DoAction.as
+DefineSprite_334_XG_fykanx/frame_6/DoAction.as
+DefineSprite_334_XG_fykanx/frame_7/DoAction.as
+DefineSprite_334_XG_fykanx/frame_8/DoAction.as
+DefineSprite_334_XG_fykanx/frame_9/DoAction.as
+DefineSprite_343/frame_9/DoAction.as
+DefineSprite_345_XG_fykan/frame_1/DoAction.as
+DefineSprite_345_XG_fykan/frame_15/DoAction.as
+DefineSprite_345_XG_fykan/frame_2/DoAction.as
+DefineSprite_372/frame_14/DoAction.as
+DefineSprite_374_XG_qdjx/frame_10/DoAction.as
+DefineSprite_374_XG_qdjx/frame_11/DoAction.as
+DefineSprite_374_XG_qdjx/frame_12/DoAction.as
+DefineSprite_374_XG_qdjx/frame_13/DoAction.as
+DefineSprite_374_XG_qdjx/frame_15/DoAction.as
+DefineSprite_374_XG_qdjx/frame_19/DoAction.as
+DefineSprite_374_XG_qdjx/frame_2/DoAction.as
+DefineSprite_374_XG_qdjx/frame_2/DoAction_2.as
+DefineSprite_374_XG_qdjx/frame_3/DoAction.as
+DefineSprite_374_XG_qdjx/frame_4/DoAction.as
+DefineSprite_374_XG_qdjx/frame_5/DoAction.as
+DefineSprite_374_XG_qdjx/frame_6/DoAction.as
+DefineSprite_374_XG_qdjx/frame_7/DoAction.as
+DefineSprite_374_XG_qdjx/frame_8/DoAction.as
+DefineSprite_374_XG_qdjx/frame_9/DoAction.as
+DefineSprite_375/frame_23/DoAction.as
+DefineSprite_376_XG_mffyx/frame_2/DoAction.as
+DefineSprite_376_XG_mffyx/frame_2/DoAction_2.as
+DefineSprite_376_XG_mffyx/frame_24/DoAction.as
+DefineSprite_376_XG_mffyx/frame_3/DoAction.as
+DefineSprite_376_XG_mffyx/frame_4/DoAction.as
+DefineSprite_376_XG_mffyx/frame_5/DoAction.as
+DefineSprite_376_XG_mffyx/frame_6/DoAction.as
+DefineSprite_376_XG_mffyx/frame_7/DoAction.as
+DefineSprite_376_XG_mffyx/frame_8/DoAction.as
+DefineSprite_376_XG_mffyx/frame_8/DoAction_2.as
+DefineSprite_377/frame_12/DoAction.as
+DefineSprite_378_XG_mffy/frame_1/DoAction.as
+DefineSprite_378_XG_mffy/frame_2/DoAction.as
+DefineSprite_378_XG_mffy/frame_24/DoAction.as
+DefineSprite_401/frame_12/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_10/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_11/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_12/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_13/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_15/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_19/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_2/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_2/DoAction_2.as
+DefineSprite_403_XG_mfdjx/frame_3/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_4/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_5/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_6/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_7/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_8/DoAction.as
+DefineSprite_403_XG_mfdjx/frame_9/DoAction.as
+DefineSprite_414/frame_10/DoAction.as
+DefineSprite_416_XG_mfdj/frame_1/DoAction.as
+DefineSprite_416_XG_mfdj/frame_15/DoAction.as
+DefineSprite_416_XG_mfdj/frame_2/DoAction.as
+DefineSprite_416_XG_mfdj/frame_3/DoAction.as
+DefineSprite_437_XG_fzcc/frame_17/DoAction.as
+DefineSprite_470/frame_17/DoAction.as
+DefineSprite_472_XG_fzbs/frame_20/DoAction.as
+DefineSprite_527/frame_28/DoAction.as
+DefineSprite_529_XG_cbs/frame_28/DoAction.as
+DefineSprite_531_XG_bs/frame_28/DoAction.as
+DefineSprite_555/frame_12/DoAction.as
+DefineSprite_557_XG_qdj/frame_1/DoAction.as
+DefineSprite_557_XG_qdj/frame_19/DoAction.as
+DefineSprite_557_XG_qdj/frame_2/DoAction.as
+DefineSprite_577/frame_1/DoAction.as
+DefineSprite_594/frame_227/DoAction.as
+DefineSprite_594/frame_39/DoAction.as
+DefineSprite_627/frame_4/DoAction.as
+DefineSprite_631/frame_4/DoAction.as
+DefineSprite_635/frame_4/DoAction.as
+DefineSprite_639/frame_4/DoAction.as
+DefineSprite_643/frame_4/DoAction.as
+DefineSprite_655/frame_1/DoAction.as
+DefineSprite_655/frame_10/DoAction.as
+DefineSprite_656/frame_2/DoAction.as
+DefineSprite_656/frame_44/DoAction.as
+DefineSprite_656/frame_52/DoAction.as
+DefineSprite_656/frame_6/DoAction.as
+DefineSprite_675/frame_1/DoAction.as
+DefineSprite_68/frame_24/DoAction.as
+DefineSprite_682/frame_1/DoAction.as
+DefineSprite_693/frame_1/DoAction.as
+DefineSprite_70_XG_stone/frame_26/DoAction.as
+DefineSprite_720/frame_1/DoAction.as
+DefineSprite_773/frame_1/DoAction.as
+DefineSprite_817/frame_1/DoAction.as
+DefineSprite_819/frame_1/DoAction.as
+DefineSprite_819/frame_5/DoAction.as
+DefineSprite_820/frame_1/DoAction.as
+DefineSprite_820/frame_1/PlaceObject2_675_1/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_820/frame_1/PlaceObject2_675_1/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_820/frame_1/PlaceObject2_675_1/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_820/frame_1/PlaceObject2_682_6/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_820/frame_1/PlaceObject2_682_6/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_820/frame_1/PlaceObject2_682_6/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_820/frame_1/PlaceObject2_693_11/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_820/frame_1/PlaceObject2_693_11/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_820/frame_1/PlaceObject2_693_11/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_820/frame_1/PlaceObject2_720_28/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_820/frame_1/PlaceObject2_720_28/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_820/frame_1/PlaceObject2_720_28/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_820/frame_1/PlaceObject2_724_33/CLIPACTIONRECORD onClipEvent(enterFrame).as
+DefineSprite_820/frame_1/PlaceObject2_724_33/CLIPACTIONRECORD onClipEvent(keyDown).as
+DefineSprite_820/frame_1/PlaceObject2_724_33/CLIPACTIONRECORD onClipEvent(keyUp).as
+DefineSprite_820/frame_1/PlaceObject2_724_33/CLIPACTIONRECORD onClipEvent(load).as
+DefineSprite_823/frame_1/DoAction.as
+DefineSprite_85/frame_8/DoAction.as
+DefineSprite_859/frame_5/DoAction.as
+DefineSprite_87_XG_luodi/frame_10/DoAction.as
+__Packages/AS2_4399_API/Bridge.as
+__Packages/AS2_4399_API/Delegate.as
+__Packages/AS2_4399_API/JSON.as
+__Packages/AS2_4399_API/PayMoneyVar.as
+frame_1/DoAction.as
+frame_10/DoAction.as
+frame_106/PlaceObject2_1881_18/CLIPACTIONRECORD onClipEvent(keyDown).as
+frame_2/DoAction.as
+frame_2/DoAction_2.as
+frame_26/PlaceObject2_708_6/CLIPACTIONRECORD on(release).as
+frame_26/PlaceObject2_708_6/CLIPACTIONRECORD onClipEvent(keyUp).as
+frame_3/DoAction.as
+frame_4/DoAction.as
+frame_46/DoAction.as
+frame_56/DoAction.as
+frame_56/DoAction_2.as
+frame_56/PlaceObject2_1901_182/CLIPACTIONRECORD onClipEvent(load).as
+frame_6/DoAction.as
+frame_7/DoAction.as
+frame_8/DoAction.as

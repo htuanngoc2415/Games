@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}</style>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={autoplay:"on",unmuteOverlay:"hidden",splashScreen:false,logLevel:"info",preferredRenderer:"webgl",letterbox:"on",allowScriptAccess:false,maxExecutionDuration:30};</script>
+<script src="ruffle/ruffle.js"></script></head><body><div id="c"></div>
+<script>
+window.addEventListener("load",()=>{const r=window.RufflePlayer.newest();const p=r.createPlayer();p.style.width="800px";p.style.height="600px";p.id="player";document.getElementById("c").appendChild(p);
+const swf=new URLSearchParams(location.search).get("swf")||"game.swf";p.load({url:swf}).then(()=>{window.__loaded=true}).catch(e=>{console.log("LOADERR "+e)});});
+</script></body></html>

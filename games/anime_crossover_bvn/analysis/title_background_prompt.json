@@ -1,0 +1,6 @@
+{
+  "tool": "built-in imagegen",
+  "prompt": "Create a new polished anime crossover fighting game TITLE SCREEN background, landscape 4:3. Main heroes Ichigo Kurosaki (orange hair black shinigami robes sword), Naruto Uzumaki (blond orange black ninja), Natsu Dragneel (pink hair white scarf fire), Monkey D Luffy (straw hat red vest), all four clearly identifiable in a dynamic ensemble clustered in the LEFT 55 percent and upper portion. Right 40 percent should be dark navy subdued atmospheric negative space for a real game menu overlay; no characters faces or bright objects there. Energetic anime hand drawn illustration, cyan spiritual energy, golden chakra, orange flames and ocean blue accents, beautiful crisp expressive faces, dark premium arcade game mood. At top, small balanced readable exact franchise names: \"BLEACH\", \"NARUTO\", \"FAIRY TAIL\", \"ONE PIECE\". No other text, no Chinese writing, no menu buttons, no UI, no watermark. Artwork fills entire canvas. This is a different composition from four vertical strips, a unified crossover scene with four heroes together.",
+  "master": "assets/backgrounds/crossover_title_master.png",
+  "runtime": "assets/backgrounds/crossover_title.jpg"
+}

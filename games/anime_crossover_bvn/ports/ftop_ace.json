@@ -1,0 +1,216 @@
+{
+  "stats": {
+    "speed": 8.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_ace",
+  "displayName": "Ace",
+  "source": "assets/fighter/ftop/ace.swf",
+  "output": "assets/fighter/ported/ftop_ace.swf",
+  "actionSprite": 961,
+  "package": "ftop_ace_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 38,
+      "跳": 40,
+      "跳中": 48,
+      "落地": 114,
+      "击飞_落": 1157,
+      "击飞_弹": 1165,
+      "击飞_倒": 1171,
+      "击飞_起": 1189,
+      "防御恢复": 1127
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 190,
+      "depth": 28,
+      "sprite": 110,
+      "name": "tk2_190_28atm",
+      "params": {
+        "x": 20.0,
+        "y": 20.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 8
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 1
+      }
+    },
+    {
+      "frame": 700,
+      "depth": 28,
+      "sprite": 559,
+      "name": "zh31_700_28atm",
+      "params": {
+        "x": 30.0,
+        "y": -25.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 9
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 1
+      }
+    },
+    {
+      "frame": 708,
+      "depth": 30,
+      "sprite": 559,
+      "name": "zh3_708_30atm",
+      "params": {
+        "x": 30.0,
+        "y": -25.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 9
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 1
+      }
+    },
+    {
+      "frame": 999,
+      "depth": 28,
+      "sprite": 851,
+      "name": "cbs_999_28atm",
+      "params": {
+        "x": 20.0,
+        "y": 5.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 30
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 5
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "162": {
+      "15": "stop();"
+    },
+    "317": {
+      "23": "stop();"
+    },
+    "361": {
+      "15": "stop();"
+    },
+    "437": {
+      "11": "stop();"
+    },
+    "438": {
+      "25": "stop();"
+    }
+  },
+  "register": {
+    "name": "艾斯",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_ace",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "有个爱闯祸的弟弟，哥哥总是要特别担心。 ",
+      "我要让白胡子称王！",
+      "诅咒的烙印已经开始发作了",
+      "听好了！给我记住！路飞！我是不会死的！！！"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 12
+    }
+  },
+  "bishaFaces": {
+    "艾斯1": "assets/face/ported/ftop_ace_bs1.png",
+    "艾斯2": "assets/face/ported/ftop_ace_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

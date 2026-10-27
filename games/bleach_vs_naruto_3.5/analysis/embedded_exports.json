@@ -1,0 +1,2468 @@
+[
+  {
+    "input": "extracted/binary/10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray.bin",
+    "id": "001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/scripts/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/images/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/sprites/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/misc/symbols/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/morphshapes/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/frames/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/texts/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/fonts/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/misc/buttons/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray",
+      "extracted/shapes/embedded/001_10_dialog_ui_swf$cb63d7d01b0b3126c020848b89ede627391134074ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray.bin",
+    "id": "002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/scripts/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/images/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/misc/symbols/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/morphshapes/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/frames/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/texts/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/fonts/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray",
+      "extracted/shapes/embedded/002_11_extend_swf$2844a9d49b11fb83247532d914244b64873071735ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray.bin",
+    "id": "003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/scripts/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/sounds/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/images/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/sprites/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/misc/symbols/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/morphshapes/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/frames/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/texts/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/fonts/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray",
+      "extracted/shapes/embedded/003_12_fight_swf$35d8c66ec0faf4684035117d0561540b2035494943ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/13_gameover_swf_ByteArray.bin",
+    "id": "004_13_gameover_swf_ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/scripts/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/sounds/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/images/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/sprites/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/misc/symbols/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/morphshapes/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/frames/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/texts/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/fonts/embedded/004_13_gameover_swf_ByteArray",
+      "extracted/shapes/embedded/004_13_gameover_swf_ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/14_howtoplay_swf_ByteArray.bin",
+    "id": "005_14_howtoplay_swf_ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/scripts/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/sounds/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/images/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/sprites/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/misc/symbols/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/morphshapes/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/frames/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/texts/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/fonts/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/misc/buttons/embedded/005_14_howtoplay_swf_ByteArray",
+      "extracted/shapes/embedded/005_14_howtoplay_swf_ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/15_loading_swf_ByteArray.bin",
+    "id": "006_15_loading_swf_ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/006_15_loading_swf_ByteArray",
+      "extracted/scripts/embedded/006_15_loading_swf_ByteArray",
+      "extracted/images/embedded/006_15_loading_swf_ByteArray",
+      "extracted/sprites/embedded/006_15_loading_swf_ByteArray",
+      "extracted/misc/symbols/embedded/006_15_loading_swf_ByteArray",
+      "extracted/morphshapes/embedded/006_15_loading_swf_ByteArray",
+      "extracted/frames/embedded/006_15_loading_swf_ByteArray",
+      "extracted/texts/embedded/006_15_loading_swf_ByteArray",
+      "extracted/fonts/embedded/006_15_loading_swf_ByteArray",
+      "extracted/misc/buttons/embedded/006_15_loading_swf_ByteArray",
+      "extracted/shapes/embedded/006_15_loading_swf_ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray.bin",
+    "id": "007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/scripts/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/sounds/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/images/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/sprites/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/misc/symbols/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/morphshapes/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/frames/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/texts/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/fonts/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray",
+      "extracted/shapes/embedded/007_16_mosou_swf$ba473ba2047fe3390a8cba00c619c16b2101530934ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/17_select_swf_ByteArray.bin",
+    "id": "008_17_select_swf_ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/008_17_select_swf_ByteArray",
+      "extracted/scripts/embedded/008_17_select_swf_ByteArray",
+      "extracted/images/embedded/008_17_select_swf_ByteArray",
+      "extracted/sprites/embedded/008_17_select_swf_ByteArray",
+      "extracted/misc/symbols/embedded/008_17_select_swf_ByteArray",
+      "extracted/morphshapes/embedded/008_17_select_swf_ByteArray",
+      "extracted/frames/embedded/008_17_select_swf_ByteArray",
+      "extracted/texts/embedded/008_17_select_swf_ByteArray",
+      "extracted/fonts/embedded/008_17_select_swf_ByteArray",
+      "extracted/shapes/embedded/008_17_select_swf_ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/18_setting_swf_ByteArray.bin",
+    "id": "009_18_setting_swf_ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/009_18_setting_swf_ByteArray",
+      "extracted/scripts/embedded/009_18_setting_swf_ByteArray",
+      "extracted/images/embedded/009_18_setting_swf_ByteArray",
+      "extracted/sprites/embedded/009_18_setting_swf_ByteArray",
+      "extracted/misc/symbols/embedded/009_18_setting_swf_ByteArray",
+      "extracted/morphshapes/embedded/009_18_setting_swf_ByteArray",
+      "extracted/frames/embedded/009_18_setting_swf_ByteArray",
+      "extracted/texts/embedded/009_18_setting_swf_ByteArray",
+      "extracted/fonts/embedded/009_18_setting_swf_ByteArray",
+      "extracted/shapes/embedded/009_18_setting_swf_ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray.bin",
+    "id": "010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/scripts/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/images/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/sprites/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/misc/symbols/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/morphshapes/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/frames/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/texts/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/fonts/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray",
+      "extracted/shapes/embedded/010_22_title_swf$74605885447fbc5f6ed12d2225e294521338255319ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray.bin",
+    "id": "011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/scripts/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/images/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/sprites/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/misc/symbols/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/morphshapes/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/frames/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/texts/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/fonts/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray",
+      "extracted/shapes/embedded/011_8_bigmap_swf$7ba488a4b28ab1e5ea77cc45da8bda7a1974221877ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray.bin",
+    "id": "012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/scripts/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/sounds/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/images/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/sprites/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/misc/symbols/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/morphshapes/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/frames/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/texts/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/fonts/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray",
+      "extracted/shapes/embedded/012_9_common_ui_swf$c97b44e2f73f05b4845169e4fed2489d695189831ByteArray"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/effect.swf",
+    "id": "013_effect",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/013_effect",
+      "extracted/scripts/embedded/013_effect",
+      "extracted/sounds/embedded/013_effect",
+      "extracted/images/embedded/013_effect",
+      "extracted/sprites/embedded/013_effect",
+      "extracted/misc/symbols/embedded/013_effect",
+      "extracted/morphshapes/embedded/013_effect",
+      "extracted/frames/embedded/013_effect",
+      "extracted/texts/embedded/013_effect",
+      "extracted/fonts/embedded/013_effect",
+      "extracted/shapes/embedded/013_effect"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/aizen.swf",
+    "id": "014_aizen",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/014_aizen",
+      "extracted/scripts/embedded/014_aizen",
+      "extracted/sounds/embedded/014_aizen",
+      "extracted/images/embedded/014_aizen",
+      "extracted/sprites/embedded/014_aizen",
+      "extracted/misc/symbols/embedded/014_aizen",
+      "extracted/morphshapes/embedded/014_aizen",
+      "extracted/frames/embedded/014_aizen",
+      "extracted/texts/embedded/014_aizen",
+      "extracted/fonts/embedded/014_aizen",
+      "extracted/misc/buttons/embedded/014_aizen",
+      "extracted/shapes/embedded/014_aizen"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/byakuya.swf",
+    "id": "015_byakuya",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/015_byakuya",
+      "extracted/scripts/embedded/015_byakuya",
+      "extracted/sounds/embedded/015_byakuya",
+      "extracted/images/embedded/015_byakuya",
+      "extracted/sprites/embedded/015_byakuya",
+      "extracted/misc/symbols/embedded/015_byakuya",
+      "extracted/morphshapes/embedded/015_byakuya",
+      "extracted/frames/embedded/015_byakuya",
+      "extracted/texts/embedded/015_byakuya",
+      "extracted/fonts/embedded/015_byakuya",
+      "extracted/misc/buttons/embedded/015_byakuya",
+      "extracted/shapes/embedded/015_byakuya"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/chad.swf",
+    "id": "016_chad",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/016_chad",
+      "extracted/scripts/embedded/016_chad",
+      "extracted/sounds/embedded/016_chad",
+      "extracted/images/embedded/016_chad",
+      "extracted/sprites/embedded/016_chad",
+      "extracted/misc/symbols/embedded/016_chad",
+      "extracted/morphshapes/embedded/016_chad",
+      "extracted/frames/embedded/016_chad",
+      "extracted/texts/embedded/016_chad",
+      "extracted/fonts/embedded/016_chad",
+      "extracted/misc/buttons/embedded/016_chad",
+      "extracted/shapes/embedded/016_chad"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/deidara.swf",
+    "id": "017_deidara",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/017_deidara",
+      "extracted/scripts/embedded/017_deidara",
+      "extracted/sounds/embedded/017_deidara",
+      "extracted/images/embedded/017_deidara",
+      "extracted/sprites/embedded/017_deidara",
+      "extracted/misc/symbols/embedded/017_deidara",
+      "extracted/morphshapes/embedded/017_deidara",
+      "extracted/frames/embedded/017_deidara",
+      "extracted/texts/embedded/017_deidara",
+      "extracted/fonts/embedded/017_deidara",
+      "extracted/misc/buttons/embedded/017_deidara",
+      "extracted/shapes/embedded/017_deidara"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/deidara_old.swf",
+    "id": "018_deidara_old",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/018_deidara_old",
+      "extracted/scripts/embedded/018_deidara_old",
+      "extracted/sounds/embedded/018_deidara_old",
+      "extracted/images/embedded/018_deidara_old",
+      "extracted/sprites/embedded/018_deidara_old",
+      "extracted/misc/symbols/embedded/018_deidara_old",
+      "extracted/morphshapes/embedded/018_deidara_old",
+      "extracted/frames/embedded/018_deidara_old",
+      "extracted/texts/embedded/018_deidara_old",
+      "extracted/fonts/embedded/018_deidara_old",
+      "extracted/misc/buttons/embedded/018_deidara_old",
+      "extracted/shapes/embedded/018_deidara_old"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/aizen.swf",
+    "id": "019_aizen",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/019_aizen",
+      "extracted/scripts/embedded/019_aizen",
+      "extracted/sounds/embedded/019_aizen",
+      "extracted/images/embedded/019_aizen",
+      "extracted/sprites/embedded/019_aizen",
+      "extracted/misc/symbols/embedded/019_aizen",
+      "extracted/morphshapes/embedded/019_aizen",
+      "extracted/frames/embedded/019_aizen",
+      "extracted/texts/embedded/019_aizen",
+      "extracted/fonts/embedded/019_aizen",
+      "extracted/misc/buttons/embedded/019_aizen",
+      "extracted/shapes/embedded/019_aizen"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/byakuya.swf",
+    "id": "020_byakuya",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/020_byakuya",
+      "extracted/scripts/embedded/020_byakuya",
+      "extracted/sounds/embedded/020_byakuya",
+      "extracted/images/embedded/020_byakuya",
+      "extracted/sprites/embedded/020_byakuya",
+      "extracted/misc/symbols/embedded/020_byakuya",
+      "extracted/morphshapes/embedded/020_byakuya",
+      "extracted/frames/embedded/020_byakuya",
+      "extracted/texts/embedded/020_byakuya",
+      "extracted/fonts/embedded/020_byakuya",
+      "extracted/misc/buttons/embedded/020_byakuya",
+      "extracted/shapes/embedded/020_byakuya"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/gaara.swf",
+    "id": "021_gaara",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/021_gaara",
+      "extracted/scripts/embedded/021_gaara",
+      "extracted/sounds/embedded/021_gaara",
+      "extracted/images/embedded/021_gaara",
+      "extracted/sprites/embedded/021_gaara",
+      "extracted/misc/symbols/embedded/021_gaara",
+      "extracted/morphshapes/embedded/021_gaara",
+      "extracted/frames/embedded/021_gaara",
+      "extracted/texts/embedded/021_gaara",
+      "extracted/fonts/embedded/021_gaara",
+      "extracted/misc/buttons/embedded/021_gaara",
+      "extracted/shapes/embedded/021_gaara"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/gin.swf",
+    "id": "022_gin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/022_gin",
+      "extracted/scripts/embedded/022_gin",
+      "extracted/sounds/embedded/022_gin",
+      "extracted/images/embedded/022_gin",
+      "extracted/sprites/embedded/022_gin",
+      "extracted/misc/symbols/embedded/022_gin",
+      "extracted/morphshapes/embedded/022_gin",
+      "extracted/frames/embedded/022_gin",
+      "extracted/texts/embedded/022_gin",
+      "extracted/fonts/embedded/022_gin",
+      "extracted/misc/buttons/embedded/022_gin",
+      "extracted/shapes/embedded/022_gin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/grimmjow.swf",
+    "id": "023_grimmjow",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/023_grimmjow",
+      "extracted/scripts/embedded/023_grimmjow",
+      "extracted/sounds/embedded/023_grimmjow",
+      "extracted/images/embedded/023_grimmjow",
+      "extracted/sprites/embedded/023_grimmjow",
+      "extracted/misc/symbols/embedded/023_grimmjow",
+      "extracted/morphshapes/embedded/023_grimmjow",
+      "extracted/frames/embedded/023_grimmjow",
+      "extracted/texts/embedded/023_grimmjow",
+      "extracted/fonts/embedded/023_grimmjow",
+      "extracted/misc/buttons/embedded/023_grimmjow",
+      "extracted/shapes/embedded/023_grimmjow"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/halibel.swf",
+    "id": "024_halibel",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/024_halibel",
+      "extracted/scripts/embedded/024_halibel",
+      "extracted/sounds/embedded/024_halibel",
+      "extracted/images/embedded/024_halibel",
+      "extracted/sprites/embedded/024_halibel",
+      "extracted/misc/symbols/embedded/024_halibel",
+      "extracted/morphshapes/embedded/024_halibel",
+      "extracted/frames/embedded/024_halibel",
+      "extracted/texts/embedded/024_halibel",
+      "extracted/fonts/embedded/024_halibel",
+      "extracted/misc/buttons/embedded/024_halibel",
+      "extracted/shapes/embedded/024_halibel"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/harribel.swf",
+    "id": "025_harribel",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/025_harribel",
+      "extracted/scripts/embedded/025_harribel",
+      "extracted/sounds/embedded/025_harribel",
+      "extracted/images/embedded/025_harribel",
+      "extracted/misc/symbols/embedded/025_harribel",
+      "extracted/morphshapes/embedded/025_harribel",
+      "extracted/frames/embedded/025_harribel",
+      "extracted/texts/embedded/025_harribel",
+      "extracted/fonts/embedded/025_harribel",
+      "extracted/misc/buttons/embedded/025_harribel",
+      "extracted/shapes/embedded/025_harribel"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/hinata.swf",
+    "id": "026_hinata",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/026_hinata",
+      "extracted/scripts/embedded/026_hinata",
+      "extracted/sounds/embedded/026_hinata",
+      "extracted/images/embedded/026_hinata",
+      "extracted/sprites/embedded/026_hinata",
+      "extracted/misc/symbols/embedded/026_hinata",
+      "extracted/morphshapes/embedded/026_hinata",
+      "extracted/frames/embedded/026_hinata",
+      "extracted/texts/embedded/026_hinata",
+      "extracted/fonts/embedded/026_hinata",
+      "extracted/misc/buttons/embedded/026_hinata",
+      "extracted/shapes/embedded/026_hinata"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/hiruko.swf",
+    "id": "027_hiruko",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/027_hiruko",
+      "extracted/scripts/embedded/027_hiruko",
+      "extracted/sounds/embedded/027_hiruko",
+      "extracted/images/embedded/027_hiruko",
+      "extracted/sprites/embedded/027_hiruko",
+      "extracted/misc/symbols/embedded/027_hiruko",
+      "extracted/morphshapes/embedded/027_hiruko",
+      "extracted/frames/embedded/027_hiruko",
+      "extracted/texts/embedded/027_hiruko",
+      "extracted/fonts/embedded/027_hiruko",
+      "extracted/misc/buttons/embedded/027_hiruko",
+      "extracted/shapes/embedded/027_hiruko"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/ichigo_hollow.swf",
+    "id": "028_ichigo_hollow",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/028_ichigo_hollow",
+      "extracted/scripts/embedded/028_ichigo_hollow",
+      "extracted/sounds/embedded/028_ichigo_hollow",
+      "extracted/images/embedded/028_ichigo_hollow",
+      "extracted/sprites/embedded/028_ichigo_hollow",
+      "extracted/misc/symbols/embedded/028_ichigo_hollow",
+      "extracted/morphshapes/embedded/028_ichigo_hollow",
+      "extracted/frames/embedded/028_ichigo_hollow",
+      "extracted/texts/embedded/028_ichigo_hollow",
+      "extracted/fonts/embedded/028_ichigo_hollow",
+      "extracted/misc/buttons/embedded/028_ichigo_hollow",
+      "extracted/shapes/embedded/028_ichigo_hollow"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/ichigo_padipata.swf",
+    "id": "029_ichigo_padipata",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/029_ichigo_padipata",
+      "extracted/scripts/embedded/029_ichigo_padipata",
+      "extracted/sounds/embedded/029_ichigo_padipata",
+      "extracted/images/embedded/029_ichigo_padipata",
+      "extracted/sprites/embedded/029_ichigo_padipata",
+      "extracted/misc/symbols/embedded/029_ichigo_padipata",
+      "extracted/morphshapes/embedded/029_ichigo_padipata",
+      "extracted/frames/embedded/029_ichigo_padipata",
+      "extracted/texts/embedded/029_ichigo_padipata",
+      "extracted/fonts/embedded/029_ichigo_padipata",
+      "extracted/misc/buttons/embedded/029_ichigo_padipata",
+      "extracted/shapes/embedded/029_ichigo_padipata"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/ikkaku.swf",
+    "id": "030_ikkaku",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/030_ikkaku",
+      "extracted/scripts/embedded/030_ikkaku",
+      "extracted/sounds/embedded/030_ikkaku",
+      "extracted/images/embedded/030_ikkaku",
+      "extracted/sprites/embedded/030_ikkaku",
+      "extracted/misc/symbols/embedded/030_ikkaku",
+      "extracted/morphshapes/embedded/030_ikkaku",
+      "extracted/frames/embedded/030_ikkaku",
+      "extracted/texts/embedded/030_ikkaku",
+      "extracted/fonts/embedded/030_ikkaku",
+      "extracted/misc/buttons/embedded/030_ikkaku",
+      "extracted/shapes/embedded/030_ikkaku"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/ino.swf",
+    "id": "031_ino",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/031_ino",
+      "extracted/scripts/embedded/031_ino",
+      "extracted/sounds/embedded/031_ino",
+      "extracted/images/embedded/031_ino",
+      "extracted/sprites/embedded/031_ino",
+      "extracted/misc/symbols/embedded/031_ino",
+      "extracted/morphshapes/embedded/031_ino",
+      "extracted/frames/embedded/031_ino",
+      "extracted/texts/embedded/031_ino",
+      "extracted/fonts/embedded/031_ino",
+      "extracted/misc/buttons/embedded/031_ino",
+      "extracted/shapes/embedded/031_ino"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/itachi.swf",
+    "id": "032_itachi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/032_itachi",
+      "extracted/scripts/embedded/032_itachi",
+      "extracted/sounds/embedded/032_itachi",
+      "extracted/images/embedded/032_itachi",
+      "extracted/sprites/embedded/032_itachi",
+      "extracted/misc/symbols/embedded/032_itachi",
+      "extracted/morphshapes/embedded/032_itachi",
+      "extracted/frames/embedded/032_itachi",
+      "extracted/texts/embedded/032_itachi",
+      "extracted/fonts/embedded/032_itachi",
+      "extracted/misc/buttons/embedded/032_itachi",
+      "extracted/shapes/embedded/032_itachi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/jiraiya.swf",
+    "id": "033_jiraiya",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/033_jiraiya",
+      "extracted/scripts/embedded/033_jiraiya",
+      "extracted/sounds/embedded/033_jiraiya",
+      "extracted/images/embedded/033_jiraiya",
+      "extracted/sprites/embedded/033_jiraiya",
+      "extracted/misc/symbols/embedded/033_jiraiya",
+      "extracted/morphshapes/embedded/033_jiraiya",
+      "extracted/frames/embedded/033_jiraiya",
+      "extracted/texts/embedded/033_jiraiya",
+      "extracted/fonts/embedded/033_jiraiya",
+      "extracted/misc/buttons/embedded/033_jiraiya",
+      "extracted/shapes/embedded/033_jiraiya"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/kenpachi.swf",
+    "id": "034_kenpachi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/034_kenpachi",
+      "extracted/scripts/embedded/034_kenpachi",
+      "extracted/sounds/embedded/034_kenpachi",
+      "extracted/images/embedded/034_kenpachi",
+      "extracted/sprites/embedded/034_kenpachi",
+      "extracted/misc/symbols/embedded/034_kenpachi",
+      "extracted/morphshapes/embedded/034_kenpachi",
+      "extracted/frames/embedded/034_kenpachi",
+      "extracted/texts/embedded/034_kenpachi",
+      "extracted/fonts/embedded/034_kenpachi",
+      "extracted/misc/buttons/embedded/034_kenpachi",
+      "extracted/shapes/embedded/034_kenpachi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/kimimaro.swf",
+    "id": "035_kimimaro",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/035_kimimaro",
+      "extracted/scripts/embedded/035_kimimaro",
+      "extracted/images/embedded/035_kimimaro",
+      "extracted/sprites/embedded/035_kimimaro",
+      "extracted/misc/symbols/embedded/035_kimimaro",
+      "extracted/morphshapes/embedded/035_kimimaro",
+      "extracted/frames/embedded/035_kimimaro",
+      "extracted/texts/embedded/035_kimimaro",
+      "extracted/fonts/embedded/035_kimimaro",
+      "extracted/misc/buttons/embedded/035_kimimaro",
+      "extracted/shapes/embedded/035_kimimaro"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/kon.swf",
+    "id": "036_kon",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/036_kon",
+      "extracted/scripts/embedded/036_kon",
+      "extracted/sounds/embedded/036_kon",
+      "extracted/images/embedded/036_kon",
+      "extracted/sprites/embedded/036_kon",
+      "extracted/misc/symbols/embedded/036_kon",
+      "extracted/morphshapes/embedded/036_kon",
+      "extracted/frames/embedded/036_kon",
+      "extracted/texts/embedded/036_kon",
+      "extracted/fonts/embedded/036_kon",
+      "extracted/misc/buttons/embedded/036_kon",
+      "extracted/shapes/embedded/036_kon"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/madara.swf",
+    "id": "037_madara",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/037_madara",
+      "extracted/scripts/embedded/037_madara",
+      "extracted/sounds/embedded/037_madara",
+      "extracted/images/embedded/037_madara",
+      "extracted/sprites/embedded/037_madara",
+      "extracted/misc/symbols/embedded/037_madara",
+      "extracted/morphshapes/embedded/037_madara",
+      "extracted/frames/embedded/037_madara",
+      "extracted/texts/embedded/037_madara",
+      "extracted/fonts/embedded/037_madara",
+      "extracted/misc/buttons/embedded/037_madara",
+      "extracted/shapes/embedded/037_madara"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/minato.swf",
+    "id": "038_minato",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/038_minato",
+      "extracted/scripts/embedded/038_minato",
+      "extracted/sounds/embedded/038_minato",
+      "extracted/images/embedded/038_minato",
+      "extracted/sprites/embedded/038_minato",
+      "extracted/misc/symbols/embedded/038_minato",
+      "extracted/morphshapes/embedded/038_minato",
+      "extracted/frames/embedded/038_minato",
+      "extracted/texts/embedded/038_minato",
+      "extracted/fonts/embedded/038_minato",
+      "extracted/misc/buttons/embedded/038_minato",
+      "extracted/shapes/embedded/038_minato"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/nemu.swf",
+    "id": "039_nemu",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/039_nemu",
+      "extracted/scripts/embedded/039_nemu",
+      "extracted/sounds/embedded/039_nemu",
+      "extracted/images/embedded/039_nemu",
+      "extracted/sprites/embedded/039_nemu",
+      "extracted/misc/symbols/embedded/039_nemu",
+      "extracted/morphshapes/embedded/039_nemu",
+      "extracted/frames/embedded/039_nemu",
+      "extracted/texts/embedded/039_nemu",
+      "extracted/fonts/embedded/039_nemu",
+      "extracted/misc/buttons/embedded/039_nemu",
+      "extracted/shapes/embedded/039_nemu"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/obito.swf",
+    "id": "040_obito",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/040_obito",
+      "extracted/scripts/embedded/040_obito",
+      "extracted/sounds/embedded/040_obito",
+      "extracted/images/embedded/040_obito",
+      "extracted/misc/symbols/embedded/040_obito",
+      "extracted/morphshapes/embedded/040_obito",
+      "extracted/frames/embedded/040_obito",
+      "extracted/texts/embedded/040_obito",
+      "extracted/fonts/embedded/040_obito",
+      "extracted/misc/buttons/embedded/040_obito",
+      "extracted/shapes/embedded/040_obito"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/obito_trueColors.swf",
+    "id": "041_obito_trueColors",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/041_obito_trueColors",
+      "extracted/scripts/embedded/041_obito_trueColors",
+      "extracted/sounds/embedded/041_obito_trueColors",
+      "extracted/images/embedded/041_obito_trueColors",
+      "extracted/sprites/embedded/041_obito_trueColors",
+      "extracted/misc/symbols/embedded/041_obito_trueColors",
+      "extracted/morphshapes/embedded/041_obito_trueColors",
+      "extracted/frames/embedded/041_obito_trueColors",
+      "extracted/texts/embedded/041_obito_trueColors",
+      "extracted/fonts/embedded/041_obito_trueColors",
+      "extracted/misc/buttons/embedded/041_obito_trueColors",
+      "extracted/shapes/embedded/041_obito_trueColors"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/orihime.swf",
+    "id": "042_orihime",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/042_orihime",
+      "extracted/scripts/embedded/042_orihime",
+      "extracted/sounds/embedded/042_orihime",
+      "extracted/images/embedded/042_orihime",
+      "extracted/sprites/embedded/042_orihime",
+      "extracted/misc/symbols/embedded/042_orihime",
+      "extracted/morphshapes/embedded/042_orihime",
+      "extracted/frames/embedded/042_orihime",
+      "extracted/texts/embedded/042_orihime",
+      "extracted/fonts/embedded/042_orihime",
+      "extracted/misc/buttons/embedded/042_orihime",
+      "extracted/shapes/embedded/042_orihime"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/rangiku.swf",
+    "id": "043_rangiku",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/043_rangiku",
+      "extracted/scripts/embedded/043_rangiku",
+      "extracted/sounds/embedded/043_rangiku",
+      "extracted/images/embedded/043_rangiku",
+      "extracted/sprites/embedded/043_rangiku",
+      "extracted/misc/symbols/embedded/043_rangiku",
+      "extracted/morphshapes/embedded/043_rangiku",
+      "extracted/frames/embedded/043_rangiku",
+      "extracted/texts/embedded/043_rangiku",
+      "extracted/fonts/embedded/043_rangiku",
+      "extracted/misc/buttons/embedded/043_rangiku",
+      "extracted/shapes/embedded/043_rangiku"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/sai.swf",
+    "id": "044_sai",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/044_sai",
+      "extracted/scripts/embedded/044_sai",
+      "extracted/sounds/embedded/044_sai",
+      "extracted/images/embedded/044_sai",
+      "extracted/sprites/embedded/044_sai",
+      "extracted/misc/symbols/embedded/044_sai",
+      "extracted/morphshapes/embedded/044_sai",
+      "extracted/frames/embedded/044_sai",
+      "extracted/texts/embedded/044_sai",
+      "extracted/fonts/embedded/044_sai",
+      "extracted/misc/buttons/embedded/044_sai",
+      "extracted/shapes/embedded/044_sai"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/sakura.swf",
+    "id": "045_sakura",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/045_sakura",
+      "extracted/scripts/embedded/045_sakura",
+      "extracted/sounds/embedded/045_sakura",
+      "extracted/images/embedded/045_sakura",
+      "extracted/sprites/embedded/045_sakura",
+      "extracted/misc/symbols/embedded/045_sakura",
+      "extracted/morphshapes/embedded/045_sakura",
+      "extracted/frames/embedded/045_sakura",
+      "extracted/texts/embedded/045_sakura",
+      "extracted/fonts/embedded/045_sakura",
+      "extracted/misc/buttons/embedded/045_sakura",
+      "extracted/shapes/embedded/045_sakura"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/shikamaru.swf",
+    "id": "046_shikamaru",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/046_shikamaru",
+      "extracted/scripts/embedded/046_shikamaru",
+      "extracted/sounds/embedded/046_shikamaru",
+      "extracted/images/embedded/046_shikamaru",
+      "extracted/sprites/embedded/046_shikamaru",
+      "extracted/misc/symbols/embedded/046_shikamaru",
+      "extracted/morphshapes/embedded/046_shikamaru",
+      "extracted/frames/embedded/046_shikamaru",
+      "extracted/texts/embedded/046_shikamaru",
+      "extracted/fonts/embedded/046_shikamaru",
+      "extracted/misc/buttons/embedded/046_shikamaru",
+      "extracted/shapes/embedded/046_shikamaru"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/shishio.swf",
+    "id": "047_shishio",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/047_shishio",
+      "extracted/scripts/embedded/047_shishio",
+      "extracted/sounds/embedded/047_shishio",
+      "extracted/images/embedded/047_shishio",
+      "extracted/sprites/embedded/047_shishio",
+      "extracted/misc/symbols/embedded/047_shishio",
+      "extracted/morphshapes/embedded/047_shishio",
+      "extracted/frames/embedded/047_shishio",
+      "extracted/texts/embedded/047_shishio",
+      "extracted/fonts/embedded/047_shishio",
+      "extracted/misc/buttons/embedded/047_shishio",
+      "extracted/shapes/embedded/047_shishio"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/soifon.swf",
+    "id": "048_soifon",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/048_soifon",
+      "extracted/scripts/embedded/048_soifon",
+      "extracted/sounds/embedded/048_soifon",
+      "extracted/images/embedded/048_soifon",
+      "extracted/sprites/embedded/048_soifon",
+      "extracted/misc/symbols/embedded/048_soifon",
+      "extracted/morphshapes/embedded/048_soifon",
+      "extracted/frames/embedded/048_soifon",
+      "extracted/texts/embedded/048_soifon",
+      "extracted/fonts/embedded/048_soifon",
+      "extracted/misc/buttons/embedded/048_soifon",
+      "extracted/shapes/embedded/048_soifon"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/soifong.swf",
+    "id": "049_soifong",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/049_soifong",
+      "extracted/scripts/embedded/049_soifong",
+      "extracted/sounds/embedded/049_soifong",
+      "extracted/images/embedded/049_soifong",
+      "extracted/sprites/embedded/049_soifong",
+      "extracted/misc/symbols/embedded/049_soifong",
+      "extracted/morphshapes/embedded/049_soifong",
+      "extracted/frames/embedded/049_soifong",
+      "extracted/texts/embedded/049_soifong",
+      "extracted/fonts/embedded/049_soifong",
+      "extracted/misc/buttons/embedded/049_soifong",
+      "extracted/shapes/embedded/049_soifong"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/stake.swf",
+    "id": "050_stake",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/050_stake",
+      "extracted/scripts/embedded/050_stake",
+      "extracted/sounds/embedded/050_stake",
+      "extracted/images/embedded/050_stake",
+      "extracted/misc/symbols/embedded/050_stake",
+      "extracted/morphshapes/embedded/050_stake",
+      "extracted/frames/embedded/050_stake",
+      "extracted/texts/embedded/050_stake",
+      "extracted/fonts/embedded/050_stake",
+      "extracted/misc/buttons/embedded/050_stake",
+      "extracted/shapes/embedded/050_stake"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/starrk.swf",
+    "id": "051_starrk",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/051_starrk",
+      "extracted/scripts/embedded/051_starrk",
+      "extracted/sounds/embedded/051_starrk",
+      "extracted/images/embedded/051_starrk",
+      "extracted/sprites/embedded/051_starrk",
+      "extracted/misc/symbols/embedded/051_starrk",
+      "extracted/morphshapes/embedded/051_starrk",
+      "extracted/frames/embedded/051_starrk",
+      "extracted/texts/embedded/051_starrk",
+      "extracted/fonts/embedded/051_starrk",
+      "extracted/misc/buttons/embedded/051_starrk",
+      "extracted/shapes/embedded/051_starrk"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/suigetsu.swf",
+    "id": "052_suigetsu",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/052_suigetsu",
+      "extracted/scripts/embedded/052_suigetsu",
+      "extracted/sounds/embedded/052_suigetsu",
+      "extracted/images/embedded/052_suigetsu",
+      "extracted/sprites/embedded/052_suigetsu",
+      "extracted/misc/symbols/embedded/052_suigetsu",
+      "extracted/morphshapes/embedded/052_suigetsu",
+      "extracted/frames/embedded/052_suigetsu",
+      "extracted/texts/embedded/052_suigetsu",
+      "extracted/fonts/embedded/052_suigetsu",
+      "extracted/misc/buttons/embedded/052_suigetsu",
+      "extracted/shapes/embedded/052_suigetsu"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/temari.swf",
+    "id": "053_temari",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/053_temari",
+      "extracted/scripts/embedded/053_temari",
+      "extracted/sounds/embedded/053_temari",
+      "extracted/images/embedded/053_temari",
+      "extracted/sprites/embedded/053_temari",
+      "extracted/misc/symbols/embedded/053_temari",
+      "extracted/morphshapes/embedded/053_temari",
+      "extracted/frames/embedded/053_temari",
+      "extracted/texts/embedded/053_temari",
+      "extracted/fonts/embedded/053_temari",
+      "extracted/misc/buttons/embedded/053_temari",
+      "extracted/shapes/embedded/053_temari"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/tenten.swf",
+    "id": "054_tenten",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/054_tenten",
+      "extracted/scripts/embedded/054_tenten",
+      "extracted/sounds/embedded/054_tenten",
+      "extracted/images/embedded/054_tenten",
+      "extracted/sprites/embedded/054_tenten",
+      "extracted/misc/symbols/embedded/054_tenten",
+      "extracted/morphshapes/embedded/054_tenten",
+      "extracted/frames/embedded/054_tenten",
+      "extracted/texts/embedded/054_tenten",
+      "extracted/fonts/embedded/054_tenten",
+      "extracted/misc/buttons/embedded/054_tenten",
+      "extracted/shapes/embedded/054_tenten"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/tsuchikage.swf",
+    "id": "055_tsuchikage",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/055_tsuchikage",
+      "extracted/scripts/embedded/055_tsuchikage",
+      "extracted/sounds/embedded/055_tsuchikage",
+      "extracted/images/embedded/055_tsuchikage",
+      "extracted/sprites/embedded/055_tsuchikage",
+      "extracted/misc/symbols/embedded/055_tsuchikage",
+      "extracted/morphshapes/embedded/055_tsuchikage",
+      "extracted/frames/embedded/055_tsuchikage",
+      "extracted/texts/embedded/055_tsuchikage",
+      "extracted/fonts/embedded/055_tsuchikage",
+      "extracted/misc/buttons/embedded/055_tsuchikage",
+      "extracted/shapes/embedded/055_tsuchikage"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/tsunate.swf",
+    "id": "056_tsunate",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/056_tsunate",
+      "extracted/scripts/embedded/056_tsunate",
+      "extracted/sounds/embedded/056_tsunate",
+      "extracted/images/embedded/056_tsunate",
+      "extracted/sprites/embedded/056_tsunate",
+      "extracted/misc/symbols/embedded/056_tsunate",
+      "extracted/morphshapes/embedded/056_tsunate",
+      "extracted/frames/embedded/056_tsunate",
+      "extracted/texts/embedded/056_tsunate",
+      "extracted/fonts/embedded/056_tsunate",
+      "extracted/misc/buttons/embedded/056_tsunate",
+      "extracted/shapes/embedded/056_tsunate"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/uryuu.swf",
+    "id": "057_uryuu",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/057_uryuu",
+      "extracted/scripts/embedded/057_uryuu",
+      "extracted/sounds/embedded/057_uryuu",
+      "extracted/images/embedded/057_uryuu",
+      "extracted/sprites/embedded/057_uryuu",
+      "extracted/misc/symbols/embedded/057_uryuu",
+      "extracted/morphshapes/embedded/057_uryuu",
+      "extracted/frames/embedded/057_uryuu",
+      "extracted/texts/embedded/057_uryuu",
+      "extracted/fonts/embedded/057_uryuu",
+      "extracted/misc/buttons/embedded/057_uryuu",
+      "extracted/shapes/embedded/057_uryuu"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/yachiru.swf",
+    "id": "058_yachiru",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/058_yachiru",
+      "extracted/scripts/embedded/058_yachiru",
+      "extracted/sounds/embedded/058_yachiru",
+      "extracted/images/embedded/058_yachiru",
+      "extracted/sprites/embedded/058_yachiru",
+      "extracted/misc/symbols/embedded/058_yachiru",
+      "extracted/morphshapes/embedded/058_yachiru",
+      "extracted/frames/embedded/058_yachiru",
+      "extracted/texts/embedded/058_yachiru",
+      "extracted/fonts/embedded/058_yachiru",
+      "extracted/misc/buttons/embedded/058_yachiru",
+      "extracted/shapes/embedded/058_yachiru"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/yamamoto.swf",
+    "id": "059_yamamoto",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/059_yamamoto",
+      "extracted/scripts/embedded/059_yamamoto",
+      "extracted/sounds/embedded/059_yamamoto",
+      "extracted/images/embedded/059_yamamoto",
+      "extracted/sprites/embedded/059_yamamoto",
+      "extracted/misc/symbols/embedded/059_yamamoto",
+      "extracted/morphshapes/embedded/059_yamamoto",
+      "extracted/frames/embedded/059_yamamoto",
+      "extracted/texts/embedded/059_yamamoto",
+      "extracted/fonts/embedded/059_yamamoto",
+      "extracted/misc/buttons/embedded/059_yamamoto",
+      "extracted/shapes/embedded/059_yamamoto"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/yin.swf",
+    "id": "060_yin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/060_yin",
+      "extracted/scripts/embedded/060_yin",
+      "extracted/sounds/embedded/060_yin",
+      "extracted/images/embedded/060_yin",
+      "extracted/sprites/embedded/060_yin",
+      "extracted/misc/symbols/embedded/060_yin",
+      "extracted/morphshapes/embedded/060_yin",
+      "extracted/frames/embedded/060_yin",
+      "extracted/texts/embedded/060_yin",
+      "extracted/fonts/embedded/060_yin",
+      "extracted/misc/buttons/embedded/060_yin",
+      "extracted/shapes/embedded/060_yin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/fz/yoruichi.swf",
+    "id": "061_yoruichi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/061_yoruichi",
+      "extracted/scripts/embedded/061_yoruichi",
+      "extracted/sounds/embedded/061_yoruichi",
+      "extracted/images/embedded/061_yoruichi",
+      "extracted/sprites/embedded/061_yoruichi",
+      "extracted/misc/symbols/embedded/061_yoruichi",
+      "extracted/morphshapes/embedded/061_yoruichi",
+      "extracted/frames/embedded/061_yoruichi",
+      "extracted/texts/embedded/061_yoruichi",
+      "extracted/fonts/embedded/061_yoruichi",
+      "extracted/misc/buttons/embedded/061_yoruichi",
+      "extracted/shapes/embedded/061_yoruichi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/gaara.swf",
+    "id": "062_gaara",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/062_gaara",
+      "extracted/scripts/embedded/062_gaara",
+      "extracted/sounds/embedded/062_gaara",
+      "extracted/images/embedded/062_gaara",
+      "extracted/sprites/embedded/062_gaara",
+      "extracted/misc/symbols/embedded/062_gaara",
+      "extracted/morphshapes/embedded/062_gaara",
+      "extracted/frames/embedded/062_gaara",
+      "extracted/texts/embedded/062_gaara",
+      "extracted/fonts/embedded/062_gaara",
+      "extracted/misc/buttons/embedded/062_gaara",
+      "extracted/shapes/embedded/062_gaara"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/gaara_old.swf",
+    "id": "063_gaara_old",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/063_gaara_old",
+      "extracted/scripts/embedded/063_gaara_old",
+      "extracted/sounds/embedded/063_gaara_old",
+      "extracted/images/embedded/063_gaara_old",
+      "extracted/sprites/embedded/063_gaara_old",
+      "extracted/misc/symbols/embedded/063_gaara_old",
+      "extracted/morphshapes/embedded/063_gaara_old",
+      "extracted/frames/embedded/063_gaara_old",
+      "extracted/texts/embedded/063_gaara_old",
+      "extracted/fonts/embedded/063_gaara_old",
+      "extracted/misc/buttons/embedded/063_gaara_old",
+      "extracted/shapes/embedded/063_gaara_old"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/gin.swf",
+    "id": "064_gin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/064_gin",
+      "extracted/scripts/embedded/064_gin",
+      "extracted/sounds/embedded/064_gin",
+      "extracted/images/embedded/064_gin",
+      "extracted/sprites/embedded/064_gin",
+      "extracted/misc/symbols/embedded/064_gin",
+      "extracted/morphshapes/embedded/064_gin",
+      "extracted/frames/embedded/064_gin",
+      "extracted/texts/embedded/064_gin",
+      "extracted/fonts/embedded/064_gin",
+      "extracted/misc/buttons/embedded/064_gin",
+      "extracted/shapes/embedded/064_gin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/grimmjow.swf",
+    "id": "065_grimmjow",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/065_grimmjow",
+      "extracted/scripts/embedded/065_grimmjow",
+      "extracted/sounds/embedded/065_grimmjow",
+      "extracted/images/embedded/065_grimmjow",
+      "extracted/sprites/embedded/065_grimmjow",
+      "extracted/misc/symbols/embedded/065_grimmjow",
+      "extracted/morphshapes/embedded/065_grimmjow",
+      "extracted/frames/embedded/065_grimmjow",
+      "extracted/texts/embedded/065_grimmjow",
+      "extracted/fonts/embedded/065_grimmjow",
+      "extracted/misc/buttons/embedded/065_grimmjow",
+      "extracted/shapes/embedded/065_grimmjow"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/ichigo.swf",
+    "id": "066_ichigo",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/066_ichigo",
+      "extracted/scripts/embedded/066_ichigo",
+      "extracted/sounds/embedded/066_ichigo",
+      "extracted/images/embedded/066_ichigo",
+      "extracted/sprites/embedded/066_ichigo",
+      "extracted/misc/symbols/embedded/066_ichigo",
+      "extracted/morphshapes/embedded/066_ichigo",
+      "extracted/frames/embedded/066_ichigo",
+      "extracted/texts/embedded/066_ichigo",
+      "extracted/fonts/embedded/066_ichigo",
+      "extracted/misc/buttons/embedded/066_ichigo",
+      "extracted/shapes/embedded/066_ichigo"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/ichigo_zero.swf",
+    "id": "067_ichigo_zero",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/067_ichigo_zero",
+      "extracted/scripts/embedded/067_ichigo_zero",
+      "extracted/sounds/embedded/067_ichigo_zero",
+      "extracted/images/embedded/067_ichigo_zero",
+      "extracted/sprites/embedded/067_ichigo_zero",
+      "extracted/misc/symbols/embedded/067_ichigo_zero",
+      "extracted/morphshapes/embedded/067_ichigo_zero",
+      "extracted/frames/embedded/067_ichigo_zero",
+      "extracted/texts/embedded/067_ichigo_zero",
+      "extracted/fonts/embedded/067_ichigo_zero",
+      "extracted/misc/buttons/embedded/067_ichigo_zero",
+      "extracted/shapes/embedded/067_ichigo_zero"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/ikkaku.swf",
+    "id": "068_ikkaku",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/068_ikkaku",
+      "extracted/scripts/embedded/068_ikkaku",
+      "extracted/sounds/embedded/068_ikkaku",
+      "extracted/images/embedded/068_ikkaku",
+      "extracted/sprites/embedded/068_ikkaku",
+      "extracted/misc/symbols/embedded/068_ikkaku",
+      "extracted/morphshapes/embedded/068_ikkaku",
+      "extracted/frames/embedded/068_ikkaku",
+      "extracted/texts/embedded/068_ikkaku",
+      "extracted/fonts/embedded/068_ikkaku",
+      "extracted/misc/buttons/embedded/068_ikkaku",
+      "extracted/shapes/embedded/068_ikkaku"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/itachi.swf",
+    "id": "069_itachi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/069_itachi",
+      "extracted/scripts/embedded/069_itachi",
+      "extracted/sounds/embedded/069_itachi",
+      "extracted/images/embedded/069_itachi",
+      "extracted/sprites/embedded/069_itachi",
+      "extracted/misc/symbols/embedded/069_itachi",
+      "extracted/morphshapes/embedded/069_itachi",
+      "extracted/frames/embedded/069_itachi",
+      "extracted/texts/embedded/069_itachi",
+      "extracted/fonts/embedded/069_itachi",
+      "extracted/misc/buttons/embedded/069_itachi",
+      "extracted/shapes/embedded/069_itachi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/itachi_old.swf",
+    "id": "070_itachi_old",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/070_itachi_old",
+      "extracted/scripts/embedded/070_itachi_old",
+      "extracted/sounds/embedded/070_itachi_old",
+      "extracted/images/embedded/070_itachi_old",
+      "extracted/sprites/embedded/070_itachi_old",
+      "extracted/misc/symbols/embedded/070_itachi_old",
+      "extracted/morphshapes/embedded/070_itachi_old",
+      "extracted/frames/embedded/070_itachi_old",
+      "extracted/texts/embedded/070_itachi_old",
+      "extracted/fonts/embedded/070_itachi_old",
+      "extracted/misc/buttons/embedded/070_itachi_old",
+      "extracted/shapes/embedded/070_itachi_old"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/jiraiya.swf",
+    "id": "071_jiraiya",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/071_jiraiya",
+      "extracted/scripts/embedded/071_jiraiya",
+      "extracted/sounds/embedded/071_jiraiya",
+      "extracted/images/embedded/071_jiraiya",
+      "extracted/sprites/embedded/071_jiraiya",
+      "extracted/misc/symbols/embedded/071_jiraiya",
+      "extracted/morphshapes/embedded/071_jiraiya",
+      "extracted/frames/embedded/071_jiraiya",
+      "extracted/texts/embedded/071_jiraiya",
+      "extracted/fonts/embedded/071_jiraiya",
+      "extracted/misc/buttons/embedded/071_jiraiya",
+      "extracted/shapes/embedded/071_jiraiya"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/juggo.swf",
+    "id": "072_juggo",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/072_juggo",
+      "extracted/scripts/embedded/072_juggo",
+      "extracted/sounds/embedded/072_juggo",
+      "extracted/images/embedded/072_juggo",
+      "extracted/sprites/embedded/072_juggo",
+      "extracted/misc/symbols/embedded/072_juggo",
+      "extracted/morphshapes/embedded/072_juggo",
+      "extracted/frames/embedded/072_juggo",
+      "extracted/texts/embedded/072_juggo",
+      "extracted/fonts/embedded/072_juggo",
+      "extracted/misc/buttons/embedded/072_juggo",
+      "extracted/shapes/embedded/072_juggo"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/kakashi.swf",
+    "id": "073_kakashi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/073_kakashi",
+      "extracted/scripts/embedded/073_kakashi",
+      "extracted/sounds/embedded/073_kakashi",
+      "extracted/images/embedded/073_kakashi",
+      "extracted/sprites/embedded/073_kakashi",
+      "extracted/misc/symbols/embedded/073_kakashi",
+      "extracted/morphshapes/embedded/073_kakashi",
+      "extracted/frames/embedded/073_kakashi",
+      "extracted/texts/embedded/073_kakashi",
+      "extracted/fonts/embedded/073_kakashi",
+      "extracted/misc/buttons/embedded/073_kakashi",
+      "extracted/shapes/embedded/073_kakashi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/karin.swf",
+    "id": "074_karin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/074_karin",
+      "extracted/scripts/embedded/074_karin",
+      "extracted/sounds/embedded/074_karin",
+      "extracted/images/embedded/074_karin",
+      "extracted/sprites/embedded/074_karin",
+      "extracted/misc/symbols/embedded/074_karin",
+      "extracted/morphshapes/embedded/074_karin",
+      "extracted/frames/embedded/074_karin",
+      "extracted/texts/embedded/074_karin",
+      "extracted/fonts/embedded/074_karin",
+      "extracted/misc/buttons/embedded/074_karin",
+      "extracted/shapes/embedded/074_karin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/kenpachi.swf",
+    "id": "075_kenpachi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/075_kenpachi",
+      "extracted/scripts/embedded/075_kenpachi",
+      "extracted/sounds/embedded/075_kenpachi",
+      "extracted/images/embedded/075_kenpachi",
+      "extracted/sprites/embedded/075_kenpachi",
+      "extracted/misc/symbols/embedded/075_kenpachi",
+      "extracted/morphshapes/embedded/075_kenpachi",
+      "extracted/frames/embedded/075_kenpachi",
+      "extracted/texts/embedded/075_kenpachi",
+      "extracted/fonts/embedded/075_kenpachi",
+      "extracted/misc/buttons/embedded/075_kenpachi",
+      "extracted/shapes/embedded/075_kenpachi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/kenshin.swf",
+    "id": "076_kenshin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/076_kenshin",
+      "extracted/scripts/embedded/076_kenshin",
+      "extracted/sounds/embedded/076_kenshin",
+      "extracted/images/embedded/076_kenshin",
+      "extracted/sprites/embedded/076_kenshin",
+      "extracted/misc/symbols/embedded/076_kenshin",
+      "extracted/morphshapes/embedded/076_kenshin",
+      "extracted/frames/embedded/076_kenshin",
+      "extracted/texts/embedded/076_kenshin",
+      "extracted/fonts/embedded/076_kenshin",
+      "extracted/misc/buttons/embedded/076_kenshin",
+      "extracted/shapes/embedded/076_kenshin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/killerbee.swf",
+    "id": "077_killerbee",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/077_killerbee",
+      "extracted/scripts/embedded/077_killerbee",
+      "extracted/sounds/embedded/077_killerbee",
+      "extracted/images/embedded/077_killerbee",
+      "extracted/sprites/embedded/077_killerbee",
+      "extracted/misc/symbols/embedded/077_killerbee",
+      "extracted/morphshapes/embedded/077_killerbee",
+      "extracted/frames/embedded/077_killerbee",
+      "extracted/texts/embedded/077_killerbee",
+      "extracted/fonts/embedded/077_killerbee",
+      "extracted/misc/buttons/embedded/077_killerbee",
+      "extracted/shapes/embedded/077_killerbee"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/kimimaro.swf",
+    "id": "078_kimimaro",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/078_kimimaro",
+      "extracted/scripts/embedded/078_kimimaro",
+      "extracted/sounds/embedded/078_kimimaro",
+      "extracted/images/embedded/078_kimimaro",
+      "extracted/sprites/embedded/078_kimimaro",
+      "extracted/misc/symbols/embedded/078_kimimaro",
+      "extracted/morphshapes/embedded/078_kimimaro",
+      "extracted/frames/embedded/078_kimimaro",
+      "extracted/texts/embedded/078_kimimaro",
+      "extracted/fonts/embedded/078_kimimaro",
+      "extracted/misc/buttons/embedded/078_kimimaro",
+      "extracted/shapes/embedded/078_kimimaro"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/konan.swf",
+    "id": "079_konan",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/079_konan",
+      "extracted/scripts/embedded/079_konan",
+      "extracted/sounds/embedded/079_konan",
+      "extracted/images/embedded/079_konan",
+      "extracted/sprites/embedded/079_konan",
+      "extracted/misc/symbols/embedded/079_konan",
+      "extracted/morphshapes/embedded/079_konan",
+      "extracted/frames/embedded/079_konan",
+      "extracted/texts/embedded/079_konan",
+      "extracted/fonts/embedded/079_konan",
+      "extracted/misc/buttons/embedded/079_konan",
+      "extracted/shapes/embedded/079_konan"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/lee.swf",
+    "id": "080_lee",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/080_lee",
+      "extracted/scripts/embedded/080_lee",
+      "extracted/sounds/embedded/080_lee",
+      "extracted/images/embedded/080_lee",
+      "extracted/sprites/embedded/080_lee",
+      "extracted/misc/symbols/embedded/080_lee",
+      "extracted/morphshapes/embedded/080_lee",
+      "extracted/frames/embedded/080_lee",
+      "extracted/texts/embedded/080_lee",
+      "extracted/fonts/embedded/080_lee",
+      "extracted/shapes/embedded/080_lee"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/madara.swf",
+    "id": "081_madara",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/081_madara",
+      "extracted/scripts/embedded/081_madara",
+      "extracted/sounds/embedded/081_madara",
+      "extracted/images/embedded/081_madara",
+      "extracted/sprites/embedded/081_madara",
+      "extracted/misc/symbols/embedded/081_madara",
+      "extracted/morphshapes/embedded/081_madara",
+      "extracted/frames/embedded/081_madara",
+      "extracted/texts/embedded/081_madara",
+      "extracted/fonts/embedded/081_madara",
+      "extracted/misc/buttons/embedded/081_madara",
+      "extracted/shapes/embedded/081_madara"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/mayuri.swf",
+    "id": "082_mayuri",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/082_mayuri",
+      "extracted/scripts/embedded/082_mayuri",
+      "extracted/sounds/embedded/082_mayuri",
+      "extracted/images/embedded/082_mayuri",
+      "extracted/sprites/embedded/082_mayuri",
+      "extracted/misc/symbols/embedded/082_mayuri",
+      "extracted/morphshapes/embedded/082_mayuri",
+      "extracted/frames/embedded/082_mayuri",
+      "extracted/texts/embedded/082_mayuri",
+      "extracted/fonts/embedded/082_mayuri",
+      "extracted/misc/buttons/embedded/082_mayuri",
+      "extracted/shapes/embedded/082_mayuri"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/minato.swf",
+    "id": "083_minato",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/083_minato",
+      "extracted/scripts/embedded/083_minato",
+      "extracted/sounds/embedded/083_minato",
+      "extracted/images/embedded/083_minato",
+      "extracted/sprites/embedded/083_minato",
+      "extracted/misc/symbols/embedded/083_minato",
+      "extracted/morphshapes/embedded/083_minato",
+      "extracted/frames/embedded/083_minato",
+      "extracted/texts/embedded/083_minato",
+      "extracted/fonts/embedded/083_minato",
+      "extracted/misc/buttons/embedded/083_minato",
+      "extracted/shapes/embedded/083_minato"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/naruto.swf",
+    "id": "084_naruto",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/084_naruto",
+      "extracted/scripts/embedded/084_naruto",
+      "extracted/sounds/embedded/084_naruto",
+      "extracted/images/embedded/084_naruto",
+      "extracted/sprites/embedded/084_naruto",
+      "extracted/misc/symbols/embedded/084_naruto",
+      "extracted/morphshapes/embedded/084_naruto",
+      "extracted/frames/embedded/084_naruto",
+      "extracted/texts/embedded/084_naruto",
+      "extracted/fonts/embedded/084_naruto",
+      "extracted/misc/buttons/embedded/084_naruto",
+      "extracted/shapes/embedded/084_naruto"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/naruto_hermit.swf",
+    "id": "085_naruto_hermit",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/085_naruto_hermit",
+      "extracted/scripts/embedded/085_naruto_hermit",
+      "extracted/sounds/embedded/085_naruto_hermit",
+      "extracted/images/embedded/085_naruto_hermit",
+      "extracted/sprites/embedded/085_naruto_hermit",
+      "extracted/misc/symbols/embedded/085_naruto_hermit",
+      "extracted/morphshapes/embedded/085_naruto_hermit",
+      "extracted/frames/embedded/085_naruto_hermit",
+      "extracted/texts/embedded/085_naruto_hermit",
+      "extracted/fonts/embedded/085_naruto_hermit",
+      "extracted/misc/buttons/embedded/085_naruto_hermit",
+      "extracted/shapes/embedded/085_naruto_hermit"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/neji.swf",
+    "id": "086_neji",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/086_neji",
+      "extracted/scripts/embedded/086_neji",
+      "extracted/sounds/embedded/086_neji",
+      "extracted/images/embedded/086_neji",
+      "extracted/sprites/embedded/086_neji",
+      "extracted/misc/symbols/embedded/086_neji",
+      "extracted/morphshapes/embedded/086_neji",
+      "extracted/frames/embedded/086_neji",
+      "extracted/texts/embedded/086_neji",
+      "extracted/fonts/embedded/086_neji",
+      "extracted/misc/buttons/embedded/086_neji",
+      "extracted/shapes/embedded/086_neji"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/obito.swf",
+    "id": "087_obito",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/087_obito",
+      "extracted/scripts/embedded/087_obito",
+      "extracted/sounds/embedded/087_obito",
+      "extracted/images/embedded/087_obito",
+      "extracted/sprites/embedded/087_obito",
+      "extracted/misc/symbols/embedded/087_obito",
+      "extracted/morphshapes/embedded/087_obito",
+      "extracted/frames/embedded/087_obito",
+      "extracted/texts/embedded/087_obito",
+      "extracted/fonts/embedded/087_obito",
+      "extracted/misc/buttons/embedded/087_obito",
+      "extracted/shapes/embedded/087_obito"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/orihime.swf",
+    "id": "088_orihime",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/088_orihime",
+      "extracted/scripts/embedded/088_orihime",
+      "extracted/sounds/embedded/088_orihime",
+      "extracted/images/embedded/088_orihime",
+      "extracted/sprites/embedded/088_orihime",
+      "extracted/misc/symbols/embedded/088_orihime",
+      "extracted/morphshapes/embedded/088_orihime",
+      "extracted/frames/embedded/088_orihime",
+      "extracted/texts/embedded/088_orihime",
+      "extracted/fonts/embedded/088_orihime",
+      "extracted/misc/buttons/embedded/088_orihime",
+      "extracted/shapes/embedded/088_orihime"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/orochimaru.swf",
+    "id": "089_orochimaru",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/089_orochimaru",
+      "extracted/scripts/embedded/089_orochimaru",
+      "extracted/sounds/embedded/089_orochimaru",
+      "extracted/images/embedded/089_orochimaru",
+      "extracted/sprites/embedded/089_orochimaru",
+      "extracted/misc/symbols/embedded/089_orochimaru",
+      "extracted/morphshapes/embedded/089_orochimaru",
+      "extracted/frames/embedded/089_orochimaru",
+      "extracted/texts/embedded/089_orochimaru",
+      "extracted/fonts/embedded/089_orochimaru",
+      "extracted/misc/buttons/embedded/089_orochimaru",
+      "extracted/shapes/embedded/089_orochimaru"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/pain.swf",
+    "id": "090_pain",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/090_pain",
+      "extracted/scripts/embedded/090_pain",
+      "extracted/sounds/embedded/090_pain",
+      "extracted/images/embedded/090_pain",
+      "extracted/sprites/embedded/090_pain",
+      "extracted/misc/symbols/embedded/090_pain",
+      "extracted/morphshapes/embedded/090_pain",
+      "extracted/frames/embedded/090_pain",
+      "extracted/texts/embedded/090_pain",
+      "extracted/fonts/embedded/090_pain",
+      "extracted/misc/buttons/embedded/090_pain",
+      "extracted/shapes/embedded/090_pain"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/pain_old.swf",
+    "id": "091_pain_old",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/091_pain_old",
+      "extracted/scripts/embedded/091_pain_old",
+      "extracted/sounds/embedded/091_pain_old",
+      "extracted/images/embedded/091_pain_old",
+      "extracted/sprites/embedded/091_pain_old",
+      "extracted/misc/symbols/embedded/091_pain_old",
+      "extracted/morphshapes/embedded/091_pain_old",
+      "extracted/frames/embedded/091_pain_old",
+      "extracted/texts/embedded/091_pain_old",
+      "extracted/fonts/embedded/091_pain_old",
+      "extracted/misc/buttons/embedded/091_pain_old",
+      "extracted/shapes/embedded/091_pain_old"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/renji.swf",
+    "id": "092_renji",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/092_renji",
+      "extracted/scripts/embedded/092_renji",
+      "extracted/sounds/embedded/092_renji",
+      "extracted/images/embedded/092_renji",
+      "extracted/sprites/embedded/092_renji",
+      "extracted/misc/symbols/embedded/092_renji",
+      "extracted/morphshapes/embedded/092_renji",
+      "extracted/frames/embedded/092_renji",
+      "extracted/texts/embedded/092_renji",
+      "extracted/fonts/embedded/092_renji",
+      "extracted/misc/buttons/embedded/092_renji",
+      "extracted/shapes/embedded/092_renji"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/rukia.swf",
+    "id": "093_rukia",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/093_rukia",
+      "extracted/scripts/embedded/093_rukia",
+      "extracted/sounds/embedded/093_rukia",
+      "extracted/images/embedded/093_rukia",
+      "extracted/sprites/embedded/093_rukia",
+      "extracted/misc/symbols/embedded/093_rukia",
+      "extracted/morphshapes/embedded/093_rukia",
+      "extracted/frames/embedded/093_rukia",
+      "extracted/texts/embedded/093_rukia",
+      "extracted/fonts/embedded/093_rukia",
+      "extracted/misc/buttons/embedded/093_rukia",
+      "extracted/shapes/embedded/093_rukia"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/sakura.swf",
+    "id": "094_sakura",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/094_sakura",
+      "extracted/scripts/embedded/094_sakura",
+      "extracted/sounds/embedded/094_sakura",
+      "extracted/images/embedded/094_sakura",
+      "extracted/sprites/embedded/094_sakura",
+      "extracted/misc/symbols/embedded/094_sakura",
+      "extracted/morphshapes/embedded/094_sakura",
+      "extracted/frames/embedded/094_sakura",
+      "extracted/texts/embedded/094_sakura",
+      "extracted/fonts/embedded/094_sakura",
+      "extracted/misc/buttons/embedded/094_sakura",
+      "extracted/shapes/embedded/094_sakura"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/sasuke.swf",
+    "id": "095_sasuke",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/095_sasuke",
+      "extracted/scripts/embedded/095_sasuke",
+      "extracted/sounds/embedded/095_sasuke",
+      "extracted/images/embedded/095_sasuke",
+      "extracted/sprites/embedded/095_sasuke",
+      "extracted/misc/symbols/embedded/095_sasuke",
+      "extracted/morphshapes/embedded/095_sasuke",
+      "extracted/frames/embedded/095_sasuke",
+      "extracted/texts/embedded/095_sasuke",
+      "extracted/fonts/embedded/095_sasuke",
+      "extracted/misc/buttons/embedded/095_sasuke",
+      "extracted/shapes/embedded/095_sasuke"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/sasuke_susanoo.swf",
+    "id": "096_sasuke_susanoo",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/096_sasuke_susanoo",
+      "extracted/scripts/embedded/096_sasuke_susanoo",
+      "extracted/sounds/embedded/096_sasuke_susanoo",
+      "extracted/images/embedded/096_sasuke_susanoo",
+      "extracted/sprites/embedded/096_sasuke_susanoo",
+      "extracted/misc/symbols/embedded/096_sasuke_susanoo",
+      "extracted/morphshapes/embedded/096_sasuke_susanoo",
+      "extracted/frames/embedded/096_sasuke_susanoo",
+      "extracted/texts/embedded/096_sasuke_susanoo",
+      "extracted/fonts/embedded/096_sasuke_susanoo",
+      "extracted/misc/buttons/embedded/096_sasuke_susanoo",
+      "extracted/shapes/embedded/096_sasuke_susanoo"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/sasuke_susanoo_old.swf",
+    "id": "097_sasuke_susanoo_old",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/097_sasuke_susanoo_old",
+      "extracted/scripts/embedded/097_sasuke_susanoo_old",
+      "extracted/sounds/embedded/097_sasuke_susanoo_old",
+      "extracted/images/embedded/097_sasuke_susanoo_old",
+      "extracted/sprites/embedded/097_sasuke_susanoo_old",
+      "extracted/misc/symbols/embedded/097_sasuke_susanoo_old",
+      "extracted/morphshapes/embedded/097_sasuke_susanoo_old",
+      "extracted/frames/embedded/097_sasuke_susanoo_old",
+      "extracted/texts/embedded/097_sasuke_susanoo_old",
+      "extracted/fonts/embedded/097_sasuke_susanoo_old",
+      "extracted/misc/buttons/embedded/097_sasuke_susanoo_old",
+      "extracted/shapes/embedded/097_sasuke_susanoo_old"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/soifon.swf",
+    "id": "098_soifon",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/098_soifon",
+      "extracted/scripts/embedded/098_soifon",
+      "extracted/sounds/embedded/098_soifon",
+      "extracted/images/embedded/098_soifon",
+      "extracted/sprites/embedded/098_soifon",
+      "extracted/misc/symbols/embedded/098_soifon",
+      "extracted/morphshapes/embedded/098_soifon",
+      "extracted/frames/embedded/098_soifon",
+      "extracted/texts/embedded/098_soifon",
+      "extracted/fonts/embedded/098_soifon",
+      "extracted/misc/buttons/embedded/098_soifon",
+      "extracted/shapes/embedded/098_soifon"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/starrk.swf",
+    "id": "099_starrk",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/099_starrk",
+      "extracted/scripts/embedded/099_starrk",
+      "extracted/sounds/embedded/099_starrk",
+      "extracted/images/embedded/099_starrk",
+      "extracted/sprites/embedded/099_starrk",
+      "extracted/misc/symbols/embedded/099_starrk",
+      "extracted/morphshapes/embedded/099_starrk",
+      "extracted/frames/embedded/099_starrk",
+      "extracted/texts/embedded/099_starrk",
+      "extracted/fonts/embedded/099_starrk",
+      "extracted/misc/buttons/embedded/099_starrk",
+      "extracted/shapes/embedded/099_starrk"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/temari.swf",
+    "id": "100_temari",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/100_temari",
+      "extracted/scripts/embedded/100_temari",
+      "extracted/sounds/embedded/100_temari",
+      "extracted/images/embedded/100_temari",
+      "extracted/sprites/embedded/100_temari",
+      "extracted/misc/symbols/embedded/100_temari",
+      "extracted/morphshapes/embedded/100_temari",
+      "extracted/frames/embedded/100_temari",
+      "extracted/texts/embedded/100_temari",
+      "extracted/fonts/embedded/100_temari",
+      "extracted/misc/buttons/embedded/100_temari",
+      "extracted/shapes/embedded/100_temari"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/toushirou.swf",
+    "id": "101_toushirou",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/101_toushirou",
+      "extracted/scripts/embedded/101_toushirou",
+      "extracted/sounds/embedded/101_toushirou",
+      "extracted/images/embedded/101_toushirou",
+      "extracted/sprites/embedded/101_toushirou",
+      "extracted/misc/symbols/embedded/101_toushirou",
+      "extracted/morphshapes/embedded/101_toushirou",
+      "extracted/frames/embedded/101_toushirou",
+      "extracted/texts/embedded/101_toushirou",
+      "extracted/fonts/embedded/101_toushirou",
+      "extracted/misc/buttons/embedded/101_toushirou",
+      "extracted/shapes/embedded/101_toushirou"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/ulquiorra.swf",
+    "id": "102_ulquiorra",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/102_ulquiorra",
+      "extracted/scripts/embedded/102_ulquiorra",
+      "extracted/sounds/embedded/102_ulquiorra",
+      "extracted/images/embedded/102_ulquiorra",
+      "extracted/sprites/embedded/102_ulquiorra",
+      "extracted/misc/symbols/embedded/102_ulquiorra",
+      "extracted/morphshapes/embedded/102_ulquiorra",
+      "extracted/frames/embedded/102_ulquiorra",
+      "extracted/texts/embedded/102_ulquiorra",
+      "extracted/fonts/embedded/102_ulquiorra",
+      "extracted/misc/buttons/embedded/102_ulquiorra",
+      "extracted/shapes/embedded/102_ulquiorra"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/uryuu.swf",
+    "id": "103_uryuu",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/103_uryuu",
+      "extracted/scripts/embedded/103_uryuu",
+      "extracted/sounds/embedded/103_uryuu",
+      "extracted/images/embedded/103_uryuu",
+      "extracted/sprites/embedded/103_uryuu",
+      "extracted/misc/symbols/embedded/103_uryuu",
+      "extracted/morphshapes/embedded/103_uryuu",
+      "extracted/frames/embedded/103_uryuu",
+      "extracted/texts/embedded/103_uryuu",
+      "extracted/fonts/embedded/103_uryuu",
+      "extracted/misc/buttons/embedded/103_uryuu",
+      "extracted/shapes/embedded/103_uryuu"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/bear1.swf",
+    "id": "104_bear1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/104_bear1",
+      "extracted/scripts/embedded/104_bear1",
+      "extracted/sounds/embedded/104_bear1",
+      "extracted/images/embedded/104_bear1",
+      "extracted/sprites/embedded/104_bear1",
+      "extracted/misc/symbols/embedded/104_bear1",
+      "extracted/morphshapes/embedded/104_bear1",
+      "extracted/frames/embedded/104_bear1",
+      "extracted/texts/embedded/104_bear1",
+      "extracted/fonts/embedded/104_bear1",
+      "extracted/misc/buttons/embedded/104_bear1",
+      "extracted/shapes/embedded/104_bear1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/bird1.swf",
+    "id": "105_bird1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/105_bird1",
+      "extracted/scripts/embedded/105_bird1",
+      "extracted/sounds/embedded/105_bird1",
+      "extracted/images/embedded/105_bird1",
+      "extracted/sprites/embedded/105_bird1",
+      "extracted/misc/symbols/embedded/105_bird1",
+      "extracted/morphshapes/embedded/105_bird1",
+      "extracted/frames/embedded/105_bird1",
+      "extracted/texts/embedded/105_bird1",
+      "extracted/fonts/embedded/105_bird1",
+      "extracted/misc/buttons/embedded/105_bird1",
+      "extracted/shapes/embedded/105_bird1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/dog1.swf",
+    "id": "106_dog1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/106_dog1",
+      "extracted/scripts/embedded/106_dog1",
+      "extracted/sounds/embedded/106_dog1",
+      "extracted/images/embedded/106_dog1",
+      "extracted/sprites/embedded/106_dog1",
+      "extracted/misc/symbols/embedded/106_dog1",
+      "extracted/morphshapes/embedded/106_dog1",
+      "extracted/frames/embedded/106_dog1",
+      "extracted/texts/embedded/106_dog1",
+      "extracted/fonts/embedded/106_dog1",
+      "extracted/misc/buttons/embedded/106_dog1",
+      "extracted/shapes/embedded/106_dog1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja1.swf",
+    "id": "107_ninja1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/107_ninja1",
+      "extracted/scripts/embedded/107_ninja1",
+      "extracted/sounds/embedded/107_ninja1",
+      "extracted/images/embedded/107_ninja1",
+      "extracted/sprites/embedded/107_ninja1",
+      "extracted/misc/symbols/embedded/107_ninja1",
+      "extracted/morphshapes/embedded/107_ninja1",
+      "extracted/frames/embedded/107_ninja1",
+      "extracted/texts/embedded/107_ninja1",
+      "extracted/fonts/embedded/107_ninja1",
+      "extracted/misc/buttons/embedded/107_ninja1",
+      "extracted/shapes/embedded/107_ninja1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja2.swf",
+    "id": "108_ninja2",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/108_ninja2",
+      "extracted/scripts/embedded/108_ninja2",
+      "extracted/sounds/embedded/108_ninja2",
+      "extracted/images/embedded/108_ninja2",
+      "extracted/sprites/embedded/108_ninja2",
+      "extracted/misc/symbols/embedded/108_ninja2",
+      "extracted/morphshapes/embedded/108_ninja2",
+      "extracted/frames/embedded/108_ninja2",
+      "extracted/texts/embedded/108_ninja2",
+      "extracted/fonts/embedded/108_ninja2",
+      "extracted/misc/buttons/embedded/108_ninja2",
+      "extracted/shapes/embedded/108_ninja2"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja_earth1.swf",
+    "id": "109_ninja_earth1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/109_ninja_earth1",
+      "extracted/scripts/embedded/109_ninja_earth1",
+      "extracted/sounds/embedded/109_ninja_earth1",
+      "extracted/images/embedded/109_ninja_earth1",
+      "extracted/sprites/embedded/109_ninja_earth1",
+      "extracted/misc/symbols/embedded/109_ninja_earth1",
+      "extracted/morphshapes/embedded/109_ninja_earth1",
+      "extracted/frames/embedded/109_ninja_earth1",
+      "extracted/texts/embedded/109_ninja_earth1",
+      "extracted/fonts/embedded/109_ninja_earth1",
+      "extracted/misc/buttons/embedded/109_ninja_earth1",
+      "extracted/shapes/embedded/109_ninja_earth1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja_fire1.swf",
+    "id": "110_ninja_fire1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/110_ninja_fire1",
+      "extracted/scripts/embedded/110_ninja_fire1",
+      "extracted/sounds/embedded/110_ninja_fire1",
+      "extracted/images/embedded/110_ninja_fire1",
+      "extracted/sprites/embedded/110_ninja_fire1",
+      "extracted/misc/symbols/embedded/110_ninja_fire1",
+      "extracted/morphshapes/embedded/110_ninja_fire1",
+      "extracted/frames/embedded/110_ninja_fire1",
+      "extracted/texts/embedded/110_ninja_fire1",
+      "extracted/fonts/embedded/110_ninja_fire1",
+      "extracted/misc/buttons/embedded/110_ninja_fire1",
+      "extracted/shapes/embedded/110_ninja_fire1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja_fire2.swf",
+    "id": "111_ninja_fire2",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/111_ninja_fire2",
+      "extracted/scripts/embedded/111_ninja_fire2",
+      "extracted/sounds/embedded/111_ninja_fire2",
+      "extracted/images/embedded/111_ninja_fire2",
+      "extracted/sprites/embedded/111_ninja_fire2",
+      "extracted/misc/symbols/embedded/111_ninja_fire2",
+      "extracted/morphshapes/embedded/111_ninja_fire2",
+      "extracted/frames/embedded/111_ninja_fire2",
+      "extracted/texts/embedded/111_ninja_fire2",
+      "extracted/fonts/embedded/111_ninja_fire2",
+      "extracted/misc/buttons/embedded/111_ninja_fire2",
+      "extracted/shapes/embedded/111_ninja_fire2"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja_sand1.swf",
+    "id": "112_ninja_sand1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/112_ninja_sand1",
+      "extracted/scripts/embedded/112_ninja_sand1",
+      "extracted/sounds/embedded/112_ninja_sand1",
+      "extracted/images/embedded/112_ninja_sand1",
+      "extracted/sprites/embedded/112_ninja_sand1",
+      "extracted/misc/symbols/embedded/112_ninja_sand1",
+      "extracted/morphshapes/embedded/112_ninja_sand1",
+      "extracted/frames/embedded/112_ninja_sand1",
+      "extracted/texts/embedded/112_ninja_sand1",
+      "extracted/fonts/embedded/112_ninja_sand1",
+      "extracted/misc/buttons/embedded/112_ninja_sand1",
+      "extracted/shapes/embedded/112_ninja_sand1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/ninja_thunder1.swf",
+    "id": "113_ninja_thunder1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/113_ninja_thunder1",
+      "extracted/scripts/embedded/113_ninja_thunder1",
+      "extracted/sounds/embedded/113_ninja_thunder1",
+      "extracted/images/embedded/113_ninja_thunder1",
+      "extracted/sprites/embedded/113_ninja_thunder1",
+      "extracted/misc/symbols/embedded/113_ninja_thunder1",
+      "extracted/morphshapes/embedded/113_ninja_thunder1",
+      "extracted/frames/embedded/113_ninja_thunder1",
+      "extracted/texts/embedded/113_ninja_thunder1",
+      "extracted/fonts/embedded/113_ninja_thunder1",
+      "extracted/misc/buttons/embedded/113_ninja_thunder1",
+      "extracted/shapes/embedded/113_ninja_thunder1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/xb/pig1.swf",
+    "id": "114_pig1",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/114_pig1",
+      "extracted/scripts/embedded/114_pig1",
+      "extracted/sounds/embedded/114_pig1",
+      "extracted/images/embedded/114_pig1",
+      "extracted/sprites/embedded/114_pig1",
+      "extracted/misc/symbols/embedded/114_pig1",
+      "extracted/morphshapes/embedded/114_pig1",
+      "extracted/frames/embedded/114_pig1",
+      "extracted/texts/embedded/114_pig1",
+      "extracted/fonts/embedded/114_pig1",
+      "extracted/misc/buttons/embedded/114_pig1",
+      "extracted/shapes/embedded/114_pig1"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/fighter/yoruichi.swf",
+    "id": "115_yoruichi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/115_yoruichi",
+      "extracted/scripts/embedded/115_yoruichi",
+      "extracted/sounds/embedded/115_yoruichi",
+      "extracted/images/embedded/115_yoruichi",
+      "extracted/sprites/embedded/115_yoruichi",
+      "extracted/misc/symbols/embedded/115_yoruichi",
+      "extracted/morphshapes/embedded/115_yoruichi",
+      "extracted/frames/embedded/115_yoruichi",
+      "extracted/texts/embedded/115_yoruichi",
+      "extracted/fonts/embedded/115_yoruichi",
+      "extracted/misc/buttons/embedded/115_yoruichi",
+      "extracted/shapes/embedded/115_yoruichi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/desert.swf",
+    "id": "116_desert",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/116_desert",
+      "extracted/scripts/embedded/116_desert",
+      "extracted/images/embedded/116_desert",
+      "extracted/sprites/embedded/116_desert",
+      "extracted/morphshapes/embedded/116_desert",
+      "extracted/frames/embedded/116_desert",
+      "extracted/texts/embedded/116_desert",
+      "extracted/fonts/embedded/116_desert",
+      "extracted/shapes/embedded/116_desert"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/jianchang.swf",
+    "id": "117_jianchang",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/117_jianchang",
+      "extracted/scripts/embedded/117_jianchang",
+      "extracted/images/embedded/117_jianchang",
+      "extracted/sprites/embedded/117_jianchang",
+      "extracted/morphshapes/embedded/117_jianchang",
+      "extracted/frames/embedded/117_jianchang",
+      "extracted/texts/embedded/117_jianchang",
+      "extracted/fonts/embedded/117_jianchang",
+      "extracted/shapes/embedded/117_jianchang"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/jingyantin.swf",
+    "id": "118_jingyantin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/118_jingyantin",
+      "extracted/scripts/embedded/118_jingyantin",
+      "extracted/images/embedded/118_jingyantin",
+      "extracted/sprites/embedded/118_jingyantin",
+      "extracted/morphshapes/embedded/118_jingyantin",
+      "extracted/frames/embedded/118_jingyantin",
+      "extracted/texts/embedded/118_jingyantin",
+      "extracted/fonts/embedded/118_jingyantin",
+      "extracted/shapes/embedded/118_jingyantin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/liuhunjie.swf",
+    "id": "119_liuhunjie",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/119_liuhunjie",
+      "extracted/scripts/embedded/119_liuhunjie",
+      "extracted/images/embedded/119_liuhunjie",
+      "extracted/sprites/embedded/119_liuhunjie",
+      "extracted/morphshapes/embedded/119_liuhunjie",
+      "extracted/frames/embedded/119_liuhunjie",
+      "extracted/texts/embedded/119_liuhunjie",
+      "extracted/fonts/embedded/119_liuhunjie",
+      "extracted/shapes/embedded/119_liuhunjie"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/louding.swf",
+    "id": "120_louding",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/120_louding",
+      "extracted/scripts/embedded/120_louding",
+      "extracted/images/embedded/120_louding",
+      "extracted/sprites/embedded/120_louding",
+      "extracted/morphshapes/embedded/120_louding",
+      "extracted/frames/embedded/120_louding",
+      "extracted/texts/embedded/120_louding",
+      "extracted/fonts/embedded/120_louding",
+      "extracted/shapes/embedded/120_louding"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/mountain.swf",
+    "id": "121_mountain",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/121_mountain",
+      "extracted/scripts/embedded/121_mountain",
+      "extracted/images/embedded/121_mountain",
+      "extracted/sprites/embedded/121_mountain",
+      "extracted/morphshapes/embedded/121_mountain",
+      "extracted/frames/embedded/121_mountain",
+      "extracted/texts/embedded/121_mountain",
+      "extracted/fonts/embedded/121_mountain",
+      "extracted/shapes/embedded/121_mountain"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/muyecun.swf",
+    "id": "122_muyecun",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/122_muyecun",
+      "extracted/scripts/embedded/122_muyecun",
+      "extracted/images/embedded/122_muyecun",
+      "extracted/sprites/embedded/122_muyecun",
+      "extracted/morphshapes/embedded/122_muyecun",
+      "extracted/frames/embedded/122_muyecun",
+      "extracted/texts/embedded/122_muyecun",
+      "extracted/fonts/embedded/122_muyecun",
+      "extracted/shapes/embedded/122_muyecun"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/neixin.swf",
+    "id": "123_neixin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/123_neixin",
+      "extracted/scripts/embedded/123_neixin",
+      "extracted/images/embedded/123_neixin",
+      "extracted/sprites/embedded/123_neixin",
+      "extracted/morphshapes/embedded/123_neixin",
+      "extracted/frames/embedded/123_neixin",
+      "extracted/texts/embedded/123_neixin",
+      "extracted/fonts/embedded/123_neixin",
+      "extracted/shapes/embedded/123_neixin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/pubu.swf",
+    "id": "124_pubu",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/124_pubu",
+      "extracted/scripts/embedded/124_pubu",
+      "extracted/images/embedded/124_pubu",
+      "extracted/sprites/embedded/124_pubu",
+      "extracted/morphshapes/embedded/124_pubu",
+      "extracted/frames/embedded/124_pubu",
+      "extracted/texts/embedded/124_pubu",
+      "extracted/fonts/embedded/124_pubu",
+      "extracted/shapes/embedded/124_pubu"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/senlin.swf",
+    "id": "125_senlin",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/125_senlin",
+      "extracted/scripts/embedded/125_senlin",
+      "extracted/images/embedded/125_senlin",
+      "extracted/sprites/embedded/125_senlin",
+      "extracted/morphshapes/embedded/125_senlin",
+      "extracted/frames/embedded/125_senlin",
+      "extracted/texts/embedded/125_senlin",
+      "extracted/fonts/embedded/125_senlin",
+      "extracted/shapes/embedded/125_senlin"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/shihunjietongdao.swf",
+    "id": "126_shihunjietongdao",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/126_shihunjietongdao",
+      "extracted/scripts/embedded/126_shihunjietongdao",
+      "extracted/images/embedded/126_shihunjietongdao",
+      "extracted/sprites/embedded/126_shihunjietongdao",
+      "extracted/morphshapes/embedded/126_shihunjietongdao",
+      "extracted/frames/embedded/126_shihunjietongdao",
+      "extracted/texts/embedded/126_shihunjietongdao",
+      "extracted/fonts/embedded/126_shihunjietongdao",
+      "extracted/shapes/embedded/126_shihunjietongdao"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/shuangji.swf",
+    "id": "127_shuangji",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/127_shuangji",
+      "extracted/scripts/embedded/127_shuangji",
+      "extracted/images/embedded/127_shuangji",
+      "extracted/sprites/embedded/127_shuangji",
+      "extracted/morphshapes/embedded/127_shuangji",
+      "extracted/frames/embedded/127_shuangji",
+      "extracted/texts/embedded/127_shuangji",
+      "extracted/fonts/embedded/127_shuangji",
+      "extracted/shapes/embedded/127_shuangji"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/snow.swf",
+    "id": "128_snow",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/128_snow",
+      "extracted/scripts/embedded/128_snow",
+      "extracted/images/embedded/128_snow",
+      "extracted/sprites/embedded/128_snow",
+      "extracted/morphshapes/embedded/128_snow",
+      "extracted/frames/embedded/128_snow",
+      "extracted/texts/embedded/128_snow",
+      "extracted/fonts/embedded/128_snow",
+      "extracted/shapes/embedded/128_snow"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/wenquan.swf",
+    "id": "129_wenquan",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/129_wenquan",
+      "extracted/scripts/embedded/129_wenquan",
+      "extracted/images/embedded/129_wenquan",
+      "extracted/sprites/embedded/129_wenquan",
+      "extracted/morphshapes/embedded/129_wenquan",
+      "extracted/frames/embedded/129_wenquan",
+      "extracted/texts/embedded/129_wenquan",
+      "extracted/fonts/embedded/129_wenquan",
+      "extracted/shapes/embedded/129_wenquan"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/woods.swf",
+    "id": "130_woods",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/130_woods",
+      "extracted/scripts/embedded/130_woods",
+      "extracted/images/embedded/130_woods",
+      "extracted/sprites/embedded/130_woods",
+      "extracted/morphshapes/embedded/130_woods",
+      "extracted/frames/embedded/130_woods",
+      "extracted/texts/embedded/130_woods",
+      "extracted/fonts/embedded/130_woods",
+      "extracted/shapes/embedded/130_woods"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/wuyingcun.swf",
+    "id": "131_wuyingcun",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/131_wuyingcun",
+      "extracted/scripts/embedded/131_wuyingcun",
+      "extracted/images/embedded/131_wuyingcun",
+      "extracted/sprites/embedded/131_wuyingcun",
+      "extracted/morphshapes/embedded/131_wuyingcun",
+      "extracted/frames/embedded/131_wuyingcun",
+      "extracted/texts/embedded/131_wuyingcun",
+      "extracted/fonts/embedded/131_wuyingcun",
+      "extracted/shapes/embedded/131_wuyingcun"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/xianshi.swf",
+    "id": "132_xianshi",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/132_xianshi",
+      "extracted/scripts/embedded/132_xianshi",
+      "extracted/images/embedded/132_xianshi",
+      "extracted/sprites/embedded/132_xianshi",
+      "extracted/morphshapes/embedded/132_xianshi",
+      "extracted/frames/embedded/132_xianshi",
+      "extracted/texts/embedded/132_xianshi",
+      "extracted/fonts/embedded/132_xianshi",
+      "extracted/shapes/embedded/132_xianshi"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/yuzhibocun.swf",
+    "id": "133_yuzhibocun",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/133_yuzhibocun",
+      "extracted/scripts/embedded/133_yuzhibocun",
+      "extracted/images/embedded/133_yuzhibocun",
+      "extracted/sprites/embedded/133_yuzhibocun",
+      "extracted/morphshapes/embedded/133_yuzhibocun",
+      "extracted/frames/embedded/133_yuzhibocun",
+      "extracted/texts/embedded/133_yuzhibocun",
+      "extracted/fonts/embedded/133_yuzhibocun",
+      "extracted/shapes/embedded/133_yuzhibocun"
+    ]
+  },
+  {
+    "input": "extracted/binary/unpacked/assets/map/zoulang.swf",
+    "id": "134_zoulang",
+    "exit_code": 0,
+    "outputs": [
+      "extracted/videos/embedded/134_zoulang",
+      "extracted/scripts/embedded/134_zoulang",
+      "extracted/images/embedded/134_zoulang",
+      "extracted/sprites/embedded/134_zoulang",
+      "extracted/morphshapes/embedded/134_zoulang",
+      "extracted/frames/embedded/134_zoulang",
+      "extracted/texts/embedded/134_zoulang",
+      "extracted/fonts/embedded/134_zoulang",
+      "extracted/shapes/embedded/134_zoulang"
+    ]
+  }
+]

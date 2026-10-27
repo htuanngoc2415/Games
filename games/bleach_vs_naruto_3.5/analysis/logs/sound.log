@@ -1,0 +1,13 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting sounds...
+Exported sound 1/8 DefineSound (chid: 4, cls: snd_menu1)
+Exported sound 2/8 DefineSound (chid: 5, cls: snd_menu2)
+Exported sound 3/8 DefineSound (chid: 19, cls: snd_gameover)
+Exported sound 4/8 DefineSound (chid: 20, cls: snd_ghost_jump)
+Exported sound 5/8 DefineSound (chid: 21, cls: snd_menu5)
+Exported sound 6/8 DefineSound (chid: 23, cls: snd_ko)
+Exported sound 7/8 DefineSound (chid: 24, cls: snd_ko_bs)
+Exported sound 8/8 DefineSound (chid: 25, cls: snd_over_hit)
+Export finished. Total export time: 00:00.694
+OK

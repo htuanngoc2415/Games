@@ -1,0 +1,4670 @@
+{
+  "schema": 1,
+  "fighters": {
+    "ace": {
+      "xfl_root": "build/source_xfl/ace",
+      "main_timeline": "build/source_xfl/ace/ace/LIBRARY/Symbol 961.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 37
+        },
+        {
+          "name": "落",
+          "index": 53
+        },
+        {
+          "name": "跳2",
+          "index": 69
+        },
+        {
+          "name": "落2",
+          "index": 86
+        },
+        {
+          "name": "落地",
+          "index": 112
+        },
+        {
+          "name": "跳砍",
+          "index": 124
+        },
+        {
+          "name": "跳砍2",
+          "index": 148
+        },
+        {
+          "name": "跳砍3",
+          "index": 174
+        },
+        {
+          "name": "跳招",
+          "index": 221
+        },
+        {
+          "name": "跳招0",
+          "index": 227
+        },
+        {
+          "name": "跳招2",
+          "index": 235
+        },
+        {
+          "name": "砍1",
+          "index": 261
+        },
+        {
+          "name": "砍2",
+          "index": 283
+        },
+        {
+          "name": "砍3",
+          "index": 301
+        },
+        {
+          "name": "砍4",
+          "index": 329
+        },
+        {
+          "name": "砍技1",
+          "index": 355
+        },
+        {
+          "name": "砍技12",
+          "index": 395
+        },
+        {
+          "name": "砍技13",
+          "index": 436
+        },
+        {
+          "name": "砍技2",
+          "index": 482
+        },
+        {
+          "name": "招1",
+          "index": 542
+        },
+        {
+          "name": "招2",
+          "index": 598
+        },
+        {
+          "name": "招21",
+          "index": 644
+        },
+        {
+          "name": "招3",
+          "index": 693
+        },
+        {
+          "name": "必杀",
+          "index": 731
+        },
+        {
+          "name": "上必杀",
+          "index": 857
+        },
+        {
+          "name": "超必杀",
+          "index": 942
+        },
+        {
+          "name": "招换",
+          "index": 1052
+        },
+        {
+          "name": "防御",
+          "index": 1114
+        },
+        {
+          "name": "防御2",
+          "index": 1115
+        },
+        {
+          "name": "防住",
+          "index": 1126
+        },
+        {
+          "name": "被打",
+          "index": 1138
+        },
+        {
+          "name": "击飞",
+          "index": 1151
+        },
+        {
+          "name": "击落地",
+          "index": 1163
+        },
+        {
+          "name": "起身",
+          "index": 1202
+        },
+        {
+          "name": "开场",
+          "index": 1227
+        },
+        {
+          "name": "胜利",
+          "index": 1321
+        },
+        {
+          "name": "失败",
+          "index": 1351
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bs2atm",
+        "bsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj11atm",
+        "kj12atm",
+        "kj13atm",
+        "kj14atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh1atm",
+        "zh21atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 368
+    },
+    "buggy": {
+      "xfl_root": "build/source_xfl/buggy",
+      "main_timeline": "build/source_xfl/buggy/buggy/LIBRARY/Symbol 501.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 155
+        },
+        {
+          "name": "跳招1",
+          "index": 162
+        },
+        {
+          "name": "跳招2",
+          "index": 172
+        },
+        {
+          "name": "砍1",
+          "index": 196
+        },
+        {
+          "name": "砍2",
+          "index": 212
+        },
+        {
+          "name": "砍3",
+          "index": 241
+        },
+        {
+          "name": "砍技1",
+          "index": 294
+        },
+        {
+          "name": "砍技2",
+          "index": 386
+        },
+        {
+          "name": "砍技21",
+          "index": 393
+        },
+        {
+          "name": "招1",
+          "index": 490
+        },
+        {
+          "name": "招2",
+          "index": 531
+        },
+        {
+          "name": "招3",
+          "index": 585
+        },
+        {
+          "name": "必杀",
+          "index": 644
+        },
+        {
+          "name": "上必杀",
+          "index": 752
+        },
+        {
+          "name": "超必杀",
+          "index": 838
+        },
+        {
+          "name": "招换",
+          "index": 966
+        },
+        {
+          "name": "防御",
+          "index": 1028
+        },
+        {
+          "name": "防御2",
+          "index": 1029
+        },
+        {
+          "name": "防住",
+          "index": 1040
+        },
+        {
+          "name": "被打",
+          "index": 1052
+        },
+        {
+          "name": "击飞",
+          "index": 1065
+        },
+        {
+          "name": "击落地",
+          "index": 1077
+        },
+        {
+          "name": "起身",
+          "index": 1116
+        },
+        {
+          "name": "开场",
+          "index": 1143
+        },
+        {
+          "name": "胜利",
+          "index": 1223
+        },
+        {
+          "name": "失败",
+          "index": 1253
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "tzatm",
+        "zh11atm",
+        "zh1atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 200
+    },
+    "crocodile": {
+      "xfl_root": "build/source_xfl/crocodile",
+      "main_timeline": "build/source_xfl/crocodile/crocodile/LIBRARY/Symbol 655.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 144
+        },
+        {
+          "name": "跳招",
+          "index": 195
+        },
+        {
+          "name": "砍1",
+          "index": 236
+        },
+        {
+          "name": "砍2",
+          "index": 251
+        },
+        {
+          "name": "砍3",
+          "index": 276
+        },
+        {
+          "name": "砍技1",
+          "index": 304
+        },
+        {
+          "name": "砍技12",
+          "index": 345
+        },
+        {
+          "name": "砍技20",
+          "index": 397
+        },
+        {
+          "name": "砍技2",
+          "index": 422
+        },
+        {
+          "name": "招1",
+          "index": 455
+        },
+        {
+          "name": "招2",
+          "index": 492
+        },
+        {
+          "name": "招3",
+          "index": 532
+        },
+        {
+          "name": "必杀",
+          "index": 562
+        },
+        {
+          "name": "上必杀",
+          "index": 707
+        },
+        {
+          "name": "超必杀",
+          "index": 808
+        },
+        {
+          "name": "招换",
+          "index": 965
+        },
+        {
+          "name": "防御",
+          "index": 1027
+        },
+        {
+          "name": "防御2",
+          "index": 1028
+        },
+        {
+          "name": "防住",
+          "index": 1039
+        },
+        {
+          "name": "被打",
+          "index": 1051
+        },
+        {
+          "name": "击飞",
+          "index": 1064
+        },
+        {
+          "name": "击落地",
+          "index": 1076
+        },
+        {
+          "name": "起身",
+          "index": 1115
+        },
+        {
+          "name": "开场",
+          "index": 1139
+        },
+        {
+          "name": "胜利",
+          "index": 1219
+        },
+        {
+          "name": "失败",
+          "index": 1249
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj12atm",
+        "kj1atm",
+        "kj21atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tkatm",
+        "tzatm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 270
+    },
+    "doflamingo": {
+      "xfl_root": "build/source_xfl/doflamingo",
+      "main_timeline": "build/source_xfl/doflamingo/doflamingo/LIBRARY/Symbol 664.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 33
+        },
+        {
+          "name": "落",
+          "index": 49
+        },
+        {
+          "name": "跳2",
+          "index": 65
+        },
+        {
+          "name": "落2",
+          "index": 82
+        },
+        {
+          "name": "落地",
+          "index": 108
+        },
+        {
+          "name": "跳砍",
+          "index": 120
+        },
+        {
+          "name": "跳砍2",
+          "index": 153
+        },
+        {
+          "name": "跳砍3",
+          "index": 190
+        },
+        {
+          "name": "跳招",
+          "index": 227
+        },
+        {
+          "name": "跳招2",
+          "index": 245
+        },
+        {
+          "name": "砍1",
+          "index": 291
+        },
+        {
+          "name": "砍2",
+          "index": 314
+        },
+        {
+          "name": "砍3",
+          "index": 344
+        },
+        {
+          "name": "砍4",
+          "index": 369
+        },
+        {
+          "name": "砍5",
+          "index": 405
+        },
+        {
+          "name": "砍技1",
+          "index": 452
+        },
+        {
+          "name": "砍技2",
+          "index": 493
+        },
+        {
+          "name": "砍技21",
+          "index": 535
+        },
+        {
+          "name": "砍技22",
+          "index": 576
+        },
+        {
+          "name": "砍技23",
+          "index": 628
+        },
+        {
+          "name": "招1",
+          "index": 666
+        },
+        {
+          "name": "招2",
+          "index": 727
+        },
+        {
+          "name": "招22",
+          "index": 763
+        },
+        {
+          "name": "招3",
+          "index": 809
+        },
+        {
+          "name": "招32",
+          "index": 829
+        },
+        {
+          "name": "必杀",
+          "index": 856
+        },
+        {
+          "name": "必杀2",
+          "index": 932
+        },
+        {
+          "name": "空中必杀",
+          "index": 1030
+        },
+        {
+          "name": "空中必杀loop",
+          "index": 1062
+        },
+        {
+          "name": "空中必杀2",
+          "index": 1078
+        },
+        {
+          "name": "上必杀",
+          "index": 1133
+        },
+        {
+          "name": "超必杀",
+          "index": 1243
+        },
+        {
+          "name": "招换",
+          "index": 1412
+        },
+        {
+          "name": "防御",
+          "index": 1474
+        },
+        {
+          "name": "防御2",
+          "index": 1475
+        },
+        {
+          "name": "防住",
+          "index": 1486
+        },
+        {
+          "name": "被打",
+          "index": 1498
+        },
+        {
+          "name": "击飞",
+          "index": 1511
+        },
+        {
+          "name": "击落地",
+          "index": 1523
+        },
+        {
+          "name": "起身",
+          "index": 1562
+        },
+        {
+          "name": "开场",
+          "index": 1587
+        },
+        {
+          "name": "胜利",
+          "index": 1667
+        },
+        {
+          "name": "失败",
+          "index": 1697
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "k5atm",
+        "kbs1atm",
+        "kbsatm",
+        "kj12atm",
+        "kj1atm",
+        "kj21atm",
+        "kj22atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tk3atm",
+        "tkatm",
+        "tz0atm",
+        "tzatm",
+        "zh12atm",
+        "zh1atm",
+        "zh20atm",
+        "zh2atm",
+        "zh30atm",
+        "zh3atm"
+      ],
+      "xml_files": 306
+    },
+    "ersa": {
+      "xfl_root": "build/source_xfl/ersa",
+      "main_timeline": "build/source_xfl/ersa/ersa/LIBRARY/Symbol 405.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍1",
+          "index": 144
+        },
+        {
+          "name": "跳砍2",
+          "index": 166
+        },
+        {
+          "name": "跳招",
+          "index": 191
+        },
+        {
+          "name": "跳招0",
+          "index": 196
+        },
+        {
+          "name": "跳招2",
+          "index": 204
+        },
+        {
+          "name": "砍1",
+          "index": 230
+        },
+        {
+          "name": "砍2",
+          "index": 258
+        },
+        {
+          "name": "砍3",
+          "index": 286
+        },
+        {
+          "name": "招2",
+          "index": 323
+        },
+        {
+          "name": "砍技1",
+          "index": 372
+        },
+        {
+          "name": "砍技11",
+          "index": 403
+        },
+        {
+          "name": "砍技12",
+          "index": 443
+        },
+        {
+          "name": "砍技2",
+          "index": 476
+        },
+        {
+          "name": "招1",
+          "index": 528
+        },
+        {
+          "name": "招3",
+          "index": 599
+        },
+        {
+          "name": "必杀",
+          "index": 663
+        },
+        {
+          "name": "上必杀",
+          "index": 757
+        },
+        {
+          "name": "超必杀",
+          "index": 849
+        },
+        {
+          "name": "招换",
+          "index": 1075
+        },
+        {
+          "name": "防御",
+          "index": 1137
+        },
+        {
+          "name": "防御2",
+          "index": 1138
+        },
+        {
+          "name": "防住",
+          "index": 1149
+        },
+        {
+          "name": "被打",
+          "index": 1161
+        },
+        {
+          "name": "击飞",
+          "index": 1174
+        },
+        {
+          "name": "击落地",
+          "index": 1186
+        },
+        {
+          "name": "起身",
+          "index": 1225
+        },
+        {
+          "name": "开场",
+          "index": 1252
+        },
+        {
+          "name": "胜利",
+          "index": 1346
+        },
+        {
+          "name": "失败",
+          "index": 1376
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj11atm",
+        "kj12atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 165
+    },
+    "gajeel": {
+      "xfl_root": "build/source_xfl/gajeel",
+      "main_timeline": "build/source_xfl/gajeel/gajeel/LIBRARY/Symbol 559.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 168
+        },
+        {
+          "name": "砍1",
+          "index": 206
+        },
+        {
+          "name": "砍2",
+          "index": 235
+        },
+        {
+          "name": "砍3",
+          "index": 260
+        },
+        {
+          "name": "砍4",
+          "index": 285
+        },
+        {
+          "name": "招2",
+          "index": 324
+        },
+        {
+          "name": "砍技1",
+          "index": 376
+        },
+        {
+          "name": "砍技12",
+          "index": 424
+        },
+        {
+          "name": "砍技2",
+          "index": 457
+        },
+        {
+          "name": "招1",
+          "index": 499
+        },
+        {
+          "name": "招3",
+          "index": 534
+        },
+        {
+          "name": "上必杀",
+          "index": 598
+        },
+        {
+          "name": "必杀",
+          "index": 716
+        },
+        {
+          "name": "上必杀0",
+          "index": 736
+        },
+        {
+          "name": "上必杀1",
+          "index": 760
+        },
+        {
+          "name": "超必杀",
+          "index": 809
+        },
+        {
+          "name": "招换",
+          "index": 990
+        },
+        {
+          "name": "防御",
+          "index": 1052
+        },
+        {
+          "name": "防御2",
+          "index": 1053
+        },
+        {
+          "name": "防住",
+          "index": 1064
+        },
+        {
+          "name": "被打",
+          "index": 1076
+        },
+        {
+          "name": "击飞",
+          "index": 1089
+        },
+        {
+          "name": "击落地",
+          "index": 1101
+        },
+        {
+          "name": "起身",
+          "index": 1140
+        },
+        {
+          "name": "开场",
+          "index": 1167
+        },
+        {
+          "name": "胜利",
+          "index": 1261
+        },
+        {
+          "name": "失败",
+          "index": 1291
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj11atm",
+        "kj1atm",
+        "kj2atm",
+        "sbs0atm",
+        "sbs1atm",
+        "sbsatm",
+        "tk1atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 156
+    },
+    "gray": {
+      "xfl_root": "build/source_xfl/gray",
+      "main_timeline": "build/source_xfl/gray/gray/LIBRARY/Symbol 382.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 154
+        },
+        {
+          "name": "砍1",
+          "index": 179
+        },
+        {
+          "name": "砍2",
+          "index": 205
+        },
+        {
+          "name": "砍3",
+          "index": 228
+        },
+        {
+          "name": "砍4",
+          "index": 260
+        },
+        {
+          "name": "砍技1",
+          "index": 298
+        },
+        {
+          "name": "砍技2",
+          "index": 334
+        },
+        {
+          "name": "砍技21",
+          "index": 340
+        },
+        {
+          "name": "砍技22",
+          "index": 362
+        },
+        {
+          "name": "招3",
+          "index": 388
+        },
+        {
+          "name": "招1",
+          "index": 431
+        },
+        {
+          "name": "招11",
+          "index": 478
+        },
+        {
+          "name": "招12",
+          "index": 510
+        },
+        {
+          "name": "招13",
+          "index": 553
+        },
+        {
+          "name": "招2",
+          "index": 605
+        },
+        {
+          "name": "必杀",
+          "index": 671
+        },
+        {
+          "name": "上必杀",
+          "index": 773
+        },
+        {
+          "name": "超必杀",
+          "index": 864
+        },
+        {
+          "name": "招换",
+          "index": 1033
+        },
+        {
+          "name": "防御",
+          "index": 1095
+        },
+        {
+          "name": "防御2",
+          "index": 1096
+        },
+        {
+          "name": "防住",
+          "index": 1107
+        },
+        {
+          "name": "被打",
+          "index": 1119
+        },
+        {
+          "name": "击飞",
+          "index": 1132
+        },
+        {
+          "name": "击落地",
+          "index": 1144
+        },
+        {
+          "name": "起身",
+          "index": 1183
+        },
+        {
+          "name": "开场",
+          "index": 1210
+        },
+        {
+          "name": "胜利",
+          "index": 1304
+        },
+        {
+          "name": "失败",
+          "index": 1334
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj1atm",
+        "kj21atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "tzatm",
+        "zh11atm",
+        "zh12atm",
+        "zh1atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 176
+    },
+    "hancock": {
+      "xfl_root": "build/source_xfl/hancock",
+      "main_timeline": "build/source_xfl/hancock/hancock/LIBRARY/Symbol 617.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 159
+        },
+        {
+          "name": "跳招",
+          "index": 219
+        },
+        {
+          "name": "跳招1",
+          "index": 225
+        },
+        {
+          "name": "跳招2",
+          "index": 236
+        },
+        {
+          "name": "跳招3",
+          "index": 249
+        },
+        {
+          "name": "砍1",
+          "index": 281
+        },
+        {
+          "name": "砍2",
+          "index": 302
+        },
+        {
+          "name": "砍3",
+          "index": 327
+        },
+        {
+          "name": "砍4",
+          "index": 354
+        },
+        {
+          "name": "砍技1",
+          "index": 391
+        },
+        {
+          "name": "砍技12",
+          "index": 426
+        },
+        {
+          "name": "砍技13",
+          "index": 468
+        },
+        {
+          "name": "砍技2",
+          "index": 525
+        },
+        {
+          "name": "砍技21",
+          "index": 561
+        },
+        {
+          "name": "招1",
+          "index": 600
+        },
+        {
+          "name": "招2",
+          "index": 648
+        },
+        {
+          "name": "招3",
+          "index": 709
+        },
+        {
+          "name": "必杀",
+          "index": 751
+        },
+        {
+          "name": "空中必杀",
+          "index": 887
+        },
+        {
+          "name": "超必杀",
+          "index": 1006
+        },
+        {
+          "name": "招换",
+          "index": 1212
+        },
+        {
+          "name": "防御",
+          "index": 1274
+        },
+        {
+          "name": "防御2",
+          "index": 1275
+        },
+        {
+          "name": "防住",
+          "index": 1286
+        },
+        {
+          "name": "被打",
+          "index": 1298
+        },
+        {
+          "name": "击飞",
+          "index": 1311
+        },
+        {
+          "name": "击落地",
+          "index": 1323
+        },
+        {
+          "name": "起身",
+          "index": 1362
+        },
+        {
+          "name": "开场",
+          "index": 1389
+        },
+        {
+          "name": "胜利",
+          "index": 1469
+        },
+        {
+          "name": "失败",
+          "index": 1499
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs2atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj11atm",
+        "kj12atm",
+        "kj13atm",
+        "kj14atm",
+        "kj1atm",
+        "kj22atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "tz0atm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 254
+    },
+    "jinbei": {
+      "xfl_root": "build/source_xfl/jinbei",
+      "main_timeline": "build/source_xfl/jinbei/jinbei/LIBRARY/Symbol 648.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍0",
+          "index": 126
+        },
+        {
+          "name": "跳砍",
+          "index": 148
+        },
+        {
+          "name": "跳招",
+          "index": 174
+        },
+        {
+          "name": "跳招2",
+          "index": 191
+        },
+        {
+          "name": "砍1",
+          "index": 215
+        },
+        {
+          "name": "砍2",
+          "index": 235
+        },
+        {
+          "name": "砍3",
+          "index": 263
+        },
+        {
+          "name": "砍技1",
+          "index": 296
+        },
+        {
+          "name": "砍技12",
+          "index": 324
+        },
+        {
+          "name": "砍技2",
+          "index": 379
+        },
+        {
+          "name": "招1",
+          "index": 423
+        },
+        {
+          "name": "招2",
+          "index": 462
+        },
+        {
+          "name": "招3",
+          "index": 530
+        },
+        {
+          "name": "上必杀",
+          "index": 561
+        },
+        {
+          "name": "必杀",
+          "index": 631
+        },
+        {
+          "name": "超必杀",
+          "index": 759
+        },
+        {
+          "name": "招换",
+          "index": 930
+        },
+        {
+          "name": "防御",
+          "index": 992
+        },
+        {
+          "name": "防御2",
+          "index": 993
+        },
+        {
+          "name": "防住",
+          "index": 1004
+        },
+        {
+          "name": "被打",
+          "index": 1016
+        },
+        {
+          "name": "击飞",
+          "index": 1029
+        },
+        {
+          "name": "击落地",
+          "index": 1041
+        },
+        {
+          "name": "起身",
+          "index": 1080
+        },
+        {
+          "name": "开场",
+          "index": 1104
+        },
+        {
+          "name": "胜利",
+          "index": 1184
+        },
+        {
+          "name": "失败",
+          "index": 1214
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj12atm",
+        "kj1atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbsatm",
+        "tk1atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh22atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 278
+    },
+    "juvia": {
+      "xfl_root": "build/source_xfl/juvia",
+      "main_timeline": "build/source_xfl/juvia/juvia/LIBRARY/Symbol 452.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 162
+        },
+        {
+          "name": "砍1",
+          "index": 207
+        },
+        {
+          "name": "砍2",
+          "index": 231
+        },
+        {
+          "name": "砍3",
+          "index": 254
+        },
+        {
+          "name": "砍4",
+          "index": 284
+        },
+        {
+          "name": "招2",
+          "index": 332
+        },
+        {
+          "name": "砍技1",
+          "index": 393
+        },
+        {
+          "name": "砍技2",
+          "index": 450
+        },
+        {
+          "name": "招1",
+          "index": 481
+        },
+        {
+          "name": "招3",
+          "index": 525
+        },
+        {
+          "name": "必杀",
+          "index": 555
+        },
+        {
+          "name": "空中必杀",
+          "index": 628
+        },
+        {
+          "name": "空中必杀1",
+          "index": 648
+        },
+        {
+          "name": "空中必杀2",
+          "index": 655
+        },
+        {
+          "name": "超必杀",
+          "index": 701
+        },
+        {
+          "name": "招换",
+          "index": 830
+        },
+        {
+          "name": "防御",
+          "index": 892
+        },
+        {
+          "name": "防御2",
+          "index": 893
+        },
+        {
+          "name": "防住",
+          "index": 904
+        },
+        {
+          "name": "被打",
+          "index": 916
+        },
+        {
+          "name": "击飞",
+          "index": 929
+        },
+        {
+          "name": "击落地",
+          "index": 941
+        },
+        {
+          "name": "起身",
+          "index": 980
+        },
+        {
+          "name": "开场",
+          "index": 1007
+        },
+        {
+          "name": "胜利",
+          "index": 1068
+        },
+        {
+          "name": "失败",
+          "index": 1108
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj12atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "zh3atm"
+      ],
+      "xml_files": 173
+    },
+    "lasasi": {
+      "xfl_root": "build/source_xfl/lasasi",
+      "main_timeline": "build/source_xfl/lasasi/lasasi/LIBRARY/Symbol 479.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 141
+        },
+        {
+          "name": "跳招",
+          "index": 169
+        },
+        {
+          "name": "砍1",
+          "index": 205
+        },
+        {
+          "name": "砍2",
+          "index": 223
+        },
+        {
+          "name": "砍3",
+          "index": 246
+        },
+        {
+          "name": "砍4",
+          "index": 269
+        },
+        {
+          "name": "砍技1",
+          "index": 298
+        },
+        {
+          "name": "砍技2",
+          "index": 328
+        },
+        {
+          "name": "招1",
+          "index": 384
+        },
+        {
+          "name": "招3",
+          "index": 421
+        },
+        {
+          "name": "招2",
+          "index": 453
+        },
+        {
+          "name": "必杀",
+          "index": 484
+        },
+        {
+          "name": "超必杀",
+          "index": 571
+        },
+        {
+          "name": "上必杀",
+          "index": 711
+        },
+        {
+          "name": "招换",
+          "index": 791
+        },
+        {
+          "name": "防御",
+          "index": 851
+        },
+        {
+          "name": "防御2",
+          "index": 852
+        },
+        {
+          "name": "防住",
+          "index": 863
+        },
+        {
+          "name": "被打",
+          "index": 875
+        },
+        {
+          "name": "击飞",
+          "index": 888
+        },
+        {
+          "name": "击落地",
+          "index": 900
+        },
+        {
+          "name": "起身",
+          "index": 939
+        },
+        {
+          "name": "开场",
+          "index": 966
+        },
+        {
+          "name": "胜利",
+          "index": 1022
+        },
+        {
+          "name": "失败",
+          "index": 1053
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj1atm",
+        "kj21atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbsatm",
+        "tk2atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 143
+    },
+    "law": {
+      "xfl_root": "build/source_xfl/law",
+      "main_timeline": "build/source_xfl/law/law/LIBRARY/Symbol 668.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 35
+        },
+        {
+          "name": "落",
+          "index": 51
+        },
+        {
+          "name": "跳2",
+          "index": 67
+        },
+        {
+          "name": "落2",
+          "index": 84
+        },
+        {
+          "name": "落地",
+          "index": 110
+        },
+        {
+          "name": "跳砍",
+          "index": 122
+        },
+        {
+          "name": "跳砍2",
+          "index": 147
+        },
+        {
+          "name": "跳砍3",
+          "index": 173
+        },
+        {
+          "name": "跳招",
+          "index": 197
+        },
+        {
+          "name": "砍1",
+          "index": 242
+        },
+        {
+          "name": "砍2",
+          "index": 263
+        },
+        {
+          "name": "砍3",
+          "index": 296
+        },
+        {
+          "name": "砍4",
+          "index": 327
+        },
+        {
+          "name": "砍技1",
+          "index": 367
+        },
+        {
+          "name": "砍技11",
+          "index": 381
+        },
+        {
+          "name": "砍技12",
+          "index": 423
+        },
+        {
+          "name": "砍技13",
+          "index": 458
+        },
+        {
+          "name": "砍技2",
+          "index": 502
+        },
+        {
+          "name": "砍技21",
+          "index": 538
+        },
+        {
+          "name": "招1",
+          "index": 604
+        },
+        {
+          "name": "招12",
+          "index": 634
+        },
+        {
+          "name": "招2",
+          "index": 663
+        },
+        {
+          "name": "招3",
+          "index": 724
+        },
+        {
+          "name": "必杀",
+          "index": 781
+        },
+        {
+          "name": "上必杀",
+          "index": 891
+        },
+        {
+          "name": "超必杀",
+          "index": 1017
+        },
+        {
+          "name": "招换",
+          "index": 1202
+        },
+        {
+          "name": "防御",
+          "index": 1264
+        },
+        {
+          "name": "防御2",
+          "index": 1265
+        },
+        {
+          "name": "防住",
+          "index": 1276
+        },
+        {
+          "name": "被打",
+          "index": 1288
+        },
+        {
+          "name": "击飞",
+          "index": 1301
+        },
+        {
+          "name": "击落地",
+          "index": 1313
+        },
+        {
+          "name": "起身",
+          "index": 1352
+        },
+        {
+          "name": "开场",
+          "index": 1375
+        },
+        {
+          "name": "胜利",
+          "index": 1455
+        },
+        {
+          "name": "失败",
+          "index": 1485
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj10atm",
+        "kj12atm",
+        "kj13atm",
+        "kj1atm",
+        "kj21atm",
+        "kj2atm",
+        "sbsatm",
+        "tk2atm",
+        "tk3atm",
+        "tkatm",
+        "tzatm",
+        "zh12atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 301
+    },
+    "lucy": {
+      "xfl_root": "build/source_xfl/lucy",
+      "main_timeline": "build/source_xfl/lucy/lucy/LIBRARY/Symbol 363.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 160
+        },
+        {
+          "name": "砍1",
+          "index": 205
+        },
+        {
+          "name": "砍2",
+          "index": 229
+        },
+        {
+          "name": "砍3",
+          "index": 257
+        },
+        {
+          "name": "砍技1",
+          "index": 287
+        },
+        {
+          "name": "砍技2",
+          "index": 338
+        },
+        {
+          "name": "招3",
+          "index": 387
+        },
+        {
+          "name": "招1",
+          "index": 440
+        },
+        {
+          "name": "招2",
+          "index": 489
+        },
+        {
+          "name": "必杀",
+          "index": 588
+        },
+        {
+          "name": "上必杀",
+          "index": 698
+        },
+        {
+          "name": "超必杀",
+          "index": 789
+        },
+        {
+          "name": "防御",
+          "index": 937
+        },
+        {
+          "name": "防御2",
+          "index": 938
+        },
+        {
+          "name": "防住",
+          "index": 949
+        },
+        {
+          "name": "被打",
+          "index": 961
+        },
+        {
+          "name": "击飞",
+          "index": 974
+        },
+        {
+          "name": "击落地",
+          "index": 986
+        },
+        {
+          "name": "起身",
+          "index": 1025
+        },
+        {
+          "name": "开场",
+          "index": 1051
+        },
+        {
+          "name": "胜利",
+          "index": 1145
+        },
+        {
+          "name": "失败",
+          "index": 1175
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh1atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 156
+    },
+    "luffy": {
+      "xfl_root": "build/source_xfl/luffy",
+      "main_timeline": "build/source_xfl/luffy/luffy/LIBRARY/Symbol 675.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 193
+        },
+        {
+          "name": "跳招2",
+          "index": 210
+        },
+        {
+          "name": "砍1",
+          "index": 234
+        },
+        {
+          "name": "砍2",
+          "index": 251
+        },
+        {
+          "name": "砍3",
+          "index": 276
+        },
+        {
+          "name": "砍4",
+          "index": 299
+        },
+        {
+          "name": "砍技1",
+          "index": 338
+        },
+        {
+          "name": "砍技2",
+          "index": 424
+        },
+        {
+          "name": "砍技21",
+          "index": 453
+        },
+        {
+          "name": "招1",
+          "index": 521
+        },
+        {
+          "name": "招2",
+          "index": 564
+        },
+        {
+          "name": "招22",
+          "index": 571
+        },
+        {
+          "name": "招3",
+          "index": 625
+        },
+        {
+          "name": "必杀",
+          "index": 669
+        },
+        {
+          "name": "上必杀",
+          "index": 763
+        },
+        {
+          "name": "超必杀",
+          "index": 876
+        },
+        {
+          "name": "招换",
+          "index": 1019
+        },
+        {
+          "name": "防御",
+          "index": 1081
+        },
+        {
+          "name": "防御2",
+          "index": 1082
+        },
+        {
+          "name": "防住",
+          "index": 1093
+        },
+        {
+          "name": "被打",
+          "index": 1105
+        },
+        {
+          "name": "击飞",
+          "index": 1118
+        },
+        {
+          "name": "击落地",
+          "index": 1130
+        },
+        {
+          "name": "起身",
+          "index": 1169
+        },
+        {
+          "name": "开场",
+          "index": 1195
+        },
+        {
+          "name": "胜利",
+          "index": 1275
+        },
+        {
+          "name": "失败",
+          "index": 1305
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj12atm",
+        "kj1atm",
+        "kj20atm",
+        "kj2atm",
+        "sbs2atm",
+        "sbsatm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh31atm"
+      ],
+      "xml_files": 284
+    },
+    "luffy2": {
+      "xfl_root": "build/source_xfl/luffy2",
+      "main_timeline": "build/source_xfl/luffy2/luffy2/LIBRARY/Symbol 997.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 149
+        },
+        {
+          "name": "跳砍21",
+          "index": 161
+        },
+        {
+          "name": "跳砍2MISS",
+          "index": 181
+        },
+        {
+          "name": "跳砍3",
+          "index": 193
+        },
+        {
+          "name": "跳招",
+          "index": 222
+        },
+        {
+          "name": "砍1",
+          "index": 270
+        },
+        {
+          "name": "砍2",
+          "index": 287
+        },
+        {
+          "name": "砍3",
+          "index": 312
+        },
+        {
+          "name": "砍4",
+          "index": 344
+        },
+        {
+          "name": "砍技1",
+          "index": 373
+        },
+        {
+          "name": "砍技11",
+          "index": 404
+        },
+        {
+          "name": "砍技12",
+          "index": 487
+        },
+        {
+          "name": "砍技2",
+          "index": 550
+        },
+        {
+          "name": "砍技22",
+          "index": 564
+        },
+        {
+          "name": "招1",
+          "index": 597
+        },
+        {
+          "name": "招12",
+          "index": 606
+        },
+        {
+          "name": "招2",
+          "index": 643
+        },
+        {
+          "name": "招3",
+          "index": 698
+        },
+        {
+          "name": "空中必杀",
+          "index": 731
+        },
+        {
+          "name": "必杀",
+          "index": 809
+        },
+        {
+          "name": "上必杀",
+          "index": 909
+        },
+        {
+          "name": "超必杀",
+          "index": 1029
+        },
+        {
+          "name": "防御",
+          "index": 1189
+        },
+        {
+          "name": "防御2",
+          "index": 1190
+        },
+        {
+          "name": "防住",
+          "index": 1201
+        },
+        {
+          "name": "被打",
+          "index": 1213
+        },
+        {
+          "name": "击飞",
+          "index": 1226
+        },
+        {
+          "name": "击落地",
+          "index": 1238
+        },
+        {
+          "name": "起身",
+          "index": 1277
+        },
+        {
+          "name": "开场",
+          "index": 1303
+        },
+        {
+          "name": "胜利",
+          "index": 1383
+        },
+        {
+          "name": "失败",
+          "index": 1413
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kbsatm",
+        "kj13atm",
+        "kj14atm",
+        "kj15atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tk3atm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh12atm",
+        "zh1atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 448
+    },
+    "makarov": {
+      "xfl_root": "build/source_xfl/makarov",
+      "main_timeline": "build/source_xfl/makarov/makarov/LIBRARY/Symbol 578.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 146
+        },
+        {
+          "name": "跳砍3",
+          "index": 166
+        },
+        {
+          "name": "跳招",
+          "index": 193
+        },
+        {
+          "name": "跳招0",
+          "index": 199
+        },
+        {
+          "name": "跳招2",
+          "index": 207
+        },
+        {
+          "name": "砍1",
+          "index": 241
+        },
+        {
+          "name": "砍2",
+          "index": 269
+        },
+        {
+          "name": "砍3",
+          "index": 297
+        },
+        {
+          "name": "砍4",
+          "index": 322
+        },
+        {
+          "name": "砍5",
+          "index": 351
+        },
+        {
+          "name": "招2",
+          "index": 413
+        },
+        {
+          "name": "砍技1",
+          "index": 463
+        },
+        {
+          "name": "砍技11",
+          "index": 474
+        },
+        {
+          "name": "砍技2",
+          "index": 512
+        },
+        {
+          "name": "砍技21",
+          "index": 524
+        },
+        {
+          "name": "招1",
+          "index": 563
+        },
+        {
+          "name": "招3",
+          "index": 611
+        },
+        {
+          "name": "必杀",
+          "index": 673
+        },
+        {
+          "name": "上必杀",
+          "index": 755
+        },
+        {
+          "name": "空中必杀",
+          "index": 847
+        },
+        {
+          "name": "空中必杀0",
+          "index": 876
+        },
+        {
+          "name": "空中必杀2",
+          "index": 892
+        },
+        {
+          "name": "超必杀",
+          "index": 959
+        },
+        {
+          "name": "招换",
+          "index": 1152
+        },
+        {
+          "name": "防御",
+          "index": 1214
+        },
+        {
+          "name": "防御2",
+          "index": 1215
+        },
+        {
+          "name": "防住",
+          "index": 1226
+        },
+        {
+          "name": "被打",
+          "index": 1238
+        },
+        {
+          "name": "击飞",
+          "index": 1251
+        },
+        {
+          "name": "击落地",
+          "index": 1263
+        },
+        {
+          "name": "起身",
+          "index": 1302
+        },
+        {
+          "name": "开场",
+          "index": 1329
+        },
+        {
+          "name": "胜利",
+          "index": 1423
+        },
+        {
+          "name": "失败",
+          "index": 1549
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "k5atm",
+        "kbs1atm",
+        "kbsatm",
+        "kj10atm",
+        "kj1atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbsatm",
+        "tk2atm",
+        "tk3atm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh1atm",
+        "zh21atm",
+        "zh22atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 206
+    },
+    "mirajane": {
+      "xfl_root": "build/source_xfl/mirajane",
+      "main_timeline": "build/source_xfl/mirajane/mirajane/LIBRARY/Symbol 526.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍1",
+          "index": 144
+        },
+        {
+          "name": "跳招",
+          "index": 175
+        },
+        {
+          "name": "跳招0",
+          "index": 177
+        },
+        {
+          "name": "跳招2",
+          "index": 185
+        },
+        {
+          "name": "砍1",
+          "index": 213
+        },
+        {
+          "name": "砍2",
+          "index": 241
+        },
+        {
+          "name": "砍3",
+          "index": 269
+        },
+        {
+          "name": "砍4",
+          "index": 303
+        },
+        {
+          "name": "招2",
+          "index": 352
+        },
+        {
+          "name": "砍技1",
+          "index": 416
+        },
+        {
+          "name": "砍技10",
+          "index": 427
+        },
+        {
+          "name": "砍技11",
+          "index": 454
+        },
+        {
+          "name": "砍技2",
+          "index": 505
+        },
+        {
+          "name": "招1",
+          "index": 562
+        },
+        {
+          "name": "招3",
+          "index": 599
+        },
+        {
+          "name": "必杀",
+          "index": 663
+        },
+        {
+          "name": "上必杀",
+          "index": 791
+        },
+        {
+          "name": "超必杀",
+          "index": 901
+        },
+        {
+          "name": "招换",
+          "index": 1101
+        },
+        {
+          "name": "防御",
+          "index": 1163
+        },
+        {
+          "name": "防御2",
+          "index": 1164
+        },
+        {
+          "name": "防住",
+          "index": 1175
+        },
+        {
+          "name": "被打",
+          "index": 1187
+        },
+        {
+          "name": "击飞",
+          "index": 1200
+        },
+        {
+          "name": "击落地",
+          "index": 1212
+        },
+        {
+          "name": "起身",
+          "index": 1251
+        },
+        {
+          "name": "开场",
+          "index": 1278
+        },
+        {
+          "name": "胜利",
+          "index": 1372
+        },
+        {
+          "name": "失败",
+          "index": 1402
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bs2atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj10atm",
+        "kj11atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk2atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh21atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 210
+    },
+    "nami": {
+      "xfl_root": "build/source_xfl/nami",
+      "main_timeline": "build/source_xfl/nami/nami/LIBRARY/Symbol 703.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 156
+        },
+        {
+          "name": "跳砍3",
+          "index": 186
+        },
+        {
+          "name": "跳招",
+          "index": 241
+        },
+        {
+          "name": "砍1",
+          "index": 304
+        },
+        {
+          "name": "砍2",
+          "index": 326
+        },
+        {
+          "name": "砍3",
+          "index": 351
+        },
+        {
+          "name": "砍技1",
+          "index": 384
+        },
+        {
+          "name": "砍技12",
+          "index": 442
+        },
+        {
+          "name": "砍技2",
+          "index": 489
+        },
+        {
+          "name": "砍技21",
+          "index": 533
+        },
+        {
+          "name": "招1",
+          "index": 562
+        },
+        {
+          "name": "招2",
+          "index": 610
+        },
+        {
+          "name": "招3",
+          "index": 666
+        },
+        {
+          "name": "必杀",
+          "index": 724
+        },
+        {
+          "name": "上必杀",
+          "index": 830
+        },
+        {
+          "name": "超必杀",
+          "index": 947
+        },
+        {
+          "name": "招换",
+          "index": 1110
+        },
+        {
+          "name": "防御",
+          "index": 1172
+        },
+        {
+          "name": "防御2",
+          "index": 1173
+        },
+        {
+          "name": "防住",
+          "index": 1184
+        },
+        {
+          "name": "被打",
+          "index": 1196
+        },
+        {
+          "name": "击飞",
+          "index": 1209
+        },
+        {
+          "name": "击落地",
+          "index": 1221
+        },
+        {
+          "name": "起身",
+          "index": 1260
+        },
+        {
+          "name": "开场",
+          "index": 1285
+        },
+        {
+          "name": "胜利",
+          "index": 1365
+        },
+        {
+          "name": "失败",
+          "index": 1395
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs2atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj12atm",
+        "kj13atm",
+        "kj1atm",
+        "kj21atm",
+        "kj2atm",
+        "sbs2atm",
+        "sbsatm",
+        "tk2atm",
+        "tk3atm",
+        "tkatm",
+        "tz2atm",
+        "tzatm",
+        "zh1atm",
+        "zh2atm",
+        "zh32atm",
+        "zh3atm"
+      ],
+      "xml_files": 272
+    },
+    "natsu": {
+      "xfl_root": "build/source_xfl/natsu",
+      "main_timeline": "build/source_xfl/natsu/natsu/LIBRARY/Symbol 516.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 159
+        },
+        {
+          "name": "跳招0",
+          "index": 167
+        },
+        {
+          "name": "跳招2",
+          "index": 175
+        },
+        {
+          "name": "砍1",
+          "index": 201
+        },
+        {
+          "name": "砍2",
+          "index": 229
+        },
+        {
+          "name": "砍3",
+          "index": 254
+        },
+        {
+          "name": "砍4",
+          "index": 279
+        },
+        {
+          "name": "招2",
+          "index": 318
+        },
+        {
+          "name": "砍技1",
+          "index": 366
+        },
+        {
+          "name": "砍技11",
+          "index": 372
+        },
+        {
+          "name": "砍技12",
+          "index": 401
+        },
+        {
+          "name": "砍技2",
+          "index": 434
+        },
+        {
+          "name": "招1",
+          "index": 469
+        },
+        {
+          "name": "招244",
+          "index": 525
+        },
+        {
+          "name": "招3",
+          "index": 560
+        },
+        {
+          "name": "招31",
+          "index": 562
+        },
+        {
+          "name": "必杀",
+          "index": 622
+        },
+        {
+          "name": "上必杀",
+          "index": 714
+        },
+        {
+          "name": "超必杀",
+          "index": 805
+        },
+        {
+          "name": "招换",
+          "index": 1015
+        },
+        {
+          "name": "防御",
+          "index": 1077
+        },
+        {
+          "name": "防御2",
+          "index": 1078
+        },
+        {
+          "name": "防住",
+          "index": 1089
+        },
+        {
+          "name": "被打",
+          "index": 1101
+        },
+        {
+          "name": "击飞",
+          "index": 1114
+        },
+        {
+          "name": "击落地",
+          "index": 1126
+        },
+        {
+          "name": "起身",
+          "index": 1165
+        },
+        {
+          "name": "开场",
+          "index": 1192
+        },
+        {
+          "name": "胜利",
+          "index": 1286
+        },
+        {
+          "name": "失败",
+          "index": 1316
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bs2atm",
+        "bsatm",
+        "cbs1atm",
+        "cbs2atm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj11atm",
+        "kj1atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbsatm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh21atm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 161
+    },
+    "robin2": {
+      "xfl_root": "build/source_xfl/robin2",
+      "main_timeline": "build/source_xfl/robin2/robin2/LIBRARY/Symbol 1138.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 156
+        },
+        {
+          "name": "跳招",
+          "index": 176
+        },
+        {
+          "name": "跳招1",
+          "index": 213
+        },
+        {
+          "name": "砍1",
+          "index": 270
+        },
+        {
+          "name": "砍2",
+          "index": 292
+        },
+        {
+          "name": "砍3",
+          "index": 317
+        },
+        {
+          "name": "砍技1",
+          "index": 350
+        },
+        {
+          "name": "砍技12",
+          "index": 388
+        },
+        {
+          "name": "砍技2",
+          "index": 449
+        },
+        {
+          "name": "砍技21",
+          "index": 493
+        },
+        {
+          "name": "砍技22",
+          "index": 529
+        },
+        {
+          "name": "招1",
+          "index": 583
+        },
+        {
+          "name": "招2",
+          "index": 630
+        },
+        {
+          "name": "招21",
+          "index": 684
+        },
+        {
+          "name": "招22",
+          "index": 689
+        },
+        {
+          "name": "招3",
+          "index": 705
+        },
+        {
+          "name": "招31",
+          "index": 717
+        },
+        {
+          "name": "招32",
+          "index": 729
+        },
+        {
+          "name": "招33",
+          "index": 739
+        },
+        {
+          "name": "招34",
+          "index": 750
+        },
+        {
+          "name": "招340",
+          "index": 752
+        },
+        {
+          "name": "招35",
+          "index": 759
+        },
+        {
+          "name": "招30",
+          "index": 790
+        },
+        {
+          "name": "必杀",
+          "index": 811
+        },
+        {
+          "name": "上必杀",
+          "index": 916
+        },
+        {
+          "name": "上必杀2",
+          "index": 970
+        },
+        {
+          "name": "超必杀",
+          "index": 1133
+        },
+        {
+          "name": "招换",
+          "index": 1230
+        },
+        {
+          "name": "防御",
+          "index": 1267
+        },
+        {
+          "name": "防御2",
+          "index": 1268
+        },
+        {
+          "name": "防住",
+          "index": 1279
+        },
+        {
+          "name": "被打",
+          "index": 1291
+        },
+        {
+          "name": "击飞",
+          "index": 1304
+        },
+        {
+          "name": "击落地",
+          "index": 1316
+        },
+        {
+          "name": "起身",
+          "index": 1355
+        },
+        {
+          "name": "开场",
+          "index": 1380
+        },
+        {
+          "name": "胜利",
+          "index": 1446
+        },
+        {
+          "name": "失败",
+          "index": 1480
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj11atm",
+        "kj12atm",
+        "kj1atm",
+        "kj21atm",
+        "kj22atm",
+        "kj23atm",
+        "kj2atm",
+        "sbsatm",
+        "tk0atm",
+        "tkatm",
+        "zh11atm",
+        "zh12atm",
+        "zh1atm",
+        "zh31atm",
+        "zh32atm",
+        "zh33atm",
+        "zh34atm",
+        "zh3atm"
+      ],
+      "xml_files": 481
+    },
+    "sanji": {
+      "xfl_root": "build/source_xfl/sanji",
+      "main_timeline": "build/source_xfl/sanji/sanji/LIBRARY/Symbol 652.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍1",
+          "index": 143
+        },
+        {
+          "name": "跳砍2",
+          "index": 158
+        },
+        {
+          "name": "跳砍3",
+          "index": 176
+        },
+        {
+          "name": "跳招",
+          "index": 197
+        },
+        {
+          "name": "砍1",
+          "index": 237
+        },
+        {
+          "name": "砍2",
+          "index": 260
+        },
+        {
+          "name": "砍3",
+          "index": 280
+        },
+        {
+          "name": "砍4",
+          "index": 307
+        },
+        {
+          "name": "砍技1",
+          "index": 337
+        },
+        {
+          "name": "砍技2",
+          "index": 426
+        },
+        {
+          "name": "招1",
+          "index": 459
+        },
+        {
+          "name": "招11",
+          "index": 498
+        },
+        {
+          "name": "招12",
+          "index": 538
+        },
+        {
+          "name": "招2",
+          "index": 582
+        },
+        {
+          "name": "招3",
+          "index": 642
+        },
+        {
+          "name": "招31",
+          "index": 664
+        },
+        {
+          "name": "必杀",
+          "index": 681
+        },
+        {
+          "name": "上必杀",
+          "index": 781
+        },
+        {
+          "name": "超必杀",
+          "index": 874
+        },
+        {
+          "name": "超必杀1",
+          "index": 927
+        },
+        {
+          "name": "招换",
+          "index": 1059
+        },
+        {
+          "name": "防御",
+          "index": 1121
+        },
+        {
+          "name": "防御2",
+          "index": 1122
+        },
+        {
+          "name": "防住",
+          "index": 1133
+        },
+        {
+          "name": "被打",
+          "index": 1145
+        },
+        {
+          "name": "击飞",
+          "index": 1158
+        },
+        {
+          "name": "击落地",
+          "index": 1170
+        },
+        {
+          "name": "起身",
+          "index": 1209
+        },
+        {
+          "name": "开场",
+          "index": 1236
+        },
+        {
+          "name": "胜利",
+          "index": 1316
+        },
+        {
+          "name": "失败",
+          "index": 1346
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs0atm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kj12atm",
+        "kj13atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tk2atm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh12atm",
+        "zh13atm",
+        "zh1atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 296
+    },
+    "sanji2": {
+      "xfl_root": "build/source_xfl/sanji2",
+      "main_timeline": "build/source_xfl/sanji2/sanji2/LIBRARY/Symbol 622.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 35
+        },
+        {
+          "name": "落",
+          "index": 51
+        },
+        {
+          "name": "跳2",
+          "index": 67
+        },
+        {
+          "name": "落2",
+          "index": 84
+        },
+        {
+          "name": "落地",
+          "index": 110
+        },
+        {
+          "name": "跳砍",
+          "index": 122
+        },
+        {
+          "name": "跳砍1",
+          "index": 135
+        },
+        {
+          "name": "跳招",
+          "index": 154
+        },
+        {
+          "name": "砍1",
+          "index": 190
+        },
+        {
+          "name": "砍2",
+          "index": 212
+        },
+        {
+          "name": "砍3",
+          "index": 235
+        },
+        {
+          "name": "砍技1",
+          "index": 261
+        },
+        {
+          "name": "砍技12",
+          "index": 297
+        },
+        {
+          "name": "砍技13",
+          "index": 325
+        },
+        {
+          "name": "招2",
+          "index": 354
+        },
+        {
+          "name": "招1",
+          "index": 391
+        },
+        {
+          "name": "招11",
+          "index": 420
+        },
+        {
+          "name": "招3",
+          "index": 449
+        },
+        {
+          "name": "招31",
+          "index": 457
+        },
+        {
+          "name": "招32",
+          "index": 502
+        },
+        {
+          "name": "砍技2",
+          "index": 554
+        },
+        {
+          "name": "空中必杀",
+          "index": 594
+        },
+        {
+          "name": "空中必杀1",
+          "index": 618
+        },
+        {
+          "name": "空中必杀2",
+          "index": 634
+        },
+        {
+          "name": "必杀",
+          "index": 668
+        },
+        {
+          "name": "上必杀",
+          "index": 773
+        },
+        {
+          "name": "上必杀1",
+          "index": 811
+        },
+        {
+          "name": "上必杀2",
+          "index": 837
+        },
+        {
+          "name": "上必杀3",
+          "index": 902
+        },
+        {
+          "name": "超必杀",
+          "index": 932
+        },
+        {
+          "name": "超必杀1",
+          "index": 981
+        },
+        {
+          "name": "招换",
+          "index": 1079
+        },
+        {
+          "name": "防御",
+          "index": 1141
+        },
+        {
+          "name": "防御2",
+          "index": 1142
+        },
+        {
+          "name": "防住",
+          "index": 1153
+        },
+        {
+          "name": "被打",
+          "index": 1165
+        },
+        {
+          "name": "击飞",
+          "index": 1178
+        },
+        {
+          "name": "击落地",
+          "index": 1190
+        },
+        {
+          "name": "起身",
+          "index": 1229
+        },
+        {
+          "name": "开场",
+          "index": 1256
+        },
+        {
+          "name": "胜利",
+          "index": 1320
+        },
+        {
+          "name": "失败",
+          "index": 1350
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs0atm",
+        "cbs1atm",
+        "cbs2atm",
+        "cbs3atm",
+        "cbs4atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kbsatm",
+        "kj12atm",
+        "kj13atm",
+        "kj1atm",
+        "kj2atm",
+        "sbs0atm",
+        "sbs1atm",
+        "sbs2atm",
+        "sbsatm",
+        "tk10atm",
+        "tkatm",
+        "tzatm",
+        "zh10atm",
+        "zh1atm",
+        "zh21atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 282
+    },
+    "wendy": {
+      "xfl_root": "build/source_xfl/wendy",
+      "main_timeline": "build/source_xfl/wendy/wendy/LIBRARY/Symbol 498.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳招",
+          "index": 159
+        },
+        {
+          "name": "砍1",
+          "index": 201
+        },
+        {
+          "name": "砍2",
+          "index": 228
+        },
+        {
+          "name": "砍3",
+          "index": 253
+        },
+        {
+          "name": "招2",
+          "index": 299
+        },
+        {
+          "name": "招21",
+          "index": 392
+        },
+        {
+          "name": "招22",
+          "index": 422
+        },
+        {
+          "name": "招23",
+          "index": 453
+        },
+        {
+          "name": "砍技1",
+          "index": 493
+        },
+        {
+          "name": "砍技12",
+          "index": 528
+        },
+        {
+          "name": "砍技13",
+          "index": 562
+        },
+        {
+          "name": "砍技2",
+          "index": 603
+        },
+        {
+          "name": "招1",
+          "index": 640
+        },
+        {
+          "name": "招3",
+          "index": 691
+        },
+        {
+          "name": "必杀",
+          "index": 753
+        },
+        {
+          "name": "上必杀",
+          "index": 871
+        },
+        {
+          "name": "超必杀",
+          "index": 960
+        },
+        {
+          "name": "招换",
+          "index": 1113
+        },
+        {
+          "name": "防御",
+          "index": 1175
+        },
+        {
+          "name": "防御2",
+          "index": 1176
+        },
+        {
+          "name": "防住",
+          "index": 1187
+        },
+        {
+          "name": "被打",
+          "index": 1199
+        },
+        {
+          "name": "击飞",
+          "index": 1212
+        },
+        {
+          "name": "击落地",
+          "index": 1224
+        },
+        {
+          "name": "起身",
+          "index": 1263
+        },
+        {
+          "name": "开场",
+          "index": 1290
+        },
+        {
+          "name": "胜利",
+          "index": 1384
+        },
+        {
+          "name": "失败",
+          "index": 1414
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj12atm",
+        "kj13atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tkatm",
+        "tzatm",
+        "zh21atm",
+        "zh22atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 212
+    },
+    "zoro": {
+      "xfl_root": "build/source_xfl/zoro",
+      "main_timeline": "build/source_xfl/zoro/zoro/LIBRARY/Symbol 614.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "跳",
+          "index": 39
+        },
+        {
+          "name": "落",
+          "index": 55
+        },
+        {
+          "name": "跳2",
+          "index": 71
+        },
+        {
+          "name": "落2",
+          "index": 88
+        },
+        {
+          "name": "落地",
+          "index": 114
+        },
+        {
+          "name": "跳砍",
+          "index": 126
+        },
+        {
+          "name": "跳砍2",
+          "index": 148
+        },
+        {
+          "name": "跳砍3",
+          "index": 168
+        },
+        {
+          "name": "跳招",
+          "index": 195
+        },
+        {
+          "name": "跳招2",
+          "index": 206
+        },
+        {
+          "name": "砍1",
+          "index": 228
+        },
+        {
+          "name": "砍2",
+          "index": 249
+        },
+        {
+          "name": "砍3",
+          "index": 272
+        },
+        {
+          "name": "砍技1",
+          "index": 302
+        },
+        {
+          "name": "砍技12",
+          "index": 338
+        },
+        {
+          "name": "砍技2",
+          "index": 394
+        },
+        {
+          "name": "招1",
+          "index": 449
+        },
+        {
+          "name": "招2",
+          "index": 498
+        },
+        {
+          "name": "招3",
+          "index": 550
+        },
+        {
+          "name": "必杀",
+          "index": 592
+        },
+        {
+          "name": "上必杀",
+          "index": 679
+        },
+        {
+          "name": "超必杀",
+          "index": 774
+        },
+        {
+          "name": "招换",
+          "index": 895
+        },
+        {
+          "name": "防御",
+          "index": 957
+        },
+        {
+          "name": "防御2",
+          "index": 958
+        },
+        {
+          "name": "防住",
+          "index": 969
+        },
+        {
+          "name": "被打",
+          "index": 981
+        },
+        {
+          "name": "击飞",
+          "index": 994
+        },
+        {
+          "name": "击落地",
+          "index": 1006
+        },
+        {
+          "name": "起身",
+          "index": 1045
+        },
+        {
+          "name": "开场",
+          "index": 1072
+        },
+        {
+          "name": "胜利",
+          "index": 1152
+        },
+        {
+          "name": "失败",
+          "index": 1182
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "kj11atm",
+        "kj12atm",
+        "kj1atm",
+        "kj2atm",
+        "sbsatm",
+        "tk1atm",
+        "tkatm",
+        "tzatm",
+        "zh1atm",
+        "zh21atm",
+        "zh2atm",
+        "zh31atm",
+        "zh3atm"
+      ],
+      "xml_files": 266
+    },
+    "zoro2": {
+      "xfl_root": "build/source_xfl/zoro2",
+      "main_timeline": "build/source_xfl/zoro2/zoro2/LIBRARY/Symbol 834.xml",
+      "labels": [
+        {
+          "name": "站立",
+          "index": 0
+        },
+        {
+          "name": "走",
+          "index": 9
+        },
+        {
+          "name": "瞬步",
+          "index": 19
+        },
+        {
+          "name": "收刀",
+          "index": 37
+        },
+        {
+          "name": "跳",
+          "index": 45
+        },
+        {
+          "name": "落",
+          "index": 61
+        },
+        {
+          "name": "跳2",
+          "index": 77
+        },
+        {
+          "name": "落2",
+          "index": 94
+        },
+        {
+          "name": "落地",
+          "index": 120
+        },
+        {
+          "name": "跳砍",
+          "index": 132
+        },
+        {
+          "name": "跳砍2",
+          "index": 152
+        },
+        {
+          "name": "跳招",
+          "index": 179
+        },
+        {
+          "name": "跳招1",
+          "index": 188
+        },
+        {
+          "name": "跳招2",
+          "index": 199
+        },
+        {
+          "name": "砍1",
+          "index": 246
+        },
+        {
+          "name": "砍2",
+          "index": 265
+        },
+        {
+          "name": "砍3",
+          "index": 288
+        },
+        {
+          "name": "砍4",
+          "index": 318
+        },
+        {
+          "name": "砍技1",
+          "index": 345
+        },
+        {
+          "name": "砍技12",
+          "index": 370
+        },
+        {
+          "name": "砍技13",
+          "index": 392
+        },
+        {
+          "name": "砍技2",
+          "index": 424
+        },
+        {
+          "name": "砍技21",
+          "index": 464
+        },
+        {
+          "name": "砍技22",
+          "index": 512
+        },
+        {
+          "name": "招1",
+          "index": 548
+        },
+        {
+          "name": "招2",
+          "index": 584
+        },
+        {
+          "name": "招3",
+          "index": 660
+        },
+        {
+          "name": "必杀",
+          "index": 699
+        },
+        {
+          "name": "必杀MISS",
+          "index": 824
+        },
+        {
+          "name": "必杀（一闪）",
+          "index": 868
+        },
+        {
+          "name": "上必杀",
+          "index": 882
+        },
+        {
+          "name": "空中必杀",
+          "index": 998
+        },
+        {
+          "name": "空中必杀1",
+          "index": 1039
+        },
+        {
+          "name": "空中必杀2",
+          "index": 1054
+        },
+        {
+          "name": "超必杀",
+          "index": 1105
+        },
+        {
+          "name": "招换",
+          "index": 1257
+        },
+        {
+          "name": "防御",
+          "index": 1319
+        },
+        {
+          "name": "防御2",
+          "index": 1320
+        },
+        {
+          "name": "防住",
+          "index": 1331
+        },
+        {
+          "name": "被打",
+          "index": 1343
+        },
+        {
+          "name": "击飞",
+          "index": 1356
+        },
+        {
+          "name": "击落地",
+          "index": 1368
+        },
+        {
+          "name": "起身",
+          "index": 1407
+        },
+        {
+          "name": "开场",
+          "index": 1434
+        },
+        {
+          "name": "胜利",
+          "index": 1529
+        },
+        {
+          "name": "失败",
+          "index": 1559
+        }
+      ],
+      "hit_object_names": [
+        "bdmn",
+        "bs1atm",
+        "bsatm",
+        "cbs1atm",
+        "cbsatm",
+        "k1atm",
+        "k2atm",
+        "k3atm",
+        "k4atm",
+        "kbs1atm",
+        "kbs2atm",
+        "kbsatm",
+        "kj11atm",
+        "kj12atm",
+        "kj1atm",
+        "kj21atm",
+        "kj22atm",
+        "kj2atm",
+        "sbs1atm",
+        "sbs2atm",
+        "sbsatm",
+        "tk1atm",
+        "tkatm",
+        "tz1atm",
+        "tzatm",
+        "zh2atm",
+        "zh3atm"
+      ],
+      "xml_files": 329
+    }
+  }
+}

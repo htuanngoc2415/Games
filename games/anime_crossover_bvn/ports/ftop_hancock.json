@@ -1,0 +1,184 @@
+{
+  "stats": {
+    "speed": 5.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_hancock",
+  "displayName": "Hancock",
+  "source": "assets/fighter/ftop/hancock.swf",
+  "output": "assets/fighter/ported/ftop_hancock.swf",
+  "actionSprite": 617,
+  "package": "ftop_hancock_fla",
+  "sounds": {
+    "hurt": [
+      1,
+      2
+    ],
+    "hurtFly": [
+      1,
+      2
+    ],
+    "die": [
+      3
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1317,
+      "击飞_弹": 1325,
+      "击飞_倒": 1331,
+      "击飞_起": 1349,
+      "防御恢复": 1287
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 167,
+      "depth": 28,
+      "sprite": 92,
+      "name": "zh3_167_28atm",
+      "params": {
+        "x": 20.0,
+        "y": -20.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 6,
+        "remove": 12
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    },
+    {
+      "frame": 610,
+      "depth": 28,
+      "sprite": 290,
+      "name": "zh1_610_28atm",
+      "params": {
+        "x": 20.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 12
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    },
+    {
+      "frame": 715,
+      "depth": 28,
+      "sprite": 92,
+      "name": "zh3_715_28atm",
+      "params": {
+        "x": 20.0,
+        "y": -20.0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 6,
+        "remove": 12
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "409": {
+      "9": "stop();"
+    },
+    "501": {
+      "25": "stop();"
+    }
+  },
+  "register": {
+    "name": "汉库克",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_hancock",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "不会输的，妾身绝不会输给他们的！",
+      "受我诱惑之心，必将硬化汝等身躯！",
+      "无礼之人，给我退下！"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 10
+    }
+  },
+  "bishaFaces": {
+    "汉库克1": "assets/face/ported/ftop_hancock_bs1.png",
+    "汉库克2": "assets/face/ported/ftop_hancock_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

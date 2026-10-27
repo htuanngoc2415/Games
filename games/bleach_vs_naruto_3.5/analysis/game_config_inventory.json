@@ -1,0 +1,19 @@
+{
+  "fighter.xml": {
+    "entries": 79,
+    "random_entries": 3,
+    "enemy_entries": 11
+  },
+  "assist.xml": {
+    "entries": 40,
+    "actual_assists": 37
+  },
+  "map.xml": {
+    "entries": 20,
+    "stage_swfs": 19
+  },
+  "select.xml": {
+    "entries": 130,
+    "nonempty_slots": 92
+  }
+}

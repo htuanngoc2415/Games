@@ -1,0 +1,1 @@
+analysis/logs/frame.log: Oct 01, 2026 12:39:34 PM com.jpexs.decompiler.flash.gui.Main$42 uncaughtException | SEVERE: Uncaught exception in thread: main

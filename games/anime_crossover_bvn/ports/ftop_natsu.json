@@ -1,0 +1,128 @@
+{
+  "id": "ftop_natsu",
+  "displayName": "Natsu",
+  "source": "assets/fighter/ftop/natsu.swf",
+  "output": "assets/fighter/ported/ftop_natsu.swf",
+  "actionSprite": 516,
+  "package": "ftop_natsu_fla",
+  "stats": {
+    "speed": 6,
+    "jumpPower": 15,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "sounds": {
+    "hurt": [
+      3,
+      2
+    ],
+    "hurtFly": [
+      3,
+      2
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1120,
+      "击飞_弹": 1128,
+      "击飞_倒": 1134,
+      "击飞_起": 1152,
+      "防御恢复": 1090
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 8
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 19
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "bullets": [
+    {
+      "frame": 479,
+      "depth": 28,
+      "sprite": 261,
+      "name": "zh1atm",
+      "params": {
+        "x": 15,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 4,
+        "hit": 5,
+        "remove": 21
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [
+    320,
+    371,
+    454
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "register": {
+    "name": "纳兹·德拉格尼尔",
+    "comicType": 1,
+    "select": {
+      "row": 5,
+      "slot": 1
+    },
+    "faces": "assets/face/ported/ftop_natsu",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我们要是为了保护家人，国家也好，世界也好，通通都可以视为敌人!",
+      "你准备好成为妖精的尾巴的敌人了吗?",
+      "不要被打败了就罗里罗嗦！我们可是来自妖精的尾巴，是不知阻挠为何物的协会，不继续走下去的话就生存不了！"
+    ]
+  },
+  "bishaFaces": {
+    "纳兹1": "assets/face/ported/ftop_natsu_bs1.png",
+    "纳兹2": "assets/face/ported/ftop_natsu_bs2.png"
+  }
+}

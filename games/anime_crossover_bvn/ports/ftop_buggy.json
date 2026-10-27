@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_buggy",
+  "displayName": "Buggy",
+  "source": "assets/fighter/ftop/buggy.swf",
+  "output": "assets/fighter/ported/ftop_buggy.swf",
+  "actionSprite": 501,
+  "package": "ftop_buggy_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1071,
+      "击飞_弹": 1079,
+      "击飞_倒": 1085,
+      "击飞_起": 1103,
+      "防御恢复": 1041
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "391": {
+      "25": "stop();"
+    }
+  },
+  "register": {
+    "name": "巴基",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_buggy",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "冲啊！伙计们！",
+      "发射，巴基弹!",
+      "哈哈哈哈哈哈"
+    ],
+    "select": {
+      "row": 7,
+      "slot": 1
+    }
+  },
+  "bishaFaces": {
+    "巴基1": "assets/face/ported/ftop_buggy_bs1.png",
+    "巴基2": "assets/face/ported/ftop_buggy_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

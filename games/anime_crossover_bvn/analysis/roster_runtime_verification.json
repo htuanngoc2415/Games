@@ -1,0 +1,658 @@
+{
+  "game_sha256": "107c274251acd41312b0a66e130a2ce01ec07e8b88c62f873cc8266a880e8f60",
+  "test_swf_sha256": "55bf66a6ab5f9bec1a0474abd08914e771faf96b375de0c83dbfe9d603dfb34f",
+  "done": true,
+  "fighter_count": 25,
+  "fighters": [
+    {
+      "id": "ftop_ace",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {},
+      "fighter_sha256": "41f4ee8122ec1f1c4a78c1b05139daa970dd8e65cc036622ae7736c8002d4b66"
+    },
+    {
+      "id": "ftop_buggy",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 8
+      },
+      "fighter_sha256": "3cde8ddb526538a5c637d81860e15ecc66127002ae789cd0200d4371667ce6c4"
+    },
+    {
+      "id": "ftop_crocodile",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "7042169a494de80d89d7fa40a0e7994a32f76a37fa1ceb1c2a5bbf63e1f0eb2f"
+    },
+    {
+      "id": "ftop_doflamingo",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "282f01ce124e138413de8eceb169514f61e445360ba4261fa07d77241323e61a"
+    },
+    {
+      "id": "ftop_ersa",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "f98bc734577708faa7af082cb94b0647511f66e1cddcb0b8b97d46ba96d84f77"
+    },
+    {
+      "id": "ftop_gajeel",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "160f6e27d3991b714aece2a88f68ae814cb11216fd5f95d7254bf6625e974993"
+    },
+    {
+      "id": "ftop_gray",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "9b410fd3117623017f9ae1ff88c1024641b2563e42a13507edb182021cc1fd17"
+    },
+    {
+      "id": "ftop_hancock",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 8
+      },
+      "fighter_sha256": "19aa39a26c4e124ed062af978914569a7276083fef811405df145348cc931a86"
+    },
+    {
+      "id": "ftop_jinbei",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "c0aab7b6738cca38e714c45b5f19adf2f86aabc45b745b1bb08a4d32e1ebd619"
+    },
+    {
+      "id": "ftop_juvia",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "9f5bb952ce83f3ccd3e00c9a9cfabd5f68c5280af267b3f38074733e77d61258"
+    },
+    {
+      "id": "ftop_lasasi",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "90ed8b9c2a6b4ff7864c0a62709447edcb80b5d2537c031584185ae804700295"
+    },
+    {
+      "id": "ftop_law",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "dd3504e9f8b8eda169c0dc323e132ace438b5757cea77a439e649ea5a5373805"
+    },
+    {
+      "id": "ftop_lucy",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "ecb9c59f2b2fbd55b4467737bc3e3eec3babcd26a2d5b64533da409e44581a21"
+    },
+    {
+      "id": "ftop_luffy",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "a51cece8925a7fa087b66e3eb6edac1eee6f9506ed31c6ebeb8feccb1ebeaf61"
+    },
+    {
+      "id": "ftop_luffy2",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "83d39a12e1a2b31c87ce5c335fd98b214dc7fefdbc221891518043d77981f18c"
+    },
+    {
+      "id": "ftop_makarov",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "c44ea56cd9f29d51f4a3ca55564557fc5979e8e496f5356ae7e4d7f041e2375e"
+    },
+    {
+      "id": "ftop_mirajane",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "f1c5912b0b9d21c68a42ee34e5b931d430a2c010bc11b95a285807fed983679b"
+    },
+    {
+      "id": "ftop_nami",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "7e406c0282a0957e3cbeb34496a656dda3180b09aae67ff4eb7aee35d34569a7"
+    },
+    {
+      "id": "ftop_natsu",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "3297b428d8ed3085b31f5175da1bde5a28ac8f08f2e64f1d73669d5a06bf729c"
+    },
+    {
+      "id": "ftop_robin2",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "e49c180d5fd6fb6e05c93c5a63bfe8cf7bf64c6d186281b4abefe6e4ba4f7acc"
+    },
+    {
+      "id": "ftop_sanji",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "50eba6e4a48df79901ba30fe711edb22a4df3041e089d0a0111c46595b14a147"
+    },
+    {
+      "id": "ftop_sanji2",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 6
+      },
+      "fighter_sha256": "f1d31c796a1a0faae13cd9df01196d7dd23ea6d0aad8787cdc00112dd6b9e70c"
+    },
+    {
+      "id": "ftop_wendy",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "12401eac6d30c50df5ee9029ccfdb9f7e459320fc1b649bc6cb3767fc204c40d"
+    },
+    {
+      "id": "ftop_zoro",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "4cec0ef9619a9e6111c7f2386c2d6d1ba6567bdd48fadcdcdcb97fd21e6b5fce"
+    },
+    {
+      "id": "ftop_zoro2",
+      "actions": [
+        "站立",
+        "走",
+        "砍1",
+        "砍技1",
+        "砍技2",
+        "招1",
+        "招2",
+        "招3",
+        "必杀",
+        "上必杀",
+        "超必杀",
+        "跳砍",
+        "跳招",
+        "防御",
+        "被打"
+      ],
+      "body_present_at_idle": true,
+      "sweep_completed": true,
+      "error_counts": {
+        "TypeError: Error #1006: value is not a function.": 7
+      },
+      "fighter_sha256": "ebf4f090be356113752db58d8deb6192e90f73d5b2181357ae05b8e735438a6b"
+    }
+  ],
+  "scope": "Instrumented real BVN: same fighter loaded twice, 15 forced action labels, alternating directions. Does not certify input/AI, full animations, cooldown isolation or KO/reset.",
+  "known_runtime_limitation": "Error #1006 on fighter/bullet cleanup under this Ruffle version. No assertion that an action sweep is error-free."
+}

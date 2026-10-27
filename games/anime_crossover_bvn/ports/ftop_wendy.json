@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "speed": 5.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_wendy",
+  "displayName": "Wendy",
+  "source": "assets/fighter/ftop/wendy.swf",
+  "output": "assets/fighter/ported/ftop_wendy.swf",
+  "actionSprite": 498,
+  "package": "ftop_wendy_fla",
+  "sounds": {
+    "hurt": [
+      1,
+      2
+    ],
+    "hurtFly": [
+      1,
+      2
+    ],
+    "die": [
+      3
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1218,
+      "击飞_弹": 1226,
+      "击飞_倒": 1232,
+      "击飞_起": 1250,
+      "防御恢复": 1188
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 648,
+      "depth": 28,
+      "sprite": 298,
+      "name": "zh1_648_28atm",
+      "params": {
+        "x": 20.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 24
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "396": {
+      "17": "stop();"
+    },
+    "425": {
+      "27": "stop();"
+    },
+    "427": {
+      "28": "stop();"
+    }
+  },
+  "register": {
+    "name": "温蒂",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_wendy",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我想我们可以帮助他们。",
+      "我想保护妖精的尾巴，请助我一臂之力。",
+      "就算魔力已经全部用尽，我到最后一刻为止都不会放弃的，这就是妖精尾巴。"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 6
+    }
+  },
+  "bishaFaces": {
+    "温蒂1": "assets/face/ported/ftop_wendy_bs1.png",
+    "温蒂2": "assets/face/ported/ftop_wendy_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

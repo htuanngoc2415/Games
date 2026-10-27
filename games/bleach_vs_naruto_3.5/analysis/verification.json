@@ -1,0 +1,13 @@
+{
+  "sha256_before": "d1054c4166a4c985bc552052ca3fecbb4f715012ee78f495b5b2e8e76e35f99c",
+  "sha256_after": {
+    "bleach_vs_naruto_3.5.swf": "d1054c4166a4c985bc552052ca3fecbb4f715012ee78f495b5b2e8e76e35f99c",
+    "original/bleach_vs_naruto_3.5.swf": "d1054c4166a4c985bc552052ca3fecbb4f715012ee78f495b5b2e8e76e35f99c",
+    "working/bleach_vs_naruto_3.5.swf": "d1054c4166a4c985bc552052ca3fecbb4f715012ee78f495b5b2e8e76e35f99c"
+  },
+  "scripts_nonempty": true,
+  "major_directories_exist": true,
+  "archive_members_crc_verified": 486,
+  "embedded_swf_exports": 134,
+  "embedded_export_failures": 0
+}

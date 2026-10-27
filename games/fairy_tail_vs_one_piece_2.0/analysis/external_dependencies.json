@@ -1,0 +1,169 @@
+{
+  "fighters": [
+    {
+      "id": "路飞",
+      "name": "Luffy",
+      "path": "fighter/luffy.swf",
+      "available": true
+    },
+    {
+      "id": "路飞2",
+      "name": "Luffy-2Y",
+      "path": "fighter/luffy2.swf",
+      "available": true
+    },
+    {
+      "id": "佐罗",
+      "name": "Zoro",
+      "path": "fighter/zoro.swf",
+      "available": true
+    },
+    {
+      "id": "佐罗2",
+      "name": "Zoro-2Y",
+      "path": "fighter/zoro2.swf",
+      "available": true
+    },
+    {
+      "id": "巴基",
+      "name": "Buggy",
+      "path": "fighter/buggy.swf",
+      "available": true
+    },
+    {
+      "id": "克洛克",
+      "name": "Crocodile",
+      "path": "fighter/crocodile.swf",
+      "available": true
+    },
+    {
+      "id": "香吉",
+      "name": "Sanji",
+      "path": "fighter/sanji.swf",
+      "available": true
+    },
+    {
+      "id": "香吉2",
+      "name": "Sanji",
+      "path": "fighter/sanji2.swf",
+      "available": true
+    },
+    {
+      "id": "罗宾2",
+      "name": "Nico Robin",
+      "path": "fighter/robin2.swf",
+      "available": true
+    },
+    {
+      "id": "甚平",
+      "name": "Jinbei",
+      "path": "fighter/jinbei.swf",
+      "available": true
+    },
+    {
+      "id": "罗",
+      "name": "Law",
+      "path": "fighter/law.swf",
+      "available": true
+    },
+    {
+      "id": "汉库克",
+      "name": "Hancock",
+      "path": "fighter/hancock.swf",
+      "available": true
+    },
+    {
+      "id": "娜美",
+      "name": "Nami",
+      "path": "fighter/nami.swf",
+      "available": true
+    },
+    {
+      "id": "艾斯",
+      "name": "Ace",
+      "path": "fighter/ace.swf",
+      "available": true
+    },
+    {
+      "id": "明哥",
+      "name": "Doflamingo",
+      "path": "fighter/doflamingo.swf",
+      "available": true
+    },
+    {
+      "id": "纳兹",
+      "name": "Natsu",
+      "path": "fighter/natsu.swf",
+      "available": true
+    },
+    {
+      "id": "格雷",
+      "name": "Gray",
+      "path": "fighter/gray.swf",
+      "available": true
+    },
+    {
+      "id": "露西",
+      "name": "Lucy",
+      "path": "fighter/lucy.swf",
+      "available": true
+    },
+    {
+      "id": "艾露莎",
+      "name": "Ersa",
+      "path": "fighter/ersa.swf",
+      "available": true
+    },
+    {
+      "id": "葛吉尔",
+      "name": "Gajeel",
+      "path": "fighter/gajeel.swf",
+      "available": true
+    },
+    {
+      "id": "温蒂",
+      "name": "Wendy",
+      "path": "fighter/wendy.swf",
+      "available": true
+    },
+    {
+      "id": "米拉杰",
+      "name": "Mirajane",
+      "path": "fighter/mirajane.swf",
+      "available": true
+    },
+    {
+      "id": "拉克萨斯",
+      "name": "Laxus",
+      "path": "fighter/lasasi.swf",
+      "available": true
+    },
+    {
+      "id": "朱比亚",
+      "name": "Juvia",
+      "path": "fighter/juvia.swf",
+      "available": true
+    },
+    {
+      "id": "马克洛夫",
+      "name": "Makarov",
+      "path": "fighter/makarov.swf",
+      "available": true
+    }
+  ],
+  "music": [
+    "music/desert.mp3",
+    "music/ersa.mp3",
+    "music/fairytail.mp3",
+    "music/fairytail2.mp3",
+    "music/fairytail3.mp3",
+    "music/onepiece.mp3",
+    "music/onepiece2.mp3",
+    "music/onepiece3.mp3",
+    "music/rain.mp3",
+    "music/sea.mp3",
+    "music/sunny.mp3",
+    "music/wind.mp3"
+  ],
+  "note": "All 25 fighter SWFs and 12 music files referenced here were downloaded under ../downloaded/ and validated by file type/signature. No external assist SWF filename was found in the main SWF or exported fighter scripts."
+}

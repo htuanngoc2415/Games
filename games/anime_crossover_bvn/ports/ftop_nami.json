@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_nami",
+  "displayName": "Nami",
+  "source": "assets/fighter/ftop/nami.swf",
+  "output": "assets/fighter/ported/ftop_nami.swf",
+  "actionSprite": 703,
+  "package": "ftop_nami_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1215,
+      "击飞_弹": 1223,
+      "击飞_倒": 1229,
+      "击飞_起": 1247,
+      "防御恢复": 1185
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 569,
+      "depth": 28,
+      "sprite": 377,
+      "name": "zh1_569_28atm",
+      "params": {
+        "x": 9.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 12
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 3
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "167": {
+      "36": "stop();"
+    },
+    "325": {
+      "17": "stop();"
+    },
+    "618": {
+      "19": "stop();"
+    },
+    "626": {
+      "15": "if(parent && parent.parent && parent.parent.$effect_ctrler) parent.parent.$effect_ctrler.shine();"
+    }
+  },
+  "register": {
+    "name": "娜美",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_nami",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "在这个世界上，我最讨厌的，就是海贼！！我喜欢钱和橘子！",
+      "我个人认为海贼的掠夺行为事错误的！！所以，我有义务要纠正他们！！  ",
+      "我要用我所学到的航海技术，到世界各地去旅行！再把我所看到的一切，画成一张“世界地图”！！！",
+      "一个人的力量是有限度的，不论想做什么事，一个人的力量是不够的，人是需要同伴的！"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 11
+    }
+  },
+  "bishaFaces": {
+    "娜美1": "assets/face/ported/ftop_nami_bs1.png",
+    "娜美2": "assets/face/ported/ftop_nami_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

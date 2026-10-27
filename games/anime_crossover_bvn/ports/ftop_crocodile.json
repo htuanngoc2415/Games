@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "speed": 5.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_crocodile",
+  "displayName": "Crocodile",
+  "source": "assets/fighter/ftop/crocodile.swf",
+  "output": "assets/fighter/ported/ftop_crocodile.swf",
+  "actionSprite": 655,
+  "package": "ftop_crocodile_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1070,
+      "击飞_弹": 1078,
+      "击飞_倒": 1084,
+      "击飞_起": 1102,
+      "防御恢复": 1040
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "300": {
+      "21": "stop();",
+      "5": "this.name = \"zh1atm\";",
+      "8": "this.name = \"abcd\";"
+    }
+  },
+  "register": {
+    "name": "克洛克",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_crocodile",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "呵哈哈！",
+      "哼......",
+      "消失在沙暴中吧"
+    ],
+    "select": {
+      "row": 7,
+      "slot": 2
+    }
+  },
+  "bishaFaces": {
+    "克洛克1": "assets/face/ported/ftop_crocodile_bs1.png",
+    "克洛克2": "assets/face/ported/ftop_crocodile_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

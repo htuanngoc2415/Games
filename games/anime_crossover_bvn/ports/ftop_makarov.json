@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "speed": 10.0,
+    "jumpPower": 20.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_makarov",
+  "displayName": "Makarov",
+  "source": "assets/fighter/ftop/makarov.swf",
+  "output": "assets/fighter/ported/ftop_makarov.swf",
+  "actionSprite": 578,
+  "package": "ftop_makarov_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1257,
+      "击飞_弹": 1265,
+      "击飞_倒": 1271,
+      "击飞_起": 1289,
+      "防御恢复": 1227
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "110": {
+      "21": "stop();"
+    },
+    "161": {
+      "23": "stop();"
+    },
+    "201": {
+      "17": "stop();"
+    },
+    "268": {
+      "19": "stop();"
+    },
+    "445": {
+      "31": "stop();"
+    },
+    "522": {
+      "59": "stop();"
+    }
+  },
+  "register": {
+    "name": "马克洛夫",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_makarov",
+    "bgm": {
+      "file": "assets/music/ftop/fairytail.mp3",
+      "url": "bgm/ftop/fairytail.mp3",
+      "rate": 70
+    },
+    "says": [
+      "妖精是不是有尾巴？妖精是否存在其实都 没人知道。正因为如此，永远的谜题就是 永恒的冒险。",
+      "无论悲伤的事，还是快乐的事，虽然不能说全部如此，但可以某种程度的共有，这就是工会。一个人的幸福，就是大家的幸福；一个人的愤怒，就是大家的愤怒；并且，一个人的眼泪，也是大家的眼泪。",
+      "总有一天，你们会明白，到底是因为人死会悲伤还是因为悲伤会杀死人。"
+    ],
+    "select": {
+      "row": 5,
+      "slot": 10
+    }
+  },
+  "bishaFaces": {
+    "马克沃夫1": "assets/face/ported/ftop_makarov_bs1.png",
+    "马克沃夫2": "assets/face/ported/ftop_makarov_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

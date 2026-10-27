@@ -1,0 +1,19 @@
+# File sinh ra khi build / đóng gói (tạo lại bằng build_gameplay.sh, package.sh)
+games/*/build/
+games/anime_crossover_bvn/working/
+tools/package_game/out/
+tools/package_game/cache/
+tools/package_game/build/
+tools/ruffle_test/.venv/
+tools/ruffle_test/www/*.swf
+tools/ruffle_test/www/ruffle/
+tools/ruffle_test/out/
+tools/ffdec-home/
+__pycache__/
+*.pyc
+loi.txt
+saves/
+
+# SWF/bản giải nén gốc của game bên thứ ba (BVN, Fairy Tail vs One Piece): quá lớn và không phải của dự án.
+# Đặt lại đúng đường dẫn cũ để build, xem README.md.
+games/*/original/

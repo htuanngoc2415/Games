@@ -1,0 +1,6 @@
+{
+  "tool": "built-in imagegen",
+  "prompt": "Create a polished landscape 4:3 anime crossover fighting game loading background, 1600x1200 composition. Four equally prominent heroes: Ichigo Kurosaki with orange hair, black shinigami robes and large sword; Naruto Uzumaki blond hair orange-black ninja outfit and forehead protector; Natsu Dragneel pink hair white scarf and flames; Monkey D. Luffy straw hat red vest and confident grin. Dramatic hand-drawn anime illustration, energetic elemental lighting, dark blue and charcoal backdrop, crisp detailed faces. Arrange four heroes in four adjoining diagonal panels, one hero per franchise, with clearly readable exact titles associated with each panel: \"BLEACH\", \"NARUTO\", \"FAIRY TAIL\", \"ONE PIECE\". All four names spelled correctly, equal visual weight. Keep bottom 15 percent dark and uncluttered for actual loading progress overlay. Finished full-bleed game background only, no browser, no UI, no progress bar, no watermark. Balanced composition suitable for 800x600 game loading screen.",
+  "master": "assets/backgrounds/crossover_loading_master.png",
+  "runtime": "assets/backgrounds/crossover_loading.jpg"
+}

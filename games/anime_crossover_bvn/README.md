@@ -1,0 +1,75 @@
+# Anime Crossover BVN
+
+Engine nền: Bleach vs Naruto 3.5 (AS3/AVM2). Nguồn nhân vật bổ sung: Fairy Tail vs One Piece (AS2/AVM1).
+
+Tài liệu tổng hợp để chuyển ngữ cảnh cho ChatGPT hoặc người phát triển khác: `analysis/PROJECT_HANDOFF_VI.md`.
+
+## Trạng thái hiện tại
+
+- Bản làm việc độc lập: `working/anime_crossover_bvn.swf`.
+- Hệ thống cân bằng gameplay đã được chèn vào SWF: cooldown từng chiêu, thời gian choáng (`stunRate`), tốc độ ra đòn (`attackSpeed`), sát thương (`damageRate`), tốc độ đi (`moveSpeed`); chỉnh chung hoặc riêng từng nhân vật.
+- Config: `assets/config/gameplay.xml`; hướng dẫn từng thuộc tính nằm ngay đầu file. Cooldown tính bằng game tick, 60 tick/giây.
+- 25 SWF nhân vật nguồn và 12 MP3 đã được sao chép vào `assets/`.
+- Toàn bộ 102 SWF fighter/enemy/trợ chiến BVN và face liên quan được mirror dưới `assets/fighter/bvn/` và `assets/face/bvn/`; runtime tiếp tục dùng bản nguyên gốc trong archive BVN.
+- `analysis/port_manifest.json` theo dõi trạng thái chuyển đổi của từng nhân vật.
+- 25 timeline đã được bảo toàn dưới dạng XFL trong `build/source_xfl/`; nhãn và vùng đánh nguồn được lập chỉ mục ở `analysis/xfl_inventory.json`.
+- Natsu (`ftop_natsu`) đã chơi được: chuyển tự động từ SWF AS2 sang AS3 bằng `tools/ftop_port`, nằm ở ô trống hàng 5 của màn chọn. Đã chạy thử trên Ruffle (đi, nhảy, combo, chiêu, cầu lửa, 3 tất sát kèm cut-in, bị đánh bay, AI, thắng/thua); chưa thử trên Flash Player thật.
+- Đã chuyển thêm 24 nhân vật sang AS3, nhúng đủ 25 FTOP vào game và năm nhóm chọn. Chi tiết kiểm chứng, cách chạy và giới hạn: [roster_port_status_vi.md](analysis/roster_port_status_vi.md). 24 bản mới vẫn cần nghiệm thu gameplay đầy đủ trước khi đánh dấu `playable`.
+
+## Cấu trúc
+
+```text
+original/       SWF BVN nền, bất biến
+working/        SWF chỉnh sửa hiện tại
+assets/         config mới và tài nguyên FTOP nguồn
+extracted/      mã BVN dịch ngược dùng để patch
+patches/        bản vá và tài liệu tích hợp
+analysis/       manifest, kiểm chứng và báo cáo
+build/          file trung gian có thể tái tạo
+dist/           dành cho bản phát hành đã kiểm thử
+```
+
+## Build sau khi sửa config
+
+Chạy `bash games/anime_crossover_bvn/build_gameplay.sh` (khoảng 10 giây). Script kiểm tra XML, thay binary ZIP tài nguyên ID 7, rồi dùng JPEXS import các class AS3 đã sửa từ `extracted/scripts/` vào `working/anime_crossover_bvn.swf`. Không ghi đè SWF gốc.
+
+Script cũng chép các fighter đã port (`ports/*.json` có SWF đầu ra) cùng ảnh mặt, nhạc và thêm chúng vào `fighter.xml`/`select.xml` sinh từ `assets/config/bvn_original/`.
+
+Class đã sửa: `FighterMC` (hitbox/timeline con động của FTOP), `GameData` (đọc config), `FighterActionLogic` (cooldown), `FighterMcCtrler` (stun, tốc độ đi, đếm cooldown), `HitVO` (sát thương), `GameMainLogicCtrler` (tốc độ ra đòn).
+
+- Cooldown chỉ bắt đầu khi controller xác nhận chiêu đã thực hiện thành công. Mỗi đấu sĩ giữ bộ đếm riêng, nên hai đấu sĩ cùng nhân vật không dùng chung cooldown.
+- `stunRate` chỉ áp dụng cho choáng khi trúng đòn thường (`hurtType` 0); đòn đánh bay/ngã giữ nguyên. Không đổi thời gian đỡ đòn.
+- `attackSpeed` chỉ áp dụng khi đang đánh/dùng chiêu/tất sát và lúc hồi đòn. Tối đa 2 vì animation gốc chạy 30 frame/giây trên logic 60 tick/giây; ở 2x mỗi tick chạy đúng một frame nên không bỏ qua frame script hay hitbox nào. Đạn và vật triệu hồi vẫn chạy tốc độ thường.
+- `damageRate` tính theo chủ của đòn, gồm cả đạn và `FighterAttacker`; trợ chiến không bị ảnh hưởng.
+
+## Port nhân vật Fairy Tail/One Piece
+
+```bash
+tools/ftop_port/port_fighter.sh games/anime_crossover_bvn/ports/ftop_natsu.json
+bash games/anime_crossover_bvn/build_gameplay.sh
+```
+
+Chạy thử không cần Flash Player: `tools/ruffle_test/README.md`.
+
+## Điều kiện để chuyển một nhân vật
+
+Một nhân vật chỉ được đổi thành `playable` sau khi có timeline AVM2 tương thích BVN, đủ action bắt buộc, vùng `body`/`hit`/`hit_check`, HitVO, projectile, âm thanh, portrait và kiểm tra cả hai hướng. Chép SWF AS2 vào `fighter.xml` không đáp ứng các điều kiện này.
+
+Quy tắc giữ/chuyển hitbox nằm trong `analysis/hitbox_reuse_policy.md`.
+
+## Màn chọn và random mới
+
+Lưới 12×7; 25 FTOP hiện trực tiếp. Có Random Bleach (31), Naruto (34), Fairy Tail (10), One Piece (15), Random chung (90), tính cả biến thể BVN và loại NPC. Xem [chi tiết bố cục, ảnh và kiểm thử](analysis/selection_random_status_vi.md). Bố cục nằm trong `assets/config/crossover_select.json`.
+
+### Giao diện tiếng Việt
+
+Menu chính dùng nền crossover mới và còn bốn mục: Đấu đội, Đấu đơn, Phiêu lưu, Cài đặt. Đã bỏ More Games, Credits, Rank và Training khỏi menu, bổ sung font tiếng Việt nhúng trong SWF. Hướng dẫn, cài đặt phím, thông báo tải và các nhãn giao diện đã được Việt hóa. Xem `analysis/ui_vietnamese_status_vi.md` về nguồn ảnh, prompt, build và kiểm tra.
+
+## Chỉnh hồi chiêu trong game
+
+Menu chính → **Hồi chiêu**: chọn "Tất cả nhân vật" hoặc từng nhân vật, chỉnh **sát thương gây ra** (bước 10%, 0–1000%, lưu dưới khoá `@damage`, thay `damageRate` của XML) và 10 loại chiêu theo bước 0,25 giây
+(W/S chọn, J vào bảng chiêu, A/D giảm/tăng, U về mặc định; có thể bấm chuột vào "-"/"+").
+Giá trị lưu bằng SharedObject `crossover_cooldowns` (phạm vi "/") và được ưu tiên hơn `gameplay.xml`:
+riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc định (XML). Code: `state/MenuState.as`,
+`data/GameData.as` (getSkillCooldownFrames / setCooldownOverride). Ô hồi chiêu trong trận (`ui/fight/FightUI.as`)
+đọc cùng nguồn.

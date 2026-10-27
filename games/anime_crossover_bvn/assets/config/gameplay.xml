@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cân bằng gameplay. Sửa xong chạy lại build_gameplay.sh để nhúng vào SWF.
+  Cooldown còn chỉnh được ngay trong game: menu chính → "Hồi chiêu". Giá trị chỉnh trong game
+  lưu ở trình duyệt và được ưu tiên hơn file này (nút U trong màn đó đưa về giá trị của file).
+
+  Thuộc tính (đặt trên <defaults> hoặc <fighter>; thiếu thì dùng 1):
+    stunRate     Nhân thời gian choáng (hit stun) mà đòn của nhân vật này gây ra.   0 – 10
+    attackSpeed  Nhân tốc độ animation khi đang ra đòn/chiêu và lúc hồi đòn.       0.1 – 2
+    damageRate   Nhân sát thương gây ra (cả đạn và vật triệu hồi).                  0 – 10
+    moveSpeed    Nhân tốc độ đi bộ và di chuyển ngang trên không.                   0 – 5
+
+  <skill id="..." cooldown="N"/>: hồi chiêu, tính bằng tick (60 tick ≈ 1 giây).
+    id: skill1 skill2 skillAIR zhao1 zhao2 zhao3 bisha bishaUP bishaSUPER bishaAIR
+    Phím P1 (P2): skill1 = S+J (S+1), skill2 = W+J (W+1), skillAIR = nhảy+U,
+      zhao1 = U (4) – đèn số 1, zhao2 = S+U, zhao3 = W+U,
+      bisha = I (5) – đèn số 2, bishaUP = W+I, bishaSUPER = S+I, bishaAIR = nhảy+I.
+
+  <fighter id="..."> ghi đè từng giá trị cho một nhân vật. id lấy từ fighter.xml
+  (ví dụ naruto, ichigo_bankai, sasuke_susanoo); danh sách đầy đủ ở analysis/bvn_roster.json.
+  Nhân vật Fairy Tail/One Piece đã port có id dạng ftop_<tên>, ví dụ ftop_natsu.
+-->
+<gameplay fps="60">
+  <defaults stunRate="1" attackSpeed="1" damageRate="1" moveSpeed="1">
+    <skill id="skill1" cooldown="60"/>
+    <skill id="skill2" cooldown="120"/>
+    <skill id="skillAIR" cooldown="90"/>
+    <skill id="zhao1" cooldown="90"/>
+    <skill id="zhao2" cooldown="120"/>
+    <skill id="zhao3" cooldown="150"/>
+    <skill id="bisha" cooldown="180"/>
+    <skill id="bishaUP" cooldown="180"/>
+    <skill id="bishaSUPER" cooldown="300"/>
+    <skill id="bishaAIR" cooldown="180"/>
+  </defaults>
+
+  <!-- Ví dụ: bỏ comment để dùng.
+  <fighter id="naruto" attackSpeed="1.25" stunRate="0.8">
+    <skill id="bisha" cooldown="240"/>
+  </fighter>
+  <fighter id="ichigo_bankai" damageRate="0.9" moveSpeed="1.2"/>
+  <fighter id="ftop_natsu" attackSpeed="1.1">
+    <skill id="zhao1" cooldown="120"/>
+  </fighter>
+  -->
+</gameplay>

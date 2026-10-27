@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "speed": 7.0,
+    "jumpPower": 20.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_doflamingo",
+  "displayName": "Doflamingo",
+  "source": "assets/fighter/ftop/doflamingo.swf",
+  "output": "assets/fighter/ported/ftop_doflamingo.swf",
+  "actionSprite": 664,
+  "package": "ftop_doflamingo_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 34,
+      "跳": 36,
+      "跳中": 44,
+      "落地": 110,
+      "击飞_落": 1517,
+      "击飞_弹": 1525,
+      "击飞_倒": 1531,
+      "击飞_起": 1549,
+      "防御恢复": 1487
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "290": {
+      "33": "stop();",
+      "8": "this.name = \"abcd\";"
+    },
+    "303": {
+      "8": "this.name = \"abcd\";",
+      "29": "stop();"
+    },
+    "316": {
+      "37": "stop();",
+      "15": "this.name = \"abcd\";"
+    },
+    "334": {
+      "37": "stop();",
+      "6": "this.name = \"abcd\";",
+      "3": "this.name = \"kj23atm\";"
+    },
+    "432": {
+      "31": "if(parent && parent.parent && parent.parent.$effect_ctrler) parent.parent.$effect_ctrler.shine();",
+      "7": "if(parent && parent.parent && parent.parent.$effect_ctrler) parent.parent.$effect_ctrler.shake(5,10);",
+      "36": "stop();",
+      "55": "stop();",
+      "42": "if(parent && parent.parent && parent.parent.$effect_ctrler) parent.parent.$effect_ctrler.shine();",
+      "25": "stop();"
+    },
+    "530": {
+      "48": "stop();"
+    },
+    "583": {
+      "93": "stop();"
+    }
+  },
+  "register": {
+    "name": "明哥",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_doflamingo",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "站在顶点的人可以重新书写善恶!现在只有这个地方才是中立啊!正义会胜?那是当然的吧，只有胜者，才是正义啊!",
+      "正义会胜？ 那是当然的吧，只有胜者，才是正义啊！",
+      "纯粹的流浪的人士和抱定决心干大事的人其相貌可不大一样！",
+      "弱小的家伙，还要执着于他人的痛苦，只会自取灭亡。"
+    ],
+    "select": {
+      "row": 7,
+      "slot": 3
+    }
+  },
+  "bishaFaces": {
+    "明哥1": "assets/face/ported/ftop_doflamingo_bs1.png",
+    "明哥2": "assets/face/ported/ftop_doflamingo_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

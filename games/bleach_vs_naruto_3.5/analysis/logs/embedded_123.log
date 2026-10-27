@@ -1,0 +1,62 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting images...
+Exported image 1/5 DefineBits (chid: 1)
+Exported image 2/5 DefineBitsJPEG3 (chid: 4)
+Exported image 3/5 DefineBitsLossless2 (chid: 9)
+Exported image 4/5 DefineBitsLossless2 (chid: 13)
+Exported image 5/5 DefineBitsLossless2 (chid: 16)
+Exporting shapes...
+Exported shape 1/11 DefineShape (chid: 2)
+Exported shape 2/11 DefineShape (chid: 5)
+Exported shape 3/11 DefineShape (chid: 10)
+Exported shape 4/11 DefineShape (chid: 14)
+Exported shape 5/11 DefineShape (chid: 17)
+Exported shape 6/11 DefineShape (chid: 20)
+Exported shape 7/11 DefineShape (chid: 22)
+Exported shape 8/11 DefineShape3 (chid: 28)
+Exported shape 9/11 DefineShape4 (chid: 31)
+Exported shape 10/11 DefineShape4 (chid: 36)
+Exported shape 11/11 DefineShape4 (chid: 41)
+Exporting morphshapes...
+Exporting movies...
+Exporting fonts...
+Exported font 1/3 DefineFont3 (chid: 6, fn: "Arial")
+Exported font 2/3 DefineFont3 (chid: 32, fn: "ＭＳ Ｐゴシック")
+Exported font 3/3 DefineFont3 (chid: 33, fn: "宋体")
+Exporting DefineFont4s...
+Exporting sounds...
+Exporting binaryData...
+Exporting symbolClass...
+Exporting texts...
+Exported text 1/9 DefineText (chid: 7)
+Exported text 2/9 DefineText (chid: 21)
+Exported text 3/9 DefineText (chid: 23)
+Exported text 4/9 DefineText (chid: 25)
+Exported text 5/9 DefineText (chid: 26)
+Exported text 6/9 DefineText (chid: 34)
+Exported text 7/9 DefineText (chid: 37)
+Exported text 8/9 DefineText (chid: 39)
+Exported text 9/9 DefineText (chid: 42)
+Exporting frames...
+Exported frame 1/1 
+Exporting sprite...
+Exported frame 1/1 DefineSprite (chid: 3)
+Exported frame 1/1 DefineSprite (chid: 8)
+Exported frame 1/1 DefineSprite (chid: 11)
+Exported frame 1/1 DefineSprite (chid: 12)
+Exported frame 1/1 DefineSprite (chid: 15)
+Exported frame 1/1 DefineSprite (chid: 18)
+Exported frame 1/1 DefineSprite (chid: 19)
+Exported frame 1/1 DefineSprite (chid: 24)
+Exported frame 1/1 DefineSprite (chid: 27)
+Exported frame 1/1 DefineSprite (chid: 29)
+Exported frame 1/1 DefineSprite (chid: 30)
+Exported frame 1/1 DefineSprite (chid: 35)
+Exported frame 1/1 DefineSprite (chid: 38)
+Exported frame 1/1 DefineSprite (chid: 40)
+Exported frame 1/1 DefineSprite (chid: 43)
+Exporting buttons...
+Exporting scripts...
+Export finished. Total export time: 00:01.521
+OK

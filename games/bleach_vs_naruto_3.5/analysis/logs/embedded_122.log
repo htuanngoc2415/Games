@@ -1,0 +1,52 @@
+JPEXS Free Flash Decompiler v.26.3.0
+------------------------------------
+Exporting images...
+Exported image 1/2 DefineBits (chid: 1)
+Exported image 2/2 DefineBitsJPEG3 (chid: 4)
+Exporting shapes...
+Exported shape 1/8 DefineShape (chid: 2)
+Exported shape 2/8 DefineShape (chid: 5)
+Exported shape 3/8 DefineShape (chid: 10)
+Exported shape 4/8 DefineShape (chid: 12)
+Exported shape 5/8 DefineShape3 (chid: 18)
+Exported shape 6/8 DefineShape4 (chid: 21)
+Exported shape 7/8 DefineShape4 (chid: 26)
+Exported shape 8/8 DefineShape4 (chid: 31)
+Exporting morphshapes...
+Exporting movies...
+Exporting fonts...
+Exported font 1/3 DefineFont3 (chid: 6, fn: "Arial")
+Exported font 2/3 DefineFont3 (chid: 22, fn: "ＭＳ Ｐゴシック")
+Exported font 3/3 DefineFont3 (chid: 23, fn: "宋体")
+Exporting DefineFont4s...
+Exporting sounds...
+Exporting binaryData...
+Exporting symbolClass...
+Exporting texts...
+Exported text 1/9 DefineText (chid: 7)
+Exported text 2/9 DefineText (chid: 11)
+Exported text 3/9 DefineText (chid: 13)
+Exported text 4/9 DefineText (chid: 15)
+Exported text 5/9 DefineText (chid: 16)
+Exported text 6/9 DefineText (chid: 24)
+Exported text 7/9 DefineText (chid: 27)
+Exported text 8/9 DefineText (chid: 29)
+Exported text 9/9 DefineText (chid: 32)
+Exporting frames...
+Exported frame 1/1 
+Exporting sprite...
+Exported frame 1/1 DefineSprite (chid: 3)
+Exported frame 1/1 DefineSprite (chid: 8)
+Exported frame 1/1 DefineSprite (chid: 9)
+Exported frame 1/1 DefineSprite (chid: 14)
+Exported frame 1/1 DefineSprite (chid: 17)
+Exported frame 1/1 DefineSprite (chid: 19)
+Exported frame 1/1 DefineSprite (chid: 20)
+Exported frame 1/1 DefineSprite (chid: 25)
+Exported frame 1/1 DefineSprite (chid: 28)
+Exported frame 1/1 DefineSprite (chid: 30)
+Exported frame 1/1 DefineSprite (chid: 33)
+Exporting buttons...
+Exporting scripts...
+Export finished. Total export time: 00:01.062
+OK

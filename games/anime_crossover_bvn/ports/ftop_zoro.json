@@ -1,0 +1,139 @@
+{
+  "stats": {
+    "speed": 6.0,
+    "jumpPower": 15.0,
+    "heavy": 2,
+    "defenseType": 0
+  },
+  "engineSections": [
+    "起跳",
+    "跳",
+    "跳中",
+    "落",
+    "跳2",
+    "落2",
+    "防御",
+    "防御2",
+    "防住",
+    "防御恢复",
+    "被打",
+    "击飞",
+    "击飞_落",
+    "击落地",
+    "击飞_弹",
+    "击飞_倒"
+  ],
+  "hitTypes": {
+    "normal": 2,
+    "normalHeavy": 3,
+    "skill": 4,
+    "skillHeavy": 7,
+    "heavyFrom": 5
+  },
+  "id": "ftop_zoro",
+  "displayName": "Zoro",
+  "source": "assets/fighter/ftop/zoro.swf",
+  "output": "assets/fighter/ported/ftop_zoro.swf",
+  "actionSprite": 614,
+  "package": "ftop_zoro_fla",
+  "sounds": {
+    "hurt": [
+      2,
+      3
+    ],
+    "hurtFly": [
+      2,
+      3
+    ],
+    "die": [
+      1
+    ]
+  },
+  "labels": {
+    "remove": [
+      "跳",
+      "落地"
+    ],
+    "add": {
+      "起跳": 40,
+      "跳": 42,
+      "跳中": 50,
+      "落地": 116,
+      "击飞_落": 1000,
+      "击飞_弹": 1008,
+      "击飞_倒": 1014,
+      "击飞_起": 1032,
+      "防御恢复": 970
+    }
+  },
+  "idle": {
+    "label": "站立",
+    "loopFrame": 1
+  },
+  "walk": {
+    "label": "走",
+    "loopFrame": 13
+  },
+  "bullets": [
+    {
+      "frame": 463,
+      "depth": 28,
+      "sprite": 286,
+      "name": "zh1_463_28atm",
+      "params": {
+        "x": 18.0,
+        "y": 0,
+        "hold": 1.5,
+        "hits": 1,
+        "hp": 100
+      },
+      "labels": {
+        "loop": 1,
+        "hit": 5,
+        "remove": 10
+      },
+      "hitArea": {
+        "frame": 1,
+        "depth": 1
+      }
+    }
+  ],
+  "stopAtLastFrame": [],
+  "provenance": {
+    "aliases": "source labels + beidaStop/onHitDown recovery script anchors; visual QA pending"
+  },
+  "nestedFrameScripts": {
+    "6": {
+      "1": "stop();"
+    },
+    "91": {
+      "7": "stop();"
+    },
+    "118": {
+      "8": "stop();"
+    }
+  },
+  "register": {
+    "name": "佐罗",
+    "comicType": 1,
+    "faces": "assets/face/ported/ftop_zoro",
+    "bgm": {
+      "file": "assets/music/ftop/onepiece.mp3",
+      "url": "bgm/ftop/onepiece.mp3",
+      "rate": 70
+    },
+    "says": [
+      "我有个野心，就是要成为世界第一的剑士！！ ",
+      "背后中剑，是剑士的耻辱！"
+    ],
+    "select": {
+      "row": 6,
+      "slot": 3
+    }
+  },
+  "bishaFaces": {
+    "佐罗1": "assets/face/ported/ftop_zoro_bs1.png",
+    "佐罗2": "assets/face/ported/ftop_zoro_bs2.png"
+  },
+  "nestedScriptWarnings": []
+}

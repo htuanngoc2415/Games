@@ -1,0 +1,2384 @@
+{
+  "schema": 1,
+  "engine": "bleach_vs_naruto_3.5_as3",
+  "bvn": {
+    "schema": 1,
+    "policy": "BVN timelines, frame scripts, hitboxes and HitVO data remain unchanged.",
+    "counts": {
+      "fighter_definitions": 79,
+      "fighter_entries": 65,
+      "enemy_entries": 11,
+      "fighter_random_selectors": 3,
+      "assist_entries": 37,
+      "assist_random_selectors": 3,
+      "fighter_swf_files": 102,
+      "ftop_sources": 25
+    },
+    "fighters": [
+      {
+        "id": "ichigo",
+        "display_name": "黑崎·一护",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/ichigo.png",
+          "big_url": "face/ichigo_b.png",
+          "bar_url": "face/ichigo_m.png",
+          "win_url": "face/ichigo_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_bankai",
+        "display_name": "黑崎·一护 卍解",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/ichigo_bankai.png",
+          "big_url": "face/ichigo_bankai_b.png",
+          "bar_url": "face/ichigo_bankai_m.png",
+          "win_url": "face/ichigo_bankai_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_vizored_half",
+        "display_name": "黑崎·一护 半虚",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo.swf",
+        "start_frame": 3,
+        "faces": {
+          "url": "face/ichigo_vizored_half.png",
+          "big_url": "face/ichigo_vizored_half_b.png",
+          "bar_url": "face/ichigo_vizored_half_m.png",
+          "win_url": "face/ichigo_vizored_half_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_vizored",
+        "display_name": "黑崎·一护 虚化",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo.swf",
+        "start_frame": 4,
+        "faces": {
+          "url": "face/ichigo_vizored.png",
+          "big_url": "face/ichigo_vizored_b.png",
+          "bar_url": "face/ichigo_vizored_m.png",
+          "win_url": "face/ichigo_vizored_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_zero",
+        "display_name": "黑崎·一护 零段",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo_zero.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/ichigo_zero.png",
+          "big_url": "face/ichigo_zero_b.png",
+          "bar_url": "face/ichigo_zero_m.png",
+          "win_url": "face/ichigo_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ogihci",
+        "display_name": "黑崎·一护 内虚",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo_zero.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/ogihci.png",
+          "big_url": "face/ogihci_b.png",
+          "bar_url": "face/ogihci_m.png",
+          "win_url": "face/ogihci_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ogihci_bankai",
+        "display_name": "黑崎·一护 内虚 卍解",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ichigo_zero.swf",
+        "start_frame": 3,
+        "faces": {
+          "url": "face/ogihci_bankai.png",
+          "big_url": "face/ogihci_bankai_b.png",
+          "bar_url": "face/ogihci_bankai_m.png",
+          "win_url": "face/ogihci_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "rukia",
+        "display_name": "朽木·露琪亚 义骸",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/rukia.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/rukia.png",
+          "big_url": "face/rukia_b.png",
+          "bar_url": "face/rukia_m.png",
+          "win_url": "face/rukia_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "rukia_shikai",
+        "display_name": "朽木·露琪亚 始解",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/rukia.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/rukia_shikai.png",
+          "big_url": "face/rukia_shikai_b.png",
+          "bar_url": "face/rukia_shikai_m.png",
+          "win_url": "face/rukia_shikai_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "renji",
+        "display_name": "阿散井·恋次",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/renji.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/renji.png",
+          "big_url": "face/renji_b.png",
+          "bar_url": "face/renji_m.png",
+          "win_url": "face/renji_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kenpachi",
+        "display_name": "更木·剑八",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/kenpachi.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/kenpachi.png",
+          "big_url": "face/kenpachi_b.png",
+          "bar_url": "face/kenpachi_m.png",
+          "win_url": "face/kenpachi_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ikkaku",
+        "display_name": "斑目·一角",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ikkaku.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/ikkaku.png",
+          "big_url": "face/ikkaku_b.png",
+          "bar_url": "face/ikkaku_m.png",
+          "win_url": "face/ikkaku_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "gin",
+        "display_name": "市丸·银",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/gin.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/gin.png",
+          "big_url": "face/gin_b.png",
+          "bar_url": "face/gin_m.png",
+          "win_url": "face/gin_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "chad",
+        "display_name": "茶渡·泰虎",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/chad.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/chad.png",
+          "big_url": "face/chad_b.png",
+          "bar_url": "face/chad_m.png",
+          "win_url": "face/chad_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "uryuu",
+        "display_name": "石田·雨龙",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/uryuu.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/uryuu.png",
+          "big_url": "face/uryuu_b.png",
+          "bar_url": "face/uryuu_m.png",
+          "win_url": "face/uryuu_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "uryuu_ginreigojiaku",
+        "display_name": "石田·雨龙 银岭弧雀",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/uryuu.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/uryuu_ginreigojiaku.png",
+          "big_url": "face/uryuu_ginreigojiaku_b.png",
+          "bar_url": "face/uryuu_ginreigojiaku_m.png",
+          "win_url": "face/uryuu_ginreigojiaku_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "toushirou",
+        "display_name": "日番谷·东狮郎",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/toushirou.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/toushirou.png",
+          "big_url": "face/toushirou_b.png",
+          "bar_url": "face/toushirou_m.png",
+          "win_url": "face/toushirou_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "toushirou_bankai",
+        "display_name": "日番谷·东狮郎 卍解",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/toushirou.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/toushirou_bankai.png",
+          "big_url": "face/toushirou_bankai_b.png",
+          "bar_url": "face/toushirou_bankai_m.png",
+          "win_url": "face/toushirou_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "byakuya",
+        "display_name": "朽木·白哉",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/byakuya.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/byakuya.png",
+          "big_url": "face/byakuya_b.png",
+          "bar_url": "face/byakuya_m.png",
+          "win_url": "face/byakuya_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "byakuya_bankai",
+        "display_name": "朽木·白哉 卍解",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/byakuya.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/byakuya_bankai.png",
+          "big_url": "face/byakuya_bankai_b.png",
+          "bar_url": "face/byakuya_bankai_m.png",
+          "win_url": "face/byakuya_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ulquiorra",
+        "display_name": "乌尔奇奥拉·西法",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ulquiorra.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/ulquiorra.png",
+          "big_url": "face/ulquiorra_b.png",
+          "bar_url": "face/ulquiorra_m.png",
+          "win_url": "face/ulquiorra_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ulquiorra_resurreccion",
+        "display_name": "乌尔奇奥拉·西法 归刃",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/ulquiorra.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/ulquiorra_resurreccion.png",
+          "big_url": "face/ulquiorra_resurreccion_b.png",
+          "bar_url": "face/ulquiorra_resurreccion_m.png",
+          "win_url": "face/ulquiorra_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "aizen",
+        "display_name": "蓝染·惣右介",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/aizen.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/aizen.png",
+          "big_url": "face/aizen_b.png",
+          "bar_url": "face/aizen_m.png",
+          "win_url": "face/aizen_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "mayuri",
+        "display_name": "涅·茧利",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/mayuri.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/mayuri.png",
+          "big_url": "face/mayuri_b.png",
+          "bar_url": "face/mayuri_m.png",
+          "win_url": "face/mayuri_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "orihime",
+        "display_name": "井上·织姬",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/orihime.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/orihime.png",
+          "big_url": "face/orihime_b.png",
+          "bar_url": "face/orihime_m.png",
+          "win_url": "face/orihime_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "grimmjow",
+        "display_name": "葛力姆乔·贾卡杰克",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/grimmjow.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/grimmjow.png",
+          "big_url": "face/grimmjow_b.png",
+          "bar_url": "face/grimmjow_m.png",
+          "win_url": "face/grimmjow_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "soifon",
+        "display_name": "碎蜂",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/soifon.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/soifon.png",
+          "big_url": "face/soifon_b.png",
+          "bar_url": "face/soifon_m.png",
+          "win_url": "face/soifon_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "starrk",
+        "display_name": "柯雅泰·史塔克",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/starrk.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/starrk.png",
+          "big_url": "face/starrk_b.png",
+          "bar_url": "face/starrk_m.png",
+          "win_url": "face/starrk_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "yoruichi",
+        "display_name": "四枫院·夜一",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/yoruichi.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/yoruichi.png",
+          "big_url": "face/yoruichi_b.png",
+          "bar_url": "face/yoruichi_m.png",
+          "win_url": "face/yoruichi_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "naruto",
+        "display_name": "漩涡·鸣人",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/naruto.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/naruto.png",
+          "big_url": "face/naruto_b.png",
+          "bar_url": "face/naruto_m.png",
+          "win_url": "face/naruto_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "naruto_oneTail",
+        "display_name": "漩涡·鸣人 一尾",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/naruto.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/naruto_oneTail.png",
+          "big_url": "face/naruto_oneTail_b.png",
+          "bar_url": "face/naruto_oneTail_m.png",
+          "win_url": "face/naruto_oneTail_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "naruto_fourTail",
+        "display_name": "漩涡·鸣人 四尾",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/naruto.swf",
+        "start_frame": 3,
+        "faces": {
+          "url": "face/naruto_fourTail.png",
+          "big_url": "face/naruto_fourTail_b.png",
+          "bar_url": "face/naruto_fourTail_m.png",
+          "win_url": "face/naruto_oneTail_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "naruto_hermit",
+        "display_name": "漩涡·鸣人 仙人",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/naruto_hermit.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/naruto_hermit.png",
+          "big_url": "face/naruto_hermit_b.png",
+          "bar_url": "face/naruto_hermit_m.png",
+          "win_url": "face/naruto_hermit_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "naruto_kurama",
+        "display_name": "漩涡·鸣人 九尾",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/naruto_hermit.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/naruto_kurama.png",
+          "big_url": "face/naruto_kurama_b.png",
+          "bar_url": "face/naruto_kurama_m.png",
+          "win_url": "face/naruto_kurama_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sakura",
+        "display_name": "春野·樱",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/sakura.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/sakura.png",
+          "big_url": "face/sakura_b.png",
+          "bar_url": "face/sakura_m.png",
+          "win_url": "face/sakura_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sasuke",
+        "display_name": "宇智波·佐助",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/sasuke.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/sasuke.png",
+          "big_url": "face/sasuke_b.png",
+          "bar_url": "face/sasuke_m.png",
+          "win_url": "face/sasuke_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sasuke_mantra",
+        "display_name": "宇智波·佐助 咒怨",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/sasuke.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/sasuke_mantra.png",
+          "big_url": "face/sasuke_mantra_b.png",
+          "bar_url": "face/sasuke_mantra_m.png",
+          "win_url": "face/sasuke_mantra_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sasuke_susanoo",
+        "display_name": "宇智波·佐助 须佐能乎",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/sasuke_susanoo.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/sasuke_susanoo.png",
+          "big_url": "face/sasuke_susanoo_b.png",
+          "bar_url": "face/sasuke_susanoo_m.png",
+          "win_url": "face/sasuke_susanoo_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "karin",
+        "display_name": "漩涡·香磷",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/karin.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/karin.png",
+          "big_url": "face/karin_b.png",
+          "bar_url": "face/karin_m.png",
+          "win_url": "face/karin_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "juggo",
+        "display_name": "天秤·重吾",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/juggo.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/juggo.png",
+          "big_url": "face/juggo_b.png",
+          "bar_url": "face/juggo_m.png",
+          "win_url": "face/juggo_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "itachi",
+        "display_name": "宇智波·鼬",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/itachi.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/itachi.png",
+          "big_url": "face/itachi_b.png",
+          "bar_url": "face/itachi_m.png",
+          "win_url": "face/itachi_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "deidara",
+        "display_name": "迪达拉",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/deidara.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/deidara.png",
+          "big_url": "face/deidara_b.png",
+          "bar_url": "face/deidara_m.png",
+          "win_url": "face/deidara_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kakashi",
+        "display_name": "旗木·卡卡西",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/kakashi.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/kakashi.png",
+          "big_url": "face/kakashi_b.png",
+          "bar_url": "face/kakashi_m.png",
+          "win_url": "face/kakashi_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kakashi_kamui",
+        "display_name": "旗木·卡卡西 神威",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/kakashi.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/kakashi_kamui.png",
+          "big_url": "face/kakashi_kamui_b.png",
+          "bar_url": "face/kakashi_kamui_m.png",
+          "win_url": "face/kakashi_kamui_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "lee",
+        "display_name": "李·洛克",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/lee.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/lee.png",
+          "big_url": "face/lee_b.png",
+          "bar_url": "face/lee_m.png",
+          "win_url": "face/lee_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "lee_domen",
+        "display_name": "李·洛克 杜门",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/lee.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/lee_domen.png",
+          "big_url": "face/lee_domen_b.png",
+          "bar_url": "face/lee_domen_m.png",
+          "win_url": "face/lee_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "neji",
+        "display_name": "日向·宁次",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/neji.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/neji.png",
+          "big_url": "face/neji_b.png",
+          "bar_url": "face/neji_m.png",
+          "win_url": "face/neji_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "gaara",
+        "display_name": "我爱罗",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/gaara.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/gaara.png",
+          "big_url": "face/gaara_b.png",
+          "bar_url": "face/gaara_m.png",
+          "win_url": "face/gaara_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "temari",
+        "display_name": "手鞠",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/temari.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/temari.png",
+          "big_url": "face/temari_b.png",
+          "bar_url": "face/temari_m.png",
+          "win_url": "face/temari_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "jiraiya",
+        "display_name": "自来也",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/jiraiya.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/jiraiya.png",
+          "big_url": "face/jiraiya_b.png",
+          "bar_url": "face/jiraiya_m.png",
+          "win_url": "face/jiraiya_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "orochimaru",
+        "display_name": "大蛇丸",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/orochimaru.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/orochimaru.png",
+          "big_url": "face/orochimaru_b.png",
+          "bar_url": "face/orochimaru_m.png",
+          "win_url": "face/orochimaru_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "killerbee",
+        "display_name": "奇拉比",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/killerbee.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/killerbee.png",
+          "big_url": "face/killerbee_b.png",
+          "bar_url": "face/killerbee_m.png",
+          "win_url": "face/killerbee_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "pain",
+        "display_name": "佩恩",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/pain.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/pain.png",
+          "big_url": "face/pain_b.png",
+          "bar_url": "face/pain_m.png",
+          "win_url": "face/pain_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "konan",
+        "display_name": "小南",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/konan.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/konan.png",
+          "big_url": "face/konan_b.png",
+          "bar_url": "face/konan_m.png",
+          "win_url": "face/konan_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "obito",
+        "display_name": "宇智波·带土",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/obito.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/obito.png",
+          "big_url": "face/obito_b.png",
+          "bar_url": "face/obito_m.png",
+          "win_url": "face/obito_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "obito_trueColors",
+        "display_name": "宇智波·带土 真面目",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/obito.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/obito_trueColors.png",
+          "big_url": "face/obito_trueColors_b.png",
+          "bar_url": "face/obito_trueColors_m.png",
+          "win_url": "face/obito_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "madara",
+        "display_name": "宇智波·斑",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/madara.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/madara.png",
+          "big_url": "face/madara_b.png",
+          "bar_url": "face/madara_m.png",
+          "win_url": "face/madara_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kimimaro",
+        "display_name": "君麻吕",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/kimimaro.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/kimimaro.png",
+          "big_url": "face/kimimaro_b.png",
+          "bar_url": "face/kimimaro_m.png",
+          "win_url": "face/kimimaro_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kenshin",
+        "display_name": "绯村·剑心",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/kenshin.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/kenshin.png",
+          "big_url": "face/kenshin_b.png",
+          "bar_url": "face/kenshin_m.png",
+          "win_url": "face/kenshin_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kenshin_slash",
+        "display_name": "绯村·剑心 拔刀斋",
+        "comic_type": 0,
+        "category": "fighter",
+        "source_swf": "fighter/kenshin.swf",
+        "start_frame": 2,
+        "faces": {
+          "url": "face/kenshin_slash.png",
+          "big_url": "face/kenshin_slash_b.png",
+          "bar_url": "face/kenshin_slash_m.png",
+          "win_url": "face/kenshin_slash_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random",
+        "display_name": "随机选择 全人物",
+        "comic_type": -1,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random_bleach",
+        "display_name": "随机选择 死神",
+        "comic_type": 0,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random_bleach.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random_naruto",
+        "display_name": "随机选择 火影",
+        "comic_type": 1,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random_naruto.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_1",
+        "display_name": "忍者小兵1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_2",
+        "display_name": "胖忍者兵",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja2.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_earth1",
+        "display_name": "土影小兵1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja_earth1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_fire1",
+        "display_name": "火影小兵1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja_fire1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_fire2",
+        "display_name": "火影小兵2",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja_fire2.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_sand1",
+        "display_name": "风影小兵1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja_sand1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_ninja_thunder1",
+        "display_name": "雷影小兵1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/ninja_thunder1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_bear1",
+        "display_name": "熊1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/bear1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_bird1",
+        "display_name": "鸟1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/bird1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_dog1",
+        "display_name": "狗1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/dog1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "xb_pig1",
+        "display_name": "野猪1",
+        "comic_type": 1,
+        "category": "enemy",
+        "source_swf": "fighter/xb/pig1.swf",
+        "start_frame": 1,
+        "faces": {},
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "deidara_old",
+        "display_name": "[旧版] 迪达拉",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/deidara_old.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/deidara_old.png",
+          "big_url": "face/deidara_old_b.png",
+          "bar_url": "face/deidara_old_m.png",
+          "win_url": "face/deidara_old_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "gaara_old",
+        "display_name": "[旧版] 我爱罗",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/gaara_old.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/gaara_old.png",
+          "big_url": "face/gaara_old_b.png",
+          "bar_url": "face/gaara_old_m.png",
+          "win_url": "face/gaara_old_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "itachi_old",
+        "display_name": "[旧版] 宇智波·鼬",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/itachi_old.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/itachi_old.png",
+          "big_url": "face/itachi_old_b.png",
+          "bar_url": "face/itachi_old_m.png",
+          "win_url": "face/itachi_old_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "pain_old",
+        "display_name": "[旧版] 佩恩",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/pain_old.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/pain_old.png",
+          "big_url": "face/pain_old_b.png",
+          "bar_url": "face/pain_old_m.png",
+          "win_url": "face/pain_old_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sasuke_susanoo_old",
+        "display_name": "[旧版] 宇智波·佐助 须佐能乎",
+        "comic_type": 1,
+        "category": "fighter",
+        "source_swf": "fighter/sasuke_susanoo_old.swf",
+        "start_frame": 1,
+        "faces": {
+          "url": "face/sasuke_susanoo_old.png",
+          "big_url": "face/sasuke_susanoo_old_b.png",
+          "bar_url": "face/sasuke_susanoo_old_m.png",
+          "win_url": "face/sasuke_susanoo_old_w.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      }
+    ],
+    "assists": [
+      {
+        "id": "kon",
+        "display_name": "魂",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/kon.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/kon.png",
+          "big_url": "face/kon_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "orihime",
+        "display_name": "井上·织姬",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/orihime.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/orihime.png",
+          "big_url": "face/orihime_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "yoruichi",
+        "display_name": "四枫院·夜一",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/yoruichi.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/yoruichi.png",
+          "big_url": "face/yoruichi_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "uryuu",
+        "display_name": "石田·雨龙",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/uryuu.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/uryuu.png",
+          "big_url": "face/uryuu_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kenpachi",
+        "display_name": "更木·剑八",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/kenpachi.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/kenpachi.png",
+          "big_url": "face/kenpachi_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_hollow",
+        "display_name": "黑崎·一护 牛头 ",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/ichigo_hollow.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/ichigo_hollow.png",
+          "big_url": "face/ichigo_hollow_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "yachiru",
+        "display_name": "草鹿·八千流",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/yachiru.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/yachiru.png",
+          "big_url": "face/yachiru_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "starrk",
+        "display_name": "柯雅泰·史塔克",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/starrk.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/starrk.png",
+          "big_url": "face/starrk_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "halibel",
+        "display_name": "蒂雅·赫丽贝尔",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/halibel.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/halibel.png",
+          "big_url": "face/halibel_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "grimmjow",
+        "display_name": "葛力姆乔·贾卡杰克",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/grimmjow.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/grimmjow.png",
+          "big_url": "face/grimmjow_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "soifon",
+        "display_name": "碎蜂",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/soifon.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/soifon.png",
+          "big_url": "face/soifon_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "nemu",
+        "display_name": "涅·音梦",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/nemu.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/nemu.png",
+          "big_url": "face/nemu_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ichigo_padipata",
+        "display_name": "黑崎·一护 修行",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/ichigo_padipata.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/ichigo_padipata.png",
+          "big_url": "face/ichigo_padipata_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "yamamoto",
+        "display_name": "山本·元柳斎重国",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/yamamoto.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/yamamoto.png",
+          "big_url": "face/yamamoto_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "gin",
+        "display_name": "市丸·银",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/gin.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/gin.png",
+          "big_url": "face/gin_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "rangiku",
+        "display_name": "松本·乱菊",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/rangiku.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/rangiku.png",
+          "big_url": "face/rangiku_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "byakuya",
+        "display_name": "朽木·白哉",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/byakuya.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/byakuya.png",
+          "big_url": "face/byakuya_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ikkaku",
+        "display_name": "斑目·一角",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/ikkaku.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/ikkaku.png",
+          "big_url": "face/ikkaku_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "gaara",
+        "display_name": "我爱罗",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/gaara.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/gaara.png",
+          "big_url": "face/gaara_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "temari",
+        "display_name": "手鞠",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/temari.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/temari.png",
+          "big_url": "face/temari_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "ino",
+        "display_name": "山中·井野",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/ino.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/ino.png",
+          "big_url": "face/ino_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "tenten",
+        "display_name": "天天",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/tenten.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/tenten.png",
+          "big_url": "face/tenten_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "itachi",
+        "display_name": "宇智波·鼬",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/itachi.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/itachi.png",
+          "big_url": "face/itachi_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "hinata",
+        "display_name": "日向·雏田",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/hinata.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/hinata.png",
+          "big_url": "face/hinata_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "tsunate",
+        "display_name": "纲手",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/tsunate.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/tsunate.png",
+          "big_url": "face/tsunate_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "tsuchikage",
+        "display_name": "大野木",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/tsuchikage.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/tsuchikage.png",
+          "big_url": "face/tsuchikage_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "minato",
+        "display_name": "波风·水门",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/minato.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/minato.png",
+          "big_url": "face/minato_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "jiraiya",
+        "display_name": "自来也",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/jiraiya.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/jiraiya.png",
+          "big_url": "face/jiraiya_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "suigetsu",
+        "display_name": "鬼灯·水月",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/suigetsu.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/suigetsu.png",
+          "big_url": "face/suigetsu_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sai",
+        "display_name": "佐井",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/sai.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/sai.png",
+          "big_url": "face/sai_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "madara",
+        "display_name": "宇智波·斑",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/madara.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/madara.png",
+          "big_url": "face/madara_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "kimimaro",
+        "display_name": "君麻吕",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/kimimaro.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/kimimaro.png",
+          "big_url": "face/kimimaro_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "shikamaru",
+        "display_name": "奈良·鹿丸",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/shikamaru.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/shikamaru.png",
+          "big_url": "face/shikamaru_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "obito_trueColors",
+        "display_name": "宇智波·带土 真面目",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/obito_trueColors.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/obito_trueColors.png",
+          "big_url": "face/obito_trueColors_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "sakura",
+        "display_name": "春野·樱",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/sakura.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/sakura.png",
+          "big_url": "face/sakura_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "hiruko",
+        "display_name": "蝎",
+        "comic_type": 1,
+        "category": "assist",
+        "source_swf": "fighter/fz/hiruko.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/hiruko.png",
+          "big_url": "face/hiruko_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "shishio",
+        "display_name": "志志雄·真实",
+        "comic_type": 0,
+        "category": "assist",
+        "source_swf": "fighter/fz/shishio.swf",
+        "start_frame": 0,
+        "faces": {
+          "url": "face/shishio.png",
+          "big_url": "face/shishio_b.png"
+        },
+        "status": "playable_existing",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random",
+        "display_name": "随机选择 全人物",
+        "comic_type": -1,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random_bleach",
+        "display_name": "随机选择 死神",
+        "comic_type": 0,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random_bleach.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      },
+      {
+        "id": "random_naruto",
+        "display_name": "随机选择 火影",
+        "comic_type": 1,
+        "category": "random_selector",
+        "source_swf": null,
+        "start_frame": 0,
+        "faces": {
+          "url": "face/random_naruto.png"
+        },
+        "status": "selector",
+        "hitbox_source": "original_bvn_timeline"
+      }
+    ]
+  },
+  "ftop": {
+    "status": "timeline_exported_not_yet_avm2",
+    "fighters": [
+      {
+        "id": "ftop_luffy",
+        "display_name": "Luffy",
+        "source_swf": "assets/fighter/ftop/luffy.swf",
+        "target_swf": "assets/fighter/ported/luffy.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/luffy"
+      },
+      {
+        "id": "ftop_luffy2",
+        "display_name": "Luffy-2Y",
+        "source_swf": "assets/fighter/ftop/luffy2.swf",
+        "target_swf": "assets/fighter/ported/luffy2.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/luffy2"
+      },
+      {
+        "id": "ftop_zoro",
+        "display_name": "Zoro",
+        "source_swf": "assets/fighter/ftop/zoro.swf",
+        "target_swf": "assets/fighter/ported/zoro.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/zoro"
+      },
+      {
+        "id": "ftop_zoro2",
+        "display_name": "Zoro-2Y",
+        "source_swf": "assets/fighter/ftop/zoro2.swf",
+        "target_swf": "assets/fighter/ported/zoro2.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/zoro2"
+      },
+      {
+        "id": "ftop_buggy",
+        "display_name": "Buggy",
+        "source_swf": "assets/fighter/ftop/buggy.swf",
+        "target_swf": "assets/fighter/ported/buggy.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/buggy"
+      },
+      {
+        "id": "ftop_crocodile",
+        "display_name": "Crocodile",
+        "source_swf": "assets/fighter/ftop/crocodile.swf",
+        "target_swf": "assets/fighter/ported/crocodile.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/crocodile"
+      },
+      {
+        "id": "ftop_sanji",
+        "display_name": "Sanji",
+        "source_swf": "assets/fighter/ftop/sanji.swf",
+        "target_swf": "assets/fighter/ported/sanji.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/sanji"
+      },
+      {
+        "id": "ftop_sanji2",
+        "display_name": "Sanji",
+        "source_swf": "assets/fighter/ftop/sanji2.swf",
+        "target_swf": "assets/fighter/ported/sanji2.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/sanji2"
+      },
+      {
+        "id": "ftop_robin2",
+        "display_name": "Nico Robin",
+        "source_swf": "assets/fighter/ftop/robin2.swf",
+        "target_swf": "assets/fighter/ported/robin2.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/robin2"
+      },
+      {
+        "id": "ftop_jinbei",
+        "display_name": "Jinbei",
+        "source_swf": "assets/fighter/ftop/jinbei.swf",
+        "target_swf": "assets/fighter/ported/jinbei.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/jinbei"
+      },
+      {
+        "id": "ftop_law",
+        "display_name": "Law",
+        "source_swf": "assets/fighter/ftop/law.swf",
+        "target_swf": "assets/fighter/ported/law.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/law"
+      },
+      {
+        "id": "ftop_hancock",
+        "display_name": "Hancock",
+        "source_swf": "assets/fighter/ftop/hancock.swf",
+        "target_swf": "assets/fighter/ported/hancock.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/hancock"
+      },
+      {
+        "id": "ftop_nami",
+        "display_name": "Nami",
+        "source_swf": "assets/fighter/ftop/nami.swf",
+        "target_swf": "assets/fighter/ported/nami.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/nami"
+      },
+      {
+        "id": "ftop_ace",
+        "display_name": "Ace",
+        "source_swf": "assets/fighter/ftop/ace.swf",
+        "target_swf": "assets/fighter/ported/ace.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/ace"
+      },
+      {
+        "id": "ftop_doflamingo",
+        "display_name": "Doflamingo",
+        "source_swf": "assets/fighter/ftop/doflamingo.swf",
+        "target_swf": "assets/fighter/ported/doflamingo.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/doflamingo"
+      },
+      {
+        "id": "ftop_natsu",
+        "display_name": "Natsu",
+        "source_swf": "assets/fighter/ftop/natsu.swf",
+        "target_swf": "assets/fighter/ported/natsu.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/natsu"
+      },
+      {
+        "id": "ftop_gray",
+        "display_name": "Gray",
+        "source_swf": "assets/fighter/ftop/gray.swf",
+        "target_swf": "assets/fighter/ported/gray.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/gray"
+      },
+      {
+        "id": "ftop_lucy",
+        "display_name": "Lucy",
+        "source_swf": "assets/fighter/ftop/lucy.swf",
+        "target_swf": "assets/fighter/ported/lucy.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/lucy"
+      },
+      {
+        "id": "ftop_ersa",
+        "display_name": "Ersa",
+        "source_swf": "assets/fighter/ftop/ersa.swf",
+        "target_swf": "assets/fighter/ported/ersa.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/ersa"
+      },
+      {
+        "id": "ftop_gajeel",
+        "display_name": "Gajeel",
+        "source_swf": "assets/fighter/ftop/gajeel.swf",
+        "target_swf": "assets/fighter/ported/gajeel.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/gajeel"
+      },
+      {
+        "id": "ftop_wendy",
+        "display_name": "Wendy",
+        "source_swf": "assets/fighter/ftop/wendy.swf",
+        "target_swf": "assets/fighter/ported/wendy.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/wendy"
+      },
+      {
+        "id": "ftop_mirajane",
+        "display_name": "Mirajane",
+        "source_swf": "assets/fighter/ftop/mirajane.swf",
+        "target_swf": "assets/fighter/ported/mirajane.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/mirajane"
+      },
+      {
+        "id": "ftop_lasasi",
+        "display_name": "Laxus",
+        "source_swf": "assets/fighter/ftop/lasasi.swf",
+        "target_swf": "assets/fighter/ported/lasasi.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/lasasi"
+      },
+      {
+        "id": "ftop_juvia",
+        "display_name": "Juvia",
+        "source_swf": "assets/fighter/ftop/juvia.swf",
+        "target_swf": "assets/fighter/ported/juvia.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/juvia"
+      },
+      {
+        "id": "ftop_makarov",
+        "display_name": "Makarov",
+        "source_swf": "assets/fighter/ftop/makarov.swf",
+        "target_swf": "assets/fighter/ported/makarov.swf",
+        "status": "timeline_exported",
+        "required_actions": [
+          "站立",
+          "移动",
+          "跑",
+          "跳",
+          "落",
+          "防御",
+          "砍1",
+          "砍技1",
+          "砍技2",
+          "必杀",
+          "被打",
+          "击飞",
+          "躺地"
+        ],
+        "notes": "AVM1 visuals/timeline must be rebuilt as a BVN-compatible AVM2 fighter.",
+        "xfl": "build/source_xfl/makarov"
+      }
+    ]
+  }
+}

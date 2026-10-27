@@ -1,0 +1,50 @@
+{
+  "binary": {
+    "files": 499,
+    "bytes": 197727040
+  },
+  "fonts": {
+    "files": 57,
+    "bytes": 1772248
+  },
+  "frames": {
+    "files": 525,
+    "bytes": 16497556
+  },
+  "images": {
+    "files": 18821,
+    "bytes": 168588997
+  },
+  "misc": {
+    "files": 6285,
+    "bytes": 2423848
+  },
+  "morphshapes": {
+    "files": 0,
+    "bytes": 0
+  },
+  "scripts": {
+    "files": 1357,
+    "bytes": 22615520
+  },
+  "shapes": {
+    "files": 19957,
+    "bytes": 311388948
+  },
+  "sounds": {
+    "files": 1586,
+    "bytes": 7817795
+  },
+  "sprites": {
+    "files": 118248,
+    "bytes": 3094657425
+  },
+  "texts": {
+    "files": 183,
+    "bytes": 6580
+  },
+  "videos": {
+    "files": 0,
+    "bytes": 0
+  }
+}

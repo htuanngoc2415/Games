@@ -1,0 +1,9 @@
+{
+  "game_sha256": "27c20f1806ddbcc6159b5f14920cfadd60ce47aa0bca862f4200c78a2703ef09",
+  "embedded_loading_matches": true,
+  "embedded_jpeg_matches": true,
+  "roster_asset_zip_unchanged": true,
+  "support_source": "FTOP 2.0 contains unused fz framework but no assist roster or external assist SWF filenames/assets; no supports added.",
+  "ruffle_loading_screenshot": "build/loading_preview/03.png",
+  "runtime_error_lines": []
+}

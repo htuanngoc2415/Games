@@ -1,0 +1,5787 @@
+{
+ "date": "2026-10-26",
+ "method": "tools/ruffle_test/make_gameplay_test.py + run_gameplay_test.py: phím thật trong Training (P2 đứng yên) và 15 giây đấu với AI, Ruffle headless",
+ "game_sha256_retest": "bef0c55fb92979af238181874ad69da7dbf6184abff6b22c70392b9982a36e7b",
+ "full_run": {
+  "ftop_ace": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍1",
+      "砍2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "招21",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 2
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "站立",
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 350,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 500,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招2",
+     "招21",
+     "砍1",
+     "砍2",
+     "砍技1",
+     "砍技12"
+    ],
+    "p1_damage_taken": 460,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_buggy": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "站立",
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 460,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2"
+    ],
+    "p1_damage_taken": 650,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_crocodile": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 70,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "站立",
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 176,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 370,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技1",
+     "砍技12",
+     "跳招"
+    ],
+    "p1_damage_taken": 710,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_doflamingo": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "落"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "砍5",
+     "砍技2",
+     "砍技21",
+     "跳砍",
+     "跳砍2"
+    ],
+    "p1_damage_taken": 250,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_ersa": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 110,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 250,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "站立",
+      "超必杀"
+     ],
+     "expected_seen": true,
+     "damage": 355,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2",
+     "跳砍"
+    ],
+    "p1_damage_taken": 660,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_gajeel": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 170,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 75,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "上必杀1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 500,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4"
+    ],
+    "p1_damage_taken": 630,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_gray": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "站立",
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "招11",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳招",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 250,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 330,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "上必杀",
+     "开场",
+     "瞬步",
+     "砍技1",
+     "砍技2",
+     "砍技22"
+    ],
+    "p1_damage_taken": 670,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_hancock": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 10,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 175,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀"
+     ],
+     "expected_seen": true,
+     "damage": 260,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "砍技1",
+     "砍技12",
+     "砍技13"
+    ],
+    "p1_damage_taken": 430,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_jinbei": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 250,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 170,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 260,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 530,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技1",
+     "砍技12",
+     "砍技2",
+     "跳招",
+     "跳招2",
+     "跳砍"
+    ],
+    "p1_damage_taken": 940,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_juvia": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 110,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 175,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳招",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 315,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2",
+     "空中必杀"
+    ],
+    "p1_damage_taken": 840,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_lasasi": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "站立",
+      "砍1",
+      "站立",
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "站立",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 400,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "招1",
+     "招2",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2"
+    ],
+    "p1_damage_taken": 390,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_law": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "砍技11",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "招12",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "站立",
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 280,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 419,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招12",
+     "招2",
+     "砍技2",
+     "砍技21"
+    ],
+    "p1_damage_taken": 580,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_lucy": {
+   "actions": {
+    "J": {
+     "labels": [
+      "站立",
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 105,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 25,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 280,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 400,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3"
+    ],
+    "p1_damage_taken": 530,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_luffy": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "站立",
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 130,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "砍技21",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落地",
+      "站立",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 220,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 250,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 350,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "砍技1",
+     "跳招",
+     "跳招2"
+    ],
+    "p1_damage_taken": 610,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_luffy2": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 170,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "砍技12",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 96,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳招",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 320,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 260,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 420,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "跳招"
+    ],
+    "p1_damage_taken": 500,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_makarov": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "砍技11",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 110,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 330,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 350,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 490,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍5",
+     "砍技1",
+     "砍技11",
+     "砍技2"
+    ],
+    "p1_damage_taken": 490,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_mirajane": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 190,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "砍技10",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "站立",
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 210,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 300,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 450,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招2",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍4",
+     "砍技1",
+     "砍技10",
+     "砍技2",
+     "跳招",
+     "跳招2"
+    ],
+    "p1_damage_taken": 940,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_nami": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "站立",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 330,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 375,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招2",
+     "砍1",
+     "砍2",
+     "砍3",
+     "跳砍"
+    ],
+    "p1_damage_taken": 390,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_natsu": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 190,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 470,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "上必杀",
+     "开场",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "砍技1",
+     "砍技12"
+    ],
+    "p1_damage_taken": 520,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_robin2": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "砍技12",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "招31",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招1",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 350,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "上必杀2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 190,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 500,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "必杀",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2",
+     "砍技21",
+     "砍技22",
+     "跳招",
+     "跳招1"
+    ],
+    "p1_damage_taken": 510,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_sanji": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 230,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "超必杀1",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "上必杀",
+     "开场",
+     "招1",
+     "招2",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "跳招"
+    ],
+    "p1_damage_taken": 720,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_sanji2": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "站立",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "招31",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "站立",
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "上必杀3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "超必杀1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 420,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招31",
+     "砍1",
+     "砍技2"
+    ],
+    "p1_damage_taken": 400,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_wendy": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "招21",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 190,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "站立",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 440,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3"
+    ],
+    "p1_damage_taken": 420,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_zoro": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "站立",
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 130,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 75,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 280,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立",
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 250,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 350,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招2",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍技2"
+    ],
+    "p1_damage_taken": 575,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_zoro2": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "站立",
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 110,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 65,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "跳招1",
+      "跳招2",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 190,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀",
+      "收刀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍技1",
+     "砍技2",
+     "砍技21",
+     "砍技22"
+    ],
+    "p1_damage_taken": 497,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  }
+ },
+ "retest_after_fix": {
+  "ftop_doflamingo": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 20,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JMASH": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 30,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 160,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KI": {
+     "labels": [
+      "跳",
+      "空中必杀",
+      "空中必杀2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "站立",
+      "必杀",
+      "必杀2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 206,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 231,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 325,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "砍1",
+     "砍技2",
+     "砍技21",
+     "砍技22",
+     "砍技23",
+     "跳招"
+    ],
+    "p1_damage_taken": 400,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_buggy": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "站立",
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JMASH": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "防御",
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 150,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KI": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 200,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 460,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招2",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2"
+    ],
+    "p1_damage_taken": 620,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_lasasi": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 70,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JMASH": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 90,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "站立",
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SU": {
+     "labels": [
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KI": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "上必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 400,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "招1",
+     "招2",
+     "招3",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍技2"
+    ],
+    "p1_damage_taken": 470,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_hancock": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JMASH": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 40,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 10,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 140,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "站立",
+      "招3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "K": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "站立",
+      "跳",
+      "跳砍",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "起跳",
+      "跳",
+      "跳招",
+      "跳招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KI": {
+     "labels": [
+      "起跳",
+      "跳",
+      "空中必杀",
+      "落",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 175,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "超必杀"
+     ],
+     "expected_seen": true,
+     "damage": 260,
+     "back_to_idle": false,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招1",
+     "招2",
+     "瞬步",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4"
+    ],
+    "p1_damage_taken": 320,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  },
+  "ftop_juvia": {
+   "actions": {
+    "J": {
+     "labels": [
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JJJJ": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 80,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "JMASH": {
+     "labels": [
+      "砍1",
+      "砍2",
+      "砍3",
+      "砍4",
+      "站立",
+      "砍1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 110,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SJ": {
+     "labels": [
+      "砍技1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 175,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WJ": {
+     "labels": [
+      "砍技2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "U": {
+     "labels": [
+      "站立",
+      "招1",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 100,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "SU": {
+     "labels": [
+      "防御",
+      "招2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 60,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WU": {
+     "labels": [
+      "招3",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 50,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "K": {
+     "labels": [
+      "跳",
+      "跳中",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KJ": {
+     "labels": [
+      "跳",
+      "跳砍",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KU": {
+     "labels": [
+      "跳",
+      "跳招",
+      "落",
+      "落地",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 120,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 1
+    },
+    "L": {
+     "labels": [
+      "瞬步",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "KI": {
+     "labels": [
+      "跳",
+      "空中必杀",
+      "空中必杀2",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 240,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "I": {
+     "labels": [
+      "必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 180,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "WI": {
+     "labels": [
+      "站立"
+     ],
+     "expected_seen": false,
+     "damage": 0,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    },
+    "SI": {
+     "labels": [
+      "防御",
+      "超必杀",
+      "站立"
+     ],
+     "expected_seen": true,
+     "damage": 315,
+     "back_to_idle": true,
+     "errors": [],
+     "err1006": 0
+    }
+   },
+   "ai": {
+    "attack_labels": [
+     "开场",
+     "招3",
+     "砍1",
+     "砍2",
+     "砍3",
+     "砍4",
+     "砍技2",
+     "跳招",
+     "跳砍"
+    ],
+    "p1_damage_taken": 690,
+    "attack_states_seen": true,
+    "errors": []
+   }
+  }
+ },
+ "expected_absent": {
+  "ftop_hancock": [
+   "WI (không có 上必杀)"
+  ],
+  "ftop_juvia": [
+   "WI (không có 上必杀)"
+  ],
+  "ftop_buggy": [
+   "KI (không có 空中必杀)"
+  ],
+  "ftop_lasasi": [
+   "KI (không có 空中必杀)"
+  ]
+ },
+ "notes": [
+  "Buggy/Laxus: cửa sổ nối J ngắn (4–5 frame) như bản gốc; bấm liên tục thì nối đủ.",
+  "Doflamingo: sửa lỗi bay mãi sau W+U (gen_fighter dừng lực dọc trước idle)."
+ ]
+}
