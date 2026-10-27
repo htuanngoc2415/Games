@@ -63,7 +63,7 @@ Lưới 12×7; 25 FTOP hiện trực tiếp. Có Random Bleach (31), Naruto (34)
 
 ### Giao diện tiếng Việt
 
-Menu chính dùng nền crossover mới và còn sáu mục: Đấu đội, Đấu đơn, Phiêu lưu, Chơi LAN, Config, Cài đặt. Đã bỏ More Games, Credits, Rank và Training khỏi menu, bổ sung font tiếng Việt nhúng trong SWF. Hướng dẫn, cài đặt phím, thông báo tải và các nhãn giao diện đã được Việt hóa. Xem `analysis/ui_vietnamese_status_vi.md` về nguồn ảnh, prompt, build và kiểm tra.
+Menu chính dùng nền crossover mới và còn năm mục: Đấu đơn, Phiêu lưu, Chơi LAN, Config, Cài đặt. Đã bỏ More Games, Credits, Rank và Training khỏi menu, bổ sung font tiếng Việt nhúng trong SWF. Hướng dẫn, cài đặt phím, thông báo tải và các nhãn giao diện đã được Việt hóa. Xem `analysis/ui_vietnamese_status_vi.md` về nguồn ảnh, prompt, build và kiểm tra.
 
 ## Config trong game (hồi chiêu, sát thương, tốc độ)
 

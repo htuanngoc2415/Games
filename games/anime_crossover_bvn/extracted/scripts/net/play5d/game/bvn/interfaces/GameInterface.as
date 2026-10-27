@@ -17,19 +17,6 @@ package net.play5d.game.bvn.interfaces
       public static function getDefaultMenu() : Array
       {
          return [{
-            "txt":"TEAM PLAY",
-            "cn":"Đấu đội",
-            "children":[{
-               "txt":"TEAM ACRADE",
-               "cn":"Vượt ải"
-            },{
-               "txt":"TEAM VS PEOPLE",
-               "cn":"Hai người chơi"
-            },{
-               "txt":"TEAM VS CPU",
-               "cn":"Đấu với máy"
-            }]
-         },{
             "txt":"SINGLE PLAY",
             "cn":"Đấu đơn",
             "children":[{

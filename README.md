@@ -15,7 +15,7 @@ Giao diện hoàn toàn bằng tiếng Việt.
 - **Tự cân bằng theo ý bạn**: mục **Config** trong menu cho chỉnh ngay trong game, riêng từng nhân vật hoặc chung tất cả:
   thời gian hồi chiêu của 10 loại chiêu, sát thương gây ra (0 - 1000%) và tốc độ di chuyển (0 - 500%).
   Trong trận có hai ô nhỏ cho biết chiêu U và I đã hồi xong hay chưa.
-- **Nhiều chế độ**: Đấu đội, Đấu đơn (hai người hoặc với máy), Phiêu lưu, Chơi LAN.
+- **Nhiều chế độ**: Đấu đơn (hai người hoặc với máy), Phiêu lưu, Chơi LAN.
 - **Chạy ngay, không cài đặt**: giải nén rồi bấm đúp. Có bản cho Windows và Linux, dữ liệu lưu nằm ngay cạnh game.
 
 ## Chơi thế nào
