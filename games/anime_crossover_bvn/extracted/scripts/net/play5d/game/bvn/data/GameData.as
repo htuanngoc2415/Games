@@ -176,6 +176,14 @@ package net.play5d.game.bvn.data
       // Sát thương chỉnh trong game lưu cùng chỗ với cooldown, dưới khoá này, đơn vị phần trăm (100 = bình thường).
       public static const DAMAGE_KEY:String = "@damage";
 
+      // Tốc độ di chuyển chỉnh trong game, cùng cách lưu, đơn vị phần trăm.
+      public static const MOVE_KEY:String = "@move";
+
+      private static function tuningName(param1:String) : String
+      {
+         return param1 == DAMAGE_KEY ? "damageRate" : (param1 == MOVE_KEY ? "moveSpeed" : null);
+      }
+
       public var cooldownOverrides:Object = {};
 
       public function getSkillCooldownFrames(param1:String, param2:String) : int
@@ -193,20 +201,21 @@ package net.play5d.game.bvn.data
       {
          var fighter:Object = gameplayConfig.fighters[param1];
          var all:Object = cooldownOverrides[COOLDOWN_ALL];
-         if(param2 == DAMAGE_KEY)
+         var tuning:String = tuningName(param2);
+         if(tuning)
          {
             if(param1 != COOLDOWN_ALL)
             {
-               if(fighter && fighter.values.damageRate !== undefined)
+               if(fighter && fighter.values[tuning] !== undefined)
                {
-                  return Math.round(Number(fighter.values.damageRate) * 100);
+                  return Math.round(Number(fighter.values[tuning]) * 100);
                }
                if(all && all[param2] !== undefined)
                {
                   return int(all[param2]);
                }
             }
-            return Math.round((gameplayConfig.defaults.values.damageRate === undefined ? 1 : Number(gameplayConfig.defaults.values.damageRate)) * 100);
+            return Math.round((gameplayConfig.defaults.values[tuning] === undefined ? 1 : Number(gameplayConfig.defaults.values[tuning])) * 100);
          }
          if(param1 != COOLDOWN_ALL)
          {
@@ -309,6 +318,10 @@ package net.play5d.game.bvn.data
          if(param2 == "damageRate")
          {
             return getEditedCooldownFrames(param1,DAMAGE_KEY) / 100;
+         }
+         if(param2 == "moveSpeed")
+         {
+            return getEditedCooldownFrames(param1,MOVE_KEY) / 100;
          }
          if(fighter && fighter.values[param2] !== undefined)
          {

@@ -50,7 +50,7 @@ package net.play5d.game.bvn.interfaces
             }]
          },{
             "txt":"COOLDOWN",
-            "cn":"Hồi chiêu",
+            "cn":"Cài đặt",
             "func":function():void
             {
                GameEvent.dispatchEvent("OPEN_COOLDOWN_EDITOR");

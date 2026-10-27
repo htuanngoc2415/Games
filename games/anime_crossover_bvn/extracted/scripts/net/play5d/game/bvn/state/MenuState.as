@@ -72,7 +72,7 @@ package net.play5d.game.bvn.state
       // ---------------------------------------------------------------------------------------
 
       private static const SKILLS:Array = [
-         ["@damage","Sát thương gây ra"],
+         ["@damage","Sát thương gây ra"],["@move","Tốc độ di chuyển"],
          ["zhao1","Chiêu U (ô 1)"],["zhao2","Chiêu S+U"],["zhao3","Chiêu W+U"],
          ["bisha","Tất sát I (ô 2)"],["bishaUP","Tất sát W+I"],["bishaSUPER","Siêu tất sát S+I"],
          ["bishaAIR","Tất sát trên không"],["skill1","Đòn S+J"],["skill2","Đòn W+J"],["skillAIR","Chiêu U trên không"]];
@@ -89,13 +89,14 @@ package net.play5d.game.bvn.state
       private static const MAX_FRAMES:int = 1200;
       private static const DAMAGE_STEP:int = 10;
       private static const MAX_DAMAGE:int = 1000;
+      private static const MAX_MOVE:int = 500;
       private static const LIST_ROWS:int = 14;
       private static const LIST_X:int = 30;
       private static const LIST_Y:int = 78;
       private static const ROW_H:int = 31;
       private static const SKILL_X:int = 320;
       private static const SKILL_Y:int = 140;
-      private static const SKILL_H:int = 33;
+      private static const SKILL_H:int = 30;
 
       private var _editor:Sprite;
       private var _edFighters:Array;
@@ -129,7 +130,7 @@ package net.play5d.game.bvn.state
          ed.graphics.drawRect(LIST_X - 8,LIST_Y - 6,270,LIST_ROWS * ROW_H + 10);
          ed.graphics.drawRect(SKILL_X - 10,70,470,SKILLS.length * SKILL_H + 90);
          ed.graphics.endFill();
-         addText(ed,"THỜI GIAN HỒI CHIÊU",0x70D7FF,24,LIST_X,20);
+         addText(ed,"CÀI ĐẶT",0x70D7FF,24,LIST_X,20);
          addButton(ed,"Đóng",18,730,24,"close",function(ev:MouseEvent):void { closeCooldownEditor(); });
          _listHL = new Shape();
          _skillHL = new Shape();
@@ -290,8 +291,8 @@ package net.play5d.game.bvn.state
       {
          var id:String = _edFighters[_edIndex].id;
          var skill:String = SKILLS[_edSkill][0];
-         var isDamage:Boolean = skill == GameData.DAMAGE_KEY;
-         var v:int = Math.max(0,Math.min(isDamage ? MAX_DAMAGE : MAX_FRAMES,GameData.I.getEditedCooldownFrames(id,skill) + d * (isDamage ? DAMAGE_STEP : STEP)));
+         var isPercent:Boolean = skill.charAt(0) == "@";
+         var v:int = Math.max(0,Math.min(isPercent ? (skill == GameData.MOVE_KEY ? MAX_MOVE : MAX_DAMAGE) : MAX_FRAMES,GameData.I.getEditedCooldownFrames(id,skill) + d * (isPercent ? DAMAGE_STEP : STEP)));
          GameData.I.setCooldownOverride(id,skill,v == GameData.I.getInheritedCooldownFrames(id,skill) ? -1 : v);
          _edDirty = true;
       }
@@ -348,10 +349,11 @@ package net.play5d.game.bvn.state
          {
             var frames:int = GameData.I.getEditedCooldownFrames(id,SKILLS[i][0]);
             var own:Boolean = GameData.I.hasCooldownOverride(id,SKILLS[i][0]);
-            _skillTexts[i][1].text = i == 0 ? frames + "%" : formatSeconds(frames);
+            var percent:Boolean = String(SKILLS[i][0]).charAt(0) == "@";
+            _skillTexts[i][1].text = percent ? frames + "%" : formatSeconds(frames);
             _skillTexts[i][1].x = SKILL_X + 330 - _skillTexts[i][1].width / 2;
             _skillTexts[i][1].color = own ? 0xFFD54A : 0xFFFFFF;
-            _skillTexts[i][2].text = i == 0 ? "x" + String(frames / 100).replace(".",",") : frames + "t";
+            _skillTexts[i][2].text = percent ? "x" + String(frames / 100).replace(".",",") : frames + "t";
          }
          _skillHL.graphics.clear();
          if(_edFocusSkills)

@@ -67,7 +67,7 @@ Menu chính dùng nền crossover mới và còn bốn mục: Đấu đội, Đ�
 
 ## Chỉnh hồi chiêu trong game
 
-Menu chính → **Hồi chiêu**: chọn "Tất cả nhân vật" hoặc từng nhân vật, chỉnh **sát thương gây ra** (bước 10%, 0–1000%, lưu dưới khoá `@damage`, thay `damageRate` của XML) và 10 loại chiêu theo bước 0,25 giây
+Menu chính → **Hồi chiêu**: chọn "Tất cả nhân vật" hoặc từng nhân vật, chỉnh **sát thương gây ra** (bước 10%, 0–1000%, lưu dưới khoá `@damage`, thay `damageRate` của XML) và **tốc độ di chuyển** (bước 10%, 0–500%, khoá `@move`, thay `moveSpeed` của XML; áp dụng cho đi bộ, di chuyển trên không và lướt) và 10 loại chiêu theo bước 0,25 giây
 (W/S chọn, J vào bảng chiêu, A/D giảm/tăng, U về mặc định; có thể bấm chuột vào "-"/"+").
 Giá trị lưu bằng SharedObject `crossover_cooldowns` (phạm vi "/") và được ưu tiên hơn `gameplay.xml`:
 riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc định (XML). Code: `state/MenuState.as`,

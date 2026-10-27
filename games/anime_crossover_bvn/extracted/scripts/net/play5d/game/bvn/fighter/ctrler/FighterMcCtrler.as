@@ -232,7 +232,7 @@ package net.play5d.game.bvn.fighter.ctrler
       public function dash(param1:Number = 3) : void
       {
          _action.isDashing = true;
-         _fighter.setVelocity(_fighter.speed * param1 * _fighter.direct,0);
+         _fighter.setVelocity(getWalkSpeed() * param1 * _fighter.direct,0);
          _fighter.setDamping(0,0);
          _fighter.isCross = true;
          _fighter.isAllowBeHit = false;
