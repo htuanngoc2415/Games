@@ -63,11 +63,11 @@ Lưới 12×7; 25 FTOP hiện trực tiếp. Có Random Bleach (31), Naruto (34)
 
 ### Giao diện tiếng Việt
 
-Menu chính dùng nền crossover mới và còn bốn mục: Đấu đội, Đấu đơn, Phiêu lưu, Cài đặt. Đã bỏ More Games, Credits, Rank và Training khỏi menu, bổ sung font tiếng Việt nhúng trong SWF. Hướng dẫn, cài đặt phím, thông báo tải và các nhãn giao diện đã được Việt hóa. Xem `analysis/ui_vietnamese_status_vi.md` về nguồn ảnh, prompt, build và kiểm tra.
+Menu chính dùng nền crossover mới và còn sáu mục: Đấu đội, Đấu đơn, Phiêu lưu, Chơi LAN, Config, Cài đặt. Đã bỏ More Games, Credits, Rank và Training khỏi menu, bổ sung font tiếng Việt nhúng trong SWF. Hướng dẫn, cài đặt phím, thông báo tải và các nhãn giao diện đã được Việt hóa. Xem `analysis/ui_vietnamese_status_vi.md` về nguồn ảnh, prompt, build và kiểm tra.
 
-## Chỉnh hồi chiêu trong game
+## Config trong game (hồi chiêu, sát thương, tốc độ)
 
-Menu chính → **Hồi chiêu**: chọn "Tất cả nhân vật" hoặc từng nhân vật, chỉnh **sát thương gây ra** (bước 10%, 0–1000%, lưu dưới khoá `@damage`, thay `damageRate` của XML) và **tốc độ di chuyển** (bước 10%, 0–500%, khoá `@move`, thay `moveSpeed` của XML; áp dụng cho đi bộ, di chuyển trên không và lướt) và 10 loại chiêu theo bước 0,25 giây
+Menu chính → **Config**: chọn "Tất cả nhân vật" hoặc từng nhân vật, chỉnh **sát thương gây ra** (bước 10%, 0–1000%, lưu dưới khoá `@damage`, thay `damageRate` của XML) và **tốc độ di chuyển** (bước 10%, 0–500%, khoá `@move`, thay `moveSpeed` của XML; áp dụng cho đi bộ, di chuyển trên không và lướt) và 10 loại chiêu theo bước 0,25 giây
 (W/S chọn, J vào bảng chiêu, A/D giảm/tăng, U về mặc định; có thể bấm chuột vào "-"/"+").
 Giá trị lưu bằng SharedObject `crossover_cooldowns` (phạm vi "/") và được ưu tiên hơn `gameplay.xml`:
 riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc định (XML). Code: `state/MenuState.as`,

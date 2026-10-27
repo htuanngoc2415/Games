@@ -1,61 +1,73 @@
-# Workspace phân tích hai game Flash
+# Anime Crossover
 
-Mỗi game có bản gốc, bản làm việc, tài nguyên giải nén và báo cáo riêng. Chưa sửa gameplay hoặc ghép nhân vật.
+Game đối kháng 2D nơi các nhân vật Bleach, Naruto, Fairy Tail và One Piece đứng chung một võ đài.
+Chọn đấu sĩ, gọi thêm một trợ chiến, tung combo, tuyệt chiêu rồi hạ đối thủ. Chơi một mình với máy,
+hai người trên cùng một bàn phím, hoặc hai máy qua Wi-Fi / mạng LAN.
 
-```text
-games/
-  bleach_vs_naruto_3.5/
-    original/       # SWF gốc
-    working/        # Bản dành cho chỉnh sửa
-    extracted/     # AS3, tài nguyên, SWF nhúng đã xuất
-    analysis/      # Báo cáo, chỉ mục, checksum, log BVN
-    patches/
-    bleach_vs_naruto_3.5.swf  # Bản đầu vào cũ được giữ lại
-  fairy_tail_vs_one_piece_2.0/
-    original/       # File tải về; nội bộ khai báo V1.1
-    working/
-    extracted/     # Script AS2/AVM1 và tài nguyên của SWF chính
-    analysis/      # Thống kê, checksum, log, tài nguyên còn thiếu
-    patches/
-    downloaded/    # 25 SWF nhân vật và 12 MP3 tải theo URL trong source
-analysis/          # Báo cáo so sánh hai game
-tools/             # Công cụ dùng chung
-```
+Giao diện hoàn toàn bằng tiếng Việt.
 
-- [Phân tích khả năng ghép](analysis/compatibility_vi.md)
-- [Hồ sơ tổng hợp dự án ghép hai game](games/anime_crossover_bvn/analysis/PROJECT_HANDOFF_VI.md)
-- [Phân tích BVN](games/bleach_vs_naruto_3.5/analysis/game_analysis_vi.md)
-- [Tài nguyên Fairy Tail vs One Piece còn thiếu](games/fairy_tail_vs_one_piece_2.0/analysis/missing_assets.md)
-- [Checksum tài nguyên đã tải](games/fairy_tail_vs_one_piece_2.0/analysis/downloaded_sha256sums.txt)
-- [Kết quả xuất game thứ hai](games/fairy_tail_vs_one_piece_2.0/analysis/export_report.md)
+## Điểm nổi bật
 
-Đường dẫn tương đối trong báo cáo BVN cũ được hiểu từ `games/bleach_vs_naruto_3.5/`. Log và JSON lịch sử có thể còn đường dẫn tuyệt đối trước khi chuyển thư mục; chúng được giữ làm bằng chứng, không dùng làm cấu hình chạy.
+- **90 lựa chọn đấu sĩ** từ bốn thế giới, kể cả biến thể, cùng các ô "Random" theo từng thế giới hoặc chung tất cả.
+  Có cả Natsu, Erza, Gray, Luffy, Zoro, Sanji, Law, Ace và nhiều người khác từ Fairy Tail và One Piece.
+- **Chơi LAN 1 vs 1**: một người tạo phòng, người kia nhập địa chỉ IP là vào trận. Hai máy chạy cùng một trận,
+  chỉ trao đổi phím bấm nên rất nhẹ, có kiểm tra đồng bộ để không chơi lệch.
+- **Tự cân bằng theo ý bạn**: mục **Config** trong menu cho chỉnh ngay trong game, riêng từng nhân vật hoặc chung tất cả:
+  thời gian hồi chiêu của 10 loại chiêu, sát thương gây ra (0 - 1000%) và tốc độ di chuyển (0 - 500%).
+  Trong trận có hai ô nhỏ cho biết chiêu U và I đã hồi xong hay chưa.
+- **Nhiều chế độ**: Đấu đội, Đấu đơn (hai người hoặc với máy), Phiêu lưu, Chơi LAN.
+- **Chạy ngay, không cài đặt**: giải nén rồi bấm đúp. Có bản cho Windows và Linux, dữ liệu lưu nằm ngay cạnh game.
 
-Các file ActionScript là mã dịch ngược, không phải dự án nguồn gốc có thể build trực tiếp. Sửa trong `extracted/` không tự thay đổi SWF.
+## Chơi thế nào
 
-Mở bản làm việc bằng JPEXS trên máy có giao diện:
+| Người chơi 1 | Phím |
+|---|---|
+| Di chuyển / đỡ đòn | W A S D |
+| Đánh | J |
+| Nhảy (nhấn hai lần để nhảy đôi) | K |
+| Lướt | L |
+| Kỹ năng | U |
+| Tuyệt chiêu (cần năng lượng) | I |
+| Gọi trợ chiến | O |
 
-```bash
-ffdec games/bleach_vs_naruto_3.5/working/bleach_vs_naruto_3.5.swf
-ffdec games/fairy_tail_vs_one_piece_2.0/working/fairy_tail_vs_one_piece_2.0.swf
-```
+Người chơi 2 dùng phím mũi tên và các phím số ở bàn phím số (1 - 6). Kết hợp Lên hoặc Xuống với J, U, I để ra chiêu khác.
+Đổi phím trong mục **Cài đặt**. Phím F11 hoặc Alt + Enter: toàn màn hình.
 
-`tools/export_workspace.py`, `export_embedded.py`, `index_workspace.py` đã trỏ sang thư mục BVN mới. Hai script export cũ dành cho lần xuất đầu tiên, không chạy lại trên kết quả hiện có. FFDec dùng chung thư mục cấu hình `tools/ffdec-home`.
+### Chạy game
 
-Để xuất SWF khác ra một thư mục mới: `python3 tools/export_swf.py INPUT.swf OUTPUT_DIRECTORY`. Công cụ từ chối thư mục đầu ra đã tồn tại, lưu log và kiểm tra checksum đầu vào.
+- **Windows:** giải nén, bấm đúp `AnimeCrossover.exe`. Nếu SmartScreen cảnh báo, chọn "Thông tin thêm" rồi "Vẫn chạy".
+- **Linux:** giải nén, bấm đúp `AnimeCrossover`, hoặc chạy `./AnimeCrossover` trong terminal
+  (nếu báo thiếu quyền: `chmod +x AnimeCrossover engine/ruffle`).
 
-## Dọn dẹp 2026-10-27
+Lần đầu game tải tài nguyên khoảng 1 - 2 phút ở màn "Đang tải", cứ chờ. Cần card đồ hoạ hỗ trợ Vulkan, DirectX 12 hoặc OpenGL
+(máy từ khoảng năm 2015 trở lên đều có).
 
-Đã xoá phần giải nén và file trung gian của hai game nguồn (`extracted/`, `working/`, `downloaded/`, bản SWF trùng lặp) và `build/`, `dist/`, `.venv`, bản SWF test. Giữ lại: `games/*/original/` (SWF gốc), `games/*/analysis/`, game ghép `games/anime_crossover_bvn/` (đã build, mã nguồn chỉnh sửa, assets, `ports/`) và `tools/`.
+### Chơi hai máy qua Wi-Fi hoặc LAN
 
-- Hai file BVN mà build cần nay nằm ở `games/anime_crossover_bvn/original/bvn_binary/`.
-- Mọi thứ còn thiếu trong `build/` được sinh lại bằng `bash games/anime_crossover_bvn/build_gameplay.sh`.
-- `tools/ftop_port/prepare_roster.py` và các script trong `tools/` ở gốc (`export_*.py`, `index_*.py`) cần dữ liệu giải nén của hai game nguồn; muốn chạy lại thì xuất lại bằng `python3 tools/export_swf.py INPUT.swf OUTPUT_DIR` từ SWF trong `original/`.
-- Chạy test Ruffle cần cài lại Playwright: xem `tools/ruffle_test/README.md`.
+1. Cả hai máy cùng mạng và đều chạy bằng `AnimeCrossover` (không mở thẳng file game).
+2. Máy A: **Chơi LAN → Tạo phòng**. Màn hình hiện địa chỉ như `192.168.1.5`.
+3. Máy B: **Chơi LAN → Tham gia phòng**, nhập địa chỉ đó, bấm **Kết nối**.
+4. Chủ phòng bấm **Bắt đầu chọn nhân vật**. Mỗi người chọn đấu sĩ của mình, chủ phòng chọn thêm bản đồ.
+5. Hết trận cả hai quay về phòng, chủ phòng bấm J để đấu tiếp. Esc để thoát phòng.
 
-## Đóng gói chơi độc lập (Windows + Linux)
+Cổng dùng: TCP 47801. Windows có thể hỏi về tường lửa lần đầu, chọn "Cho phép" cho mạng riêng.
+Wi-Fi công cộng hoặc Wi-Fi khách thường chặn các máy nhìn thấy nhau; khi đó hãy dùng điểm phát Wi-Fi từ điện thoại.
+Hướng dẫn đầy đủ nằm trong `HUONG_DAN.txt` đi kèm bản đóng gói.
 
-`bash tools/package_game/package.sh` tạo `tools/package_game/out/AnimeCrossover/` và `AnimeCrossover.zip` (khoảng 154 MB):
-`AnimeCrossover.exe` (Windows), `AnimeCrossover` (Linux), `engine/` (Ruffle desktop), `game/game.swf`, `saves/` (dữ liệu lưu).
-Cần `pip install ziglang` để biên dịch chéo launcher (`launcher.c`). Phải chạy `build_gameplay.sh` trước để có bản game mới nhất.
-Đã thử bản Linux; bản Windows chưa thử trên máy Windows thật.
+## Ghi công
+
+Anime Crossover là dự án fan làm ra để vui, phi thương mại, không liên kết với các chủ sở hữu thương hiệu.
+
+- Phần lõi chiến đấu dựa trên **Bleach vs Naruto 3.5** (Play5D / Bleach vs Naruto Team).
+- Nhân vật Fairy Tail và One Piece lấy từ **Fairy Tail vs One Piece** và được chuyển sang cùng bộ máy chiến đấu.
+- Các nhân vật, tên gọi, hình ảnh và âm nhạc thuộc về chủ sở hữu của Bleach, Naruto, Fairy Tail và One Piece
+  cùng tác giả các game gốc; nếu bạn là chủ sở hữu và muốn gỡ bất cứ nội dung nào, hãy liên hệ để dự án xử lý.
+- Game chạy trên **[Ruffle](https://ruffle.rs)** (MIT / Apache-2.0).
+
+## Dành cho người phát triển
+
+Mã nguồn, cách build, cách chuyển thêm nhân vật, hệ thống LAN và các ghi chú kỹ thuật:
+
+- [games/anime_crossover_bvn/README.md](games/anime_crossover_bvn/README.md): build, cấu hình gameplay, port nhân vật, LAN.
+- [WORKSPACE.md](WORKSPACE.md): cấu trúc thư mục phân tích hai game gốc.
+- [games/anime_crossover_bvn/analysis/multiplayer_research_vi.md](games/anime_crossover_bvn/analysis/multiplayer_research_vi.md): nghiên cứu LAN, 2 vs 2, tay cầm.

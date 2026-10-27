@@ -11,7 +11,7 @@ Cần card đồ hoạ hỗ trợ Vulkan, DirectX 12 hoặc OpenGL (máy từ kh
 PHÍM (người chơi 1)
   W A S D di chuyển   J đánh   K nhảy   L lướt   U kỹ năng   I tuyệt chiêu   O trợ chiến
   Người chơi 2: phím mũi tên và các phím số ở bàn phím số (1-6).
-  Menu chính có mục "Hồi chiêu" để chỉnh thời gian hồi chiêu và sát thương từng nhân vật.
+  Menu chính có mục "Config" để chỉnh hồi chiêu, sát thương và tốc độ di chuyển của từng nhân vật.
   Phím F11 hoặc Alt+Enter của Ruffle: toàn màn hình.
 
 CHƠI QUA MẠNG LAN (2 người, 2 máy cùng Wi-Fi hoặc cùng mạng dây)
