@@ -68,7 +68,7 @@ package net.play5d.game.bvn.state
       }
 
       // ---------------------------------------------------------------------------------------
-      // Màn "Hồi chiêu": chỉnh cooldown chung hoặc từng nhân vật, lưu bằng GameData (SharedObject).
+      // Màn "Config": chỉnh cooldown chung hoặc từng nhân vật, lưu bằng GameData (SharedObject).
       // ---------------------------------------------------------------------------------------
 
       private static const SKILLS:Array = [
@@ -130,7 +130,7 @@ package net.play5d.game.bvn.state
          ed.graphics.drawRect(LIST_X - 8,LIST_Y - 6,270,LIST_ROWS * ROW_H + 10);
          ed.graphics.drawRect(SKILL_X - 10,70,470,SKILLS.length * SKILL_H + 90);
          ed.graphics.endFill();
-         addText(ed,"CÀI ĐẶT",0x70D7FF,24,LIST_X,20);
+         addText(ed,"CONFIG",0x70D7FF,24,LIST_X,20);
          addButton(ed,"Đóng",18,730,24,"close",function(ev:MouseEvent):void { closeCooldownEditor(); });
          _listHL = new Shape();
          _skillHL = new Shape();

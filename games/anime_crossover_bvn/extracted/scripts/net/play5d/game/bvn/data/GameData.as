@@ -169,7 +169,7 @@ package net.play5d.game.bvn.data
          AssetManager.I.loadXML("config/fighter.xml",loadFighterBack,loadFighterFail);
       }
 
-      // Giá trị chỉnh trong màn "Hồi chiêu": { fighterId hoặc "*" (tất cả): { skillId: frames } }.
+      // Giá trị chỉnh trong màn "Config": { fighterId hoặc "*" (tất cả): { skillId: frames } }.
       // Ưu tiên: riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc định (XML).
       public static const COOLDOWN_ALL:String = "*";
 
