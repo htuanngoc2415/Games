@@ -23,7 +23,7 @@ package net.play5d.game.bvn.net
    // nên cả hai máy luôn ra cùng một kết quả mà chỉ phải gửi phím bấm.
    public class NetSession
    {
-      public static const PROTOCOL:int = 1;
+      public static const PROTOCOL:int = 2;
       public static const LOCAL_PORT:int = 47800;
       public static const LAN_PORT:int = 47801;
       public static const DELAY:int = 4;
@@ -38,6 +38,7 @@ package net.play5d.game.bvn.net
       public static const T_SELECT_DONE:int = 0x12;
       public static const T_START:int = 0x13;
       public static const T_READY:int = 0x14;
+      public static const T_LAYOUT:int = 0x15;
       public static const T_INPUT:int = 0x20;
       public static const T_HASH:int = 0x21;
       public static const T_BYE:int = 0x22;
@@ -62,6 +63,8 @@ package net.play5d.game.bvn.net
       public var gating:Boolean;
       public var desync:Boolean;
       public var stalls:int;
+      // Kiểu trận do chủ phòng chọn: 0 = 1 vs 1, 1 = 2 vs 2 (mỗi máy một đội), 2 = tự do 4 người (mỗi máy hai người).
+      public var layout:int;
 
       private var _client:NetClient;
       private var _peerIdx:int = -1;
@@ -75,6 +78,9 @@ package net.play5d.game.bvn.net
       private var _sentUpTo:int;
       private var _in1:NetInput;
       private var _in2:NetInput;
+      private var _in3:NetInput;
+      private var _in4:NetInput;
+      private var _keys2:GameKeyInput;
       private var _keys:GameKeyInput;
       private var _myHash:Object = {};
       private var _peerHash:Object = {};
@@ -90,6 +96,8 @@ package net.play5d.game.bvn.net
          super();
          _in1 = new NetInput();
          _in2 = new NetInput();
+         _in3 = new NetInput();
+         _in4 = new NetInput();
       }
 
       public static function get I() : NetSession
@@ -172,6 +180,8 @@ package net.play5d.game.bvn.net
          _peerChoice = null;
          _pendingMatch = false;
          desync = false;
+         layout = 0;
+         GameMode.layout = 0;
          restoreSettings();
          hideOverlay();
          if(GameMode.currentMode == 23)
@@ -243,7 +253,15 @@ package net.play5d.game.bvn.net
                onHello(JSON.parse(param3.readUTF()));
                break;
             case T_BEGIN_SELECT:
+               layout = param3.bytesAvailable > 0 ? param3.readUnsignedByte() : 0;
                startSelect();
+               break;
+            case T_LAYOUT:
+               layout = param3.readUnsignedByte();
+               if(onChange != null)
+               {
+                  onChange();
+               }
                break;
             case T_SELECT_DONE:
                _peerChoice = JSON.parse(param3.readUTF());
@@ -257,7 +275,7 @@ package net.play5d.game.bvn.net
                break;
             case T_INPUT:
                var f:int = param3.readUnsignedInt();
-               _remote[f] = param3.readUnsignedShort();
+               _remote[f] = param3.readUnsignedInt();
                break;
             case T_HASH:
                var hf:int = param3.readUnsignedInt();
@@ -396,11 +414,52 @@ package net.play5d.game.bvn.net
          if(!peerOk)
          {
             peerOk = true;
-            setState(ST_LOBBY,isHost ? "Người chơi 2 đã vào. Bấm J để chọn nhân vật." : "Đã vào phòng. Chờ chủ phòng bắt đầu...");
+            setState(ST_LOBBY,isHost ? "Máy bên kia đã vào. Chọn kiểu trận rồi bắt đầu." : "Đã vào phòng. Chờ chủ phòng bắt đầu...");
+            if(isHost)
+            {
+               sendLayout();
+            }
          }
       }
 
       // ---------------------------------------------------------------- chọn nhân vật
+
+      private function sendLayout() : void
+      {
+         var b:ByteArray = new ByteArray();
+         b.writeByte(layout);
+         _client.send(T_LAYOUT,b);
+      }
+
+      // Chủ phòng đổi kiểu trận ở phòng chờ (vòng 1 vs 1 -> 2 vs 2 -> tự do).
+      public function cycleLayout() : void
+      {
+         if(!isHost || state != ST_LOBBY)
+         {
+            return;
+         }
+         layout = (layout + 1) % 3;
+         if(peerOk)
+         {
+            sendLayout();
+         }
+         if(onChange != null)
+         {
+            onChange();
+         }
+      }
+
+      public function layoutName() : String
+      {
+         switch(layout)
+         {
+            case 1:
+               return "2 vs 2 (mỗi máy một đội)";
+            case 2:
+               return "Tự do 4 người";
+         }
+         return "1 vs 1";
+      }
 
       public function beginSelect() : void
       {
@@ -408,7 +467,9 @@ package net.play5d.game.bvn.net
          {
             return;
          }
-         _client.send(T_BEGIN_SELECT);
+         var b:ByteArray = new ByteArray();
+         b.writeByte(layout);
+         _client.send(T_BEGIN_SELECT,b);
          startSelect();
       }
 
@@ -418,6 +479,7 @@ package net.play5d.game.bvn.net
          _peerChoice = null;
          _pendingMatch = false;
          GameMode.currentMode = 23;
+         GameMode.layout = layout;
          setState(ST_SELECTING,"Chọn nhân vật");
          MainGame.I.goSelect();
       }
@@ -431,6 +493,13 @@ package net.play5d.game.bvn.net
             "z":sel.fuzhu,
             "m":GameData.I.selectMap
          };
+         if(layout > 0)
+         {
+            // Hai người chơi trên máy này: người 1 (phím W A S D...) và người 2 (phím mũi tên).
+            var sel2:SelectVO = GameData.I.p2Select;
+            _myChoice.f2 = sel2.fighter1;
+            _myChoice.z2 = sel2.fuzhu;
+         }
          setState(ST_WAIT_CHOICE,"Đang chờ đối thủ chọn xong...");
          showOverlay(status);
          sendJson(T_SELECT_DONE,_myChoice);
@@ -453,11 +522,27 @@ package net.play5d.game.bvn.net
                "f":_peerChoice.f,
                "z":_peerChoice.z
             },
+            "layout":layout,
             "map":_myChoice.m,
             "ov":GameData.I.cooldownOverrides,
             "hp":GameData.I.config.fighterHP,
             "time":GameData.I.config.fightTime
          };
+         if(layout > 0)
+         {
+            cfg.p2 = {
+               "f":_myChoice.f2,
+               "z":_myChoice.z2
+            };
+            cfg.p3 = {
+               "f":_peerChoice.f,
+               "z":_peerChoice.z
+            };
+            cfg.p4 = {
+               "f":_peerChoice.f2,
+               "z":_peerChoice.z2
+            };
+         }
          sendJson(T_START,cfg);
          applyStart(cfg);
       }
@@ -481,6 +566,19 @@ package net.play5d.game.bvn.net
          p2.fuzhu = param1.p2.z;
          GameData.I.p1Select = p1;
          GameData.I.p2Select = p2;
+         GameMode.layout = param1.layout;
+         GameMode.aiSlots = 0;
+         if(param1.layout > 0)
+         {
+            var p3:SelectVO = new SelectVO();
+            p3.fighter1 = param1.p3.f;
+            p3.fuzhu = param1.p3.z;
+            var p4:SelectVO = new SelectVO();
+            p4.fighter1 = param1.p4.f;
+            p4.fuzhu = param1.p4.z;
+            GameData.I.p3Select = p3;
+            GameData.I.p4Select = p4;
+         }
          GameData.I.selectMap = param1.map;
          _pendingMatch = true;
          _peerReady = false;
@@ -523,6 +621,8 @@ package net.play5d.game.bvn.net
          _sentUpTo = DELAY - 1;
          _in1.mask = 0;
          _in2.mask = 0;
+         _in3.mask = 0;
+         _in4.mask = 0;
          // Lưu ý: new Vector.<T>([x]) tạo vector RỖNG (đối số là độ dài), phải push.
          var v1:Vector.<IGameInput> = new Vector.<IGameInput>();
          v1.push(_in1);
@@ -530,12 +630,27 @@ package net.play5d.game.bvn.net
          v2.push(_in2);
          GameInputer.setInput("P1",v1);
          GameInputer.setInput("P2",v2);
+         if(GameMode.layout > 0)
+         {
+            var v3:Vector.<IGameInput> = new Vector.<IGameInput>();
+            v3.push(_in3);
+            var v4:Vector.<IGameInput> = new Vector.<IGameInput>();
+            v4.push(_in4);
+            GameInputer.setInput("P3",v3);
+            GameInputer.setInput("P4",v4);
+         }
          if(!_keys)
          {
             _keys = new GameKeyInput();
             _keys.initlize(MainGame.I.stage);
          }
          _keys.setConfig(GameData.I.config.key_p1);
+         if(!_keys2)
+         {
+            _keys2 = new GameKeyInput();
+            _keys2.initlize(MainGame.I.stage);
+         }
+         _keys2.setConfig(GameData.I.config.key_p2);
          _stallStart = 0;
          stalls = 0;
          desync = false;
@@ -569,12 +684,16 @@ package net.play5d.game.bvn.net
          var f:int = _frame;
          if(_sentUpTo < f + DELAY)
          {
-            var m:int = sampleLocal();
+            var m:int = sampleKeys(_keys);
+            if(GameMode.layout > 0)
+            {
+               m |= sampleKeys(_keys2) << 16;
+            }
             _local[f + DELAY] = m;
             _sentUpTo = f + DELAY;
             var b:ByteArray = new ByteArray();
             b.writeUnsignedInt(f + DELAY);
-            b.writeShort(m);
+            b.writeUnsignedInt(m);
             _client.send(T_INPUT,b);
          }
          if(_remote[f] === undefined)
@@ -597,8 +716,20 @@ package net.play5d.game.bvn.net
          _stallStart = 0;
          var mine:int = _local[f];
          var theirs:int = _remote[f];
-         _in1.mask = isHost ? mine : theirs;
-         _in2.mask = isHost ? theirs : mine;
+         // Máy chủ phòng giữ ô 1 (và 2 nếu 2 người); máy vào phòng giữ ô còn lại.
+         var hostMask:int = isHost ? mine : theirs;
+         var joinMask:int = isHost ? theirs : mine;
+         _in1.mask = hostMask & 0xFFFF;
+         if(GameMode.layout > 0)
+         {
+            _in2.mask = (hostMask >>> 16) & 0xFFFF;
+            _in3.mask = joinMask & 0xFFFF;
+            _in4.mask = (joinMask >>> 16) & 0xFFFF;
+         }
+         else
+         {
+            _in2.mask = joinMask & 0xFFFF;
+         }
          return true;
       }
 
@@ -647,46 +778,46 @@ package net.play5d.game.bvn.net
          delete _peerHash[param1];
       }
 
-      private function sampleLocal() : int
+      private function sampleKeys(k:GameKeyInput) : int
       {
          var m:int = 0;
-         if(_keys.up())
+         if(k.up())
          {
             m |= NetInput.UP;
          }
-         if(_keys.down())
+         if(k.down())
          {
             m |= NetInput.DOWN;
          }
-         if(_keys.left())
+         if(k.left())
          {
             m |= NetInput.LEFT;
          }
-         if(_keys.right())
+         if(k.right())
          {
             m |= NetInput.RIGHT;
          }
-         if(_keys.attack())
+         if(k.attack())
          {
             m |= NetInput.ATTACK;
          }
-         if(_keys.jump())
+         if(k.jump())
          {
             m |= NetInput.JUMP;
          }
-         if(_keys.dash())
+         if(k.dash())
          {
             m |= NetInput.DASH;
          }
-         if(_keys.skill())
+         if(k.skill())
          {
             m |= NetInput.SKILL;
          }
-         if(_keys.superSkill())
+         if(k.superSkill())
          {
             m |= NetInput.SUPER;
          }
-         if(_keys.special())
+         if(k.special())
          {
             m |= NetInput.SPECIAL;
          }
@@ -739,6 +870,8 @@ package net.play5d.game.bvn.net
 
       private function endLockstep() : void
       {
+         GameMode.layout = 0;
+         GameMode.aiSlots = 0;
          if(gating)
          {
             gating = false;
@@ -766,7 +899,7 @@ package net.play5d.game.bvn.net
          hideOverlay();
          _myChoice = null;
          _peerChoice = null;
-         setState(ST_LOBBY,isHost ? "Trận đã xong. Bấm J để chơi tiếp." : "Trận đã xong. Chờ chủ phòng chơi tiếp...");
+         setState(ST_LOBBY,isHost ? "Trận đã xong. Chọn kiểu trận rồi bắt đầu tiếp." : "Trận đã xong. Chờ chủ phòng chơi tiếp...");
          MainGame.I.goLanLobby();
       }
 

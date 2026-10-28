@@ -433,28 +433,18 @@ package net.play5d.game.bvn.ctrl.game_stage_loader
          }
       }
       
+      // Bỏ giá trị rỗng và phần tử trùng (bản gốc đẩy nhầm giá trị rỗng vào danh sách khi có nhân vật trùng nhau).
       private function unique(param1:*) : Array
       {
-         var _loc4_:int = 0;
          var _loc3_:int = 0;
          var _loc2_:Array = [];
-         _loc4_ = 0;
-         while(_loc4_ < param1.length)
+         while(_loc3_ < param1.length)
          {
-            if(!(param1[_loc4_] === null || param1[_loc4_] === undefined))
+            if(!(param1[_loc3_] === null || param1[_loc3_] === undefined) && _loc2_.indexOf(param1[_loc3_]) < 0)
             {
-               _loc3_ = _loc4_ + 1;
-               while(_loc3_ < param1.length)
-               {
-                  if(param1[_loc4_] == param1[_loc3_])
-                  {
-                     _loc4_++;
-                  }
-                  _loc3_++;
-               }
-               _loc2_.push(param1[_loc4_]);
+               _loc2_.push(param1[_loc3_]);
             }
-            _loc4_++;
+            _loc3_++;
          }
          return _loc2_;
       }

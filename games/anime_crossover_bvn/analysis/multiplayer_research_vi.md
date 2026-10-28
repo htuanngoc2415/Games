@@ -102,3 +102,23 @@ Yêu cầu: hai máy cùng Wi-Fi/LAN, mỗi máy có hai người chơi trên c�
 5. Tay cầm làm sau, độc lập (cầu nối trong launcher).
 
 Ước lượng khối lượng: bước 1 là phần lớn công việc và rủi ro (khoảng 15 file chạm tới); bước 2 và 3 vừa phải nhờ tận dụng được màn chọn hiện có và khung lockstep sẵn.
+
+
+## 7. Kết quả triển khai 2 vs 2 và tự do qua LAN (2026-10-28)
+
+Đã làm theo đúng thứ tự mục 6.5 và kiểm thử bằng `tools/ruffle_test/lan_test.py quad2v2 | quadffa` (relay thật, hai Chromium ngầm,
+mỗi trình duyệt bấm hai bộ phím, bản SWF thử rút hiệp còn 10 giây và máu 1%):
+
+| Kiểu | Kết quả |
+|---|---|
+| 2 vs 2 (2 hiệp) | Vào trận, chơi nhiều hiệp (kể cả hoà hết giờ và hiệp hoà phải đánh lại), kết thúc ở cả hai máy; 24 lần so mã băm đều khớp, không lệch |
+| Tự do (1 hiệp) | Kết thúc sau đúng một hiệp ở cả hai máy; 12 lần so mã băm đều khớp, không lệch |
+
+Cách làm: phòng chờ có mục "Đổi kiểu trận"; `INPUT` gói hai mặt nạ trong u32; giao thức nâng lên v2 (hai máy khác bản sẽ báo và không vào chung).
+Chủ phòng gán ô 1, 2 cho mình, ô 3, 4 cho người vào; tự do thì mỗi ô một đội.
+
+Phát hiện khi kiểm thử:
+- `GameStageLoadCtrl.unique` gốc lỗi khi có nhân vật trùng (đẩy giá trị rỗng, báo "获取角色数据失败"), 1 vs 1 chỉ vô tình không gặp. Đã sửa.
+- Công cụ thử: Playwright gửi `Numpad1` (NumLock tắt) thành phím End nên Ruffle không nhận; test phải gửi sự kiện phím số thật.
+
+Chưa kiểm chứng: hiệu năng bốn đấu sĩ trên máy yếu thật, phím ma khi hai người chung một bàn phím, và tay cầm (làm sau).

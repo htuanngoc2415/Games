@@ -52,6 +52,7 @@ patched_classes=(
   net/play5d/game/bvn/state/GameState.as
   net/play5d/game/bvn/ctrl/game_ctrls/GameStartCtrl.as
   net/play5d/game/bvn/ctrl/game_ctrls/FighterEventCtrl.as
+  net/play5d/game/bvn/ctrl/game_stage_loader/GameStageLoadCtrl.as
 
   net/play5d/game/bvn/data/FighterModel.as
   net/play5d/game/bvn/ctrl/GameLogic.as

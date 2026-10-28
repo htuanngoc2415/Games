@@ -108,6 +108,12 @@ package net.play5d.game.bvn.state
          GameEvent.dispatchEvent("SELECT_FIGHTER");
       }
       
+      // Hai người cùng chọn trên máy này: chế độ Hai người chơi, hoặc chơi LAN kiểu 2 vs 2 / tự do (mỗi máy hai người).
+      private function twoLocal() : Boolean
+      {
+         return GameMode.isVsPeople() || GameMode.currentMode == GameMode.NET_SELECT && GameMode.layout > 0;
+      }
+
       private function initFighter() : void
       {
          trace("初始化选人");
@@ -115,7 +121,7 @@ package net.play5d.game.bvn.state
          _selectState = 0;
          buildList(_config.charList);
          GameData.I.p1Select = new SelectVO();
-         if(GameMode.isVsPeople() || GameMode.isVsCPU())
+         if(twoLocal() || GameMode.isVsCPU())
          {
             GameData.I.p2Select = new SelectVO();
          }
@@ -433,7 +439,7 @@ package net.play5d.game.bvn.state
       private function initSelecter() : void
       {
          GameInputer.enabled = true;
-         if(GameMode.isVsPeople())
+         if(twoLocal())
          {
             initSelecterP1();
             initSelecterP2();
@@ -1013,7 +1019,7 @@ package net.play5d.game.bvn.state
          var _loc3_:int = 0;
          if(param1.selectFinish())
          {
-            if(GameMode.isVsPeople())
+            if(twoLocal())
             {
                GameEvent.dispatchEvent("SELECT_FIGHTER_STEP",param1.getCurrentSelectes());
                _loc2_ = param1 == _p1Slt ? _p2Slt : _p1Slt;

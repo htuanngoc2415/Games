@@ -13,6 +13,10 @@ RELAY = HERE.parent / 'package_game/build/relay-test'
 logs = {'A': [], 'B': []}
 
 async def key(pg, k, hold=110, wait=700):
+    if k == 'Numpad1':      # Playwright gửi Numpad1 (NumLock tắt) thành "End"; gửi sự kiện phím số thật
+        ev = lambda t: pg.evaluate("t => window.dispatchEvent(new KeyboardEvent(t, {code:'Numpad1', key:'1', location:3, bubbles:true}))", t)
+        await ev('keydown'); await pg.wait_for_timeout(hold); await ev('keyup'); await pg.wait_for_timeout(wait)
+        return
     await pg.keyboard.down(k); await pg.wait_for_timeout(hold); await pg.keyboard.up(k); await pg.wait_for_timeout(wait)
 
 async def shot(pages, name):
@@ -52,7 +56,7 @@ async def main():
             presses = int(os.environ.get('HOST_DAMAGE_PRESSES', '0'))
             mpress = int(os.environ.get('HOST_MOVE_PRESSES', '0'))
             if presses or mpress:                          # chủ phòng chỉnh sát thương / tốc độ qua màn Cài đặt nhân vật
-                for k in 'ssss': await key(A, k)
+                for k in 'sss': await key(A, k)
                 await key(A, 'j', wait=2500); await key(A, 'j')
                 for _ in range(presses): await key(A, 'd', hold=60, wait=120)
                 if mpress:
@@ -60,9 +64,9 @@ async def main():
                     for _ in range(mpress): await key(A, 'd', hold=60, wait=120)
                 await shot({'A': A}, '0_editor')
                 await key(A, 'Escape'); await key(A, 'Escape', wait=1500)
-                for k in 'wwww': await key(A, k, wait=300)
+                for k in 'www': await key(A, k, wait=300)
             for pg in (A, B):
-                for k in 'sss': await key(pg, k)
+                for k in 'ss': await key(pg, k)
                 await key(pg, 'j', wait=2500)
             await shot(pages, '1_lobby_menu')
             await key(A, 'j', wait=3000)                      # Tạo phòng
@@ -73,14 +77,25 @@ async def main():
             await key(B, 'Enter', wait=3000)
             await shot(pages, '4_connected')
             if MODE != 'lobby':
+                quad = MODE in ('quad2v2', 'quadffa')
+                if quad:                                       # mỗi máy hai người: kiểu trận 2 vs 2 / tự do
+                    for _ in range(1 if MODE == 'quad2v2' else 2):
+                        await key(A, 's'); await key(A, 'j', wait=1500)
+                    await shot(pages, '4b_layout')
                 await key(A, 'j', wait=3000)                  # Bắt đầu chọn nhân vật
                 await shot(pages, '5_select')
                 for pg in (A, B):                              # nhân vật, trợ chiến
-                    await key(pg, 'j', wait=3500); await key(pg, 'j', wait=3500)
+                    if quad:
+                        for step in range(2):
+                            await key(pg, 'j', wait=1200); await shot({'x': pg}, f'5a_{pg is A}_{step}_afterJ')
+                            await key(pg, 'Numpad1', wait=3500); await shot({'x': pg}, f'5b_{pg is A}_{step}_afterNum')
+                    else:
+                        await key(pg, 'j', wait=3500); await key(pg, 'j', wait=3500)
                 await key(A, 'j', wait=3000)                  # bản đồ (chủ phòng)
                 await shot(pages, '6_loading')
                 ok = await wait_for(r'NET_LOCKSTEP_BEGIN', None, 120)
                 print('lockstep begin:', ok)
+                for n in ('A', 'B'): (OUT / f'console_{n}.log').write_text('\n'.join(logs[n]))
                 await asyncio.sleep(8)
                 await shot(pages, '7_fight')
                 if MODE == 'stress':
@@ -107,6 +122,24 @@ async def main():
                     await shot(pages, '8_after_stress')
                     await asyncio.sleep(15)
                     await shot(pages, '9_end')
+                if quad:
+                    async def player(pg, run, atk, tag):
+                        t0 = time.time()
+                        while time.time() - t0 < float(os.environ.get('QUAD_SECONDS', '600')):
+                            if any(re.search('NET_MATCH_FINISHED', l) for l in logs['A']): return
+                            await pg.keyboard.down(run); await asyncio.sleep(3); await pg.keyboard.up(run)
+                            for _ in range(12):
+                                await key(pg, atk, hold=90, wait=150)
+                    async def shooter():
+                        for i in range(40):
+                            if any(re.search('NET_MATCH_FINISHED', l) for l in logs['A']): return
+                            await asyncio.sleep(15); await shot(pages, f'q{i:02d}')
+                    await asyncio.gather(player(A, 'd', 'j', 'A1'), player(A, 'ArrowRight', 'Numpad1', 'A2'),
+                                         player(B, 'a', 'j', 'B1'), player(B, 'ArrowLeft', 'Numpad1', 'B2'), shooter())
+                    await asyncio.sleep(8); await shot(pages, 'q_end')
+                    nfin = [sum(1 for l in logs[n] if 'NET_MATCH_FINISHED' in l) for n in ('A', 'B')]
+                    print('finished:', nfin, 'hash ok A/B:', [sum(1 for l in logs[n] if 'NET_HASH_OK' in l) for n in ('A', 'B')],
+                          'desync:', [sum(1 for l in logs[n] if 'NET_DESYNC' in l) for n in ('A', 'B')])
                 if MODE == 'rematch':
                     async def hunter2(pg):
                         t0 = time.time()

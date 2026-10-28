@@ -14,12 +14,17 @@ PHÍM (người chơi 1)
   Menu chính có mục "Config" để chỉnh hồi chiêu, sát thương và tốc độ di chuyển của từng nhân vật.
   Phím F11 hoặc Alt+Enter của Ruffle: toàn màn hình.
 
-CHƠI QUA MẠNG LAN (2 người, 2 máy cùng Wi-Fi hoặc cùng mạng dây)
+CHƠI QUA MẠNG LAN (2 máy cùng Wi-Fi hoặc cùng mạng dây; 1 vs 1, 2 vs 2 hoặc 4 người tự do)
   Cả hai máy đều cần chạy bằng AnimeCrossover (không phải mở thẳng file game).
   Máy chủ phòng : Menu chính -> Chơi LAN -> Tạo phòng. Màn hình hiện "Địa chỉ của bạn: 192.168.x.x".
   Máy còn lại   : Menu chính -> Chơi LAN -> Tham gia phòng, nhập địa chỉ trên rồi Kết nối.
   Khi người kia vào, chủ phòng bấm "Bắt đầu chọn nhân vật". Mỗi người tự chọn nhân vật và trợ chiến của mình,
-  chủ phòng chọn thêm bản đồ. Chủ phòng là P1, người vào là P2; cả hai dùng bộ phím P1 (W A S D, J K L U I O).
+  chủ phòng chọn thêm bản đồ. Kiểu 1 vs 1: chủ phòng là P1, người vào là P2; cả hai dùng bộ phím P1 (W A S D, J K L U I O).
+  Kiểu trận: ở phòng chờ, chủ phòng chọn "Đổi kiểu trận" để đổi vòng giữa 1 vs 1, 2 vs 2 và Tự do 4 người.
+    2 vs 2     : mỗi máy có hai người và là một đội (máy chủ phòng = đội 1, máy còn lại = đội 2), thắng trước 2 hiệp.
+    Tự do      : bốn người, mỗi người một phe, đánh tất cả, chỉ 1 hiệp.
+  Hai người cùng máy: người 1 dùng W A S D, J K L U I O; người 2 dùng phím mũi tên và phím số ở bàn phím số (1-6).
+  Mỗi người chọn đấu sĩ và trợ chiến của mình trên cùng màn chọn. Bốn đấu sĩ cùng một sân nên máy yếu có thể bị chậm.
   Esc giữa trận: thoát khỏi phòng. Trận xong thì quay về phòng, chủ phòng bấm J để chơi tiếp.
   Cổng dùng: TCP 47801. Lần đầu làm chủ phòng, Windows có thể hỏi về tường lửa: chọn "Cho phép" cho mạng riêng.
   Cả hai máy nên dùng cùng một bản game (nếu khác bản, game sẽ báo và không cho chơi chung).

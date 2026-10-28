@@ -147,7 +147,16 @@ package net.play5d.game.bvn.net
             y += 56;
             if(s.peerOk && s.state == NetSession.ST_LOBBY)
             {
+               y -= 14;
+               label("Kiểu trận: " + s.layoutName(),0x7CFF9E,22,y);
+               if(s.layout > 0)
+               {
+                  label("Mỗi máy 2 người: người 1 = W A S D J K L U I O, người 2 = mũi tên + phím số",0xC6D9E8,14,y + 30);
+               }
+               y += s.layout > 0 ? 62 : 44;
                addItem("Bắt đầu chọn nhân vật",beginSelect,y);
+               y += 56;
+               addItem("Đổi kiểu trận",cycleLayout,y);
                y += 56;
             }
             addItem("Đóng phòng",quit,y);
@@ -155,7 +164,17 @@ package net.play5d.game.bvn.net
          else
          {
             label(s.status,0xFFFFFF,20,y);
-            y += 90;
+            y += 50;
+            if(s.peerOk)
+            {
+               label("Kiểu trận: " + s.layoutName(),0x7CFF9E,22,y);
+               y += 36;
+               if(s.layout > 0)
+               {
+                  label("Mỗi máy 2 người: người 1 = W A S D J K L U I O, người 2 = mũi tên + phím số",0xC6D9E8,14,y);
+               }
+            }
+            y += 50;
             addItem("Thoát phòng",quit,y);
          }
          _index = 0;
@@ -300,6 +319,11 @@ package net.play5d.game.bvn.net
       private function beginSelect() : void
       {
          NetSession.I.beginSelect();
+      }
+
+      private function cycleLayout() : void
+      {
+         NetSession.I.cycleLayout();
       }
 
       private function quit() : void

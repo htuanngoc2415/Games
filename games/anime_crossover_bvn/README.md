@@ -74,7 +74,7 @@ riêng nhân vật (game) > riêng nhân vật (XML) > tất cả (game) > mặc
 `data/GameData.as` (getSkillCooldownFrames / setCooldownOverride). Ô hồi chiêu trong trận (`ui/fight/FightUI.as`)
 đọc cùng nguồn.
 
-## Chơi LAN 1 vs 1
+## Chơi LAN (1 vs 1, 2 vs 2, tự do 4 người)
 
 Menu chính -> **Chơi LAN**. Thiết kế và kết quả khảo sát: `analysis/multiplayer_research_vi.md`.
 
@@ -89,6 +89,12 @@ Menu chính -> **Chơi LAN**. Thiết kế và kết quả khảo sát: `analysi
 - Phải giữ logic chiến đấu **xác định**: không dùng `getTimer`/`setTimeout`/tween/`Math.random` trong luồng mô phỏng
   (dùng `GameMode.random()`). Hai chỗ đã sửa: cảnh KO trong `FightUI` (đếm khung thay vì đồng hồ thật) và
   `FighterAILogicBase`. Thêm đòn/hiệu ứng ảnh hưởng vị trí hay máu mà dùng đồng hồ thật sẽ gây lệch.
+- Kiểu trận (`GameMode.layout`: 0 = 1 vs 1, 1 = 2 vs 2, 2 = tự do) do chủ phòng chọn ở phòng chờ. Với layout > 0 mỗi máy
+  điều khiển hai ô: `INPUT` là u32 (16 bit thấp = người 1, 16 bit cao = người 2); chủ phòng = ô 1, 2, người vào = ô 3, 4.
+  Màn chọn dùng lại màn "Hai người chơi" (`SelectFighterStage.twoLocal`). 2 vs 2: hai đội, thắng trước 2 hiệp; tự do: bốn đội, 1 hiệp.
+  Lõi bốn đấu sĩ (`GameRunDataVO`, `TeamMap`, `GameCtrl`, `FightUI`...) kiểm thử một máy bằng `tools/ruffle_test/mp_test.py`.
+- `GameStageLoadCtrl.unique` đã sửa: bản gốc đẩy giá trị rỗng vào danh sách tải khi có nhân vật trùng nhau
+  (trận 4 người hầu như luôn có trùng).
 - Kiểm thử không cần hai máy: `tools/ruffle_test/lan_test.py` (relay + cầu nối WebSocket + hai Chromium ngầm).
 
 ### Lưu ý khi viết AS3 mới (trình biên dịch JPEXS)
